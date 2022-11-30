@@ -1,0 +1,22 @@
+id,ordering,description,table_id,reference,sreference,is_ref
+101001,1,Residence type: Total; measures: Value,101,,,1
+101002,2,Residence type: Lives in a household; measures: Value,101,101001,,0
+101003,3,Residence type: Lives in a communal establishment; measures: Value,101,101001,,0
+102001,1,Marital and civil partnership status: Total; measures: Value,102,,,1
+102002,2,Marital and civil partnership status: Never married and never registered a civil partnership; measures: Value,102,102001,,0
+102003,3,Marital and civil partnership status: Married or in a registered civil partnership; measures: Value,102,102001,,0
+102004,4,Marital and civil partnership status: Married or in a registered civil partnership: Married; measures: Value,102,102001,102003,2
+102005,5,Marital and civil partnership status: Married or in a registered civil partnership: Married: Opposite sex; measures: Value,102,102001,102003,2
+102006,6,Marital and civil partnership status: Married or in a registered civil partnership: Married: Same sex; measures: Value,102,102001,102003,2
+102007,7,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership; measures: Value,102,102001,,0
+102008,8,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Opposite sex; measures: Value,102,102001,102007,2
+102009,9,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Same sex; measures: Value,102,102001,102007,2
+102010,10,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership; measures: Value",102,102001,,0
+102011,11,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still married; measures: Value",102,102001,102010,2
+102012,12,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still in a registered civil partnership; measures: Value",102,102001,102010,2
+102013,13,Marital and civil partnership status: Divorced or civil partnership dissolved; measures: Value,102,102001,,0
+102014,14,Marital and civil partnership status: Divorced or civil partnership dissolved: Divorced; measures: Value,102,102001,102013,2
+102015,15,Marital and civil partnership status: Divorced or civil partnership dissolved: Formerly in a civil partnership now legally dissolved; measures: Value,102,102001,102013,2
+102016,16,Marital and civil partnership status: Widowed or surviving civil partnership partner; measures: Value,102,102001,,0
+102017,17,Marital and civil partnership status: Widowed or surviving civil partnership partner: Widowed; measures: Value,102,102001,102016,2
+102018,18,Marital and civil partnership status: Widowed or surviving civil partnership partner: Surviving partner from civil partnership; measures: Value,102,102001,102016,2

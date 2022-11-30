@@ -1,0 +1,13 @@
+type,id,name,level,max_child,min_parent,nE,nW,nEW,last_update,is_exact
+OA,11,Output Area,9,,LSOA,178605,10275,188880,Dec-21,1
+LSOA,12,Lower Level Super Output Area,6,OA,MSOA,33755,1917,35672,Dec-21,1
+MSOA,13,Medium Level Super Output Area,5,LSOA,LTLA,6856,408,7264,Dec-21,1
+LTLA,14,Lower Tier Local Authority,4,MSOA,UTLA,309,22,331,Dec-21,1
+UTLA,15,Upper Tier Local Authority,3,LTLA,RGN,152,22,174,Dec-21,1
+RGN,16,Region,2,UTLA,CTRY,9,1,10,Dec-21,1
+CTRY,17,Country,1,RGN,NAT,1,1,2,Dec-21,1
+NAT,18,Nation,0,CTRY,UK,0,0,1,Dec-21,1
+PCON,21,Westminster Parliamentary Constituency,5,LSOA,RGN,533,40,573,Dec-20,0
+WARD,22,Ward,6,OA,LTLA,7026,852,7878,Dec-21,0
+PAR,23,Parished and Non Civil Parished,6,OA,UTLA,10685,877,11562,Dec-21,0
+CCG,24,"Clinical Commisioning Group (LOC, LHB)",5,LSOA,CTRY,106,7,113,Apr-22,1
