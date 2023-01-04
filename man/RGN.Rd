@@ -13,7 +13,7 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 RGN
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 9 \emph{Regions} in England, plus Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 9 \emph{Regions} in England, plus Wales.
 }
 \details{
 Built by dissolving the \code{UTLA} boundaries using the \code{lookups} table.

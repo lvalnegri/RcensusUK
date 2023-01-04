@@ -5,17 +5,17 @@
 \alias{CTRY}
 \title{CTRY}
 \format{
-A \code{sf} dataframe with only one \code{RGN} column for the corresponding \emph{ONS} codes.
+A \code{sf} dataframe with only one \code{CTRY} column for the corresponding \emph{ONS} codes.
 
-For further details see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-modified&tags=all(BDY_RGN)}.
+For further details see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-modified&tags=all(BDY_CTRY)}.
 }
 \usage{
 CTRY
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for England, plus Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for England, plus Wales.
 }
 \details{
-Built by dissolving the \code{UTLA} boundaries using the \code{lookups} table.
+Built by dissolving the \code{RGN} boundaries using the \code{lookups} table.
 }
 \keyword{datasets}

@@ -1,8 +1,14 @@
-id,name,description
-1,population,Population and Households
-2,sexage,Sex and Age
-3,migration,Migration
-6,ethnicity,Ethnicities and Identities
-7,language,Languages
-8,religion,Religions
-99,veterans,UK Armed Forces Veterans
+id,name,description,ordering,loaded
+0,geography,Geographic Properties,0,1
+1,population,Population and Households,1,1
+2,sexage,Sex and Age,2,1
+3,migration,Migration,3,1
+6,ethnicity,Ethnicities and Identities,6,1
+7,language,Languages,7,1
+8,religion,Religions,8,1
+11,work,Work,11,1
+12,housing,Housing,12,0
+13,gender,Sexual Orientation and Gender Identity,13,0
+14,education,Education,14,0
+16,health,"Health, Disability and Unpaid Care",16,0
+99,veterans,UK Armed Forces Veterans,99,1

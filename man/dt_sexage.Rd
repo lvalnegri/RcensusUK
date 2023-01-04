@@ -5,13 +5,20 @@
 \alias{dt_sexage}
 \title{Sex and Age}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns
+\describe{
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+The dataset includes the following Census Tables:
 \describe{
 \item{\code{ TS007 }}{ Age by single year }
 \item{\code{ TS007 }}{ Age by five years' classes }
 \item{\code{ TS008 }}{ Sex }
-\item{\code{ TS009 }}{ Sex by single year of age }
-\item{\code{ TS009 }}{ Sex by five years' classes of age }
+\item{\code{ TS009 }}{ Sex by single year of Age }
+\item{\code{ TS009 }}{ Sex by five years' classes of Age }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -20,6 +27,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_sexage
 }
 \description{
-Sex and Age
+Resident Population segmented by Sex, Age, and Sex by Age (with Age by single year and five years' classes)
 }
 \keyword{datasets}

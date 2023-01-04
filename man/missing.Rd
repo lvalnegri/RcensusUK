@@ -3,14 +3,14 @@
 \docType{data}
 \name{missing}
 \alias{missing}
-\title{missing}
+\title{Missing Zones}
 \format{
 A data.table with the following columns:
 \describe{
 \item{\code{ type }}{ The type of the Area, as referenced in the \code{zone_types} table (either \code{PAR} or \code{WARD}) }
-\item{\code{ zone_id }}{ The identifier for the Area }
+\item{\code{ zone_id }}{ The ONS identifier for the Zone }
 \item{\code{ parent }}{ The code for the parent zone the Area should belong to }
-\item{\code{ sibling }}{ The code for the Area that appears in the \code{lookups}table having the same parent zone}
+\item{\code{ sibling }}{ The code for the Area that appears in the \code{lookups} table having the same parent zone}
 }
 }
 \usage{

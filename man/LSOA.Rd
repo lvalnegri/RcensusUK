@@ -13,7 +13,7 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 LSOA
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 35,672 \emph{Lower Layer Super Output Areas} in England and Wales, \strong{Census 2021}.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 35,672 \emph{Lower Layer Super Output Areas} in England and Wales, \strong{Census 2021}.
 }
 \details{
 Built by dissolving the \code{OA} boundaries using the \code{lookups} table.

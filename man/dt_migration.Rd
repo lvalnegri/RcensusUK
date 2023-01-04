@@ -5,17 +5,24 @@
 \alias{dt_migration}
 \title{Migration}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns
 \describe{
-\item{\code{ TS004 }}{ Country of birth }
-\item{\code{ TS012 }}{ Country of birth (detailed) }
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+The dataset includes the following Census Tables:
+\describe{
+\item{\code{ TS004 }}{ Country of Birth }
+\item{\code{ TS012 }}{ Country of Birth (detailed) }
 \item{\code{ TS005 }}{ Passports held }
 \item{\code{ TS013 }}{ Passports held (detailed) }
 \item{\code{ TS015 }}{ Year of arrival in UK }
 \item{\code{ TS018 }}{ Age of arrival in the UK }
-\item{\code{ TS016 }}{ Length of residence }
+\item{\code{ TS016 }}{ Length of Residence }
 \item{\code{ TS019 }}{ Migrant Indicator }
-\item{\code{ TS020 }}{ Number of non-UK short-term residents by sex }
+\item{\code{ TS020 }}{ Number of non-UK short-term Residents by sex }
 \item{\code{ TS041 }}{ Number of Households }
 }
 
@@ -25,6 +32,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_migration
 }
 \description{
-Migration
+Resident Population by Country of Birth, Passports held, Year and Age of Arrival in the UK, Length of Residence
 }
 \keyword{datasets}

@@ -13,9 +13,11 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 PCON
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 573 \emph{Westminster Parliamentary Constituency} in England and Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 573 \emph{Westminster Parliamentary Constituency} in England and Wales.
 }
 \details{
 Built by dissolving the \code{LSOA} boundaries using the \code{lookups} table.
+
+Last Updated: Dec-20
 }
 \keyword{datasets}

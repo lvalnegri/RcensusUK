@@ -3,7 +3,7 @@
 \docType{data}
 \name{zones}
 \alias{zones}
-\title{zones}
+\title{Zones}
 \format{
 A data.table with the following columns:
 \describe{

@@ -1,22 +1,1701 @@
-id,ordering,description,table_id,reference,sreference,is_ref
-101001,1,Residence type: Total; measures: Value,101,,,1
-101002,2,Residence type: Lives in a household; measures: Value,101,101001,,0
-101003,3,Residence type: Lives in a communal establishment; measures: Value,101,101001,,0
-102001,1,Marital and civil partnership status: Total; measures: Value,102,,,1
-102002,2,Marital and civil partnership status: Never married and never registered a civil partnership; measures: Value,102,102001,,0
-102003,3,Marital and civil partnership status: Married or in a registered civil partnership; measures: Value,102,102001,,0
-102004,4,Marital and civil partnership status: Married or in a registered civil partnership: Married; measures: Value,102,102001,102003,2
-102005,5,Marital and civil partnership status: Married or in a registered civil partnership: Married: Opposite sex; measures: Value,102,102001,102003,2
-102006,6,Marital and civil partnership status: Married or in a registered civil partnership: Married: Same sex; measures: Value,102,102001,102003,2
-102007,7,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership; measures: Value,102,102001,,0
-102008,8,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Opposite sex; measures: Value,102,102001,102007,2
-102009,9,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Same sex; measures: Value,102,102001,102007,2
-102010,10,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership; measures: Value",102,102001,,0
-102011,11,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still married; measures: Value",102,102001,102010,2
-102012,12,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still in a registered civil partnership; measures: Value",102,102001,102010,2
-102013,13,Marital and civil partnership status: Divorced or civil partnership dissolved; measures: Value,102,102001,,0
-102014,14,Marital and civil partnership status: Divorced or civil partnership dissolved: Divorced; measures: Value,102,102001,102013,2
-102015,15,Marital and civil partnership status: Divorced or civil partnership dissolved: Formerly in a civil partnership now legally dissolved; measures: Value,102,102001,102013,2
-102016,16,Marital and civil partnership status: Widowed or surviving civil partnership partner; measures: Value,102,102001,,0
-102017,17,Marital and civil partnership status: Widowed or surviving civil partnership partner: Widowed; measures: Value,102,102001,102016,2
-102018,18,Marital and civil partnership status: Widowed or surviving civil partnership partner: Surviving partner from civil partnership; measures: Value,102,102001,102016,2
+id,prog_id,description,table_id,level,loaded
+1,1,Area,TS000,0,1
+1001,1,Residence type: Total,TS001,0,1
+1002,2,Residence type: Lives in a household,TS001,1,1
+1003,3,Residence type: Lives in a communal establishment,TS001,1,1
+2001,1,Marital and civil partnership status: Total,TS002,0,1
+2002,2,Marital and civil partnership status: Never married and never registered a civil partnership,TS002,1,1
+2003,3,Marital and civil partnership status: Married or in a registered civil partnership,TS002,1,1
+2004,4,Marital and civil partnership status: Married or in a registered civil partnership: Married,TS002,2,1
+2005,5,Marital and civil partnership status: Married or in a registered civil partnership: Married: Opposite sex,TS002,3,1
+2006,6,Marital and civil partnership status: Married or in a registered civil partnership: Married: Same sex,TS002,3,1
+2007,7,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership,TS002,2,1
+2008,8,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Opposite sex,TS002,3,1
+2009,9,Marital and civil partnership status: Married or in a registered civil partnership: In a registered civil partnership: Same sex,TS002,3,1
+2010,10,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership",TS002,1,1
+2011,11,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still married",TS002,2,1
+2012,12,"Marital and civil partnership status: Separated, but still legally married or still legally in a civil partnership: Separated, but still in a registered civil partnership",TS002,2,1
+2013,13,Marital and civil partnership status: Divorced or civil partnership dissolved,TS002,1,1
+2014,14,Marital and civil partnership status: Divorced or civil partnership dissolved: Divorced,TS002,2,1
+2015,15,Marital and civil partnership status: Divorced or civil partnership dissolved: Formerly in a civil partnership now legally dissolved,TS002,2,1
+2016,16,Marital and civil partnership status: Widowed or surviving civil partnership partner,TS002,1,1
+2017,17,Marital and civil partnership status: Widowed or surviving civil partnership partner: Widowed,TS002,2,1
+2018,18,Marital and civil partnership status: Widowed or surviving civil partnership partner: Surviving partner from civil partnership,TS002,2,1
+6001,1,Population Density: Persons per square kilometre,TS006,0,0
+3001,1,Household composition: Total,TS003,0,1
+3002,2,Household composition: One person household,TS003,1,1
+3003,3,Household composition: One person household: Aged 66 years and over,TS003,2,1
+3004,4,Household composition: One person household: Other,TS003,2,1
+3005,5,Household composition: Single family household,TS003,1,1
+3006,6,Household composition: Single family household: All aged 66 years and over,TS003,2,1
+3007,7,Household composition: Single family household: Married or civil partnership couple,TS003,2,1
+3008,8,Household composition: Single family household: Married or civil partnership couple: No children,TS003,3,1
+3009,9,Household composition: Single family household: Married or civil partnership couple: Dependent children,TS003,3,1
+3010,10,Household composition: Single family household: Married or civil partnership couple: All children non-dependent,TS003,3,1
+3011,11,Household composition: Single family household: Cohabiting couple family,TS003,2,1
+3012,12,Household composition: Single family household: Cohabiting couple family: No children,TS003,3,1
+3013,13,Household composition: Single family household: Cohabiting couple family: With dependent children,TS003,3,1
+3014,14,Household composition: Single family household: Cohabiting couple family: All children non-dependent,TS003,3,1
+3015,15,Household composition: Single family household: Lone parent family,TS003,2,1
+3016,16,Household composition: Single family household: Lone parent family: With dependent children,TS003,3,1
+3017,17,Household composition: Single family household: Lone parent family: All children non-dependent,TS003,3,1
+3018,18,Household composition: Single family household: Other single family household,TS003,2,1
+3019,19,Household composition: Single family household: Other single family household: Other family composition,TS003,1,0
+3020,20,Household composition: Other household types,TS003,1,1
+3021,21,Household composition: Other household types: With dependent children,TS003,2,1
+3022,22,"Household composition: Other household types: Other, including all full-time students and all aged 66 years and over",TS003,2,1
+17001,1,Household size: Total: All household spaces,TS017,0,0
+17002,2,Household size: 0 people in household,TS017,1,1
+17003,3,Household size: 1 person in household,TS017,1,1
+17004,4,Household size: 2 people in household,TS017,1,1
+17005,5,Household size: 3 people in household,TS017,1,1
+17006,6,Household size: 4 people in household,TS017,1,1
+17007,7,Household size: 5 people in household,TS017,1,1
+17008,8,Household size: 6 people in household,TS017,1,1
+17009,9,Household size: 7 people in household,TS017,1,1
+17010,10,Household size: 8 or more people in household,TS017,1,1
+10001,1,Living arrangements: Total,TS010,0,1
+10002,2,Living arrangements: Living in a couple,TS010,1,1
+10003,3,Living arrangements: Living in a couple: Married or in a civil partnership,TS010,2,1
+10004,4,Living arrangements: Living in a couple: Married or in a civil partnership: Opposite-sex couple,TS010,3,1
+10005,5,Living arrangements: Living in a couple: Married or in a civil partnership: Same-sex couple,TS010,3,1
+10006,6,"Living arrangements: Living in a couple: Separated, but still married or in a civil partnership",TS010,2,1
+10007,7,Living arrangements: Living in a couple: Cohabiting,TS010,2,1
+10008,8,Living arrangements: Living in a couple: Cohabiting: Opposite-sex couple,TS010,3,1
+10009,9,Living arrangements: Living in a couple: Cohabiting: Same-sex couple,TS010,3,1
+10010,10,Living arrangements: Not living in a couple,TS010,1,1
+10011,11,Living arrangements: Not living in a couple: Single (never married and never registered a same-sex civil partnership),TS010,2,1
+10012,12,Living arrangements: Not living in a couple: Married or in a registered civil partnership,TS010,2,1
+10013,13,Living arrangements: Not living in a couple: Separated (including those who are married and those who are in civil partnerships),TS010,2,1
+10014,14,Living arrangements: Not living in a couple: Divorced or formerly in a civil partnership which is now legally dissolved,TS010,2,1
+10015,15,Living arrangements: Not living in a couple: Widowed or surviving partner from a civil partnership,TS010,2,1
+11001,1,Household deprivation: Total: All households,TS011,0,0
+11002,2,Household deprivation: Household is not deprived in any dimension,TS011,1,1
+11003,3,Household deprivation: Household is deprived in one dimension,TS011,1,1
+11004,4,Household deprivation: Household is deprived in two dimensions,TS011,1,1
+11005,5,Household deprivation: Household is deprived in three dimensions,TS011,1,1
+11006,6,Household deprivation: Household is deprived in four dimensions,TS011,1,1
+7001,1,Age: Total,TS007,0,0
+7002,2,Age: Aged 4 years and under,TS007,1,1
+7003,3,Age: Aged under 1 year,TS007,2,1
+7004,4,Age: Aged 1 year,TS007,2,1
+7005,5,Age: Aged 2 years,TS007,2,1
+7006,6,Age: Aged 3 years,TS007,2,1
+7007,7,Age: Aged 4 years,TS007,2,1
+7008,8,Age: Aged 5 to 9 years,TS007,1,1
+7009,9,Age: Aged 5 years,TS007,2,1
+7010,10,Age: Aged 6 years,TS007,2,1
+7011,11,Age: Aged 7 years,TS007,2,1
+7012,12,Age: Aged 8 years,TS007,2,1
+7013,13,Age: Aged 9 years,TS007,2,1
+7014,14,Age: Aged 10 to 15 years,TS007,1,1
+7015,15,Age: Aged 10 years,TS007,2,1
+7016,16,Age: Aged 11 years,TS007,2,1
+7017,17,Age: Aged 12 years,TS007,2,1
+7018,18,Age: Aged 13 years,TS007,2,1
+7019,19,Age: Aged 14 years,TS007,2,1
+7020,20,Age: Aged 15 years,TS007,2,1
+7021,21,Age: Aged 16 to 19 years,TS007,1,1
+7022,22,Age: Aged 16 years,TS007,2,1
+7023,23,Age: Aged 17 years,TS007,2,1
+7024,24,Age: Aged 18 years,TS007,2,1
+7025,25,Age: Aged 19 years,TS007,2,1
+7026,26,Age: Aged 20 to 24 years,TS007,1,1
+7027,27,Age: Aged 20 years,TS007,2,1
+7028,28,Age: Aged 21 years,TS007,2,1
+7029,29,Age: Aged 22 years,TS007,2,1
+7030,30,Age: Aged 23 years,TS007,2,1
+7031,31,Age: Aged 24 years,TS007,2,1
+7032,32,Age: Aged 25 to 34 years,TS007,1,1
+7033,33,Age: Aged 25 years,TS007,2,1
+7034,34,Age: Aged 26 years,TS007,2,1
+7035,35,Age: Aged 27 years,TS007,2,1
+7036,36,Age: Aged 28 years,TS007,2,1
+7037,37,Age: Aged 29 years,TS007,2,1
+7038,38,Age: Aged 30 years,TS007,2,1
+7039,39,Age: Aged 31 years,TS007,2,1
+7040,40,Age: Aged 32 years,TS007,2,1
+7041,41,Age: Aged 33 years,TS007,2,1
+7042,42,Age: Aged 34 years,TS007,2,1
+7043,43,Age: Aged 35 to 49 years,TS007,1,1
+7044,44,Age: Aged 35 years,TS007,2,1
+7045,45,Age: Aged 36 years,TS007,2,1
+7046,46,Age: Aged 37 years,TS007,2,1
+7047,47,Age: Aged 38 years,TS007,2,1
+7048,48,Age: Aged 39 years,TS007,2,1
+7049,49,Age: Aged 40 years,TS007,2,1
+7050,50,Age: Aged 41 years,TS007,2,1
+7051,51,Age: Aged 42 years,TS007,2,1
+7052,52,Age: Aged 43 years,TS007,2,1
+7053,53,Age: Aged 44 years,TS007,2,1
+7054,54,Age: Aged 45 years,TS007,2,1
+7055,55,Age: Aged 46 years,TS007,2,1
+7056,56,Age: Aged 47 years,TS007,2,1
+7057,57,Age: Aged 48 years,TS007,2,1
+7058,58,Age: Aged 49 years,TS007,2,1
+7059,59,Age: Aged 50 to 64 years,TS007,1,1
+7060,60,Age: Aged 50 years,TS007,2,1
+7061,61,Age: Aged 51 years,TS007,2,1
+7062,62,Age: Aged 52 years,TS007,2,1
+7063,63,Age: Aged 53 years,TS007,2,1
+7064,64,Age: Aged 54 years,TS007,2,1
+7065,65,Age: Aged 55 years,TS007,2,1
+7066,66,Age: Aged 56 years,TS007,2,1
+7067,67,Age: Aged 57 years,TS007,2,1
+7068,68,Age: Aged 58 years,TS007,2,1
+7069,69,Age: Aged 59 years,TS007,2,1
+7070,70,Age: Aged 60 years,TS007,2,1
+7071,71,Age: Aged 61 years,TS007,2,1
+7072,72,Age: Aged 62 years,TS007,2,1
+7073,73,Age: Aged 63 years,TS007,2,1
+7074,74,Age: Aged 64 years,TS007,2,1
+7075,75,Age: Aged 65 to 74 years,TS007,1,1
+7076,76,Age: Aged 65 years,TS007,2,1
+7077,77,Age: Aged 66 years,TS007,2,1
+7078,78,Age: Aged 67 years,TS007,2,1
+7079,79,Age: Aged 68 years,TS007,2,1
+7080,80,Age: Aged 69 years,TS007,2,1
+7081,81,Age: Aged 70 years,TS007,2,1
+7082,82,Age: Aged 71 years,TS007,2,1
+7083,83,Age: Aged 72 years,TS007,2,1
+7084,84,Age: Aged 73 years,TS007,2,1
+7085,85,Age: Aged 74 years,TS007,2,1
+7086,86,Age: Aged 75 to 84 years,TS007,1,1
+7087,87,Age: Aged 75 years,TS007,2,1
+7088,88,Age: Aged 76 years,TS007,2,1
+7089,89,Age: Aged 77 years,TS007,2,1
+7090,90,Age: Aged 78 years,TS007,2,1
+7091,91,Age: Aged 79 years,TS007,2,1
+7092,92,Age: Aged 80 years,TS007,2,1
+7093,93,Age: Aged 81 years,TS007,2,1
+7094,94,Age: Aged 82 years,TS007,2,1
+7095,95,Age: Aged 83 years,TS007,2,1
+7096,96,Age: Aged 84 years,TS007,2,1
+7097,97,Age: Aged 85 years and over,TS007,1,1
+7098,98,Age: Aged 85 years,TS007,2,1
+7099,99,Age: Aged 86 years,TS007,2,1
+7100,100,Age: Aged 87 years,TS007,2,1
+7101,101,Age: Aged 88 years,TS007,2,1
+7102,102,Age: Aged 89 years,TS007,2,1
+7103,103,Age: Aged 90 years,TS007,2,1
+7104,104,Age: Aged 91 years,TS007,2,1
+7105,105,Age: Aged 92 years,TS007,2,1
+7106,106,Age: Aged 93 years,TS007,2,1
+7107,107,Age: Aged 94 years,TS007,2,1
+7108,108,Age: Aged 95 years,TS007,2,1
+7109,109,Age: Aged 96 years,TS007,2,1
+7110,110,Age: Aged 97 years,TS007,2,1
+7111,111,Age: Aged 98 years,TS007,2,1
+7112,112,Age: Aged 99 years,TS007,2,1
+7113,113,Age: Aged 100 years and over,TS007,2,1
+8001,1,Sex: All persons,TS008,0,0
+8002,2,Sex: Female,TS008,1,1
+8003,3,Sex: Male,TS008,1,1
+9001,1,Sex: All persons; Age: Total,TS009,0,0
+9002,2,Sex: All persons; Age: Aged 4 years and under,TS009,1,0
+9003,3,Sex: All persons; Age: Aged under 1 year,TS009,2,0
+9004,4,Sex: All persons; Age: Aged 1 year,TS009,2,0
+9005,5,Sex: All persons; Age: Aged 2 years,TS009,2,0
+9006,6,Sex: All persons; Age: Aged 3 years,TS009,2,0
+9007,7,Sex: All persons; Age: Aged 4 years,TS009,2,0
+9008,8,Sex: All persons; Age: Aged 5 to 9 years,TS009,1,0
+9009,9,Sex: All persons; Age: Aged 5 years,TS009,2,0
+9010,10,Sex: All persons; Age: Aged 6 years,TS009,2,0
+9011,11,Sex: All persons; Age: Aged 7 years,TS009,2,0
+9012,12,Sex: All persons; Age: Aged 8 years,TS009,2,0
+9013,13,Sex: All persons; Age: Aged 9 years,TS009,2,0
+9014,14,Sex: All persons; Age: Aged 10 to 15 years,TS009,1,0
+9015,15,Sex: All persons; Age: Aged 10 years,TS009,2,0
+9016,16,Sex: All persons; Age: Aged 11 years,TS009,2,0
+9017,17,Sex: All persons; Age: Aged 12 years,TS009,2,0
+9018,18,Sex: All persons; Age: Aged 13 years,TS009,2,0
+9019,19,Sex: All persons; Age: Aged 14 years,TS009,2,0
+9020,20,Sex: All persons; Age: Aged 15 years,TS009,2,0
+9021,21,Sex: All persons; Age: Aged 16 to 19 years,TS009,1,0
+9022,22,Sex: All persons; Age: Aged 16 years,TS009,2,0
+9023,23,Sex: All persons; Age: Aged 17 years,TS009,2,0
+9024,24,Sex: All persons; Age: Aged 18 years,TS009,2,0
+9025,25,Sex: All persons; Age: Aged 19 years,TS009,2,0
+9026,26,Sex: All persons; Age: Aged 20 to 24 years,TS009,1,0
+9027,27,Sex: All persons; Age: Aged 20 years,TS009,2,0
+9028,28,Sex: All persons; Age: Aged 21 years,TS009,2,0
+9029,29,Sex: All persons; Age: Aged 22 years,TS009,2,0
+9030,30,Sex: All persons; Age: Aged 23 years,TS009,2,0
+9031,31,Sex: All persons; Age: Aged 24 years,TS009,2,0
+9032,32,Sex: All persons; Age: Aged 25 to 34 years,TS009,1,0
+9033,33,Sex: All persons; Age: Aged 25 years,TS009,2,0
+9034,34,Sex: All persons; Age: Aged 26 years,TS009,2,0
+9035,35,Sex: All persons; Age: Aged 27 years,TS009,2,0
+9036,36,Sex: All persons; Age: Aged 28 years,TS009,2,0
+9037,37,Sex: All persons; Age: Aged 29 years,TS009,2,0
+9038,38,Sex: All persons; Age: Aged 30 years,TS009,2,0
+9039,39,Sex: All persons; Age: Aged 31 years,TS009,2,0
+9040,40,Sex: All persons; Age: Aged 32 years,TS009,2,0
+9041,41,Sex: All persons; Age: Aged 33 years,TS009,2,0
+9042,42,Sex: All persons; Age: Aged 34 years,TS009,2,0
+9043,43,Sex: All persons; Age: Aged 35 to 49 years,TS009,1,0
+9044,44,Sex: All persons; Age: Aged 35 years,TS009,2,0
+9045,45,Sex: All persons; Age: Aged 36 years,TS009,2,0
+9046,46,Sex: All persons; Age: Aged 37 years,TS009,2,0
+9047,47,Sex: All persons; Age: Aged 38 years,TS009,2,0
+9048,48,Sex: All persons; Age: Aged 39 years,TS009,2,0
+9049,49,Sex: All persons; Age: Aged 40 years,TS009,2,0
+9050,50,Sex: All persons; Age: Aged 41 years,TS009,2,0
+9051,51,Sex: All persons; Age: Aged 42 years,TS009,2,0
+9052,52,Sex: All persons; Age: Aged 43 years,TS009,2,0
+9053,53,Sex: All persons; Age: Aged 44 years,TS009,2,0
+9054,54,Sex: All persons; Age: Aged 45 years,TS009,2,0
+9055,55,Sex: All persons; Age: Aged 46 years,TS009,2,0
+9056,56,Sex: All persons; Age: Aged 47 years,TS009,2,0
+9057,57,Sex: All persons; Age: Aged 48 years,TS009,2,0
+9058,58,Sex: All persons; Age: Aged 49 years,TS009,2,0
+9059,59,Sex: All persons; Age: Aged 50 to 64 years,TS009,1,0
+9060,60,Sex: All persons; Age: Aged 50 years,TS009,2,0
+9061,61,Sex: All persons; Age: Aged 51 years,TS009,2,0
+9062,62,Sex: All persons; Age: Aged 52 years,TS009,2,0
+9063,63,Sex: All persons; Age: Aged 53 years,TS009,2,0
+9064,64,Sex: All persons; Age: Aged 54 years,TS009,2,0
+9065,65,Sex: All persons; Age: Aged 55 years,TS009,2,0
+9066,66,Sex: All persons; Age: Aged 56 years,TS009,2,0
+9067,67,Sex: All persons; Age: Aged 57 years,TS009,2,0
+9068,68,Sex: All persons; Age: Aged 58 years,TS009,2,0
+9069,69,Sex: All persons; Age: Aged 59 years,TS009,2,0
+9070,70,Sex: All persons; Age: Aged 60 years,TS009,2,0
+9071,71,Sex: All persons; Age: Aged 61 years,TS009,2,0
+9072,72,Sex: All persons; Age: Aged 62 years,TS009,2,0
+9073,73,Sex: All persons; Age: Aged 63 years,TS009,2,0
+9074,74,Sex: All persons; Age: Aged 64 years,TS009,2,0
+9075,75,Sex: All persons; Age: Aged 65 to 74 years,TS009,1,0
+9076,76,Sex: All persons; Age: Aged 65 years,TS009,2,0
+9077,77,Sex: All persons; Age: Aged 66 years,TS009,2,0
+9078,78,Sex: All persons; Age: Aged 67 years,TS009,2,0
+9079,79,Sex: All persons; Age: Aged 68 years,TS009,2,0
+9080,80,Sex: All persons; Age: Aged 69 years,TS009,2,0
+9081,81,Sex: All persons; Age: Aged 70 years,TS009,2,0
+9082,82,Sex: All persons; Age: Aged 71 years,TS009,2,0
+9083,83,Sex: All persons; Age: Aged 72 years,TS009,2,0
+9084,84,Sex: All persons; Age: Aged 73 years,TS009,2,0
+9085,85,Sex: All persons; Age: Aged 74 years,TS009,2,0
+9086,86,Sex: All persons; Age: Aged 75 to 84 years,TS009,1,0
+9087,87,Sex: All persons; Age: Aged 75 years,TS009,2,0
+9088,88,Sex: All persons; Age: Aged 76 years,TS009,2,0
+9089,89,Sex: All persons; Age: Aged 77 years,TS009,2,0
+9090,90,Sex: All persons; Age: Aged 78 years,TS009,2,0
+9091,91,Sex: All persons; Age: Aged 79 years,TS009,2,0
+9092,92,Sex: All persons; Age: Aged 80 years,TS009,2,0
+9093,93,Sex: All persons; Age: Aged 81 years,TS009,2,0
+9094,94,Sex: All persons; Age: Aged 82 years,TS009,2,0
+9095,95,Sex: All persons; Age: Aged 83 years,TS009,2,0
+9096,96,Sex: All persons; Age: Aged 84 years,TS009,2,0
+9097,97,Sex: All persons; Age: Aged 85 years and over,TS009,1,0
+9098,98,Sex: All persons; Age: Aged 85 years,TS009,2,0
+9099,99,Sex: All persons; Age: Aged 86 years,TS009,2,0
+9100,100,Sex: All persons; Age: Aged 87 years,TS009,2,0
+9101,101,Sex: All persons; Age: Aged 88 years,TS009,2,0
+9102,102,Sex: All persons; Age: Aged 89 years,TS009,2,0
+9103,103,Sex: All persons; Age: Aged 90 years and over,TS009,2,1
+9104,104,Sex: Female; Age: Total,TS009,1,0
+9105,105,Sex: Female; Age: Aged 4 years and under,TS009,2,1
+9106,106,Sex: Female; Age: Aged under 1 year,TS009,3,1
+9107,107,Sex: Female; Age: Aged 1 year,TS009,3,1
+9108,108,Sex: Female; Age: Aged 2 years,TS009,3,1
+9109,109,Sex: Female; Age: Aged 3 years,TS009,3,1
+9110,110,Sex: Female; Age: Aged 4 years,TS009,3,1
+9111,111,Sex: Female; Age: Aged 5 to 9 years,TS009,2,1
+9112,112,Sex: Female; Age: Aged 5 years,TS009,3,1
+9113,113,Sex: Female; Age: Aged 6 years,TS009,3,1
+9114,114,Sex: Female; Age: Aged 7 years,TS009,3,1
+9115,115,Sex: Female; Age: Aged 8 years,TS009,3,1
+9116,116,Sex: Female; Age: Aged 9 years,TS009,3,1
+9117,117,Sex: Female; Age: Aged 10 to 15 years,TS009,2,1
+9118,118,Sex: Female; Age: Aged 10 years,TS009,3,1
+9119,119,Sex: Female; Age: Aged 11 years,TS009,3,1
+9120,120,Sex: Female; Age: Aged 12 years,TS009,3,1
+9121,121,Sex: Female; Age: Aged 13 years,TS009,3,1
+9122,122,Sex: Female; Age: Aged 14 years,TS009,3,1
+9123,123,Sex: Female; Age: Aged 15 years,TS009,3,1
+9124,124,Sex: Female; Age: Aged 16 to 19 years,TS009,2,1
+9125,125,Sex: Female; Age: Aged 16 years,TS009,3,1
+9126,126,Sex: Female; Age: Aged 17 years,TS009,3,1
+9127,127,Sex: Female; Age: Aged 18 years,TS009,3,1
+9128,128,Sex: Female; Age: Aged 19 years,TS009,3,1
+9129,129,Sex: Female; Age: Aged 20 to 24 years,TS009,2,1
+9130,130,Sex: Female; Age: Aged 20 years,TS009,3,1
+9131,131,Sex: Female; Age: Aged 21 years,TS009,3,1
+9132,132,Sex: Female; Age: Aged 22 years,TS009,3,1
+9133,133,Sex: Female; Age: Aged 23 years,TS009,3,1
+9134,134,Sex: Female; Age: Aged 24 years,TS009,3,1
+9135,135,Sex: Female; Age: Aged 25 to 34 years,TS009,2,1
+9136,136,Sex: Female; Age: Aged 25 years,TS009,3,1
+9137,137,Sex: Female; Age: Aged 26 years,TS009,3,1
+9138,138,Sex: Female; Age: Aged 27 years,TS009,3,1
+9139,139,Sex: Female; Age: Aged 28 years,TS009,3,1
+9140,140,Sex: Female; Age: Aged 29 years,TS009,3,1
+9141,141,Sex: Female; Age: Aged 30 years,TS009,3,1
+9142,142,Sex: Female; Age: Aged 31 years,TS009,3,1
+9143,143,Sex: Female; Age: Aged 32 years,TS009,3,1
+9144,144,Sex: Female; Age: Aged 33 years,TS009,3,1
+9145,145,Sex: Female; Age: Aged 34 years,TS009,3,1
+9146,146,Sex: Female; Age: Aged 35 to 49 years,TS009,2,1
+9147,147,Sex: Female; Age: Aged 35 years,TS009,3,1
+9148,148,Sex: Female; Age: Aged 36 years,TS009,3,1
+9149,149,Sex: Female; Age: Aged 37 years,TS009,3,1
+9150,150,Sex: Female; Age: Aged 38 years,TS009,3,1
+9151,151,Sex: Female; Age: Aged 39 years,TS009,3,1
+9152,152,Sex: Female; Age: Aged 40 years,TS009,3,1
+9153,153,Sex: Female; Age: Aged 41 years,TS009,3,1
+9154,154,Sex: Female; Age: Aged 42 years,TS009,3,1
+9155,155,Sex: Female; Age: Aged 43 years,TS009,3,1
+9156,156,Sex: Female; Age: Aged 44 years,TS009,3,1
+9157,157,Sex: Female; Age: Aged 45 years,TS009,3,1
+9158,158,Sex: Female; Age: Aged 46 years,TS009,3,1
+9159,159,Sex: Female; Age: Aged 47 years,TS009,3,1
+9160,160,Sex: Female; Age: Aged 48 years,TS009,3,1
+9161,161,Sex: Female; Age: Aged 49 years,TS009,3,1
+9162,162,Sex: Female; Age: Aged 50 to 64 years,TS009,2,1
+9163,163,Sex: Female; Age: Aged 50 years,TS009,3,1
+9164,164,Sex: Female; Age: Aged 51 years,TS009,3,1
+9165,165,Sex: Female; Age: Aged 52 years,TS009,3,1
+9166,166,Sex: Female; Age: Aged 53 years,TS009,3,1
+9167,167,Sex: Female; Age: Aged 54 years,TS009,3,1
+9168,168,Sex: Female; Age: Aged 55 years,TS009,3,1
+9169,169,Sex: Female; Age: Aged 56 years,TS009,3,1
+9170,170,Sex: Female; Age: Aged 57 years,TS009,3,1
+9171,171,Sex: Female; Age: Aged 58 years,TS009,3,1
+9172,172,Sex: Female; Age: Aged 59 years,TS009,3,1
+9173,173,Sex: Female; Age: Aged 60 years,TS009,3,1
+9174,174,Sex: Female; Age: Aged 61 years,TS009,3,1
+9175,175,Sex: Female; Age: Aged 62 years,TS009,3,1
+9176,176,Sex: Female; Age: Aged 63 years,TS009,3,1
+9177,177,Sex: Female; Age: Aged 64 years,TS009,3,1
+9178,178,Sex: Female; Age: Aged 65 to 74 years,TS009,2,1
+9179,179,Sex: Female; Age: Aged 65 years,TS009,3,1
+9180,180,Sex: Female; Age: Aged 66 years,TS009,3,1
+9181,181,Sex: Female; Age: Aged 67 years,TS009,3,1
+9182,182,Sex: Female; Age: Aged 68 years,TS009,3,1
+9183,183,Sex: Female; Age: Aged 69 years,TS009,3,1
+9184,184,Sex: Female; Age: Aged 70 years,TS009,3,1
+9185,185,Sex: Female; Age: Aged 71 years,TS009,3,1
+9186,186,Sex: Female; Age: Aged 72 years,TS009,3,1
+9187,187,Sex: Female; Age: Aged 73 years,TS009,3,1
+9188,188,Sex: Female; Age: Aged 74 years,TS009,3,1
+9189,189,Sex: Female; Age: Aged 75 to 84 years,TS009,2,1
+9190,190,Sex: Female; Age: Aged 75 years,TS009,3,1
+9191,191,Sex: Female; Age: Aged 76 years,TS009,3,1
+9192,192,Sex: Female; Age: Aged 77 years,TS009,3,1
+9193,193,Sex: Female; Age: Aged 78 years,TS009,3,1
+9194,194,Sex: Female; Age: Aged 79 years,TS009,3,1
+9195,195,Sex: Female; Age: Aged 80 years,TS009,3,1
+9196,196,Sex: Female; Age: Aged 81 years,TS009,3,1
+9197,197,Sex: Female; Age: Aged 82 years,TS009,3,1
+9198,198,Sex: Female; Age: Aged 83 years,TS009,3,1
+9199,199,Sex: Female; Age: Aged 84 years,TS009,3,1
+9200,200,Sex: Female; Age: Aged 85 years and over,TS009,2,1
+9201,201,Sex: Female; Age: Aged 85 years,TS009,3,1
+9202,202,Sex: Female; Age: Aged 86 years,TS009,3,1
+9203,203,Sex: Female; Age: Aged 87 years,TS009,3,1
+9204,204,Sex: Female; Age: Aged 88 years,TS009,3,1
+9205,205,Sex: Female; Age: Aged 89 years,TS009,3,1
+9206,206,Sex: Female; Age: Aged 90 years and over,TS009,3,1
+9207,207,Sex: Male; Age: Total,TS009,1,0
+9208,208,Sex: Male; Age: Aged 4 years and under,TS009,2,1
+9209,209,Sex: Male; Age: Aged under 1 year,TS009,3,1
+9210,210,Sex: Male; Age: Aged 1 year,TS009,3,1
+9211,211,Sex: Male; Age: Aged 2 years,TS009,3,1
+9212,212,Sex: Male; Age: Aged 3 years,TS009,3,1
+9213,213,Sex: Male; Age: Aged 4 years,TS009,3,1
+9214,214,Sex: Male; Age: Aged 5 to 9 years,TS009,2,1
+9215,215,Sex: Male; Age: Aged 5 years,TS009,3,1
+9216,216,Sex: Male; Age: Aged 6 years,TS009,3,1
+9217,217,Sex: Male; Age: Aged 7 years,TS009,3,1
+9218,218,Sex: Male; Age: Aged 8 years,TS009,3,1
+9219,219,Sex: Male; Age: Aged 9 years,TS009,3,1
+9220,220,Sex: Male; Age: Aged 10 to 15 years,TS009,2,1
+9221,221,Sex: Male; Age: Aged 10 years,TS009,3,1
+9222,222,Sex: Male; Age: Aged 11 years,TS009,3,1
+9223,223,Sex: Male; Age: Aged 12 years,TS009,3,1
+9224,224,Sex: Male; Age: Aged 13 years,TS009,3,1
+9225,225,Sex: Male; Age: Aged 14 years,TS009,3,1
+9226,226,Sex: Male; Age: Aged 15 years,TS009,3,1
+9227,227,Sex: Male; Age: Aged 16 to 19 years,TS009,2,1
+9228,228,Sex: Male; Age: Aged 16 years,TS009,3,1
+9229,229,Sex: Male; Age: Aged 17 years,TS009,3,1
+9230,230,Sex: Male; Age: Aged 18 years,TS009,3,1
+9231,231,Sex: Male; Age: Aged 19 years,TS009,3,1
+9232,232,Sex: Male; Age: Aged 20 to 24 years,TS009,2,1
+9233,233,Sex: Male; Age: Aged 20 years,TS009,3,1
+9234,234,Sex: Male; Age: Aged 21 years,TS009,3,1
+9235,235,Sex: Male; Age: Aged 22 years,TS009,3,1
+9236,236,Sex: Male; Age: Aged 23 years,TS009,3,1
+9237,237,Sex: Male; Age: Aged 24 years,TS009,3,1
+9238,238,Sex: Male; Age: Aged 25 to 34 years,TS009,2,1
+9239,239,Sex: Male; Age: Aged 25 years,TS009,3,1
+9240,240,Sex: Male; Age: Aged 26 years,TS009,3,1
+9241,241,Sex: Male; Age: Aged 27 years,TS009,3,1
+9242,242,Sex: Male; Age: Aged 28 years,TS009,3,1
+9243,243,Sex: Male; Age: Aged 29 years,TS009,3,1
+9244,244,Sex: Male; Age: Aged 30 years,TS009,3,1
+9245,245,Sex: Male; Age: Aged 31 years,TS009,3,1
+9246,246,Sex: Male; Age: Aged 32 years,TS009,3,1
+9247,247,Sex: Male; Age: Aged 33 years,TS009,3,1
+9248,248,Sex: Male; Age: Aged 34 years,TS009,3,1
+9249,249,Sex: Male; Age: Aged 35 to 49 years,TS009,2,1
+9250,250,Sex: Male; Age: Aged 35 years,TS009,3,1
+9251,251,Sex: Male; Age: Aged 36 years,TS009,3,1
+9252,252,Sex: Male; Age: Aged 37 years,TS009,3,1
+9253,253,Sex: Male; Age: Aged 38 years,TS009,3,1
+9254,254,Sex: Male; Age: Aged 39 years,TS009,3,1
+9255,255,Sex: Male; Age: Aged 40 years,TS009,3,1
+9256,256,Sex: Male; Age: Aged 41 years,TS009,3,1
+9257,257,Sex: Male; Age: Aged 42 years,TS009,3,1
+9258,258,Sex: Male; Age: Aged 43 years,TS009,3,1
+9259,259,Sex: Male; Age: Aged 44 years,TS009,3,1
+9260,260,Sex: Male; Age: Aged 45 years,TS009,3,1
+9261,261,Sex: Male; Age: Aged 46 years,TS009,3,1
+9262,262,Sex: Male; Age: Aged 47 years,TS009,3,1
+9263,263,Sex: Male; Age: Aged 48 years,TS009,3,1
+9264,264,Sex: Male; Age: Aged 49 years,TS009,3,1
+9265,265,Sex: Male; Age: Aged 50 to 64 years,TS009,2,1
+9266,266,Sex: Male; Age: Aged 50 years,TS009,3,1
+9267,267,Sex: Male; Age: Aged 51 years,TS009,3,1
+9268,268,Sex: Male; Age: Aged 52 years,TS009,3,1
+9269,269,Sex: Male; Age: Aged 53 years,TS009,3,1
+9270,270,Sex: Male; Age: Aged 54 years,TS009,3,1
+9271,271,Sex: Male; Age: Aged 55 years,TS009,3,1
+9272,272,Sex: Male; Age: Aged 56 years,TS009,3,1
+9273,273,Sex: Male; Age: Aged 57 years,TS009,3,1
+9274,274,Sex: Male; Age: Aged 58 years,TS009,3,1
+9275,275,Sex: Male; Age: Aged 59 years,TS009,3,1
+9276,276,Sex: Male; Age: Aged 60 years,TS009,3,1
+9277,277,Sex: Male; Age: Aged 61 years,TS009,3,1
+9278,278,Sex: Male; Age: Aged 62 years,TS009,3,1
+9279,279,Sex: Male; Age: Aged 63 years,TS009,3,1
+9280,280,Sex: Male; Age: Aged 64 years,TS009,3,1
+9281,281,Sex: Male; Age: Aged 65 to 74 years,TS009,2,1
+9282,282,Sex: Male; Age: Aged 65 years,TS009,3,1
+9283,283,Sex: Male; Age: Aged 66 years,TS009,3,1
+9284,284,Sex: Male; Age: Aged 67 years,TS009,3,1
+9285,285,Sex: Male; Age: Aged 68 years,TS009,3,1
+9286,286,Sex: Male; Age: Aged 69 years,TS009,3,1
+9287,287,Sex: Male; Age: Aged 70 years,TS009,3,1
+9288,288,Sex: Male; Age: Aged 71 years,TS009,3,1
+9289,289,Sex: Male; Age: Aged 72 years,TS009,3,1
+9290,290,Sex: Male; Age: Aged 73 years,TS009,3,1
+9291,291,Sex: Male; Age: Aged 74 years,TS009,3,1
+9292,292,Sex: Male; Age: Aged 75 to 84 years,TS009,2,1
+9293,293,Sex: Male; Age: Aged 75 years,TS009,3,1
+9294,294,Sex: Male; Age: Aged 76 years,TS009,3,1
+9295,295,Sex: Male; Age: Aged 77 years,TS009,3,1
+9296,296,Sex: Male; Age: Aged 78 years,TS009,3,1
+9297,297,Sex: Male; Age: Aged 79 years,TS009,3,1
+9298,298,Sex: Male; Age: Aged 80 years,TS009,3,1
+9299,299,Sex: Male; Age: Aged 81 years,TS009,3,1
+9300,300,Sex: Male; Age: Aged 82 years,TS009,3,1
+9301,301,Sex: Male; Age: Aged 83 years,TS009,3,1
+9302,302,Sex: Male; Age: Aged 84 years,TS009,3,1
+9303,303,Sex: Male; Age: Aged 85 years and over,TS009,2,1
+9304,304,Sex: Male; Age: Aged 85 years,TS009,3,1
+9305,305,Sex: Male; Age: Aged 86 years,TS009,3,1
+9306,306,Sex: Male; Age: Aged 87 years,TS009,3,1
+9307,307,Sex: Male; Age: Aged 88 years,TS009,3,1
+9308,308,Sex: Male; Age: Aged 89 years,TS009,3,1
+9309,309,Sex: Male; Age: Aged 90 years and over,TS009,3,1
+4001,1,Country of birth: Total,TS004,0,0
+4002,2,Country of birth: Europe,TS004,1,1
+4003,3,Country of birth: Europe: United Kingdom,TS004,2,1
+4004,4,Country of birth: Europe: EU countries,TS004,2,1
+4005,5,Country of birth: Europe: EU countries: European Union EU14,TS004,3,1
+4006,6,Country of birth: Europe: EU countries: European Union EU8,TS004,3,1
+4007,7,Country of birth: Europe: EU countries: European Union EU2,TS004,3,1
+4008,8,Country of birth: Europe: EU countries: All other EU countries,TS004,3,1
+4009,9,Country of birth: Europe: Non-EU countries,TS004,2,1
+4010,10,Country of birth: Europe: Non-EU countries: All other non-EU countries,TS004,1,0
+4011,11,Country of birth: Africa,TS004,1,1
+4012,12,Country of birth: Middle East and Asia,TS004,1,1
+4013,13,Country of birth: The Americas and the Caribbean,TS004,1,1
+4014,14,Country of birth: Antarctica and Oceania (including Australasia) and Other,TS004,1,1
+4015,15,Country of birth: British Overseas ,TS004,1,1
+12001,1,Country of birth: Total: All usual residents,TS012,0,0
+12002,2,Country of birth: Europe,TS012,1,1
+12003,3,Country of birth: Europe: United Kingdom,TS012,2,1
+12004,4,Country of birth: Europe: United Kingdom: England,TS012,3,1
+12005,5,Country of birth: Europe: United Kingdom: Northern Ireland,TS012,3,1
+12006,6,Country of birth: Europe: United Kingdom: Scotland,TS012,3,1
+12007,7,Country of birth: Europe: United Kingdom: Wales,TS012,3,1
+12008,8,Country of birth: Europe: United Kingdom: Great Britain not otherwise specified,TS012,3,1
+12009,9,Country of birth: Europe: United Kingdom: United Kingdom not otherwise specified,TS012,3,1
+12010,10,Country of birth: Europe: Other Europe,TS012,2,1
+12011,11,Country of birth: Europe: Other Europe: EU countries,TS012,3,1
+12012,12,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001,TS012,4,0
+12013,13,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Ireland,TS012,4,1
+12014,14,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: France,TS012,4,1
+12015,15,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Germany,TS012,4,1
+12016,16,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Italy,TS012,4,1
+12017,17,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Portugal (including Madeira and the Azores),TS012,4,1
+12018,18,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Spain (including Canary Islands),TS012,4,1
+12019,19,Country of birth: Europe: Other Europe: EU countries: Member countries in March 2001: Other member countries in March 2001,TS012,4,1
+12020,20,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2001 and March 2011,TS012,4,0
+12021,21,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2001 and March 2011: Lithuania,TS012,4,1
+12022,22,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2001 and March 2011: Poland,TS012,4,1
+12023,23,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2001 and March 2011: Romania,TS012,4,1
+12024,24,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2001 and March 2011: Other EU countries,TS012,4,1
+12025,25,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2011 and March 2021,TS012,5,0
+12026,26,Country of birth: Europe: Other Europe: EU countries: Countries that joined the EU between April 2011 and March 2021: Croatia,TS012,4,1
+12027,27,Country of birth: Europe: Other Europe: Rest of Europe,TS012,3,1
+12028,28,Country of birth: Europe: Other Europe: Rest of Europe: Turkey,TS012,4,1
+12029,29,Country of birth: Europe: Other Europe: Rest of Europe: Other Europe,TS012,4,1
+12030,30,Country of birth: Africa,TS012,1,1
+12031,31,Country of birth: Africa: North Africa,TS012,2,1
+12032,32,Country of birth: Africa: Central and Western Africa,TS012,2,1
+12033,33,Country of birth: Africa: Central and Western Africa: Ghana,TS012,3,1
+12034,34,Country of birth: Africa: Central and Western Africa: Nigeria,TS012,3,1
+12035,35,Country of birth: Africa: Central and Western Africa: Other Central and Western Africa,TS012,3,1
+12036,36,Country of birth: Africa: South and Eastern Africa,TS012,2,1
+12037,37,Country of birth: Africa: South and Eastern Africa: Kenya,TS012,3,1
+12038,38,Country of birth: Africa: South and Eastern Africa: Somalia,TS012,3,1
+12039,39,Country of birth: Africa: South and Eastern Africa: South Africa,TS012,3,1
+12040,40,Country of birth: Africa: South and Eastern Africa: Zimbabwe,TS012,3,1
+12041,41,Country of birth: Africa: South and Eastern Africa: Other South and Eastern Africa,TS012,3,1
+12042,42,Country of birth: Africa: Africa not otherwise specified,TS012,2,1
+12043,43,Country of birth: Middle East and Asia,TS012,1,1
+12044,44,Country of birth: Middle East and Asia: Middle East,TS012,2,1
+12045,45,Country of birth: Middle East and Asia: Middle East: Iran,TS012,3,1
+12046,46,Country of birth: Middle East and Asia: Middle East: Iraq,TS012,3,1
+12047,47,Country of birth: Middle East and Asia: Middle East: Other Middle East,TS012,3,1
+12048,48,Country of birth: Middle East and Asia: Eastern Asia,TS012,2,1
+12049,49,Country of birth: Middle East and Asia: Eastern Asia: China,TS012,3,1
+12050,50,Country of birth: Middle East and Asia: Eastern Asia: Hong Kong (Special Administrative Region of China),TS012,3,1
+12051,51,Country of birth: Middle East and Asia: Eastern Asia: Other Eastern Asia,TS012,3,1
+12052,52,Country of birth: Middle East and Asia: Southern Asia,TS012,2,1
+12053,53,Country of birth: Middle East and Asia: Southern Asia: Afghanistan,TS012,3,1
+12054,54,Country of birth: Middle East and Asia: Southern Asia: India,TS012,3,1
+12055,55,Country of birth: Middle East and Asia: Southern Asia: Pakistan,TS012,3,1
+12056,56,Country of birth: Middle East and Asia: Southern Asia: Bangladesh,TS012,3,1
+12057,57,Country of birth: Middle East and Asia: Southern Asia: Sri Lanka,TS012,3,1
+12058,58,Country of birth: Middle East and Asia: Southern Asia: Other Southern Asia,TS012,3,1
+12059,59,Country of birth: Middle East and Asia: South-East Asia,TS012,2,1
+12060,60,Country of birth: Middle East and Asia: South-East Asia: Philippines,TS012,3,1
+12061,61,Country of birth: Middle East and Asia: South-East Asia: Malaysia,TS012,3,1
+12062,62,Country of birth: Middle East and Asia: South-East Asia: Singapore,TS012,3,1
+12063,63,Country of birth: Middle East and Asia: South-East Asia: Other South-East Asia,TS012,3,1
+12064,64,Country of birth: Middle East and Asia: Central Asia,TS012,2,1
+12065,65,Country of birth: The Americas and the Caribbean,TS012,1,1
+12066,66,Country of birth: The Americas and the Caribbean: North America,TS012,2,1
+12067,67,Country of birth: The Americas and the Caribbean: North America: United States,TS012,3,1
+12068,68,Country of birth: The Americas and the Caribbean: North America: Canada,TS012,3,1
+12069,69,Country of birth: The Americas and the Caribbean: North America: Other North America,TS012,3,1
+12070,70,Country of birth: The Americas and the Caribbean: Central America,TS012,2,1
+12071,71,Country of birth: The Americas and the Caribbean: Central America: All Central American countries,TS012,3,0
+12072,72,Country of birth: The Americas and the Caribbean: South America,TS012,2,1
+12073,73,Country of birth: The Americas and the Caribbean: South America: All South American countries,TS012,3,0
+12074,74,Country of birth: The Americas and the Caribbean: The Caribbean,TS012,2,1
+12075,75,Country of birth: The Americas and the Caribbean: The Caribbean: Jamaica,TS012,3,1
+12076,76,Country of birth: The Americas and the Caribbean: The Caribbean: Other Caribbean,TS012,3,1
+12077,77,Country of birth: Antarctica and Oceania,TS012,1,1
+12078,78,Country of birth: Antarctica and Oceania: Australasia,TS012,2,1
+12079,79,Country of birth: Antarctica and Oceania: Australasia: Australia,TS012,3,1
+12080,80,Country of birth: Antarctica and Oceania: Australasia: New Zealand,TS012,3,1
+12081,81,Country of birth: Antarctica and Oceania: Australasia: Other Australasia,TS012,3,1
+12082,82,Country of birth: Antarctica and Oceania: Other Oceania and Antarctica,TS012,2,1
+12083,83,Country of birth: Other,TS012,1,1
+5001,1,Passports held: Total,TS005,0,0
+5002,2,Passports held: Europe,TS005,1,1
+5003,3,Passports held: Europe: United Kingdom,TS005,2,1
+5004,4,Passports held: Europe: Ireland,TS005,2,1
+5005,5,Passports held: Europe: Other Europe,TS005,2,1
+5006,6,Passports held: Europe: Other Europe: EU Member countries,TS005,3,1
+5007,7,Passports held: Europe: Other Europe: EU Member countries: France,TS005,4,1
+5008,8,Passports held: Europe: Other Europe: EU Member countries: Germany,TS005,4,1
+5009,9,Passports held: Europe: Other Europe: EU Member countries: Italy,TS005,4,1
+5010,10,Passports held: Europe: Other Europe: EU Member countries: Portugal,TS005,4,1
+5011,11,Passports held: Europe: Other Europe: EU Member countries: Spain,TS005,4,1
+5012,12,Passports held: Europe: Other Europe: EU Member countries: Lithuania,TS005,4,1
+5013,13,Passports held: Europe: Other Europe: EU Member countries: Poland,TS005,4,1
+5014,14,Passports held: Europe: Other Europe: EU Member countries: Romania,TS005,4,1
+5015,15,Passports held: Europe: Other Europe: EU Member countries: Other EU countries,TS005,4,1
+5016,16,Passports held: Europe: Other Europe: Rest of Europe,TS005,3,1
+5017,17,Passports held: Europe: Other Europe: Rest of Europe: Turkey,TS005,4,1
+5018,18,Passports held: Europe: Other Europe: Rest of Europe: Other Europe,TS005,4,1
+5019,19,Passports held: Africa,TS005,1,1
+5020,20,Passports held: Africa: North Africa,TS005,2,1
+5021,21,Passports held: Africa: Central and Western Africa,TS005,2,1
+5022,22,Passports held: Africa: South and Eastern Africa,TS005,2,1
+5023,23,Passports held: Middle East and Asia,TS005,1,1
+5024,24,Passports held: Middle East and Asia: Middle East,TS005,2,1
+5025,25,Passports held: Middle East and Asia: Eastern Asia,TS005,2,1
+5026,26,Passports held: Middle East and Asia: Southern Asia,TS005,2,1
+5027,27,Passports held: Middle East and Asia: South-East Asia,TS005,2,1
+5028,28,Passports held: Middle East and Asia: Central Asia,TS005,2,1
+5029,29,Passports held: The Americas and the Caribbean,TS005,1,1
+5030,30,Passports held: The Americas and the Caribbean: North America and the Caribbean,TS005,2,1
+5031,31,Passports held: The Americas and the Caribbean: Central and South America,TS005,2,1
+5032,32,"Passports held: Antarctica and Oceania, including Australasia",TS005,1,1
+5033,33,Passports held: British Overseas Territories,TS005,1,1
+5034,34,Passports held: No passport held,TS005,1,1
+13001,1,Passports held: Total: All usual residents,TS013,0,0
+13002,2,Passports held: Europe,TS013,1,1
+13003,3,Passports held: Europe: United Kingdom,TS013,1,1
+13004,4,Passports held: Europe: Ireland,TS013,1,1
+13005,5,Passports held: Europe: Other Europe,TS013,1,1
+13006,6,Passports held: Europe: Other Europe: EU Member countries,TS013,1,1
+13007,7,Passports held: Europe: Other Europe: EU Member countries: France,TS013,1,1
+13008,8,Passports held: Europe: Other Europe: EU Member countries: Germany,TS013,1,1
+13009,9,Passports held: Europe: Other Europe: EU Member countries: Italy,TS013,1,1
+13010,10,Passports held: Europe: Other Europe: EU Member countries: Portugal,TS013,1,1
+13011,11,Passports held: Europe: Other Europe: EU Member countries: Spain,TS013,1,1
+13012,12,Passports held: Europe: Other Europe: EU Member countries: Lithuania,TS013,1,1
+13013,13,Passports held: Europe: Other Europe: EU Member countries: Poland,TS013,1,1
+13014,14,Passports held: Europe: Other Europe: EU Member countries: Romania,TS013,1,1
+13015,15,Passports held: Europe: Other Europe: EU Member countries: Other EU countries,TS013,1,1
+13016,16,Passports held: Europe: Other Europe: Rest of Europe,TS013,1,1
+13017,17,Passports held: Europe: Other Europe: Rest of Europe: Turkey,TS013,1,1
+13018,18,Passports held: Europe: Other Europe: Rest of Europe: Other Europe,TS013,1,1
+13019,19,Passports held: Africa,TS013,1,1
+13020,20,Passports held: Africa: North Africa,TS013,1,1
+13021,21,Passports held: Africa: Central and Western Africa,TS013,1,1
+13022,22,Passports held: Africa: Central and Western Africa: Ghana,TS013,1,1
+13023,23,Passports held: Africa: Central and Western Africa: Nigeria,TS013,1,1
+13024,24,Passports held: Africa: Central and Western Africa: Other Central and Western Africa,TS013,1,1
+13025,25,Passports held: Africa: South and Eastern Africa,TS013,1,1
+13026,26,Passports held: Africa: South and Eastern Africa: Kenya,TS013,1,1
+13027,27,Passports held: Africa: South and Eastern Africa: Somalia,TS013,1,1
+13028,28,Passports held: Africa: South and Eastern Africa: South Africa,TS013,1,1
+13029,29,Passports held: Africa: South and Eastern Africa: Zimbabwe,TS013,1,1
+13030,30,Passports held: Africa: South and Eastern Africa: Other South and Eastern Africa,TS013,1,1
+13031,31,Passports held: Middle East and Asia,TS013,1,1
+13032,32,Passports held: Middle East and Asia: Middle East,TS013,1,1
+13033,33,Passports held: Middle East and Asia: Middle East: Iran,TS013,1,1
+13034,34,Passports held: Middle East and Asia: Middle East: Iraq,TS013,1,1
+13035,35,Passports held: Middle East and Asia: Middle East: Other Middle East,TS013,1,1
+13036,36,Passports held: Middle East and Asia: Eastern Asia,TS013,1,1
+13037,37,Passports held: Middle East and Asia: Eastern Asia: China,TS013,1,1
+13038,38,Passports held: Middle East and Asia: Eastern Asia: Hong Kong (Special Administrative Region of China),TS013,1,1
+13039,39,Passports held: Middle East and Asia: Eastern Asia: Japan,TS013,1,1
+13040,40,Passports held: Middle East and Asia: Eastern Asia: Other Eastern Asia,TS013,1,1
+13041,41,Passports held: Middle East and Asia: Southern Asia,TS013,1,1
+13042,42,Passports held: Middle East and Asia: Southern Asia: Afghanistan,TS013,1,1
+13043,43,Passports held: Middle East and Asia: Southern Asia: Bangladesh,TS013,1,1
+13044,44,Passports held: Middle East and Asia: Southern Asia: India,TS013,1,1
+13045,45,Passports held: Middle East and Asia: Southern Asia: Pakistan,TS013,1,1
+13046,46,Passports held: Middle East and Asia: Southern Asia: Sri Lanka,TS013,1,1
+13047,47,Passports held: Middle East and Asia: Southern Asia: Other Southern Asia,TS013,1,1
+13048,48,Passports held: Middle East and Asia: South-East Asia,TS013,1,1
+13049,49,Passports held: Middle East and Asia: South-East Asia: Malaysia,TS013,1,1
+13050,50,Passports held: Middle East and Asia: South-East Asia: Philippines,TS013,1,1
+13051,51,Passports held: Middle East and Asia: South-East Asia: Singapore,TS013,1,1
+13052,52,Passports held: Middle East and Asia: South-East Asia: Other South-East Asia,TS013,1,1
+13053,53,Passports held: Middle East and Asia: Central Asia,TS013,1,1
+13054,54,Passports held: The Americas and the Caribbean,TS013,1,1
+13055,55,Passports held: The Americas and the Caribbean: North America,TS013,1,1
+13056,56,Passports held: The Americas and the Caribbean: North America: Canada,TS013,1,1
+13057,57,Passports held: The Americas and the Caribbean: North America: United States,TS013,1,1
+13058,58,Passports held: The Americas and the Caribbean: Central America,TS013,1,1
+13059,59,Passports held: The Americas and the Caribbean: South America,TS013,1,1
+13060,60,Passports held: The Americas and the Caribbean: The Caribbean,TS013,1,1
+13061,61,Passports held: The Americas and the Caribbean: The Caribbean: Jamaica,TS013,1,1
+13062,62,Passports held: The Americas and the Caribbean: The Caribbean: Other Caribbean,TS013,1,1
+13063,63,Passports held: Antarctica and Oceania,TS013,1,1
+13064,64,Passports held: Antarctica and Oceania: Australasia,TS013,1,1
+13065,65,Passports held: Antarctica and Oceania: Australasia: Australia,TS013,1,1
+13066,66,Passports held: Antarctica and Oceania: Australasia: New Zealand,TS013,1,1
+13067,67,Passports held: Antarctica and Oceania: Other Antarctica and Oceania,TS013,1,1
+13068,68,Passports held: British Overseas Territories,TS013,1,1
+13069,69,Passports held: No passport held,TS013,1,1
+15001,1,Year of arrival in the UK: Total: All usual residents,TS015,0,0
+15002,2,Year of arrival in the UK: Born in the UK,TS015,1,1
+15003,3,Year of arrival in the UK: Arrived before 1951,TS015,1,1
+15004,4,Year of arrival in the UK: Arrived 1951 to 1960,TS015,1,1
+15005,5,Year of arrival in the UK: Arrived 1961 to 1970,TS015,1,1
+15006,6,Year of arrival in the UK: Arrived 1971 to 1980,TS015,1,1
+15007,7,Year of arrival in the UK: Arrived 1981 to 1990,TS015,1,1
+15008,8,Year of arrival in the UK: Arrived 1991 to 2000,TS015,1,1
+15009,9,Year of arrival in the UK: Arrived 2001 to 2010,TS015,1,1
+15010,10,Year of arrival in the UK: Arrived 2011 to 2013,TS015,1,1
+15011,11,Year of arrival in the UK: Arrived 2014 to 2016,TS015,1,1
+15012,12,Year of arrival in the UK: Arrived 2017 to 2019,TS015,1,1
+15013,13,Year of arrival in the UK: Arrived 2020 to 2021,TS015,1,1
+18001,1,Age of arrival in the UK: Total: All usual residents,TS018,0,0
+18002,2,Age of arrival in the UK: Born in the UK,TS018,1,1
+18003,3,Age of arrival in the UK: Arrived in the UK,TS018,1,1
+18004,4,Age of arrival in the UK: Arrived in the UK: Aged 0 to 4 years,TS018,2,1
+18005,5,Age of arrival in the UK: Arrived in the UK: Aged 5 to 7 years,TS018,2,1
+18006,6,Age of arrival in the UK: Arrived in the UK: Aged 8 to 9 years,TS018,2,1
+18007,7,Age of arrival in the UK: Arrived in the UK: Aged 10 to 14 years,TS018,2,1
+18008,8,Age of arrival in the UK: Arrived in the UK: Aged 15 years,TS018,2,1
+18009,9,Age of arrival in the UK: Arrived in the UK: Aged 16 to 17 years,TS018,2,1
+18010,10,Age of arrival in the UK: Arrived in the UK: Aged 18 to 19 years,TS018,2,1
+18011,11,Age of arrival in the UK: Arrived in the UK: Aged 20 to 24 years,TS018,2,1
+18012,12,Age of arrival in the UK: Arrived in the UK: Aged 25 to 29 years,TS018,2,1
+18013,13,Age of arrival in the UK: Arrived in the UK: Aged 30 to 44 years,TS018,2,1
+18014,14,Age of arrival in the UK: Arrived in the UK: Aged 45 to 59 years,TS018,2,1
+18015,15,Age of arrival in the UK: Arrived in the UK: Aged 60 to 64 years,TS018,2,1
+18016,16,Age of arrival in the UK: Arrived in the UK: Aged 65 to 74 years,TS018,2,1
+18017,17,Age of arrival in the UK: Arrived in the UK: Aged 75 to 84 years,TS018,2,1
+18018,18,Age of arrival in the UK: Arrived in the UK: Aged 85 to 89 years,TS018,2,1
+18019,19,Age of arrival in the UK: Arrived in the UK: Aged 90 years and over,TS018,2,1
+16001,1,Length of residence in the UK: Total: All usual residents,TS016,0,0
+16002,2,Length of residence in the UK: Born in the UK,TS016,1,1
+16003,3,Length of residence in the UK: 10 years or more,TS016,1,1
+16004,4,"Length of residence in the UK: 5 years or more, but less than 10 years",TS016,1,1
+16005,5,"Length of residence in the UK: 2 years or more, but less than 5 years",TS016,1,1
+16006,6,Length of residence in the UK: Less than 2 years,TS016,1,1
+19001,1,Migrant indicator: Total: All usual residents,TS019,0,0
+19002,2,Migrant indicator: Address one year ago is the same as the address of enumeration,TS019,1,0
+19003,3,Migrant indicator: Address one year ago is student term-time or boarding school address in the UK,TS019,1,0
+19004,4,Migrant indicator: Migrant from within the UK: Address one year ago was in the UK,TS019,1,0
+19005,5,Migrant indicator: Migrant from outside the UK: Address one year ago was outside the UK,TS019,1,0
+20001,1,Sex: All persons,TS020,0,0
+20002,2,Sex: Female,TS020,1,0
+20003,3,Sex: Male,TS020,1,0
+41001,1,Number of households: Number of households,TS041,0,0
+21001,1,Ethnic group: Total: All usual residents,TS021,0,0
+21002,2,"Ethnic group: Asian, Asian British or Asian Welsh",TS021,1,1
+21003,3,"Ethnic group: Asian, Asian British or Asian Welsh: Bangladeshi",TS021,1,1
+21004,4,"Ethnic group: Asian, Asian British or Asian Welsh: Chinese",TS021,1,1
+21005,5,"Ethnic group: Asian, Asian British or Asian Welsh: Indian",TS021,1,1
+21006,6,"Ethnic group: Asian, Asian British or Asian Welsh: Pakistani",TS021,1,1
+21007,7,"Ethnic group: Asian, Asian British or Asian Welsh: Other Asian",TS021,1,1
+21008,8,"Ethnic group: Black, Black British, Black Welsh, Caribbean or African",TS021,1,1
+21009,9,"Ethnic group: Black, Black British, Black Welsh, Caribbean or African: African",TS021,1,1
+21010,10,"Ethnic group: Black, Black British, Black Welsh, Caribbean or African: Caribbean",TS021,1,1
+21011,11,"Ethnic group: Black, Black British, Black Welsh, Caribbean or African: Other Black",TS021,1,1
+21012,12,Ethnic group: Mixed or Multiple ethnic groups,TS021,1,1
+21013,13,Ethnic group: Mixed or Multiple ethnic groups: White and Asian,TS021,1,1
+21014,14,Ethnic group: Mixed or Multiple ethnic groups: White and Black African,TS021,1,1
+21015,15,Ethnic group: Mixed or Multiple ethnic groups: White and Black Caribbean,TS021,1,1
+21016,16,Ethnic group: Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups,TS021,1,1
+21017,17,Ethnic group: White,TS021,1,1
+21018,18,"Ethnic group: White: English, Welsh, Scottish, Northern Irish or British",TS021,1,1
+21019,19,Ethnic group: White: Irish,TS021,1,1
+21020,20,Ethnic group: White: Gypsy or Irish Traveller,TS021,1,1
+21021,21,Ethnic group: White: Roma,TS021,1,1
+21022,22,Ethnic group: White: Other White,TS021,1,1
+21023,23,Ethnic group: Other ethnic group,TS021,1,1
+21024,24,Ethnic group: Other ethnic group: Arab,TS021,1,1
+21025,25,Ethnic group: Other ethnic group: Any other ethnic group,TS021,1,1
+22001,1,Ethnic group (detailed): Total: All usual residents,TS022,0,0
+22002,2,"Ethnic group (detailed): Asian, Asian British or Asian Welsh",TS022,1,1
+22003,3,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Afghan",TS022,1,1
+22004,4,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: African unspecified",TS022,1,1
+22005,5,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: African Asian",TS022,1,1
+22006,6,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Anglo Indian",TS022,1,1
+22007,7,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Arab",TS022,1,1
+22008,8,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Asian British",TS022,1,1
+22009,9,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Bangladeshi, British Bangladeshi",TS022,1,1
+22010,10,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Black and Asian",TS022,1,1
+22011,11,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Chinese",TS022,1,1
+22012,12,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: English/Welsh/Scottish/Northern Irish/British",TS022,1,1
+22013,13,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Filipino",TS022,1,1
+22014,14,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Indian or British Indian",TS022,1,1
+22015,15,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Indonesian",TS022,1,1
+22016,16,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Iranian",TS022,1,1
+22017,17,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Japanese",TS022,1,1
+22018,18,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Kashmiri",TS022,1,1
+22019,19,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Korean",TS022,1,1
+22020,20,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Kurdish",TS022,1,1
+22021,21,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Malaysian",TS022,1,1
+22022,22,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Mauritian/Seychellois/Maldivian/Sao Tomean/St Helenian",TS022,1,1
+22023,23,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Mixed South Asian",TS022,1,1
+22024,24,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Myanmar or Burmese",TS022,1,1
+22025,25,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Nepali (includes Gurkha) ",TS022,1,1
+22026,26,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Other Asian, Asian unspecified",TS022,1,1
+22027,27,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Other East Asian/ East Asian unspecified",TS022,1,1
+22028,28,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Other Middle East",TS022,1,1
+22029,29,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Other Mixed",TS022,1,1
+22030,30,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Pakistani or British Pakistani",TS022,1,1
+22031,31,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Punjabi",TS022,1,1
+22032,32,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Sikh",TS022,1,1
+22033,33,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Sinhalese",TS022,1,1
+22034,34,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Sri Lankan",TS022,1,1
+22035,35,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Taiwanese",TS022,1,1
+22036,36,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Tajikistani/Kazakhstani/Kyrgystani/Turkmenistani/Uzbekistani",TS022,1,1
+22037,37,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Tamil",TS022,1,1
+22038,38,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Thai",TS022,1,1
+22039,39,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Turkish",TS022,1,1
+22040,40,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Vietnamese",TS022,1,1
+22041,41,"Ethnic group (detailed): Asian, Asian British or Asian Welsh: Any other ethnic group",TS022,1,1
+22042,42,"Ethnic group (detailed): Black, Black British, Black Welsh of African background",TS022,1,1
+22043,43,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: African unspecified",TS022,1,1
+22044,44,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Angolan ",TS022,1,1
+22045,45,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Arab",TS022,1,1
+22046,46,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Black British",TS022,1,1
+22047,47,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Cameroonian",TS022,1,1
+22048,48,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Cote D'Ivoire",TS022,1,1
+22049,49,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Democratic Republic of the Congo",TS022,1,1
+22050,50,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: English/Welsh/Scottish/Northern Irish/British",TS022,1,1
+22051,51,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Eritrean",TS022,1,1
+22052,52,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Ethiopian",TS022,1,1
+22053,53,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Gambian",TS022,1,1
+22054,54,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Ghanaian",TS022,1,1
+22055,55,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Kenyan",TS022,1,1
+22056,56,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Malawian",TS022,1,1
+22057,57,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Mauritian/Seychellois/Maldivian/Sao Tomean/St Helenian",TS022,1,1
+22058,58,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Mixed Black",TS022,1,1
+22059,59,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Moroccan",TS022,1,1
+22060,60,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Nigerian",TS022,1,1
+22061,61,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Other Black, Black unspecified",TS022,1,1
+22062,62,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Other Mixed",TS022,1,1
+22063,63,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Other North African",TS022,1,1
+22064,64,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Portuguese",TS022,1,1
+22065,65,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Sierra Leone",TS022,1,1
+22066,66,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Somali",TS022,1,1
+22067,67,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Somalilander",TS022,1,1
+22068,68,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: South African",TS022,1,1
+22069,69,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Sudanese",TS022,1,1
+22070,70,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Tanzanian",TS022,1,1
+22071,71,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Ugandan",TS022,1,1
+22072,72,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Zambian",TS022,1,1
+22073,73,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Zimbabwean",TS022,1,1
+22074,74,"Ethnic group (detailed): Black, Black British, Black Welsh of African background: Any other ethnic group ",TS022,1,1
+22075,75,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background",TS022,1,1
+22076,76,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: African unspecified",TS022,1,1
+22077,77,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Black and European",TS022,1,1
+22078,78,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Black British",TS022,1,1
+22079,79,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Black/African American",TS022,1,1
+22080,80,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Caribbean",TS022,1,1
+22081,81,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: English/Welsh/Scottish/Northern Irish/British",TS022,1,1
+22082,82,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Ghanaian",TS022,1,1
+22083,83,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Mauritian/Seychellois/Maldivian/Sao Tomean/St Helenian",TS022,1,1
+22084,84,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Mixed Black",TS022,1,1
+22085,85,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Nigerian",TS022,1,1
+22086,86,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Other Black, Black unspecified",TS022,1,1
+22087,87,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Other Mixed",TS022,1,1
+22088,88,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Polynesian/Micronesian/Melanesian",TS022,1,1
+22089,89,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Somali",TS022,1,1
+22090,90,"Ethnic group (detailed): Black, Black British, Black Welsh or Caribbean background: Any other ethnic group",TS022,1,1
+22091,91,Ethnic group (detailed): Mixed or Multiple ethnic groups,TS022,1,1
+22092,92,Ethnic group (detailed): Mixed or Multiple ethnic groups: African unspecified,TS022,1,1
+22093,93,Ethnic group (detailed): Mixed or Multiple ethnic groups: African Asian,TS022,1,1
+22094,94,Ethnic group (detailed): Mixed or Multiple ethnic groups: African/Arab,TS022,1,1
+22095,95,Ethnic group (detailed): Mixed or Multiple ethnic groups: Anglo Indian,TS022,1,1
+22096,96,Ethnic group (detailed): Mixed or Multiple ethnic groups: Arab,TS022,1,1
+22097,97,Ethnic group (detailed): Mixed or Multiple ethnic groups: Asian (unspecified) and European,TS022,1,1
+22098,98,Ethnic group (detailed): Mixed or Multiple ethnic groups: Black and Asian,TS022,1,1
+22099,99,Ethnic group (detailed): Mixed or Multiple ethnic groups: Black and European,TS022,1,1
+22100,100,Ethnic group (detailed): Mixed or Multiple ethnic groups: Black and White (unspecified),TS022,1,1
+22101,101,Ethnic group (detailed): Mixed or Multiple ethnic groups: Black British,TS022,1,1
+22102,102,Ethnic group (detailed): Mixed or Multiple ethnic groups: Brazilian,TS022,1,1
+22103,103,Ethnic group (detailed): Mixed or Multiple ethnic groups: Caribbean,TS022,1,1
+22104,104,Ethnic group (detailed): Mixed or Multiple ethnic groups: Caribbean Asian,TS022,1,1
+22105,105,Ethnic group (detailed): Mixed or Multiple ethnic groups: Chinese,TS022,1,1
+22106,106,Ethnic group (detailed): Mixed or Multiple ethnic groups: Chinese and other Asian,TS022,1,1
+22107,107,Ethnic group (detailed): Mixed or Multiple ethnic groups: Chinese and White,TS022,1,1
+22108,108,Ethnic group (detailed): Mixed or Multiple ethnic groups: English,TS022,1,1
+22109,109,Ethnic group (detailed): Mixed or Multiple ethnic groups: English/Welsh/Scottish/Northern Irish/British,TS022,1,1
+22110,110,Ethnic group (detailed): Mixed or Multiple ethnic groups: European and Black African,TS022,1,1
+22111,111,Ethnic group (detailed): Mixed or Multiple ethnic groups: European and Black Caribbean,TS022,1,1
+22112,112,Ethnic group (detailed): Mixed or Multiple ethnic groups: European and North African or Middle Eastern,TS022,1,1
+22113,113,"Ethnic group (detailed): Mixed or Multiple ethnic groups: European Mixed, European unspecified, other European",TS022,1,1
+22114,114,Ethnic group (detailed): Mixed or Multiple ethnic groups: Greek Cypriot,TS022,1,1
+22115,115,Ethnic group (detailed): Mixed or Multiple ethnic groups: Hispanic or Latin American,TS022,1,1
+22116,116,Ethnic group (detailed): Mixed or Multiple ethnic groups: Indian or British Indian,TS022,1,1
+22117,117,Ethnic group (detailed): Mixed or Multiple ethnic groups: Iranian,TS022,1,1
+22118,118,Ethnic group (detailed): Mixed or Multiple ethnic groups: Italian,TS022,1,1
+22119,119,Ethnic group (detailed): Mixed or Multiple ethnic groups: Jewish,TS022,1,1
+22120,120,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mauritian/Seychellois/Maldivian/Sao Tomean/St Helenian,TS022,1,1
+22121,121,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mexican,TS022,1,1
+22122,122,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mixed Black,TS022,1,1
+22123,123,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mixed Irish,TS022,1,1
+22124,124,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mixed South Asian,TS022,1,1
+22125,125,Ethnic group (detailed): Mixed or Multiple ethnic groups: Mixed White,TS022,1,1
+22126,126,Ethnic group (detailed): Mixed or Multiple ethnic groups: Moroccan,TS022,1,1
+22127,127,"Ethnic group (detailed): Mixed or Multiple ethnic groups: Other Asian, Asian unspecified",TS022,1,1
+22128,128,Ethnic group (detailed): Mixed or Multiple ethnic groups: Other Middle East,TS022,1,1
+22129,129,Ethnic group (detailed): Mixed or Multiple ethnic groups: Other Mixed,TS022,1,1
+22130,130,"Ethnic group (detailed): Mixed or Multiple ethnic groups: Other White, White unspecified",TS022,1,1
+22131,131,Ethnic group (detailed): Mixed or Multiple ethnic groups: Pakistani or British Pakistani,TS022,1,1
+22132,132,Ethnic group (detailed): Mixed or Multiple ethnic groups: Polynesian/Micronesian/Melanesian,TS022,1,1
+22133,133,Ethnic group (detailed): Mixed or Multiple ethnic groups: Portuguese,TS022,1,1
+22134,134,Ethnic group (detailed): Mixed or Multiple ethnic groups: South African,TS022,1,1
+22135,135,Ethnic group (detailed): Mixed or Multiple ethnic groups: South American,TS022,1,1
+22136,136,Ethnic group (detailed): Mixed or Multiple ethnic groups: South Asian and European,TS022,1,1
+22137,137,Ethnic group (detailed): Mixed or Multiple ethnic groups: Spanish,TS022,1,1
+22138,138,Ethnic group (detailed): Mixed or Multiple ethnic groups: Turkish,TS022,1,1
+22139,139,Ethnic group (detailed): Mixed or Multiple ethnic groups: Turkish Cypriot,TS022,1,1
+22140,140,Ethnic group (detailed): Mixed or Multiple ethnic groups: White African,TS022,1,1
+22141,141,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and Arab,TS022,1,1
+22142,142,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and Asian (unspecified),TS022,1,1
+22143,143,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and Black African,TS022,1,1
+22144,144,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and Black Caribbean,TS022,1,1
+22145,145,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and East Asian,TS022,1,1
+22146,146,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and North African or Middle Eastern,TS022,1,1
+22147,147,Ethnic group (detailed): Mixed or Multiple ethnic groups: White and South Asian,TS022,1,1
+22148,148,Ethnic group (detailed): Mixed or Multiple ethnic groups: White Caribbean,TS022,1,1
+22149,149,Ethnic group (detailed): Mixed or Multiple ethnic groups: Any other ethnic group,TS022,1,1
+22150,150,Ethnic group (detailed): White,TS022,1,1
+22151,151,Ethnic group (detailed): White: African unspecified,TS022,1,1
+22152,152,Ethnic group (detailed): White: Albanian,TS022,1,1
+22153,153,Ethnic group (detailed): White: Algerian,TS022,1,1
+22154,154,Ethnic group (detailed): White: Arab,TS022,1,1
+22155,155,Ethnic group (detailed): White: Argentinian,TS022,1,1
+22156,156,Ethnic group (detailed): White: Armenian,TS022,1,1
+22157,157,Ethnic group (detailed): White: Australian/New Zealander,TS022,1,1
+22158,158,Ethnic group (detailed): White: Austrian,TS022,1,1
+22159,159,Ethnic group (detailed): White: Belarusian,TS022,1,1
+22160,160,Ethnic group (detailed): White: Belgian,TS022,1,1
+22161,161,Ethnic group (detailed): White: Bosnian,TS022,1,1
+22162,162,Ethnic group (detailed): White: Brazilian,TS022,1,1
+22163,163,Ethnic group (detailed): White: Bulgarian,TS022,1,1
+22164,164,Ethnic group (detailed): White: Colombian,TS022,1,1
+22165,165,Ethnic group (detailed): White: Cornish,TS022,1,1
+22166,166,Ethnic group (detailed): White: Croatian,TS022,1,1
+22167,167,Ethnic group (detailed): White: Cypriot (part not stated),TS022,1,1
+22168,168,Ethnic group (detailed): White: Czech,TS022,1,1
+22169,169,Ethnic group (detailed): White: Danish,TS022,1,1
+22170,170,Ethnic group (detailed): White: Dutch,TS022,1,1
+22171,171,"Ethnic group (detailed): White: English, Welsh, Scottish, Northern Irish or British",TS022,1,1
+22172,172,Ethnic group (detailed): White: Estonian,TS022,1,1
+22173,173,Ethnic group (detailed): White: European Mixed,TS022,1,1
+22174,174,Ethnic group (detailed): White: Finnish,TS022,1,1
+22175,175,Ethnic group (detailed): White: French,TS022,1,1
+22176,176,Ethnic group (detailed): White: Georgian,TS022,1,1
+22177,177,Ethnic group (detailed): White: German,TS022,1,1
+22178,178,Ethnic group (detailed): White: Greek,TS022,1,1
+22179,179,Ethnic group (detailed): White: Greek Cypriot,TS022,1,1
+22180,180,Ethnic group (detailed): White: Gypsy or Irish Traveller,TS022,1,1
+22181,181,Ethnic group (detailed): White: Hispanic or Latin American,TS022,1,1
+22182,182,Ethnic group (detailed): White: Hungarian,TS022,1,1
+22183,183,Ethnic group (detailed): White: Iranian,TS022,1,1
+22184,184,Ethnic group (detailed): White: Irish,TS022,1,1
+22185,185,Ethnic group (detailed): White: Israeli,TS022,1,1
+22186,186,Ethnic group (detailed): White: Italian,TS022,1,1
+22187,187,Ethnic group (detailed): White: Jewish,TS022,1,1
+22188,188,Ethnic group (detailed): White: Kosovan,TS022,1,1
+22189,189,Ethnic group (detailed): White: Kurdish,TS022,1,1
+22190,190,Ethnic group (detailed): White: Latvian,TS022,1,1
+22191,191,Ethnic group (detailed): White: Lithuanian,TS022,1,1
+22192,192,Ethnic group (detailed): White: Maltese,TS022,1,1
+22193,193,Ethnic group (detailed): White: Mixed Irish,TS022,1,1
+22194,194,Ethnic group (detailed): White: Mixed White,TS022,1,1
+22195,195,Ethnic group (detailed): White: Moldovan,TS022,1,1
+22196,196,Ethnic group (detailed): White: North American,TS022,1,1
+22197,197,Ethnic group (detailed): White: North Macedonian,TS022,1,1
+22198,198,Ethnic group (detailed): White: Norwegian,TS022,1,1
+22199,199,Ethnic group (detailed): White: Other Eastern European,TS022,1,1
+22200,200,Ethnic group (detailed): White: Other Middle East,TS022,1,1
+22201,201,Ethnic group (detailed): White: Other Mixed,TS022,1,1
+22202,202,Ethnic group (detailed): White: Other North African,TS022,1,1
+22203,203,Ethnic group (detailed): White: Other Traveller,TS022,1,1
+22204,204,"Ethnic group (detailed): White: Other White, White unspecified",TS022,1,1
+22205,205,Ethnic group (detailed): White: Polish,TS022,1,1
+22206,206,Ethnic group (detailed): White: Portuguese,TS022,1,1
+22207,207,Ethnic group (detailed): White: Roma,TS022,1,1
+22208,208,Ethnic group (detailed): White: Romanian,TS022,1,1
+22209,209,Ethnic group (detailed): White: Russian,TS022,1,1
+22210,210,Ethnic group (detailed): White: Serbian,TS022,1,1
+22211,211,Ethnic group (detailed): White: Slovakian,TS022,1,1
+22212,212,Ethnic group (detailed): White: Slovenian,TS022,1,1
+22213,213,Ethnic group (detailed): White: South African,TS022,1,1
+22214,214,Ethnic group (detailed): White: South American,TS022,1,1
+22215,215,Ethnic group (detailed): White: Spanish,TS022,1,1
+22216,216,Ethnic group (detailed): White: Swedish,TS022,1,1
+22217,217,Ethnic group (detailed): White: Swiss,TS022,1,1
+22218,218,Ethnic group (detailed): White: Turkish,TS022,1,1
+22219,219,Ethnic group (detailed): White: Turkish Cypriot,TS022,1,1
+22220,220,Ethnic group (detailed): White: Ukrainian,TS022,1,1
+22221,221,Ethnic group (detailed): White: White African,TS022,1,1
+22222,222,Ethnic group (detailed): White: White and North African or Middle Eastern,TS022,1,1
+22223,223,Ethnic group (detailed): White: White Caribbean,TS022,1,1
+22224,224,Ethnic group (detailed): White: Zimbabwean,TS022,1,1
+22225,225,Ethnic group (detailed): White: Any other ethnic group,TS022,1,1
+22226,226,Ethnic group (detailed): Other ethnic group,TS022,1,1
+22227,227,Ethnic group (detailed): Other ethnic group: Afghan,TS022,1,1
+22228,228,Ethnic group (detailed): Other ethnic group: African unspecified,TS022,1,1
+22229,229,Ethnic group (detailed): Other ethnic group: African Asian,TS022,1,1
+22230,230,Ethnic group (detailed): Other ethnic group: Albanian,TS022,1,1
+22231,231,Ethnic group (detailed): Other ethnic group: Algerian,TS022,1,1
+22232,232,Ethnic group (detailed): Other ethnic group: Arab,TS022,1,1
+22233,233,Ethnic group (detailed): Other ethnic group: Armenian,TS022,1,1
+22234,234,Ethnic group (detailed): Other ethnic group: Asian British,TS022,1,1
+22235,235,"Ethnic group (detailed): Other ethnic group: Bangladeshi, British Bangladeshi",TS022,1,1
+22236,236,Ethnic group (detailed): Other ethnic group: Black and Asian,TS022,1,1
+22237,237,Ethnic group (detailed): Other ethnic group: Brazilian,TS022,1,1
+22238,238,Ethnic group (detailed): Other ethnic group: Bulgarian,TS022,1,1
+22239,239,Ethnic group (detailed): Other ethnic group: Caribbean,TS022,1,1
+22240,240,Ethnic group (detailed): Other ethnic group: Caribbean Asian,TS022,1,1
+22241,241,Ethnic group (detailed): Other ethnic group: Chinese,TS022,1,1
+22242,242,Ethnic group (detailed): Other ethnic group: Colombian,TS022,1,1
+22243,243,Ethnic group (detailed): Other ethnic group: Cornish,TS022,1,1
+22244,244,Ethnic group (detailed): Other ethnic group: Cypriot (part not stated),TS022,1,1
+22245,245,Ethnic group (detailed): Other ethnic group: Czech,TS022,1,1
+22246,246,Ethnic group (detailed): Other ethnic group: East Asian/ East Asian unspecified,TS022,1,1
+22247,247,Ethnic group (detailed): Other ethnic group: English,TS022,1,1
+22248,248,Ethnic group (detailed): Other ethnic group: English/Welsh/Scottish/Northern Irish/British,TS022,1,1
+22249,249,"Ethnic group (detailed): Other ethnic group: European Mixed, European unspecified, other European",TS022,1,1
+22250,250,Ethnic group (detailed): Other ethnic group: Filipino,TS022,1,1
+22251,251,Ethnic group (detailed): Other ethnic group: Greek,TS022,1,1
+22252,252,Ethnic group (detailed): Other ethnic group: Greek Cypriot,TS022,1,1
+22253,253,Ethnic group (detailed): Other ethnic group: Gypsy/Romany,TS022,1,1
+22254,254,Ethnic group (detailed): Other ethnic group: Hispanic or Latin American,TS022,1,1
+22255,255,Ethnic group (detailed): Other ethnic group: Indian or British Indian,TS022,1,1
+22256,256,Ethnic group (detailed): Other ethnic group: Iranian,TS022,1,1
+22257,257,Ethnic group (detailed): Other ethnic group: Italian,TS022,1,1
+22258,258,Ethnic group (detailed): Other ethnic group: Japanese,TS022,1,1
+22259,259,Ethnic group (detailed): Other ethnic group: Jewish,TS022,1,1
+22260,260,Ethnic group (detailed): Other ethnic group: Kashmiri,TS022,1,1
+22261,261,Ethnic group (detailed): Other ethnic group: Kurdish,TS022,1,1
+22262,262,Ethnic group (detailed): Other ethnic group: Lithuanian,TS022,1,1
+22263,263,Ethnic group (detailed): Other ethnic group: Mauritian/Seychellois/Maldivian/Sao Tomean/St Helenian,TS022,1,1
+22264,264,Ethnic group (detailed): Other ethnic group: Mexican,TS022,1,1
+22265,265,Ethnic group (detailed): Other ethnic group: Moroccan,TS022,1,1
+22266,266,Ethnic group (detailed): Other ethnic group: Muslim,TS022,1,1
+22267,267,Ethnic group (detailed): Other ethnic group: Nepali (includes Gurkha),TS022,1,1
+22268,268,Ethnic group (detailed): Other ethnic group: North African,TS022,1,1
+22269,269,"Ethnic group (detailed): Other ethnic group: Other Asian, Asian unspecified",TS022,1,1
+22270,270,Ethnic group (detailed): Other ethnic group: Other Eastern European,TS022,1,1
+22271,271,Ethnic group (detailed): Other ethnic group: Other Middle East,TS022,1,1
+22272,272,Ethnic group (detailed): Other ethnic group: Other Mixed,TS022,1,1
+22273,273,"Ethnic group (detailed): Other ethnic group: Other White, White unspecified",TS022,1,1
+22274,274,Ethnic group (detailed): Other ethnic group: Pakistani or British Pakistani,TS022,1,1
+22275,275,Ethnic group (detailed): Other ethnic group: Polish,TS022,1,1
+22276,276,Ethnic group (detailed): Other ethnic group: Polynesia/Micronesia/Melanesia,TS022,1,1
+22277,277,Ethnic group (detailed): Other ethnic group: Portuguese,TS022,1,1
+22278,278,Ethnic group (detailed): Other ethnic group: Punjabi,TS022,1,1
+22279,279,Ethnic group (detailed): Other ethnic group: Roma,TS022,1,1
+22280,280,Ethnic group (detailed): Other ethnic group: Romanian,TS022,1,1
+22281,281,Ethnic group (detailed): Other ethnic group: Sikh,TS022,1,1
+22282,282,Ethnic group (detailed): Other ethnic group: Slovakian,TS022,1,1
+22283,283,Ethnic group (detailed): Other ethnic group: Somali,TS022,1,1
+22284,284,Ethnic group (detailed): Other ethnic group: Somalilander,TS022,1,1
+22285,285,Ethnic group (detailed): Other ethnic group: South American,TS022,1,1
+22286,286,Ethnic group (detailed): Other ethnic group: Spanish,TS022,1,1
+22287,287,Ethnic group (detailed): Other ethnic group: Sri Lankan,TS022,1,1
+22288,288,Ethnic group (detailed): Other ethnic group: Tamil,TS022,1,1
+22289,289,Ethnic group (detailed): Other ethnic group: Thai,TS022,1,1
+22290,290,Ethnic group (detailed): Other ethnic group: Turkish,TS022,1,1
+22291,291,Ethnic group (detailed): Other ethnic group: Turkish Cypriot,TS022,1,1
+22292,292,Ethnic group (detailed): Other ethnic group: Vietnamese,TS022,1,1
+22293,293,Ethnic group (detailed): Other ethnic group: White African,TS022,1,1
+22294,294,Ethnic group (detailed): Other ethnic group: Any other ethnic group,TS022,1,1
+23001,1,Multiple ethnic groups in household: Total: All households,TS023,0,0
+23002,2,Multiple ethnic groups in household: One-person household,TS023,1,1
+23003,3,Multiple ethnic groups in household: All household members have the same ethnic group,TS023,1,1
+23004,4,Multiple ethnic groups in household: Ethnic groups differ between generations but not within partnerships,TS023,1,1
+23005,5,Multiple ethnic groups in household: Ethnic groups differ within partnerships,TS023,1,1
+23006,6,Multiple ethnic groups in household: Any other combination of multiple ethnic identities,TS023,1,1
+27001,1,National identity: Total: All usual residents,TS027,0,0
+27002,2,National identity: British only identity,TS027,1,1
+27003,3,National identity: English only identity,TS027,1,1
+27004,4,National identity: English and British only identity,TS027,1,1
+27005,5,National identity: Welsh only identity,TS027,1,1
+27006,6,National identity: Welsh and British only identity,TS027,1,1
+27007,7,National identity: Any other combination of only UK identities,TS027,1,1
+27008,8,National identity: Scottish only identity,TS027,1,1
+27009,9,National identity: Scottish and British only identity,TS027,1,1
+27010,10,National identity: Northern Irish only identity,TS027,1,1
+27011,11,National identity: Northern Irish and British only identity,TS027,1,1
+27012,12,National identity: Cornish only identity,TS027,1,1
+27013,13,National identity: Cornish and British only identity,TS027,1,1
+27014,14,National identity: Any other combination of only UK identities,TS027,1,1
+27015,15,National identity: Irish only identity,TS027,1,1
+27016,16,National identity: Irish and at least one UK identity,TS027,1,1
+27017,17,National identity: Other identity only,TS027,1,1
+27018,18,National identity: Other identity and at least one UK identity,TS027,1,1
+27019,19,National identity: Non-UK identity only,TS027,1,1
+27020,20,National identity: UK identity and non-UK identity,TS027,1,1
+28001,1,National identity (detailed): Total: All usual residents,TS028,0,0
+28002,2,National identity (detailed): UK identity,TS028,1,1
+28003,3,National identity (detailed): UK identity: British only identity,TS028,2,1
+28004,4,National identity (detailed): UK identity: English only identity,TS028,2,1
+28005,5,National identity (detailed): UK identity: English and British only identity,TS028,2,1
+28006,6,National identity (detailed): UK identity:  Welsh only identity,TS028,2,1
+28007,7,National identity (detailed): UK identity: Welsh and British only identity,TS028,2,1
+28008,8,National identity (detailed): UK identity: Scottish only identity,TS028,2,1
+28009,9,National identity (detailed): UK identity:  Scottish and British only identity,TS028,2,1
+28010,10,National identity (detailed): UK identity: Northern Irish only identity,TS028,2,1
+28011,11,National identity (detailed): UK identity: Northern Irish and British only identity,TS028,2,1
+28012,12,National identity (detailed): UK identity: Cornish only identity,TS028,2,1
+28013,13,National identity (detailed): UK identity: Cornish and British only identity,TS028,2,1
+28014,14,National identity (detailed): UK identity: Any other combination of UK identities (UK only),TS028,2,1
+28015,15,National identity (detailed): UK identity: Other identity and at least one UK identity,TS028,2,1
+28016,16,National identity (detailed): Other identity only,TS028,1,1
+28017,17,National identity (detailed): Other identity only: Guernsey Islander,TS028,2,1
+28018,18,National identity (detailed): Other identity only: Jersey Islander,TS028,2,1
+28019,19,National identity (detailed): Other identity only: Isle of Man (Manx),TS028,2,1
+28020,20,National identity (detailed): Other identity only: Channel Islander not otherwise specified,TS028,2,1
+28021,21,National identity (detailed): Other identity only: Irish only identity,TS028,2,1
+28022,22,National identity (detailed): Other identity only: Irish and at least one UK identity,TS028,2,1
+28023,23,National identity (detailed): Other identity only: European,TS028,2,1
+28024,24,National identity (detailed): Other identity only: European: EU countries,TS028,3,1
+28025,25,National identity (detailed): Other identity only: European: EU countries: French,TS028,4,1
+28026,26,National identity (detailed): Other identity only: European: EU countries: German,TS028,4,1
+28027,27,National identity (detailed): Other identity only: European: EU countries: Italian,TS028,4,1
+28028,28,National identity (detailed): Other identity only: European: EU countries: Portuguese,TS028,4,1
+28029,29,National identity (detailed): Other identity only: European: EU countries: Spanish (including Canary Islander),TS028,4,1
+28030,30,National identity (detailed): Other identity only: European: EU countries: Other member countries in March 2001,TS028,4,1
+28031,31,National identity (detailed): Other identity only: European: EU countries:  Lithuanian,TS028,4,1
+28032,32,National identity (detailed): Other identity only: European: EU countries:  Polish,TS028,4,1
+28033,33,National identity (detailed): Other identity only: European: EU countries: Romanian,TS028,4,1
+28034,34,National identity (detailed): Other identity only: European: EU countries: Other member countries,TS028,4,1
+28035,35,National identity (detailed): Other identity only: European: Non-EU countries,TS028,3,1
+28036,36,National identity (detailed): Other identity only: European: Non-EU countries: Turkish,TS028,4,1
+28037,37,National identity (detailed): Other identity only: European: Non-EU countries: Other European,TS028,4,1
+28038,38,National identity (detailed): Other identity only: African,TS028,2,1
+28039,39,National identity (detailed): Other identity only: African: North African,TS028,3,1
+28040,40,National identity (detailed): Other identity only: African: Central and Western African,TS028,3,1
+28041,41,National identity (detailed): Other identity only: African: Central and Western African: Ghanaian,TS028,4,1
+28042,42,National identity (detailed): Other identity only: African: Central and Western African: Nigerian,TS028,4,1
+28043,43,National identity (detailed): Other identity only: African: Central and Western African: Other Central and Western African,TS028,4,1
+28044,44,National identity (detailed): Other identity only: African: South and Eastern African,TS028,3,1
+28045,45,National identity (detailed): Other identity only: African: South and Eastern African: Kenyan,TS028,4,1
+28046,46,National identity (detailed): Other identity only: African: South and Eastern African: Somali,TS028,4,1
+28047,47,National identity (detailed): Other identity only: African: South and Eastern African: South African,TS028,4,1
+28048,48,National identity (detailed): Other identity only: African: South and Eastern African: Zimbabwean,TS028,4,1
+28049,49,National identity (detailed): Other identity only: African: South and Eastern African: Other South and Eastern African,TS028,4,1
+28050,50,National identity (detailed): Other identity only: Middle Eastern and Asian,TS028,2,1
+28051,51,National identity (detailed): Other identity only: Middle Eastern and Asian: Middle Eastern,TS028,3,1
+28052,52,National identity (detailed): Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,TS028,4,1
+28053,53,National identity (detailed): Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,TS028,4,1
+28054,54,National identity (detailed): Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,TS028,4,1
+28055,55,National identity (detailed): Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,TS028,4,1
+28056,56,National identity (detailed): Other identity only: Middle Eastern and Asian: Eastern Asian,TS028,3,1
+28057,57,National identity (detailed): Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,TS028,4,1
+28058,58,National identity (detailed): Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,TS028,4,1
+28059,59,National identity (detailed): Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,TS028,4,1
+28060,60,National identity (detailed): Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,TS028,4,1
+28061,61,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian,TS028,3,1
+28062,62,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,TS028,4,1
+28063,63,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,TS028,4,1
+28064,64,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Indian,TS028,4,1
+28065,65,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,TS028,4,1
+28066,66,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,TS028,4,1
+28067,67,National identity (detailed): Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,TS028,4,1
+28068,68,National identity (detailed): Other identity only: Middle Eastern and Asian: South-East Asian,TS028,3,1
+28069,69,National identity (detailed): Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,TS028,4,1
+28070,70,National identity (detailed): Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,TS028,4,1
+28071,71,National identity (detailed): Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,TS028,4,1
+28072,72,National identity (detailed): Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,TS028,4,1
+28073,73,National identity (detailed): Other identity only: Middle Eastern and Asian: Central Asian,TS028,4,1
+28074,74,National identity (detailed): Other identity only: Middle Eastern and Asian: Asian not otherwise specified,TS028,4,1
+28075,75,National identity (detailed): Other identity only: American and Caribbean,TS028,2,1
+28076,76,National identity (detailed): Other identity only: American and Caribbean: North American,TS028,3,1
+28077,77,National identity (detailed): Other identity only: American and Caribbean: North American: Canadian,TS028,4,1
+28078,78,National identity (detailed): Other identity only: American and Caribbean: North American: US Citizen,TS028,4,1
+28079,79,National identity (detailed): Other identity only: American and Caribbean: North American: Other North American,TS028,4,1
+28080,80,National identity (detailed): Other identity only: American and Caribbean: Central American,TS028,3,1
+28081,81,National identity (detailed): Other identity only: American and Caribbean: South American,TS028,3,1
+28082,82,National identity (detailed): Other identity only: American and Caribbean: Caribbean,TS028,3,1
+28083,83,National identity (detailed): Other identity only: American and Caribbean: Caribbean: Jamaican,TS028,4,1
+28084,84,National identity (detailed): Other identity only: American and Caribbean: Caribbean: Other Caribbean,TS028,4,1
+28085,85,National identity (detailed): Other identity only: Antarctican and Oceanian,TS028,2,1
+28086,86,National identity (detailed): Other identity only: Antarctican and Oceanian: Australasian,TS028,3,1
+28087,87,National identity (detailed): Other identity only: Antarctican and Oceanian: Australasian: Australian,TS028,4,1
+28088,88,National identity (detailed): Other identity only: Antarctican and Oceanian: Australasian: New Zealander,TS028,4,1
+28089,89,National identity (detailed): Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,TS028,4,1
+28090,90,National identity (detailed): Other identity only: Antarctican and Oceanian: Other Oceanian,TS028,3,1
+28091,91,National identity (detailed): Other identity only: Other,TS028,2,1
+24001,1,Main language (detailed): Total: All usual residents aged 3 years and over,TS024,0,1
+24002,2,Main language (detailed): English (English or Welsh in Wales),TS024,1,1
+24003,3,Main language (detailed): Welsh or Cymraeg (in England only),TS024,1,1
+24004,4,Main language (detailed): Other UK language,TS024,1,1
+24005,5,Main language (detailed): Other UK language: Gaelic (Irish),TS024,2,1
+24006,6,Main language (detailed): Other UK language: Gaelic (Scottish),TS024,2,1
+24007,7,Main language (detailed): Other UK language: Manx Gaelic,TS024,2,1
+24008,8,Main language (detailed): Other UK language: Gaelic (Not otherwise specified),TS024,2,1
+24009,9,Main language (detailed): Other UK language: Cornish,TS024,2,1
+24010,10,Main language (detailed): Other UK language: Scots,TS024,2,1
+24011,11,Main language (detailed): Other UK language: Ulster Scots,TS024,2,1
+24012,12,Main language (detailed): Other UK language: Romany English,TS024,2,1
+24013,13,Main language (detailed): Other UK language: Irish Traveller Cant,TS024,2,1
+24014,14,Main language (detailed): French,TS024,1,1
+24015,15,Main language (detailed): Portuguese,TS024,1,1
+24016,16,Main language (detailed): Spanish,TS024,1,1
+24017,17,Main language (detailed): Other European language (EU),TS024,1,1
+24018,18,Main language (detailed): Other European language (EU): Italian,TS024,2,1
+24019,19,Main language (detailed): Other European language (EU): German,TS024,2,1
+24020,20,Main language (detailed): Other European language (EU): Polish,TS024,2,1
+24021,21,Main language (detailed): Other European language (EU): Slovak,TS024,2,1
+24022,22,Main language (detailed): Other European language (EU): Czech,TS024,2,1
+24023,23,Main language (detailed): Other European language (EU): Romanian,TS024,2,1
+24024,24,Main language (detailed): Other European language (EU): Lithuanian,TS024,2,1
+24025,25,Main language (detailed): Other European language (EU): Latvian,TS024,2,1
+24026,26,Main language (detailed): Other European language (EU): Hungarian,TS024,2,1
+24027,27,Main language (detailed): Other European language (EU): Bulgarian,TS024,2,1
+24028,28,Main language (detailed): Other European language (EU): Greek,TS024,2,1
+24029,29,Main language (detailed): Other European language (EU): Dutch,TS024,2,1
+24030,30,Main language (detailed): Other European language (EU): Swedish,TS024,2,1
+24031,31,Main language (detailed): Other European language (EU): Danish,TS024,2,1
+24032,32,Main language (detailed): Other European language (EU): Finnish,TS024,2,1
+24033,33,Main language (detailed): Other European language (EU): Estonian,TS024,2,1
+24034,34,Main language (detailed): Other European language (EU): Slovenian,TS024,2,1
+24035,35,Main language (detailed): Other European language (EU): Maltese,TS024,2,1
+24036,36,Main language (detailed): Other European language (EU): Any other European language (EU),TS024,2,1
+24037,37,Main language (detailed): Other European language (non EU),TS024,1,1
+24038,38,Main language (detailed): Other European language (non EU): Albanian,TS024,2,1
+24039,39,Main language (detailed): Other European language (non EU): Ukrainian,TS024,2,1
+24040,40,Main language (detailed): Other European language (non EU): Any other Eastern European language (non EU),TS024,2,1
+24041,41,Main language (detailed): Other European language (non EU): Northern European language (non EU),TS024,2,1
+24042,42,Main language (detailed): Other European language (EU and non-EU),TS024,1,1
+24043,43,"Main language (detailed): Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",TS024,1,1
+24044,44,Main language (detailed): Other European language (non-national),TS024,1,1
+24045,45,Main language (detailed): Other European language (non-national): Any Romani language,TS024,2,1
+24046,46,Main language (detailed): Other European language (non-national): Yiddish,TS024,2,1
+24047,47,Main language (detailed): Russian,TS024,1,1
+24048,48,Main language (detailed): Turkish,TS024,1,1
+24049,49,Main language (detailed): Arabic,TS024,1,1
+24050,50,Main language (detailed): West or Central Asian language,TS024,1,1
+24051,51,Main language (detailed): West or Central Asian language: Hebrew,TS024,2,1
+24052,52,Main language (detailed): West or Central Asian language: Kurdish,TS024,2,1
+24053,53,Main language (detailed): West or Central Asian language: Persian or Farsi,TS024,2,1
+24054,54,Main language (detailed): West or Central Asian language: Pashto,TS024,2,1
+24055,55,Main language (detailed): West or Central Asian language: Any other West or Central Asian language,TS024,2,1
+24056,56,Main language (detailed): South Asian language,TS024,1,1
+24057,57,Main language (detailed): South Asian language: Urdu,TS024,2,1
+24058,58,Main language (detailed): South Asian language: Hindi,TS024,2,1
+24059,59,Main language (detailed): South Asian language: Panjabi,TS024,2,1
+24060,60,Main language (detailed): South Asian language: Pakistani Pahari (with Mirpuri and Potwari),TS024,2,1
+24061,61,Main language (detailed): South Asian language: Bengali (with Sylheti and Chatgaya),TS024,2,1
+24062,62,Main language (detailed): South Asian language: Gujarati,TS024,2,1
+24063,63,Main language (detailed): South Asian language: Marathi,TS024,2,1
+24064,64,Main language (detailed): South Asian language: Telugu,TS024,2,1
+24065,65,Main language (detailed): South Asian language: Tamil,TS024,2,1
+24066,66,Main language (detailed): South Asian language: Malayalam,TS024,2,1
+24067,67,Main language (detailed): South Asian language: Sinhala,TS024,2,1
+24068,68,Main language (detailed): South Asian language: Nepalese,TS024,2,1
+24069,69,Main language (detailed): South Asian language: Any other South Asian language,TS024,2,1
+24070,70,Main language (detailed): East Asian language,TS024,1,1
+24071,71,Main language (detailed): East Asian language: Mandarin Chinese,TS024,2,1
+24072,72,Main language (detailed): East Asian language: Cantonese Chinese,TS024,2,1
+24073,73,Main language (detailed): East Asian language: All other Chinese,TS024,2,1
+24074,74,Main language (detailed): East Asian language: Japanese,TS024,2,1
+24075,75,Main language (detailed): East Asian language: Korean,TS024,2,1
+24076,76,Main language (detailed): East Asian language: Vietnamese,TS024,2,1
+24077,77,Main language (detailed): East Asian language: Thai,TS024,2,1
+24078,78,Main language (detailed): East Asian language: Malay,TS024,2,1
+24079,79,Main language (detailed): East Asian language: Tagalog or Filipino,TS024,2,1
+24080,80,Main language (detailed): East Asian language: Any other East Asian language,TS024,2,1
+24081,81,Main language (detailed): Oceanic or Australian language,TS024,1,1
+24082,82,Main language (detailed): North or South American language,TS024,1,1
+24083,83,Main language (detailed): Caribbean Creole,TS024,1,1
+24084,84,Main language (detailed): Caribbean Creole: English-based Caribbean Creole,TS024,2,1
+24085,85,Main language (detailed): Caribbean Creole: Any other Caribbean Creole,TS024,2,1
+24086,86,Main language (detailed): African language,TS024,1,1
+24087,87,Main language (detailed): African language: Amharic,TS024,2,1
+24088,88,Main language (detailed): African language: Tigrinya,TS024,2,1
+24089,89,Main language (detailed): African language: Somali,TS024,2,1
+24090,90,Main language (detailed): African language: Krio,TS024,2,1
+24091,91,Main language (detailed): African language: Akan,TS024,2,1
+24092,92,Main language (detailed): African language: Yoruba,TS024,2,1
+24093,93,Main language (detailed): African language: Igbo,TS024,2,1
+24094,94,Main language (detailed): African language: Swahili or Kiswahili,TS024,2,1
+24095,95,Main language (detailed): African language: Luganda,TS024,2,1
+24096,96,Main language (detailed): African language: Lingala,TS024,2,1
+24097,97,Main language (detailed): African language: Shona,TS024,2,1
+24098,98,Main language (detailed): African language: Afrikaans,TS024,2,1
+24099,99,Main language (detailed): African language: Any other Nigerian language,TS024,2,1
+24100,100,Main language (detailed): African language: Any other West African language,TS024,2,1
+24101,101,Main language (detailed): African language: Any other African language,TS024,2,1
+24102,102,Main language (detailed): Sign language,TS024,1,1
+24103,103,Main language (detailed): Sign language: British Sign Language,TS024,2,1
+24104,104,Main language (detailed): Sign language: Any other sign language,TS024,2,1
+24105,105,Main language (detailed): Sign language: Any sign communication system,TS024,2,1
+24106,106,Main language (detailed): Other language,TS024,1,1
+25001,1,Household language (English and Welsh): Total: All households,TS025,0,0
+25002,2,"Household language (English and Welsh): All adults in household have English in England, or English or Welsh in Wales as a main language",TS025,1,1
+25003,3,"Household language (English and Welsh): At least one but not all adults in household have English in England, or English or Welsh in Wales as a main language",TS025,1,1
+25004,4,"Household language (English and Welsh): No adults in household, but at least one person aged 3 to 15 years, has English in England or English or Welsh in Wales as a main language",TS025,1,1
+25005,5,"Household language (English and Welsh): No people in household have English in England, or English or Welsh in Wales as a main language",TS025,1,1
+29001,1,Proficiency in English language: Total: All usual residents aged 3 years and over,TS029,0,0
+29002,2,Proficiency in English language: Main language is English (English or Welsh in Wales),TS029,1,1
+29003,3,Proficiency in English language: Main language is not English (English or Welsh in Wales),TS029,1,1
+29004,4,Proficiency in English language: Main language is not English (English or Welsh in Wales): Can speak English very well,TS029,2,1
+29005,5,Proficiency in English language: Main language is not English (English or Welsh in Wales): Can speak English well,TS029,2,1
+29006,6,Proficiency in English language: Main language is not English (English or Welsh in Wales): Cannot speak English well,TS029,2,1
+29007,7,Proficiency in English language: Main language is not English (English or Welsh in Wales): Cannot speak English,TS029,2,1
+26001,1,Multiple main languages in household: Total: All households,TS026,0,0
+26002,2,Multiple main languages in household: One-person household,TS026,1,1
+26003,3,Multiple main languages in household: All household members have the same main language,TS026,1,1
+26004,4,"Multiple main languages in household: Main language differs between generations, but not within partnerships",TS026,1,1
+26005,5,Multiple main languages in household: Main language differs within partnerships,TS026,1,1
+26006,6,Multiple main languages in household: Any other combination of multiple main languages,TS026,1,1
+30001,1,Religion: Total: All usual residents,TS030,0,0
+30002,2,Religion: No religion,TS030,1,1
+30003,3,Religion: Christian,TS030,1,1
+30004,4,Religion: Buddhist,TS030,1,1
+30005,5,Religion: Hindu,TS030,1,1
+30006,6,Religion: Jewish,TS030,1,1
+30007,7,Religion: Muslim,TS030,1,1
+30008,8,Religion: Sikh,TS030,1,1
+30009,9,Religion: Other religion,TS030,1,1
+30010,10,Religion: Not answered,TS030,1,1
+31001,1,Religion (detailed): Total: All Usual Residents,TS031,0,0
+31002,2,Religion (detailed): Christian,TS031,1,1
+31003,3,Religion (detailed): Buddhist,TS031,1,1
+31004,4,Religion (detailed): Hindu,TS031,1,1
+31005,5,Religion (detailed): Jewish,TS031,1,1
+31006,6,Religion (detailed): Muslim,TS031,1,1
+31007,7,Religion (detailed): Sikh,TS031,1,1
+31008,8,Religion (detailed): No religion,TS031,1,1
+31009,9,Religion (detailed): No religion: Agnostic,TS031,2,1
+31010,10,Religion (detailed): No religion: Atheist,TS031,2,1
+31011,11,Religion (detailed): No religion: Free Thinker,TS031,2,1
+31012,12,Religion (detailed): No religion: Humanist,TS031,2,1
+31013,13,Religion (detailed): No religion: No religion,TS031,2,1
+31014,14,Religion (detailed): No religion: Realist,TS031,2,1
+31015,15,Religion (detailed): Other religion,TS031,1,1
+31016,16,Religion (detailed): Other religion: Alevi,TS031,2,1
+31017,17,Religion (detailed): Other religion: Animism,TS031,2,1
+31018,18,Religion (detailed): Other religion: Baha'i,TS031,2,1
+31019,19,Religion (detailed): Other religion: Believe in God,TS031,2,1
+31020,20,Religion (detailed): Other religion: Brahma Kumari,TS031,2,1
+31021,21,Religion (detailed): Other religion: Chinese Religion,TS031,2,1
+31022,22,Religion (detailed): Other religion: Church of All Religion,TS031,2,1
+31023,23,Religion (detailed): Other religion: Confucianist,TS031,2,1
+31024,24,Religion (detailed): Other religion: Deist,TS031,2,1
+31025,25,Religion (detailed): Other religion: Druid,TS031,2,1
+31026,26,Religion (detailed): Other religion: Druze,TS031,2,1
+31027,27,Religion (detailed): Other religion: Eckankar,TS031,2,1
+31028,28,Religion (detailed): Other religion: Heathen,TS031,2,1
+31029,29,Religion (detailed): Other religion: Jain,TS031,2,1
+31030,30,Religion (detailed): Other religion: Mixed Religion,TS031,2,1
+31031,31,Religion (detailed): Other religion: Mysticism,TS031,2,1
+31032,32,Religion (detailed): Other religion: Native American Church,TS031,2,1
+31033,33,Religion (detailed): Other religion: New Age,TS031,2,1
+31034,34,Religion (detailed): Other religion: Occult,TS031,2,1
+31035,35,Religion (detailed): Other religion: Other religions,TS031,2,1
+31036,36,Religion (detailed): Other religion: Own Belief System,TS031,2,1
+31037,37,Religion (detailed): Other religion: Pagan,TS031,2,1
+31038,38,Religion (detailed): Other religion: Pantheism,TS031,2,1
+31039,39,Religion (detailed): Other religion: Rastafarian,TS031,2,1
+31040,40,Religion (detailed): Other religion: Ravidassia,TS031,2,1
+31041,41,Religion (detailed): Other religion: Reconstructionist,TS031,2,1
+31042,42,Religion (detailed): Other religion: Satanism,TS031,2,1
+31043,43,Religion (detailed): Other religion: Scientology,TS031,2,1
+31044,44,Religion (detailed): Other religion: Shamanism,TS031,2,1
+31045,45,Religion (detailed): Other religion: Shintoism,TS031,2,1
+31046,46,Religion (detailed): Other religion: Spiritual,TS031,2,1
+31047,47,Religion (detailed): Other religion: Spiritualist,TS031,2,1
+31048,48,Religion (detailed): Other religion: Taoist,TS031,2,1
+31049,49,Religion (detailed): Other religion: Theism,TS031,2,1
+31050,50,Religion (detailed): Other religion: Thelemite,TS031,2,1
+31051,51,Religion (detailed): Other religion: Traditional African Religion,TS031,2,1
+31052,52,Religion (detailed): Other religion: Unification Church,TS031,2,1
+31053,53,Religion (detailed): Other religion: Universalist,TS031,2,1
+31054,54,Religion (detailed): Other religion: Valmiki,TS031,2,1
+31055,55,Religion (detailed): Other religion: Vodun,TS031,2,1
+31056,56,Religion (detailed): Other religion: Wicca,TS031,2,1
+31057,57,Religion (detailed): Other religion: Witchcraft,TS031,2,1
+31058,58,Religion (detailed): Other religion: Yazidi,TS031,2,1
+31059,59,Religion (detailed): Other religion: Zoroastrian,TS031,2,1
+31060,60,Religion (detailed): Religion not stated,TS031,1,1
+75001,1,Multi religion household: Total,TS075,0,0
+75002,2,Multi religion household: One-person household,TS075,1,1
+75003,3,Multi religion household: Multi-person household: No people stated their religion,TS075,1,1
+75004,4,Multi religion household: Multi-person household: Same religion (at least one person has stated a religion but the household may include people who did not state their religion),TS075,1,1
+75005,5,Multi religion household: Multi-person household: No religion (household may include people who did not state their religion),TS075,1,1
+75006,6,Multi religion household: Multi-person household: Same religion and no religion (household may include people who did not state their religion),TS075,1,1
+75007,7,Multi religion household: Multi-person household: At least two different religions stated (household may include people with no religion and who did not state their religion),TS075,1,1
+66001,1,Economic activity status: Total: All usual residents aged 16 years and over,TS066,0,1
+66002,2,Economic activity status: Economically active (excluding full-time students),TS066,1,1
+66003,3,Economic activity status: Economically active (excluding full-time students):In employment,TS066,2,1
+66004,4,Economic activity status: Economically active (excluding full-time students):In employment:Employee,TS066,3,1
+66005,5,Economic activity status: Economically active (excluding full-time students): In employment: Employee: Part-time,TS066,4,1
+66006,6,Economic activity status: Economically active (excluding full-time students): In employment: Employee: Full-time,TS066,4,1
+66007,7,Economic activity status: Economically active (excluding full-time students):In employment:Self-employed with employees,TS066,3,1
+66008,8,Economic activity status: Economically active (excluding full-time students): In employment: Self-employed with employees: Part-time,TS066,4,1
+66009,9,Economic activity status: Economically active (excluding full-time students): In employment: Self-employed with employees: Full-time,TS066,4,1
+66010,10,Economic activity status: Economically active (excluding full-time students):In employment:Self-employed without employees,TS066,3,1
+66011,11,Economic activity status: Economically active (excluding full-time students): In employment: Self-employed without employees: Part-time,TS066,4,1
+66012,12,Economic activity status: Economically active (excluding full-time students): In employment: Self-employed without employees: Full-time,TS066,4,1
+66013,13,Economic activity status: Economically active (excluding full-time students): Unemployed,TS066,3,1
+66014,14,Economic activity status: Economically active and a full-time student,TS066,1,1
+66015,15,Economic activity status: Economically active and a full-time student:In employment,TS066,2,1
+66016,16,Economic activity status: Economically active and a full-time student:In employment:Employee,TS066,3,1
+66017,17,Economic activity status: Economically active and a full-time student: In employment: Employee: Part-time,TS066,4,1
+66018,18,Economic activity status: Economically active and a full-time student: In employment: Employee: Full-time,TS066,4,1
+66019,19,Economic activity status: Economically active and a full-time student:In employment:Self-employed with employees,TS066,3,1
+66020,20,Economic activity status: Economically active and a full-time student: In employment: Self-employed with employees: Part-time,TS066,4,1
+66021,21,Economic activity status: Economically active and a full-time student: In employment: Self-employed with employees: Full-time,TS066,4,1
+66022,22,Economic activity status: Economically active and a full-time student:In employment:Self-employed without employees,TS066,3,1
+66023,23,Economic activity status: Economically active and a full-time student: In employment: Self-employed without employees: Part-time,TS066,4,1
+66024,24,Economic activity status: Economically active and a full-time student: In employment: Self-employed without employees: Full-time,TS066,4,1
+66025,25,Economic activity status: Economically active and a full-time student: Unemployed,TS066,3,1
+66026,26,Economic activity status: Economically inactive,TS066,1,1
+66027,27,Economic activity status: Economically inactive: Retired,TS066,2,1
+66028,28,Economic activity status: Economically inactive: Student,TS066,2,1
+66029,29,Economic activity status: Economically inactive: Looking after home or family,TS066,2,1
+66030,30,Economic activity status: Economically inactive: Long-term sick or disabled,TS066,2,1
+66031,31,Economic activity status: Economically inactive: Other,TS066,2,1
+63001,1,Occupation (current): Total: All usual residents aged 16 years and over in employment the week before the census,TS063,0,1
+63002,2,"Occupation (current): 1. Managers, directors and senior officials",TS063,1,1
+63003,3,Occupation (current): 2. Professional occupations,TS063,1,1
+63004,4,Occupation (current): 3. Associate professional and technical occupations,TS063,1,1
+63005,5,Occupation (current): 4. Administrative and secretarial occupations,TS063,1,1
+63006,6,Occupation (current): 5. Skilled trades occupations,TS063,1,1
+63007,7,"Occupation (current): 6. Caring, leisure and other service occupations",TS063,1,1
+63008,8,Occupation (current): 7. Sales and customer service occupations,TS063,1,1
+63009,9,"Occupation (current): 8. Process, plant and machine operatives",TS063,1,1
+63010,10,Occupation (current): 9. Elementary occupations,TS063,1,1
+64001,1,Occupation (current): Total: All usual residents aged 16 years and over in employment the week before the census,TS064,0,0
+64002,2,Occupation (current): 111 Chief Executives and Senior Officials,TS064,1,1
+64003,3,Occupation (current): 112 Production Managers and Directors,TS064,1,1
+64004,4,Occupation (current): 113 Functional Managers and Directors,TS064,1,1
+64005,5,"Occupation (current): 114 Directors in Logistics, Warehousing and Transport",TS064,1,1
+64006,6,Occupation (current): 115 Managers and Directors in Retail and Wholesale,TS064,1,1
+64007,7,Occupation (current): 116 Senior Officers in Protective Services,TS064,1,1
+64008,8,Occupation (current): 117 Health and Social Services Managers and Directors,TS064,1,1
+64009,9,Occupation (current): 121 Managers and Proprietors in Agriculture Related Services,TS064,1,1
+64010,10,Occupation (current): 122 Managers and Proprietors in Hospitality and Leisure Services,TS064,1,1
+64011,11,Occupation (current): 123 Managers and Proprietors in Health and Care Services,TS064,1,1
+64012,12,"Occupation (current): 124 Managers in Logistics, Warehousing and Transport",TS064,1,1
+64013,13,Occupation (current): 125 Managers and Proprietors in Other Services,TS064,1,1
+64014,14,Occupation (current): 211 Natural and Social Science Professionals,TS064,1,1
+64015,15,Occupation (current): 212 Engineering Professionals,TS064,1,1
+64016,16,Occupation (current): 213 Information Technology Professionals,TS064,1,1
+64017,17,Occupation (current): 214 Web and Multimedia Design Professionals,TS064,1,1
+64018,18,Occupation (current): 215 Conservation and Environment Professionals,TS064,1,1
+64019,19,Occupation (current): 216 Research and Development (R&D) and Other Research Professionals,TS064,1,1
+64020,20,Occupation (current): 221 Medical Practitioners,TS064,1,1
+64021,21,Occupation (current): 222 Therapy Professionals,TS064,1,1
+64022,22,Occupation (current): 223 Nursing and Midwifery Professionals,TS064,1,1
+64023,23,Occupation (current): 224 Veterinarians,TS064,1,1
+64024,24,Occupation (current): 225 Other Health Professionals,TS064,1,1
+64025,25,Occupation (current): 231 Teaching and other Educational Professionals,TS064,1,1
+64026,26,Occupation (current): 232 Other Educational Professionals,TS064,1,1
+64027,27,Occupation (current): 241 Legal Professionals,TS064,1,1
+64028,28,Occupation (current): 242 Finance Professionals,TS064,1,1
+64029,29,"Occupation (current): 243 Business, Research and Administrative Professionals",TS064,1,1
+64030,30,Occupation (current): 244 Business and Financial Project Management Professionals,TS064,1,1
+64031,31,"Occupation (current): 245 Architects, Chartered Architectural Technologists, Planning Officers, Surveyors and Construction Professionals",TS064,1,1
+64032,32,Occupation (current): 246 Welfare Professionals,TS064,1,1
+64033,33,Occupation (current): 247 Librarians and Related Professionals,TS064,1,1
+64034,34,Occupation (current): 248 Quality and Regulatory Professionals,TS064,1,1
+64035,35,Occupation (current): 249 Media Professionals,TS064,1,1
+64036,36,"Occupation (current): 311 Science, Engineering and Production Technicians",TS064,1,1
+64037,37,"Occupation (current): 312 CAD, Drawing and Architectural Technicians",TS064,1,1
+64038,38,Occupation (current): 313 Information Technology Technicians,TS064,1,1
+64039,39,Occupation (current): 321 Health Associate Professionals,TS064,1,1
+64040,40,Occupation (current): 322 Welfare and Housing Associate Professionals,TS064,1,1
+64041,41,Occupation (current): 323 Teaching and Childcare Associate Professionals,TS064,1,1
+64042,42,Occupation (current): 324 Veterinary nurses,TS064,1,1
+64043,43,Occupation (current): 331 Protective Service Occupations,TS064,1,1
+64044,44,"Occupation (current): 341 Artistic, Literary and Media Occupations",TS064,1,1
+64045,45,Occupation (current): 342 Design Occupations,TS064,1,1
+64046,46,Occupation (current): 343 Sports and Fitness Occupations,TS064,1,1
+64047,47,Occupation (current): 351 Transport Associate Professionals,TS064,1,1
+64048,48,Occupation (current): 352 Legal Associate Professionals,TS064,1,1
+64049,49,Occupation (current): 353 Finance Associate Professionals,TS064,1,1
+64050,50,Occupation (current): 354 Business Associate Professionals,TS064,1,1
+64051,51,"Occupation (current): 355 Sales, Marketing and Related Associate Professionals",TS064,1,1
+64052,52,Occupation (current): 356 Public Services Associate Professionals,TS064,1,1
+64053,53,"Occupation (current): 357 HR, Training and Other Vocational Associate Guidance Professionals",TS064,1,1
+64054,54,Occupation (current): 358 Regulatory Associate Professionals,TS064,1,1
+64055,55,Occupation (current): 411 Administrative Occupations: Government and Related Organisations,TS064,1,1
+64056,56,Occupation (current): 412 Administrative Occupations: Finance,TS064,1,1
+64057,57,Occupation (current): 413 Administrative Occupations: Records,TS064,1,1
+64058,58,Occupation (current): 414 Administrative Occupations: Office Managers and Supervisors,TS064,1,1
+64059,59,Occupation (current): 415 Other Administrative Occupations,TS064,1,1
+64060,60,Occupation (current): 421 Secretarial and Related Occupations,TS064,1,1
+64061,61,Occupation (current): 511 Agricultural and Related Trades,TS064,1,1
+64062,62,"Occupation (current): 521 Metal Forming, Welding and Related Trades",TS064,1,1
+64063,63,"Occupation (current): 522 Metal Machining, Fitting and Instrument Making Trades",TS064,1,1
+64064,64,Occupation (current): 523 Vehicle Trades,TS064,1,1
+64065,65,Occupation (current): 524 Electrical and Electronic Trades,TS064,1,1
+64066,66,"Occupation (current): 525 Skilled Metal, Electrical and Electronic Trades Supervisors",TS064,1,1
+64067,67,Occupation (current): 531 Construction and Building Trades,TS064,1,1
+64068,68,Occupation (current): 532 Building Finishing Trades,TS064,1,1
+64069,69,Occupation (current): 533 Construction and Building Trades Supervisors,TS064,1,1
+64070,70,Occupation (current): 541 Textiles and Garments Trades,TS064,1,1
+64071,71,Occupation (current): 542 Printing Trades,TS064,1,1
+64072,72,Occupation (current): 543 Food Preparation and Hospitality Trades,TS064,1,1
+64073,73,Occupation (current): 544 Other Skilled Trades,TS064,1,1
+64074,74,Occupation (current): 611 Teaching and Childcare Support Occupations,TS064,1,1
+64075,75,Occupation (current): 612 Animal Care and Control Services,TS064,1,1
+64076,76,Occupation (current): 613 Caring Personal Services,TS064,1,1
+64077,77,Occupation (current): 621 Leisure and Travel Services,TS064,1,1
+64078,78,Occupation (current): 622 Hairdressers and Related Services,TS064,1,1
+64079,79,Occupation (current): 623 Housekeeping and Related Services,TS064,1,1
+64080,80,Occupation (current): 624 Cleaning and Housekeeping Managers and Supervisors,TS064,1,1
+64081,81,Occupation (current): 625 Bed and Breakfast and Guest House Owners and Proprietors,TS064,1,1
+64082,82,Occupation (current): 631 Community and Civil Enforcement Occupations,TS064,1,1
+64083,83,Occupation (current): 711 Sales Assistants and Retail Cashiers,TS064,1,1
+64084,84,Occupation (current): 712 Sales Related Occupations,TS064,1,1
+64085,85,Occupation (current): 713 Shopkeepers and Sales Supervisors,TS064,1,1
+64086,86,Occupation (current): 721 Customer Service Occupations,TS064,1,1
+64087,87,Occupation (current): 722 Customer Service Supervisors,TS064,1,1
+64088,88,Occupation (current): 811 Process Operatives,TS064,1,1
+64089,89,Occupation (current): 812 Metal Working Machine Operatives,TS064,1,1
+64090,90,Occupation (current): 813 Plant and Machine Operatives,TS064,1,1
+64091,91,Occupation (current): 814 Assemblers and Routine Operatives,TS064,1,1
+64092,92,Occupation (current): 815 Construction Operatives,TS064,1,1
+64093,93,"Occupation (current): 816 Production, Factory and Assembly Supervisors",TS064,1,1
+64094,94,Occupation (current): 821 Road Transport Drivers,TS064,1,1
+64095,95,Occupation (current): 822 Mobile Machine Drivers and Operatives,TS064,1,1
+64096,96,Occupation (current): 823 Other Drivers and Transport Operatives,TS064,1,1
+64097,97,Occupation (current): 911 Elementary Agricultural Occupations,TS064,1,1
+64098,98,Occupation (current): 912 Elementary Construction Occupations,TS064,1,1
+64099,99,Occupation (current): 913 Elementary Process Plant Occupations,TS064,1,1
+64100,100,Occupation (current): 921 Elementary Administration Occupations,TS064,1,1
+64101,101,Occupation (current): 922 Elementary Cleaning Occupations,TS064,1,1
+64102,102,Occupation (current): 923 Elementary Security Occupations,TS064,1,1
+64103,103,Occupation (current): 924 Elementary Sales Occupations,TS064,1,1
+64104,104,Occupation (current): 925 Elementary Storage Occupations,TS064,1,1
+64105,105,Occupation (current): 926 Other Elementary Services Occupations,TS064,1,1
+62001,1,National Statistics Socio-economic Classification (NS-SEC): Total: All usual residents aged 16 years and over,TS062,0,0
+62002,2,"National Statistics Socio-economic Classification (NS-SEC): L1, L2 and L3 Higher managerial, administrative and professional occupations",TS062,1,1
+62003,3,"National Statistics Socio-economic Classification (NS-SEC): L4, L5 and L6 Lower managerial, administrative and professional occupations",TS062,1,1
+62004,4,National Statistics Socio-economic Classification (NS-SEC): L7 Intermediate occupations,TS062,1,1
+62005,5,National Statistics Socio-economic Classification (NS-SEC): L8 and L9 Small employers and own account workers,TS062,1,1
+62006,6,National Statistics Socio-economic Classification (NS-SEC): L10 and L11 Lower supervisory and technical occupations,TS062,1,1
+62007,7,National Statistics Socio-economic Classification (NS-SEC): L12 Semi-routine occupations,TS062,1,1
+62008,8,National Statistics Socio-economic Classification (NS-SEC): L13 Routine occupations,TS062,1,1
+62009,9,National Statistics Socio-economic Classification (NS-SEC): L14.1 and L14.2 Never worked and long-term unemployed,TS062,1,1
+62010,10,National Statistics Socio-economic Classification (NS-SEC): L15 Full-time students,TS062,1,1
+60001,1,Industry (current): Total: All usual residents aged 16 years and over in employment the week before the census,TS060,0,0
+60002,2,"Industry (current): A: Agriculture, Forestry and fishing",TS060,1,1
+60003,3,"Industry (current): 01 Crop and animal production, hunting and related service activities",TS060,2,1
+60004,4,Industry (current): 02 Forestry and logging,TS060,2,1
+60005,5,Industry (current): 03 Fishing and aquaculture,TS060,2,1
+60006,6,Industry (current): B: Mining and quarrying,TS060,1,1
+60007,7,Industry (current): 05 Mining of coal and lignite,TS060,2,1
+60008,8,Industry (current): 06 Extraction of crude petroleum and natural gas,TS060,2,1
+60009,9,Industry (current): 07 Mining of metal ores,TS060,2,1
+60010,10,Industry (current): 08 Other mining and quarrying,TS060,2,1
+60011,11,Industry (current): 09 Mining support service activities,TS060,2,1
+60012,12,Industry (current): C: Manufacturing,TS060,1,1
+60013,13,Industry (current): 10 Manufacture of food products,TS060,2,1
+60014,14,Industry (current): 11 Manufacture of beverages,TS060,2,1
+60015,15,Industry (current): 12 Manufacture of tobacco products,TS060,2,1
+60016,16,Industry (current): 13 Manufacture of textiles,TS060,2,1
+60017,17,Industry (current): 14 Manufacture of wearing apparel,TS060,2,1
+60018,18,Industry (current): 15 Manufacture of leather and related products,TS060,2,1
+60019,19,"Industry (current): 16 Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",TS060,2,1
+60020,20,Industry (current): 17 Manufacture of paper and paper products,TS060,2,1
+60021,21,Industry (current): 18 Printing and reproduction of recorded media,TS060,2,1
+60022,22,Industry (current): 19 Manufacture of coke and refined petroleum products,TS060,2,1
+60023,23,Industry (current): 20 Manufacture of chemicals and chemical products,TS060,2,1
+60024,24,Industry (current): 21 Manufacture of basic pharmaceutical products and pharmaceutical preparations,TS060,2,1
+60025,25,Industry (current): 22 Manufacture of rubber and plastic products,TS060,2,1
+60026,26,Industry (current): 23 Manufacture of other non-metallic mineral products,TS060,2,1
+60027,27,Industry (current): 24 Manufacture of basic metals,TS060,2,1
+60028,28,"Industry (current): 25 Manufacture of fabricated metal products, except machinery and equipment",TS060,2,1
+60029,29,"Industry (current): 26 Manufacture of computer, electrical and optical products",TS060,2,1
+60030,30,Industry (current): 27 Manufacture of electrical equipment,TS060,2,1
+60031,31,Industry (current): 28 Manufacture of machinery and equipment not otherwise specified,TS060,2,1
+60032,32,"Industry (current): 29 Manufacture of motor vehicles, trailers and semi-trailers",TS060,2,1
+60033,33,Industry (current): 30 Manufacture of other transport equipment,TS060,2,1
+60034,34,Industry (current): 31 Manufacture of furniture,TS060,2,1
+60035,35,Industry (current): 32 Other Manufacturing,TS060,2,1
+60036,36,Industry (current): 33 Repair and installation of machinery and equipment,TS060,2,1
+60037,37,"Industry (current): D: Electricity, gas, steam and air conditioning supply",TS060,1,1
+60038,38,"Industry (current): 35 Electricity, gas, steam and air conditioning supply",TS060,2,0
+60039,39,"Industry (current): E:  Water supply; Sewerage, Waste management and Remediation activities",TS060,1,1
+60040,40,"Industry (current): 36 Water collection, treatment and supply",TS060,2,1
+60041,41,Industry (current): 37 Sewerage,TS060,2,1
+60042,42,"Industry (current): 38 Waste collection, treatment and disposal activities; materials recovery",TS060,2,1
+60043,43,Industry (current): 39 Remediation activities and other waste management services,TS060,2,1
+60044,44,Industry (current): F: Construction,TS060,1,1
+60045,45,Industry (current): 41 Construction of buildings; 42 Civil engineering; 43 Specialised construction activities,TS060,2,0
+60046,46,Industry (current): G: Wholesale and retail trade; repair of motor vehicles and motorcycles,TS060,1,1
+60047,47,Industry (current): 45 Wholesale and retail trade and repair of motor vehicles and motorcycles,TS060,2,1
+60048,48,"Industry (current): 46 Wholesale trade, except of motor vehicles and motorcycles",TS060,2,1
+60049,49,"Industry (current): 47 Retail trade, except of motor vehicles and motorcycles",TS060,2,1
+60050,50,Industry (current): 48 Wholesale and retail not otherwise specified,TS060,2,1
+60051,51,Industry (current): H: Transport and storage,TS060,1,1
+60052,52,Industry (current): 49 Land transport and transport via pipelines,TS060,2,1
+60053,53,Industry (current): 50 Water transport,TS060,2,1
+60054,54,Industry (current): 51 Air transport,TS060,2,1
+60055,55,Industry (current): 52 Warehousing and support activities for transportation,TS060,2,1
+60056,56,Industry (current): 53 Postal and courier activities,TS060,2,1
+60057,57,Industry (current): I: Accommodation and food service activities,TS060,1,1
+60058,58,Industry (current): 55 Accommodation,TS060,2,1
+60059,59,Industry (current): 56 Food and beverage service activities,TS060,2,1
+60060,60,Industry (current): J: Information and communication,TS060,1,1
+60061,61,Industry (current): 58 Publishing activities,TS060,2,1
+60062,62,"Industry (current): 59 Motion picture, video and television production, sound recording and music publishing activities",TS060,2,1
+60063,63,Industry (current): 60 Programming and broadcasting activities,TS060,2,1
+60064,64,Industry (current): 61 Telecommunications,TS060,2,1
+60065,65,"Industry (current): 62 Computer programming, consultancy and related activities",TS060,2,1
+60066,66,Industry (current): 63 Information service activities,TS060,2,1
+60067,67,Industry (current): K: Financial and insurance activities,TS060,1,1
+60068,68,"Industry (current): 64 Financial service activities, except insurance and pension funding",TS060,2,1
+60069,69,"Industry (current): 65 Insurance, reinsurance and pension funding, except compulsory social security",TS060,2,1
+60070,70,Industry (current): 66 Activities auxiliary to financial services and insurance activities,TS060,1,1
+60071,71,Industry (current): L: Real estate activities,TS060,2,0
+60072,72,Industry (current): 68 Real estate activities,TS060,1,1
+60073,73,"Industry (current): M: Professional, scientific and technical activities",TS060,2,0
+60074,74,Industry (current): 69 Legal and accounting activities,TS060,1,1
+60075,75,Industry (current): 70 Activities of head offices; management consultancy activities,TS060,2,1
+60076,76,Industry (current): 71 Architectural and engineering activities; technical testing and analysis,TS060,2,1
+60077,77,Industry (current): 72 Scientific research and development,TS060,2,1
+60078,78,Industry (current): 73 Advertising and market research,TS060,2,1
+60079,79,"Industry (current): 74 Other professional, scientific and technical activities",TS060,2,1
+60080,80,Industry (current): 75 Veterinary activities,TS060,2,1
+60081,81,Industry (current): N: Administrative and support service activities,TS060,1,1
+60082,82,Industry (current): 77 Rental and leasing activities,TS060,2,1
+60083,83,Industry (current): 78 Employment activities,TS060,2,1
+60084,84,"Industry (current): 79 Travel agency, tour operator and other reservation service and related activities",TS060,2,1
+60085,85,Industry (current): 80 Security and investigation activities,TS060,2,1
+60086,86,Industry (current): 81 Services to buildings and landscape activities,TS060,2,1
+60087,87,"Industry (current): 82 Office administrative, office support and other business support activities",TS060,2,1
+60088,88,Industry (current): O: Public administration and defence; compulsory social security,TS060,1,1
+60089,89,Industry (current): 84 Public administration and defence; compulsory social security,TS060,2,0
+60090,90,Industry (current): P: Education,TS060,1,1
+60091,91,Industry (current): 85 Education,TS060,2,0
+60092,92,Industry (current): Q: Human health and social work activities,TS060,1,1
+60093,93,Industry (current): 86 Human health activities,TS060,2,1
+60094,94,Industry (current): 87 Residential care activities,TS060,2,1
+60095,95,Industry (current): 88 Social work activities without accommodation,TS060,2,1
+60096,96,"Industry (current): R, S, T, U Other",TS060,1,1
+60097,97,"Industry (current): 90 Creative, arts and entertainment activities",TS060,2,1
+60098,98,"Industry (current): 91 Libraries, archives, museums and other cultural activities",TS060,2,1
+60099,99,Industry (current): 92 Gambling and betting activities,TS060,2,1
+60100,100,Industry (current): 93 Sports activities and amusement and recreation activities,TS060,2,1
+60101,101,Industry (current): 94 Activities of membership organisations,TS060,2,1
+60102,102,Industry (current): 95 Repair of computers and personal and household goods,TS060,2,1
+60103,103,Industry (current): 96 Other personal service activities,TS060,2,1
+60104,104,Industry (current): 97 Activities of households as employers of domestic personnel,TS060,2,1
+60105,105,Industry (current): 98 Undifferentiated goods- and services-producing activities of private households for own use,TS060,2,1
+60106,106,Industry (current): 99 Activities of extraterritorial organisations and bodies,TS060,2,1
+59001,1,Hours worked: Total: All usual residents aged 16 years and over in employment the week before the census,TS059,0,0
+59002,2,Hours worked: Part-time,TS059,1,1
+59003,3,Hours worked: Part-time: 15 hours or less worked,TS059,2,1
+59004,4,Hours worked: Part-time: 16 to 30 hours worked,TS059,2,1
+59005,5,Hours worked: Full-time,TS059,1,1
+59006,6,Hours worked: Full-time: 31 to 48 hours worked,TS059,2,1
+59007,7,Hours worked: Full-time: 49 or more hours worked,TS059,2,1
+65001,1,Unemployment history: Total: All usual residents aged 16 years and over not in employment the week before the census,TS065,0,1
+65002,2,Unemployment history: Not in employment: Worked in the last 12 months,TS065,1,1
+65003,3,Unemployment history: Not in employment: Not worked in the last 12 months,TS065,1,1
+65004,4,Unemployment history: Not in employment: Never worked,TS065,1,1
+58001,1,Distance travelled to work: Total: All usual residents aged 16 years and over in employment the week before the census,TS058,0,0
+58002,2,Distance travelled to work: Less than 2km,TS058,1,1
+58003,3,Distance travelled to work: 2km to less than 5km,TS058,1,1
+58004,4,Distance travelled to work: 5km to less than 10km,TS058,1,1
+58005,5,Distance travelled to work: 10km to less than 20km,TS058,1,1
+58006,6,Distance travelled to work: 20km to less than 30km,TS058,1,1
+58007,7,Distance travelled to work: 30km to less than 40km,TS058,1,1
+58008,8,Distance travelled to work: 40km to less than 60km,TS058,1,1
+58009,9,Distance travelled to work: 60km and over,TS058,1,1
+58010,10,Distance travelled to work: Works mainly from home,TS058,1,1
+58011,11,"Distance travelled to work: Works mainly at an offshore installation, in no fixed place, or outside the UK",TS058,1,1
+61001,1,Method of travel to workplace: Total: All usual residents aged 16 years and over in employment the week before the census,TS061,0,0
+61002,2,Method of travel to workplace: Work mainly at or from home,TS061,1,1
+61003,3,"Method of travel to workplace: Underground, metro, light rail, tram",TS061,1,1
+61004,4,Method of travel to workplace: Train,TS061,1,1
+61005,5,"Method of travel to workplace: Bus, minibus or coach",TS061,1,1
+61006,6,Method of travel to workplace: Taxi,TS061,1,1
+61007,7,"Method of travel to workplace: Motorcycle, scooter or moped",TS061,1,1
+61008,8,Method of travel to workplace: Driving a car or van,TS061,1,1
+61009,9,Method of travel to workplace: Passenger in a car or van,TS061,1,1
+61010,10,Method of travel to workplace: Bicycle,TS061,1,1
+61011,11,Method of travel to workplace: On foot,TS061,1,1
+61012,12,Method of travel to workplace: Other method of travel to work,TS061,1,1
+71001,1,Total: All usual residents,TS071,0,0
+71002,2,Previously served in UK armed forces,TS071,1,1
+71003,3,Previously served in UK reserve armed forces,TS071,1,1
+71004,4,Previously served in both regular and reserve UK armed forces,TS071,1,1
+71005,5,Has not previously served in any UK armed forces,TS071,1,1
+72001,1,Total: All households,TS072,0,0
+72002,2,No people in the household previously served in UK armed forces,TS072,1,1
+72003,3,1 person in the household previously served in UK armed forces,TS072,1,1
+72004,4,2 people in the household previously served in UK armed,TS072,1,1
+72005,5,3 or more people in the household previously served in UK armed forces,TS072,1,1
+73001,1,Total,TS073,0,0
+73002,2,Lives in a household,TS073,1,0
+73003,3,Lives in a communal establishment,TS073,1,0
+74001,1,Total: All households,TS074,0,0
+74002,2,Household reference person previously served in regular UK armed forces,TS074,1,1
+74003,3,Household reference person previously served in reserve UK armed forces,TS074,1,1
+74004,4,Household reference person previously served in both regular and reserve UK armed forces,TS074,1,1
+74005,5,Household reference person has not previously served in regular or reserve UK armed forces,TS074,1,1

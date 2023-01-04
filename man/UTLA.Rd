@@ -13,9 +13,11 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 UTLA
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 174 \emph{Upper Tier Local Authorities} in England and Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 174 \emph{Upper Tier Local Authorities} in England and Wales.
 }
 \details{
 Built by dissolving the \code{LTLA} boundaries using the \code{lookups} table.
+
+Last Updated: Dec-21
 }
 \keyword{datasets}

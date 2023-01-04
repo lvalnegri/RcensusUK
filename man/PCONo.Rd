@@ -13,10 +13,12 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 PCONo
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 573 \emph{Westminster Parliamentary Constituency} in England and Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 573 \emph{Westminster Parliamentary Constituency} in England and Wales.
 }
 \details{
 This is the result of the conversion of the original ONS boundaries in \emph{shapefile} format
-with a \emph{OSGB36} CRS (\emph{epsg} 27700), simplified at a \emph{20\%} rate.
+with a \emph{OSGB36} CRS (\emph{EPSG} 27700), simplified at a \emph{20\%} rate.
+
+Last Updated: Dec-20
 }
 \keyword{datasets}

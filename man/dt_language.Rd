@@ -5,12 +5,19 @@
 \alias{dt_language}
 \title{Languages and UK Proficiency}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns
 \describe{
-\item{\code{ TS024 }}{ Main language (detailed) }
-\item{\code{ TS025 }}{ Household language }
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+The dataset includes the following Census Tables:
+\describe{
+\item{\code{ TS024 }}{ Main Language (detailed) }
+\item{\code{ TS025 }}{ Household Language }
 \item{\code{ TS029 }}{ Proficiency in English }
-\item{\code{ TS026 }}{ Multiple main languages in households }
+\item{\code{ TS026 }}{ Multiple main Languages in households }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -19,6 +26,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_language
 }
 \description{
-Languages and UK Proficiency
+Resident Population and Households by main Language(s) spoken and Proficiency in English.
 }
 \keyword{datasets}
