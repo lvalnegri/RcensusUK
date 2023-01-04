@@ -1,6 +1,6 @@
 Package: RcensusUK
 Type: Package
-Date: 2022-11-20
+Date: 2022-12-31
 Title: Data and functionalities related to the UK Census 2021
 Version: 0.1.0
 Authors@R: person(given = "Luca", family = "Valnegri", email = "l.valnegri@datamaps.co.uk", role = c("aut", "cre"))
@@ -13,13 +13,18 @@ BugReports: https://github.com/lvalnegri/RcensusUK/issues
 Depends: R (>= 4.1)
 Imports:
     data.table,
+    DT,
+    htmltools,
     leaflet,
     sf
 Suggests:
+    fst,
     knitr,
-    rmarkdown,
-    rmapshaper
+    qs,
+    rmapshaper,
+    rmarkdown
 LazyData: true
+LazyDataCompression:gzip
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr

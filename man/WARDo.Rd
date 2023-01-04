@@ -13,10 +13,12 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 WARDo
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 7,878 \emph{Electoral Ward} in England and Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 7,878 \emph{Electoral Ward} in England and Wales.
 }
 \details{
 This is the result of the conversion of the original ONS boundaries in \emph{shapefile} format
-with a \emph{OSGB36} CRS (\emph{epsg} 27700), simplified at a \emph{20\%} rate.
+with a \emph{OSGB36} CRS (\emph{EPSG} 27700), simplified at a \emph{20\%} rate.
+
+Last Updated: Dec-21
 }
 \keyword{datasets}

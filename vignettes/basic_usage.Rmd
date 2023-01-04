@@ -1,0 +1,26 @@
+---
+title: "Basic usage of *RcensusUK*"
+author: "Luca Valnegri"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::knitr}
+  %\VignetteIndexEntry{Basic usage of *RcensusUK*}
+  %\VignetteEncoding{UTF-8}
+
+```{r setup, echo = FALSE, include = FALSE}
+knitr::opts_chunk$set(
+    message = FALSE, warning = FALSE,
+    collapse = TRUE,
+    comment = '#>',
+    fig.width = 8, fig.height = 5, fig.path = 'vignettes/figures/'
+)
+```
+
+### pkgname
+
+```{r ex1}
+library(RcensusUK)
+
+```
+

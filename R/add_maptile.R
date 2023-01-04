@@ -10,7 +10,7 @@
 #'
 #' @author Luca Valnegri, \email{l.valnegri@datamaps.co.uk}
 #'
-#' @importFrom leaflet addProviderTiles addTiles
+#' @import leaflet
 #' 
 #' @export
 #'

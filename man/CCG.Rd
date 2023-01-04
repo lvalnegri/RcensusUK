@@ -13,10 +13,12 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 CCG
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 113 \emph{Clinical Commissioning Groups} in England and Wales
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 113 \emph{Clinical Commissioning Groups} in England and Wales
 (106 \emph{Sub-ICB Location} in England and 7 \emph{Local Health Boards} in Wales).
 }
 \details{
 Built by dissolving the \code{LSOA} boundaries using the \code{lookups} table.
+
+Last Updated: Apr-22
 }
 \keyword{datasets}

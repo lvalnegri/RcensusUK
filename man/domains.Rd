@@ -8,7 +8,10 @@
 A data.table with the following columns:
 \describe{
 \item{\code{ id }}{ The identifier for the Domain }
-\item{\code{ description }}{ The description for the Domain }
+\item{\code{ name }}{ A short name for the Domain, reference for the \code{dt_} datasets }
+\item{\code{ description }}{ A possibly longer description for the Domain }
+\item{\code{ ordering }}{ The order for presentation }
+\item{\code{ loaded }}{ Indicates if the domain has some data actually loaded into the package }
 }
 }
 \usage{

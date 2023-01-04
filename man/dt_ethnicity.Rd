@@ -5,13 +5,20 @@
 \alias{dt_ethnicity}
 \title{Ethnicities and Identities}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns
 \describe{
-\item{\code{ TS021 }}{ Ethnic group }
-\item{\code{ TS022 }}{ Ethnic group (detailed) }
-\item{\code{ TS023 }}{ Multiple ethnic group }
-\item{\code{ TS027 }}{ National identity - UK }
-\item{\code{ TS028 }}{ National identity (detailed) }
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+The dataset includes the following Census Tables:
+\describe{
+\item{\code{ TS021 }}{ Ethnic Group }
+\item{\code{ TS022 }}{ Ethnic Group (detailed) }
+\item{\code{ TS023 }}{ Multiple Ethnic Group }
+\item{\code{ TS027 }}{ National Identity - UK }
+\item{\code{ TS028 }}{ National Identity (detailed) }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -20,6 +27,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_ethnicity
 }
 \description{
-Ethnicities and Identities
+Resident Population by Ethnic Group(s) and National Identity
 }
 \keyword{datasets}

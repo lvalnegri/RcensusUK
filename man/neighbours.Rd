@@ -3,19 +3,19 @@
 \docType{data}
 \name{neighbours}
 \alias{neighbours}
-\title{neighbours}
+\title{Neighbours}
 \format{
 A data.table with the following columns:
 \describe{
-\item{\code{ type }}{ The type of the zone as referenced in the \code{zone_types} table }
-\item{\code{ idA  }}{ The identifier for a zone }
-\item{\code{ idB  }}{ The (first) order neighbours of the zone with code \code{idA}}
+\item{\code{ type }}{ The type of the Zone as referenced in the \code{zone_types} table }
+\item{\code{ idA  }}{ The ONS identifier for a Zone }
+\item{\code{ idB  }}{ The ONS identifier for the first order neighbours of the Zone with code \code{idA}}
 }
 }
 \usage{
 neighbours
 }
 \description{
-This dataset contains the \emph{1st order neighbours} for all \emph{Output Areas} and all the areas listed in the \code{zones} table.
+This dataset contains the \emph{1st order neighbours} for all the Zones listed in the \code{zones} table.
 }
 \keyword{datasets}

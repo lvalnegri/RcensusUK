@@ -3,7 +3,7 @@
 \docType{data}
 \name{lookups}
 \alias{lookups}
-\title{lookups}
+\title{Lookups}
 \format{
 A data.table with the following columns:
 \describe{

@@ -5,7 +5,14 @@
 \alias{dt_veterans}
 \title{UK Armed Forces Veterans}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns:
+\describe{
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+The dataset includes the following Census Tables:
 \describe{
 \item{\code{ TS071 }}{ Previously served in the UK armed forces }
 \item{\code{ TS072 }}{ Number of people in household who have previously served in UK armed forces }
@@ -19,6 +26,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_veterans
 }
 \description{
-UK Armed Forces Veterans
+Resident Population by
 }
 \keyword{datasets}

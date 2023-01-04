@@ -13,9 +13,11 @@ For further details see \url{https://geoportal.statistics.gov.uk/search?collecti
 WARD
 }
 \description{
-Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{epsg} 4326) for all 7,878 \emph{Electoral Ward} in England and Wales.
+Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 4326) for all 7,878 \emph{Electoral Ward} in England and Wales.
 }
 \details{
 Built by dissolving the \code{OA} boundaries using the \code{lookups} table.
+
+Last Updated: Dec-21
 }
 \keyword{datasets}

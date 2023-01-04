@@ -8,12 +8,15 @@
 A data.table with the following columns:
 \describe{
 \item{\code{ id }}{ The identifier for the Table }
-\item{\code{ code }}{ The ONS code for the Table }
-\item{\code{ description }}{ The descritpion for the Table }
-\item{\code{ domain_id }}{ The Domain the table is included, a foreign reference to the column \code{id} in the \code{domains} table }
-\item{\code{ min_type }}{ The minimum type of geographic hierarchy the data are available }
-\item{\code{ units }}{ The units in whi data are expressed }
-\item{\code{ url }}{ The direct url for the bulk download of data }
+\item{\code{ code }}{ The ONS code for the Table. It is \emph{not} a unique identifier for the \verb{dt_*} datasets, as some tables have been splitted. }
+\item{\code{ description }}{ A (short) description for the Table (see the field \code{definition} for more explanation) }
+\item{\code{ domain_id }}{ The Domain the table is included into (a foreign key to the column \code{id} in the \code{domains} table}
+\item{\code{ min_type }}{ The minimum type of geographic hierarchy the data are available (see the column \code{type} in the \code{zone_types} table) }
+\item{\code{ main_ref }}{ The main reference variable  for all data in the Table (notice that it refers to data in another table)}
+\item{\code{ loaded }}{ Indicates if the Table has some data actually loaded into the package }
+\item{\code{ ons_url }}{ The direct url for the bulk download of data }
+\item{\code{ comp_11 }}{ When not \code{NA}, indicates a direct comparison with data in the previous 2011 Census }
+\item{\code{ definition }}{ A long description for the Table }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}

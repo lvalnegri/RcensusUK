@@ -5,15 +5,23 @@
 \alias{dt_population}
 \title{Population and Households}
 \format{
-A data.table including the following Census Tables:
+A data.table in \emph{long} format with the following columns
 \describe{
-\item{\code{ TS001 }}{ Number of usual residents }
-\item{\code{ TS002 }}{ Legal partnership status }
-\item{\code{ TS006 }}{ Population density }
-\item{\code{ TS003 }}{ Household composition }
-\item{\code{ TS017 }}{ Household size }
-\item{\code{ TS010 }}{ Living arrangements }
-\item{\code{ TS011 }}{ Households by deprivation dimensions }
+\item{\code{ zone_id }}{ The \code{ONS} identifier for the Zone, foreign key to the \code{id} column in the \code{zones} table }
+\item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
+\item{\code{ value }}{ The value for the Variable in the Zone}
+}
+
+Data include the following Census Tables:
+
+A data.table
+\describe{
+\item{\code{ TS001 }}{ Number of usual Residents }
+\item{\code{ TS002 }}{ Legal Partnership Status }
+\item{\code{ TS003 }}{ Household Composition }
+\item{\code{ TS017 }}{ Household Size }
+\item{\code{ TS010 }}{ Living Arrangements }
+\item{\code{ TS011 }}{ Households by Deprivation Dimensions }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -22,6 +30,7 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_population
 }
 \description{
-Population and Households
+Resident Population and Households, Legal Partnership Status, Living Arrangements,
+Households by Composition, Size, and Deprivation Dimensions
 }
 \keyword{datasets}

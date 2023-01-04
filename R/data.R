@@ -11,7 +11,10 @@ NULL
 #' @format A data.table with the following columns:
 #' \describe{
 #'   \item{\code{ id }}{ The identifier for the Domain }
-#'   \item{\code{ description }}{ The description for the Domain }
+#'   \item{\code{ name }}{ A short name for the Domain, reference for the `dt_` datasets }
+#'   \item{\code{ description }}{ A possibly longer description for the Domain }
+#'   \item{\code{ ordering }}{ The order for presentation }
+#'   \item{\code{ loaded }}{ Indicates if the domain has some data actually loaded into the package }
 #' }
 #'
 'domains'
@@ -24,52 +27,147 @@ NULL
 #' @format A data.table with the following columns:
 #' \describe{
 #'   \item{\code{ id }}{ The identifier for the Table }
-#'   \item{\code{ code }}{ The ONS code for the Table }
-#'   \item{\code{ description }}{ The descritpion for the Table }
-#'   \item{\code{ domain_id }}{ The Domain the table is included, a foreign reference to the column `id` in the `domains` table }
-#'   \item{\code{ min_type }}{ The minimum type of geographic hierarchy the data are available }
-#'   \item{\code{ units }}{ The units in whi data are expressed }
-#'   \item{\code{ url }}{ The direct url for the bulk download of data }
+#'   \item{\code{ code }}{ The ONS code for the Table. It is *not* a unique identifier for the `dt_*` datasets, as some tables have been splitted. }
+#'   \item{\code{ description }}{ A (short) description for the Table (see the field `definition` for more explanation) }
+#'   \item{\code{ domain_id }}{ The Domain the table is included into (a foreign key to the column `id` in the `domains` table}
+#'   \item{\code{ min_type }}{ The minimum type of geographic hierarchy the data are available (see the column `type` in the `zone_types` table) }
+#'   \item{\code{ main_ref }}{ The main reference variable  for all data in the Table (notice that it refers to data in another table)}
+#'   \item{\code{ loaded }}{ Indicates if the Table has some data actually loaded into the package }
+#'   \item{\code{ ons_url }}{ The direct url for the bulk download of data }
+#'   \item{\code{ comp_11 }}{ When not `NA`, indicates a direct comparison with data in the previous 2011 Census }
+#'   \item{\code{ definition }}{ A long description for the Table }
 #' }
 #' 
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
 #'
 'tables'
 
-## VARS ----------------
+## VARIABLES -----------
 #' vars
 #'
 #' The list of variables with some of their characteristics
 #'
 #' @format A data.table with the following columns:
 #' \describe{
-#'   \item{\code{ id }}{ The code for the variables  }
-#'   \item{\code{ ordering }}{ The order to use for reporting purposes  }
+#'   \item{\code{ id }}{ The code for the variables, built from ONS codes and file format }
+#'   \item{\code{ prog_id }}{ The *internal* code for the variables, mostly used for ordering }
 #'   \item{\code{ description }}{ The description for the variables }
 #'   \item{\code{ table_id }}{ The Domain the table is included, a foreign reference to the column `id` in the `domains` table }
-#'   \item{\code{ ref_id }}{ The id for the variable to use as reference (grand total) }
-#'   \item{\code{ sref_id }}{ The id for the variable to use as subreference (sub total)   }
-#'   \item{\code{ is_ref }}{ A flag to indicate if: 0-no reference variable, 1-reference, 2-subreference }
+#'   \item{\code{ level }}{ The depth of reference for the data. All variables with a level of `0` are also grouped together in the `main_refs` table. }
+#'   \item{\code{ loaded }}{ }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
 #'
 'vars'
 
+## VARS REFERENCES -----
+#' vars_refs
+#'
+#' The references code for each variable and level of depth (also indent for reporting)
+#'
+#' @format A data.table with the following columns:
+#' \describe{
+#'   \item{\code{ var_id }}{ The code for the variables }
+#'   \item{\code{ level }}{ The depth of reference, with `C` being the *cross* reference }
+#'   \item{\code{ ref_id }}{ The code of the reference variable }
+#' }
+#'
+'vars_refs'
+
+## REFERENCES ----------
+#' Main References
+#' 
+#' A convenience table to group all and only the main *reference* Variables, with the substituted codes and the differences in units.
+#' 
+#' @format A data.table in *long* format with the following columns
+#' \describe{
+#'   \item{\code{ sub_id }}{ The ONS table code for the variable }
+#'   \item{\code{ main_id }}{ The internal identifier for the variable  }
+#'   \item{\code{ name }}{ A name for the variable, usually shorter than the official one }
+#'   \item{\code{ total }}{ The reference Total. There could be different *similar* totals among the various tables, the percentage won't exactly sum to 100.) }
+#'   \item{\code{ diff }}{ The reference level (1 is for the a table total, 2 and 3 for internal subtotals)}
+#' }
+#' 
+'main_refs'
+
+## METRICS -----
+#' metrics
+#'
+#' A listing of binary operations on how to build basic metrics. 
+#' Once actioned using the `build_metrics` function, the values are stored for every possible level of geographic hierarchy in the `dt_metrics` table.
+#'
+#' @format A data.table with the following columns:
+#' \describe{
+#'   \item{\code{ id }}{ The code for the metric }
+#'   \item{\code{ name }}{ The name for the metric }
+#'   \item{\code{ var1_id }}{ The code for the *first* variable }
+#'   \item{\code{ type1 }}{ The *type* of the *first* variable: `V`ariable or `M`etric }
+#'   \item{\code{ var2_id }}{ The code for the *second* variable }
+#'   \item{\code{ type2 }}{ The *type* of the *second* variable: `V`ariable or `M`etric }
+#'   \item{\code{ ops }}{ The operation to be applied }
+#' }
+#'
+'metrics'
+
 # DATASETS ------------------
+
+## SUMMARIES ----------
+#' Summaries
+#' 
+#' The Totals for all Variables at *Countries* and *Nation* levels.
+#' The table also includes the original ONS names for the variables as stated in the deployed files.
+#' 
+#' @format A data.table with the following columns
+#' \describe{
+#'   \item{\code{ table_code }}{ The code for the variables, built from ONS codes and file format }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ ons_name }}{ The name for the Variable as included in the original ONS files }
+#'   \item{\code{ E }}{ The total value for the Variable at *England* level }
+#'   \item{\code{ W }}{ The total value for the Variable at *Wales* level }
+#'   \item{\code{ T }}{ The total value for the Variable at *Nation* level }
+#' }
+#' 
+'summaries'
+
+## GEOGRAPHY -----------
+#' Geographic Properties
+#' 
+#' Some characteristics about Zones, such as Area, Perimeter, Centroid, ...
+#' 
+#' This table is *not* part of the ONS Census releases.
+#' 
+#' @format A data.table in *long* format with the following columns
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+'dt_geography'
 
 ## POPULATION ----------
 #' Population and Households
-#'
-#' @format A data.table including the following Census Tables:
+#' 
+#' Resident Population and Households, Legal Partnership Status, Living Arrangements,
+#' Households by Composition, Size, and Deprivation Dimensions
+#' 
+#' @format A data.table in *long* format with the following columns
 #' \describe{
-#'   \item{\code{ TS001 }}{ Number of usual residents }
-#'   \item{\code{ TS002 }}{ Legal partnership status }
-#'   \item{\code{ TS006 }}{ Population density }
-#'   \item{\code{ TS003 }}{ Household composition }
-#'   \item{\code{ TS017 }}{ Household size }
-#'   \item{\code{ TS010 }}{ Living arrangements }
-#'   \item{\code{ TS011 }}{ Households by deprivation dimensions }
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' Data include the following Census Tables:
+#' @format A data.table 
+#' \describe{
+#'   \item{\code{ TS001 }}{ Number of usual Residents }
+#'   \item{\code{ TS002 }}{ Legal Partnership Status }
+#'   \item{\code{ TS003 }}{ Household Composition }
+#'   \item{\code{ TS017 }}{ Household Size }
+#'   \item{\code{ TS010 }}{ Living Arrangements }
+#'   \item{\code{ TS011 }}{ Households by Deprivation Dimensions }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -79,13 +177,22 @@ NULL
 ## SEX AND AGE ---------
 #' Sex and Age
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population segmented by Sex, Age, and Sex by Age (with Age by single year and five years' classes) 
+#' 
+#' @format A data.table in *long* format with the following columns
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
 #' \describe{
 #'   \item{\code{ TS007 }}{ Age by single year }
 #'   \item{\code{ TS007 }}{ Age by five years' classes }
 #'   \item{\code{ TS008 }}{ Sex }
-#'   \item{\code{ TS009 }}{ Sex by single year of age }
-#'   \item{\code{ TS009 }}{ Sex by five years' classes of age }
+#'   \item{\code{ TS009 }}{ Sex by single year of Age }
+#'   \item{\code{ TS009 }}{ Sex by five years' classes of Age }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -95,17 +202,26 @@ NULL
 ##  MIGRATION ----------
 #' Migration
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population by Country of Birth, Passports held, Year and Age of Arrival in the UK, Length of Residence
+#' 
+#' @format A data.table in *long* format with the following columns
 #' \describe{
-#'   \item{\code{ TS004 }}{ Country of birth }
-#'   \item{\code{ TS012 }}{ Country of birth (detailed) }
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#'   \item{\code{ TS004 }}{ Country of Birth }
+#'   \item{\code{ TS012 }}{ Country of Birth (detailed) }
 #'   \item{\code{ TS005 }}{ Passports held }
 #'   \item{\code{ TS013 }}{ Passports held (detailed) }
 #'   \item{\code{ TS015 }}{ Year of arrival in UK }
 #'   \item{\code{ TS018 }}{ Age of arrival in the UK }
-#'   \item{\code{ TS016 }}{ Length of residence }
+#'   \item{\code{ TS016 }}{ Length of Residence }
 #'   \item{\code{ TS019 }}{ Migrant Indicator }
-#'   \item{\code{ TS020 }}{ Number of non-UK short-term residents by sex }
+#'   \item{\code{ TS020 }}{ Number of non-UK short-term Residents by sex }
 #'   \item{\code{ TS041 }}{ Number of Households }
 #' }
 #'
@@ -116,13 +232,22 @@ NULL
 ## ETHNICITY -----------
 #' Ethnicities and Identities
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population by Ethnic Group(s) and National Identity
+#' 
+#' @format A data.table in *long* format with the following columns
 #' \describe{
-#'   \item{\code{ TS021 }}{ Ethnic group }
-#'   \item{\code{ TS022 }}{ Ethnic group (detailed) }
-#'   \item{\code{ TS023 }}{ Multiple ethnic group }
-#'   \item{\code{ TS027 }}{ National identity - UK }
-#'   \item{\code{ TS028 }}{ National identity (detailed) }
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#'   \item{\code{ TS021 }}{ Ethnic Group }
+#'   \item{\code{ TS022 }}{ Ethnic Group (detailed) }
+#'   \item{\code{ TS023 }}{ Multiple Ethnic Group }
+#'   \item{\code{ TS027 }}{ National Identity - UK }
+#'   \item{\code{ TS028 }}{ National Identity (detailed) }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -132,12 +257,21 @@ NULL
 ## LANGUAGE ------------
 #' Languages and UK Proficiency
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population and Households by main Language(s) spoken and Proficiency in English.
+#' 
+#' @format A data.table in *long* format with the following columns
 #' \describe{
-#'   \item{\code{ TS024 }}{ Main language (detailed) }
-#'   \item{\code{ TS025 }}{ Household language }
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#'   \item{\code{ TS024 }}{ Main Language (detailed) }
+#'   \item{\code{ TS025 }}{ Household Language }
 #'   \item{\code{ TS029 }}{ Proficiency in English }
-#'   \item{\code{ TS026 }}{ Multiple main languages in households }
+#'   \item{\code{ TS026 }}{ Multiple main Languages in households }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -147,7 +281,16 @@ NULL
 ## RELIGION ------------
 #' Religions
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population and Households by professed Religion. 
+#' 
+#' @format A data.table in *long* format with the following columns
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
 #' \describe{
 #'   \item{\code{ TS030 }}{ Religion }
 #'   \item{\code{ TS031 }}{ Religion (detailed) }
@@ -158,10 +301,129 @@ NULL
 #'
 'dt_religion'
 
+## WORK ----------------
+#' Work and Commuting
+#'
+#' Resident Population by Economic Activity Status, Occupation, Industry, National Statistics Socio-economic Classification (NS-SeC),
+#' Hours worked, Unemployment history, Method of Travel to Work and Distance travelled.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#'   \item{\code{ TS066 }}{ Economic Activity Status }
+#'   \item{\code{ TS063 }}{ Occupation }
+#'   \item{\code{ TS064 }}{ Occupation - minor groups }
+#'   \item{\code{ TS062 }}{ NS-SeC }
+#'   \item{\code{ TS060 }}{ Industry }
+#'   \item{\code{ TS059 }}{ Hours worked }
+#'   \item{\code{ TS065 }}{ Unemployment history }
+#'   \item{\code{ TS058 }}{ Distance travelled to Work }
+#'   \item{\code{ TS061 }}{ Method of Travel to Work }
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_work'
+
+## HOUSING -------------
+#' housing
+#' 
+#' Waiting for data. Expected by 5th Jan 2023.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_housing'
+
+## HEALTH --------------
+#' health
+#'
+#' Waiting for data. Expected by 19th Jan 2023.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_health'
+
+## GENDER --------------
+#' gender
+#'
+#' Waiting for data. Expected by 6th Jan 2023.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_gender'
+
+## EDUCATION -----------
+#' education
+#'
+#' Waiting for data. Expected by 10th Jan 2023.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_education'
+
 ## VETERANS ------------
 #' UK Armed Forces Veterans
 #'
-#' @format A data.table including the following Census Tables:
+#' Resident Population by 
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
 #' \describe{
 #'   \item{\code{ TS071 }}{ Previously served in the UK armed forces }
 #'   \item{\code{ TS072 }}{ Number of people in household who have previously served in UK armed forces }
@@ -173,10 +435,26 @@ NULL
 #'
 'dt_veterans'
 
+## METRICS ------------
+#' dt_metrics
+#' 
+#' Dataset containing the values of the *metrics* built using the variables and the operations listed in the `metrics` table. 
+#' By design, and differently from the other `dt_*` tables (besides the fact that it's *not* part of the ONS Census releases), 
+#' the values are given for *all* the geographies as you cannot aggregate values from lower to higher levels of the geographic hierarchy.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Metric, foreign key to the `id` column in the `metrics` table }
+#'   \item{\code{ value }}{ The value for the Metric in the Zone}
+#' }
+#' 
+'dt_metrics'
+
 
 # GEOGRAPHY -----------------
 
-## ZONE TYPES ------
+## ZONE TYPES ----------
 #' Zone Types
 #'
 #' A list of all the Geographies included in the package(apart from the *Output Areas*, listed in the `lookups` table)
@@ -202,8 +480,8 @@ NULL
 #'
 'zone_types'
 
-## ZONES -----------
-#' zones
+## ZONES ---------------
+#' Zones
 #'
 #' A list of all the areas included in the `lookups` table, apart from the *Output Areas*, together with their names and some geographic characteristics.
 #'
@@ -222,7 +500,7 @@ NULL
 'zones'
 
 ## LOOKUPS -------------
-#' lookups
+#' Lookups
 #'
 #' This dataset contains both a complete list of the *Output Areas*, the smallest statistical geographic area in both England and Wales,
 #' and a mapping between them and all the other Geographies contained in the package, listed in the table `zone_types`.
@@ -246,8 +524,8 @@ NULL
 #' 
 'lookups'
 
-## MISSING ----------
-#' missing
+## MISSING -------------
+#' Missing Zones
 #'
 #' This dataset list the lookups for those `` and `` zones missing from the `lookups` table, 
 #' because of them being smaller than the *Output Areas* they fall into 
@@ -257,26 +535,48 @@ NULL
 #' @format A data.table with the following columns:
 #' \describe{
 #'   \item{\code{ type }}{ The type of the Area, as referenced in the `zone_types` table (either `PAR` or `WARD`) }
-#'   \item{\code{ zone_id }}{ The identifier for the Area }
+#'   \item{\code{ zone_id }}{ The ONS identifier for the Zone }
 #'   \item{\code{ parent }}{ The code for the parent zone the Area should belong to }
-#'   \item{\code{ sibling }}{ The code for the Area that appears in the `lookups`table having the same parent zone}
+#'   \item{\code{ sibling }}{ The code for the Area that appears in the `lookups` table having the same parent zone}
 #' }
 #'
 'missing'
 
 ## NEIGHBOURS ----------
-#' neighbours
+#' Neighbours
 #'
-#' This dataset contains the *1st order neighbours* for all *Output Areas* and all the areas listed in the `zones` table.
+#' This dataset contains the *1st order neighbours* for all the Zones listed in the `zones` table.
 #'
 #' @format A data.table with the following columns:
 #' \describe{
-#'   \item{\code{ type }}{ The type of the zone as referenced in the \code{zone_types} table }
-#'   \item{\code{ idA  }}{ The identifier for a zone }
-#'   \item{\code{ idB  }}{ The (first) order neighbours of the zone with code `idA`}
+#'   \item{\code{ type }}{ The type of the Zone as referenced in the `zone_types` table }
+#'   \item{\code{ idA  }}{ The ONS identifier for a Zone }
+#'   \item{\code{ idB  }}{ The ONS identifier for the first order neighbours of the Zone with code `idA`}
 #' }
 #'
 'neighbours'
+
+## POSTCODES -----------
+#' postcodes
+#'
+#' A lookup table between postcode *Units* (`PCU`) and *Output Areas*.
+#' 
+#' The table contains *all* UK geographical postcodes, both *live* and *terminated* (2,334,674, as of NOV-22). 
+#' 
+#' This table is part of my [RpostcodesUK $R$ package](https://github.com/lvalnegri/RpostcodesUK). 
+#' It's been included here only for search purposes, and it's not part of any ONS Census releases.
+#' 
+#' @format A data.table with the following columns:
+#' \describe{
+#'   \item{\code{ PCU }}{ A postcode Unit, expressed in 7-chars }
+#'   \item{\code{ OA }}{ The ONS code for an Output Areas }
+#'   \item{\code{ PCS }}{ A postcode Sector }
+#' }
+#'
+#' For further details on UK postcodes, see the *ONS Postcodes* tagged pages of the 
+#' [ONS Open Geography portal](https://geoportal.statistics.gov.uk/search?collection=Dataset&q=postcodes&sort=-created&tags=onspd). 
+#' 
+'postcodes'
 
 #' @import sf
 NULL
@@ -286,7 +586,7 @@ NULL
 ## OA ------------------
 #' OA
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 188,880 *Output Areas* in England and Wales, **Census 2021**.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 188,880 *Output Areas* in England and Wales, **Census 2021**.
 #'
 #' @format A `sf` dataframe with only one `OA` column for the corresponding *ONS* codes.
 #'
@@ -297,7 +597,7 @@ NULL
 ## LSOA ----------------
 #' LSOA
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 35,672 *Lower Layer Super Output Areas* in England and Wales, **Census 2021**.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 35,672 *Lower Layer Super Output Areas* in England and Wales, **Census 2021**.
 #'
 #' Built by dissolving the `OA` boundaries using the `lookups` table.
 #' 
@@ -310,7 +610,7 @@ NULL
 ## MSOA ----------------
 #' MSOA
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 7,264 *Medium Layer Super Output Areas* in England and Wales, **Census 2021**.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 7,264 *Medium Layer Super Output Areas* in England and Wales, **Census 2021**.
 #'
 #' Built by dissolving the `LSOA` boundaries using the `lookups` table.
 #' 
@@ -323,9 +623,11 @@ NULL
 ## LTLA ----------------
 #' LTLA
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 331 *Lower Tier Local Authorities* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 331 *Lower Tier Local Authorities* in England and Wales.
 #'
 #' Built by dissolving the `MSOA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `LTLA` column for the corresponding *ONS* codes.
 #'
@@ -336,9 +638,11 @@ NULL
 ## UTLA ----------------
 #' UTLA
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 174 *Upper Tier Local Authorities* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 174 *Upper Tier Local Authorities* in England and Wales.
 #'
 #' Built by dissolving the `LTLA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `UTLA` column for the corresponding *ONS* codes.
 #'
@@ -349,7 +653,7 @@ NULL
 ## RGN -----------------
 #' RGN
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 9 *Regions* in England, plus Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 9 *Regions* in England, plus Wales.
 #'
 #' Built by dissolving the `UTLA` boundaries using the `lookups` table.
 #' 
@@ -362,22 +666,24 @@ NULL
 ## CTRY ----------------
 #' CTRY
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for England, plus Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for England, plus Wales.
 #'
-#' Built by dissolving the `UTLA` boundaries using the `lookups` table.
+#' Built by dissolving the `RGN` boundaries using the `lookups` table.
 #' 
-#' @format A `sf` dataframe with only one `RGN` column for the corresponding *ONS* codes.
+#' @format A `sf` dataframe with only one `CTRY` column for the corresponding *ONS* codes.
 #'
-#' For further details see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-modified&tags=all(BDY_RGN)}.
+#' For further details see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-modified&tags=all(BDY_CTRY)}.
 #'
 'CTRY'
 
 ## PCON ----------------
 #' PCON
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 573 *Westminster Parliamentary Constituency* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 573 *Westminster Parliamentary Constituency* in England and Wales.
 #'
 #' Built by dissolving the `LSOA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Dec-20
 #' 
 #' @format A `sf` dataframe with only one `PCON` column for the corresponding *ONS* codes.
 #'
@@ -388,9 +694,11 @@ NULL
 ## WARD ----------------
 #' WARD
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 7,878 *Electoral Ward* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 7,878 *Electoral Ward* in England and Wales.
 #'
 #' Built by dissolving the `OA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `WARD` column for the corresponding *ONS* codes.
 #'
@@ -401,9 +709,11 @@ NULL
 ## PAR -----------------
 #' PAR
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 11,562 *Civil Parishes and Unparished Communities* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 11,562 *Civil Parishes and Unparished Communities* in England and Wales.
 #'
 #' Built by dissolving the `OA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `PAR` column for the corresponding *ONS* codes.
 #'
@@ -414,10 +724,12 @@ NULL
 ## CCG -----------------
 #' CCG
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 113 *Clinical Commissioning Groups* in England and Wales
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 113 *Clinical Commissioning Groups* in England and Wales
 #' (106 *Sub-ICB Location* in England and 7 *Local Health Boards* in Wales).
 #'
 #' Built by dissolving the `LSOA` boundaries using the `lookups` table.
+#' 
+#' Last Updated: Apr-22
 #' 
 #' @format A `sf` dataframe with only one `CCG` column for the corresponding *ONS* codes.
 #'
@@ -430,10 +742,12 @@ NULL
 ## PCON ----------------
 #' PCONo
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 573 *Westminster Parliamentary Constituency* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 573 *Westminster Parliamentary Constituency* in England and Wales.
 #' 
 #' This is the result of the conversion of the original ONS boundaries in *shapefile* format 
-#' with a *OSGB36* CRS (*epsg* 27700), simplified at a *20%* rate.
+#' with a *OSGB36* CRS (*EPSG* 27700), simplified at a *20%* rate.
+#' 
+#' Last Updated: Dec-20
 #' 
 #' @format A `sf` dataframe with only one `PCON` column for the corresponding *ONS* codes.
 #'
@@ -444,10 +758,12 @@ NULL
 ## WARD ----------------
 #' WARDo
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 7,878 *Electoral Ward* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 7,878 *Electoral Ward* in England and Wales.
 #'
 #' This is the result of the conversion of the original ONS boundaries in *shapefile* format 
-#' with a *OSGB36* CRS (*epsg* 27700), simplified at a *20%* rate.
+#' with a *OSGB36* CRS (*EPSG* 27700), simplified at a *20%* rate.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `WARD` column for the corresponding *ONS* codes.
 #'
@@ -458,10 +774,12 @@ NULL
 ## PAR -----------------
 #' PARo
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 11,562 *Civil Parishes and Unparished Communities* in England and Wales.
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 11,562 *Civil Parishes and Unparished Communities* in England and Wales.
 #'
 #' This is the result of the conversion of the original ONS boundaries in *shapefile* format 
-#' with a *OSGB36* CRS (*epsg* 27700), simplified at a *20%* rate.
+#' with a *OSGB36* CRS (*EPSG* 27700), simplified at a *20%* rate.
+#' 
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `PAR` column for the corresponding *ONS* codes.
 #'
@@ -472,11 +790,13 @@ NULL
 ## CCG -----------------
 #' CCGo
 #'
-#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*epsg* 4326) for all 113 *Clinical Commissioning Groups* in England and Wales
+#' Digital Vector Boundaries in `sf` format and *WGS84* CRS (*EPSG* 4326) for all 113 *Clinical Commissioning Groups* in England and Wales
 #' (106 *Sub-ICB Location* in England and 7 *Local Health Boards* in Wales).
 #'
 #' This is the result of the conversion of the original ONS boundaries in *shapefile* format 
-#' with a *OSGB36* CRS (*epsg* 27700), simplified at a *20%* rate.
+#' with a *OSGB36* CRS (*EPSG* 27700), simplified at a *20%* rate.
+#' 
+#' Last Updated: Apr-22
 #' 
 #' @format A `sf` dataframe with only one `CCG` column for the corresponding *ONS* codes.
 #'
