@@ -1,487 +1,4 @@
 WARD,WARDd
-E05000026,Abbey
-E05000027,Alibon
-E05000028,Becontree
-E05000029,Chadwell Heath
-E05000030,Eastbrook
-E05000031,Eastbury
-E05000032,Gascoigne
-E05000033,Goresbrook
-E05000034,Heath
-E05000035,Longbridge
-E05000036,Mayesbrook
-E05000037,Parsloes
-E05000038,River
-E05000039,Thames
-E05000040,Valence
-E05000041,Village
-E05000042,Whalebone
-E05000043,Brunswick Park
-E05000044,Burnt Oak
-E05000045,Childs Hill
-E05000046,Colindale
-E05000047,Coppetts
-E05000048,East Barnet
-E05000049,East Finchley
-E05000050,Edgware
-E05000051,Finchley Church End
-E05000052,Garden Suburb
-E05000053,Golders Green
-E05000054,Hale
-E05000055,Hendon
-E05000056,High Barnet
-E05000057,Mill Hill
-E05000058,Oakleigh
-E05000059,Totteridge
-E05000060,Underhill
-E05000061,West Finchley
-E05000062,West Hendon
-E05000063,Woodhouse
-E05000085,Alperton
-E05000086,Barnhill
-E05000087,Brondesbury Park
-E05000088,Dollis Hill
-E05000089,Dudden Hill
-E05000090,Fryent
-E05000091,Harlesden
-E05000092,Kensal Green
-E05000093,Kenton
-E05000094,Kilburn
-E05000095,Mapesbury
-E05000096,Northwick Park
-E05000097,Preston
-E05000098,Queens Park
-E05000099,Queensbury
-E05000100,Stonebridge
-E05000101,Sudbury
-E05000102,Tokyngton
-E05000103,Welsh Harp
-E05000104,Wembley Central
-E05000105,Willesden Green
-E05000106,Bickley
-E05000107,Biggin Hill
-E05000108,Bromley Common and Keston
-E05000109,Bromley Town
-E05000110,Chelsfield and Pratts Bottom
-E05000111,Chislehurst
-E05000112,Clock House
-E05000113,Copers Cope
-E05000114,Cray Valley East
-E05000115,Cray Valley West
-E05000116,Crystal Palace
-E05000117,Darwin
-E05000118,Farnborough and Crofton
-E05000119,Hayes and Coney Hall
-E05000120,Kelsey and Eden Park
-E05000121,Mottingham and Chislehurst North
-E05000122,Orpington
-E05000123,Penge and Cator
-E05000124,Petts Wood and Knoll
-E05000125,Plaistow and Sundridge
-E05000126,Shortlands
-E05000127,West Wickham
-E05000128,Belsize
-E05000129,Bloomsbury
-E05000130,Camden Town with Primrose Hill
-E05000131,Cantelowes
-E05000132,Fortune Green
-E05000133,Frognal and Fitzjohns
-E05000134,Gospel Oak
-E05000135,Hampstead Town
-E05000136,Haverstock
-E05000137,Highgate
-E05000138,Holborn and Covent Garden
-E05000139,Kentish Town
-E05000140,Kilburn
-E05000141,King's Cross
-E05000142,Regent's Park
-E05000143,St Pancras and Somers Town
-E05000144,Swiss Cottage
-E05000145,West Hampstead
-E05000170,Acton Central
-E05000171,Cleveland
-E05000172,Dormers Wells
-E05000173,Ealing Broadway
-E05000174,Ealing Common
-E05000175,East Acton
-E05000176,Elthorne
-E05000177,Greenford Broadway
-E05000178,Greenford Green
-E05000179,Hanger Hill
-E05000180,Hobbayne
-E05000181,Lady Margaret
-E05000182,Northfield
-E05000183,North Greenford
-E05000184,Northolt Mandeville
-E05000185,Northolt West End
-E05000186,Norwood Green
-E05000187,Perivale
-E05000188,South Acton
-E05000189,Southall Broadway
-E05000190,Southall Green
-E05000191,Southfield
-E05000192,Walpole
-E05000193,Bowes
-E05000194,Bush Hill Park
-E05000195,Chase
-E05000196,Cockfosters
-E05000197,Edmonton Green
-E05000198,Enfield Highway
-E05000199,Enfield Lock
-E05000200,Grange
-E05000201,Haselbury
-E05000202,Highlands
-E05000203,Jubilee
-E05000204,Lower Edmonton
-E05000205,Palmers Green
-E05000206,Ponders End
-E05000207,Southbury
-E05000208,Southgate
-E05000209,Southgate Green
-E05000210,Town
-E05000211,Turkey Street
-E05000212,Upper Edmonton
-E05000213,Winchmore Hill
-E05000214,Abbey Wood
-E05000215,Blackheath Westcombe
-E05000216,Charlton
-E05000217,Coldharbour and New Eltham
-E05000218,Eltham North
-E05000219,Eltham South
-E05000220,Eltham West
-E05000221,Glyndon
-E05000222,Greenwich West
-E05000223,Kidbrooke with Hornfair
-E05000224,Middle Park and Sutcliffe
-E05000225,Peninsula
-E05000226,Plumstead
-E05000227,Shooters Hill
-E05000228,Thamesmead Moorings
-E05000229,Woolwich Common
-E05000230,Woolwich Riverside
-E05000250,Addison
-E05000251,Askew
-E05000252,Avonmore and Brook Green
-E05000253,College Park and Old Oak
-E05000254,Fulham Broadway
-E05000255,Fulham Reach
-E05000256,Hammersmith Broadway
-E05000257,Munster
-E05000258,North End
-E05000259,Palace Riverside
-E05000260,Parsons Green and Walham
-E05000261,Ravenscourt Park
-E05000262,Sands End
-E05000263,Shepherd's Bush Green
-E05000264,Town
-E05000265,Wormholt and White City
-E05000266,Alexandra
-E05000267,Bounds Green
-E05000268,Bruce Grove
-E05000269,Crouch End
-E05000270,Fortis Green
-E05000271,Harringay
-E05000272,Highgate
-E05000273,Hornsey
-E05000274,Muswell Hill
-E05000275,Noel Park
-E05000276,Northumberland Park
-E05000277,St Ann's
-E05000278,Seven Sisters
-E05000279,Stroud Green
-E05000280,Tottenham Green
-E05000281,Tottenham Hale
-E05000282,West Green
-E05000283,White Hart Lane
-E05000284,Woodside
-E05000285,Belmont
-E05000286,Canons
-E05000287,Edgware
-E05000288,Greenhill
-E05000289,Harrow on the Hill
-E05000290,Harrow Weald
-E05000291,Hatch End
-E05000292,Headstone North
-E05000293,Headstone South
-E05000294,Kenton East
-E05000295,Kenton West
-E05000296,Marlborough
-E05000297,Pinner
-E05000298,Pinner South
-E05000299,Queensbury
-E05000300,Rayners Lane
-E05000301,Roxbourne
-E05000302,Roxeth
-E05000303,Stanmore Park
-E05000304,Wealdstone
-E05000305,West Harrow
-E05000306,Brooklands
-E05000307,Cranham
-E05000308,Elm Park
-E05000309,Emerson Park
-E05000310,Gooshays
-E05000311,Hacton
-E05000312,Harold Wood
-E05000313,Havering Park
-E05000314,Heaton
-E05000315,Hylands
-E05000316,Mawneys
-E05000317,Pettits
-E05000318,Rainham and Wennington
-E05000319,Romford Town
-E05000320,St Andrew's
-E05000321,South Hornchurch
-E05000322,Squirrel's Heath
-E05000323,Upminster
-E05000324,Barnhill
-E05000325,Botwell
-E05000326,Brunel
-E05000327,Cavendish
-E05000328,Charville
-E05000329,Eastcote and East Ruislip
-E05000330,Harefield
-E05000331,Heathrow Villages
-E05000332,Hillingdon East
-E05000333,Ickenham
-E05000334,Manor
-E05000335,Northwood
-E05000336,Northwood Hills
-E05000337,Pinkwell
-E05000338,South Ruislip
-E05000339,Townfield
-E05000340,Uxbridge North
-E05000341,Uxbridge South
-E05000342,West Drayton
-E05000343,West Ruislip
-E05000344,Yeading
-E05000345,Yiewsley
-E05000346,Bedfont
-E05000347,Brentford
-E05000348,Chiswick Homefields
-E05000349,Chiswick Riverside
-E05000350,Cranford
-E05000351,Feltham North
-E05000352,Feltham West
-E05000353,Hanworth
-E05000354,Hanworth Park
-E05000355,Heston Central
-E05000356,Heston East
-E05000357,Heston West
-E05000358,Hounslow Central
-E05000359,Hounslow Heath
-E05000360,Hounslow South
-E05000361,Hounslow West
-E05000362,Isleworth
-E05000363,Osterley and Spring Grove
-E05000364,Syon
-E05000365,Turnham Green
-E05000366,Barnsbury
-E05000367,Bunhill
-E05000368,Caledonian
-E05000369,Canonbury
-E05000370,Clerkenwell
-E05000371,Finsbury Park
-E05000372,Highbury East
-E05000373,Highbury West
-E05000374,Hillrise
-E05000375,Holloway
-E05000376,Junction
-E05000377,Mildmay
-E05000378,St George's
-E05000379,St Mary's
-E05000380,St Peter's
-E05000381,Tollington
-E05000400,Alexandra
-E05000401,Berrylands
-E05000402,Beverley
-E05000403,Canbury
-E05000404,Chessington North and Hook
-E05000405,Chessington South
-E05000406,Coombe Hill
-E05000407,Coombe Vale
-E05000408,Grove
-E05000409,Norbiton
-E05000410,Old Malden
-E05000411,St James
-E05000412,St Mark's
-E05000413,Surbiton Hill
-E05000414,Tolworth and Hook Rise
-E05000415,Tudor
-E05000416,Bishop's
-E05000417,Brixton Hill
-E05000418,Clapham Common
-E05000419,Clapham Town
-E05000420,Coldharbour
-E05000421,Ferndale
-E05000422,Gipsy Hill
-E05000423,Herne Hill
-E05000424,Knight's Hill
-E05000425,Larkhall
-E05000426,Oval
-E05000427,Prince's
-E05000428,St Leonard's
-E05000429,Stockwell
-E05000430,Streatham Hill
-E05000431,Streatham South
-E05000432,Streatham Wells
-E05000433,Thornton
-E05000434,Thurlow Park
-E05000435,Tulse Hill
-E05000436,Vassall
-E05000437,Bellingham
-E05000438,Blackheath
-E05000439,Brockley
-E05000440,Catford South
-E05000441,Crofton Park
-E05000442,Downham
-E05000443,Evelyn
-E05000444,Forest Hill
-E05000445,Grove Park
-E05000446,Ladywell
-E05000447,Lee Green
-E05000448,Lewisham Central
-E05000449,New Cross
-E05000450,Perry Vale
-E05000451,Rushey Green
-E05000452,Sydenham
-E05000453,Telegraph Hill
-E05000454,Whitefoot
-E05000455,Abbey
-E05000456,Cannon Hill
-E05000457,Colliers Wood
-E05000458,Cricket Green
-E05000459,Dundonald
-E05000460,Figge's Marsh
-E05000461,Graveney
-E05000462,Hillside
-E05000463,Lavender Fields
-E05000464,Longthornton
-E05000465,Lower Morden
-E05000466,Merton Park
-E05000467,Pollards Hill
-E05000468,Ravensbury
-E05000469,Raynes Park
-E05000470,St Helier
-E05000471,Trinity
-E05000472,Village
-E05000473,West Barnes
-E05000474,Wimbledon Park
-E05000475,Beckton
-E05000476,Boleyn
-E05000477,Canning Town North
-E05000478,Canning Town South
-E05000479,Custom House
-E05000480,East Ham Central
-E05000481,East Ham North
-E05000482,East Ham South
-E05000483,Forest Gate North
-E05000484,Forest Gate South
-E05000485,Green Street East
-E05000486,Green Street West
-E05000487,Little Ilford
-E05000488,Manor Park
-E05000489,Plaistow North
-E05000490,Plaistow South
-E05000491,Royal Docks
-E05000492,Stratford and New Town
-E05000493,Wall End
-E05000494,West Ham
-E05000516,Barnes
-E05000517,East Sheen
-E05000518,Fulwell and Hampton Hill
-E05000519,"Ham, Petersham and Richmond Riverside"
-E05000520,Hampton
-E05000521,Hampton North
-E05000522,Hampton Wick
-E05000523,Heathfield
-E05000524,Kew
-E05000525,Mortlake and Barnes Common
-E05000526,North Richmond
-E05000527,St Margarets and North Twickenham
-E05000528,South Richmond
-E05000529,South Twickenham
-E05000530,Teddington
-E05000531,Twickenham Riverside
-E05000532,West Twickenham
-E05000533,Whitton
-E05000555,Beddington North
-E05000556,Beddington South
-E05000557,Belmont
-E05000558,Carshalton Central
-E05000559,Carshalton South and Clockhouse
-E05000560,Cheam
-E05000561,Nonsuch
-E05000562,St Helier
-E05000563,Stonecot
-E05000564,Sutton Central
-E05000565,Sutton North
-E05000566,Sutton South
-E05000567,Sutton West
-E05000568,The Wrythe
-E05000569,Wallington North
-E05000570,Wallington South
-E05000571,Wandle Valley
-E05000572,Worcester Park
-E05000590,Cann Hall
-E05000591,Cathall
-E05000592,Chapel End
-E05000593,Chingford Green
-E05000594,Endlebury
-E05000595,Forest
-E05000596,Grove Green
-E05000597,Hale End and Highams Park
-E05000598,Hatch Lane
-E05000599,High Street
-E05000600,Higham Hill
-E05000601,Hoe Street
-E05000602,Larkswood
-E05000603,Lea Bridge
-E05000604,Leyton
-E05000605,Leytonstone
-E05000606,Markhouse
-E05000607,Valley
-E05000608,William Morris
-E05000609,Wood Street
-E05000610,Balham
-E05000611,Bedford
-E05000612,Earlsfield
-E05000613,East Putney
-E05000614,Fairfield
-E05000615,Furzedown
-E05000616,Graveney
-E05000617,Latchmere
-E05000618,Nightingale
-E05000619,Northcote
-E05000620,Queenstown
-E05000621,Roehampton and Putney Heath
-E05000622,St Mary's Park
-E05000623,Shaftesbury
-E05000624,Southfields
-E05000625,Thamesfield
-E05000626,Tooting
-E05000627,Wandsworth Common
-E05000628,West Hill
-E05000629,West Putney
-E05000630,Abbey Road
-E05000631,Bayswater
-E05000632,Bryanston and Dorset Square
-E05000633,Churchill
-E05000634,Church Street
-E05000635,Harrow Road
-E05000636,Hyde Park
-E05000637,Knightsbridge and Belgravia
-E05000638,Lancaster Gate
-E05000639,Little Venice
-E05000640,Maida Vale
-E05000641,Marylebone High Street
-E05000642,Queen's Park
-E05000643,Regent's Park
-E05000644,St James's
-E05000645,Tachbrook
-E05000646,Vincent Square
-E05000647,Warwick
-E05000648,Westbourne
-E05000649,West End
 E05000650,Astley Bridge
 E05000651,Bradshaw
 E05000652,Breightmet
@@ -502,23 +19,6 @@ E05000666,Smithills
 E05000667,Tonge with the Haulgh
 E05000668,Westhoughton North and Chew Moor
 E05000669,Westhoughton South
-E05000670,Besses
-E05000671,Church
-E05000672,East
-E05000673,Elton
-E05000674,Holyrood
-E05000675,Moorside
-E05000676,North Manor
-E05000677,Pilkington Park
-E05000678,Radcliffe East
-E05000679,Radcliffe North
-E05000680,Radcliffe West
-E05000681,Ramsbottom
-E05000682,Redvales
-E05000683,St Mary's
-E05000684,Sedgley
-E05000685,Tottington
-E05000686,Unsworth
 E05000719,Alexandra
 E05000720,Chadderton Central
 E05000721,Chadderton North
@@ -539,26 +39,6 @@ E05000735,St Mary's
 E05000736,Shaw
 E05000737,Waterhead
 E05000738,Werneth
-E05000739,Balderstone and Kirkholt
-E05000740,Bamford
-E05000741,Castleton
-E05000742,Central Rochdale
-E05000743,East Middleton
-E05000744,Healey
-E05000745,Hopwood Hall
-E05000746,Kingsway
-E05000747,Littleborough Lakeside
-E05000748,Milkstone and Deeplish
-E05000749,Milnrow and Newhey
-E05000750,Norden
-E05000751,North Heywood
-E05000752,North Middleton
-E05000753,Smallbridge and Firgrove
-E05000754,South Middleton
-E05000755,Spotland and Falinge
-E05000756,Wardle and West Littleborough
-E05000757,West Heywood
-E05000758,West Middleton
 E05000779,Bramhall North
 E05000780,Bramhall South and Woodford
 E05000781,Bredbury and Woodley
@@ -675,22 +155,6 @@ E05000912,Wavertree
 E05000913,West Derby
 E05000914,Woolton
 E05000915,Yew Tree
-E05000916,Billinge and Seneley Green
-E05000917,Blackbrook
-E05000918,Bold
-E05000919,Earlestown
-E05000920,Eccleston
-E05000921,Haydock
-E05000922,Moss Bank
-E05000923,Newton
-E05000924,Parr
-E05000925,Rainford
-E05000926,Rainhill
-E05000927,Sutton
-E05000928,Thatto Heath
-E05000929,Town Centre
-E05000930,West Park
-E05000931,Windle
 E05000932,Ainsdale
 E05000933,Birkdale
 E05000934,Blundellsands
@@ -1287,22 +751,6 @@ E05002285,Priestwood and Garth
 E05002286,Warfield Harvest Ride
 E05002287,Wildridings and Central
 E05002288,Winkfield and Cranbourne
-E05002319,Abbey
-E05002320,Battle
-E05002321,Caversham
-E05002322,Church
-E05002323,Katesgrove
-E05002324,Kentwood
-E05002325,Mapledurham
-E05002326,Minster
-E05002327,Norcot
-E05002328,Park
-E05002329,Peppard
-E05002330,Redlands
-E05002331,Southcote
-E05002332,Thames
-E05002333,Tilehurst
-E05002334,Whitley
 E05002372,Arborfield
 E05002373,Barkham
 E05002374,Bulmershe and Whitegates
@@ -1379,49 +827,6 @@ E05002467,Shirley
 E05002468,Sholing
 E05002469,Swaythling
 E05002470,Woolston
-E05003145,Barrow Island
-E05003146,Central
-E05003147,Dalton North
-E05003148,Dalton South
-E05003149,Hawcoat
-E05003150,Hindpool
-E05003151,Newbarns
-E05003152,Ormsgill
-E05003153,Parkside
-E05003154,Risedale
-E05003155,Roosecote
-E05003156,Walney North
-E05003157,Walney South
-E05003205,Alston Moor
-E05003206,Appleby (Appleby)
-E05003207,Appleby (Bongate)
-E05003208,Askham
-E05003209,Brough
-E05003210,Crosby Ravensworth
-E05003211,Dacre
-E05003212,Eamont
-E05003213,Greystoke
-E05003214,Hartside
-E05003215,Hesket
-E05003216,Kirkby Stephen
-E05003217,Kirkby Thore
-E05003218,Kirkoswald
-E05003219,Langwathby
-E05003220,Lazonby
-E05003221,Long Marton
-E05003222,Morland
-E05003223,Orton with Tebay
-E05003224,Penrith Carleton
-E05003225,Penrith East
-E05003226,Penrith North
-E05003227,Penrith Pategill
-E05003228,Penrith South
-E05003229,Penrith West
-E05003230,Ravenstonedale
-E05003231,Shap
-E05003232,Skelton
-E05003233,Ullswater
-E05003234,Warcop
 E05003280,Alfreton
 E05003281,Alport
 E05003282,Belper Central
@@ -1667,23 +1072,6 @@ E05004527,Stubbington
 E05004528,Titchfield
 E05004529,Titchfield Common
 E05004530,Warsash
-E05004531,Alverstoke
-E05004532,Anglesey
-E05004533,Bridgemary North
-E05004534,Bridgemary South
-E05004535,Brockhurst
-E05004536,Christchurch
-E05004537,Elson
-E05004538,Forton
-E05004539,Grange
-E05004540,Hardway
-E05004541,Lee East
-E05004542,Lee West
-E05004543,Leesland
-E05004544,Peel Common
-E05004545,Privett
-E05004546,Rowner and Holbrook
-E05004547,Town
 E05004566,Barncroft
 E05004567,Battins
 E05004568,Bedhampton
@@ -1800,25 +1188,6 @@ E05004781,Royston Heath
 E05004782,Royston Meridian
 E05004783,Royston Palace
 E05004784,Weston and Sandon
-E05004785,Ashley
-E05004786,Batchwood
-E05004787,Clarence
-E05004789,Cunningham
-E05004790,Harpenden East
-E05004791,Harpenden North
-E05004792,Harpenden South
-E05004793,Harpenden West
-E05004794,London Colney
-E05004795,Marshalswick North
-E05004796,Marshalswick South
-E05004797,Park Street
-E05004798,Redbourn
-E05004799,St Peters
-E05004800,St Stephen
-E05004801,Sandridge
-E05004802,Sopwell
-E05004803,Verulam
-E05004804,Wheathampstead
 E05004805,Bandley Hill
 E05004806,Bedwell
 E05004807,Chells
@@ -2195,30 +1564,6 @@ E05005797,St Andrews
 E05005798,Southtown and Cobholm
 E05005799,West Flegg
 E05005800,Yarmouth North
-E05006191,Bentham
-E05006198,Ingleton and Clapham
-E05006203,Skipton South
-E05006206,Upper Wharfedale
-E05006297,Amotherby
-E05006298,Ampleforth
-E05006299,Cropton
-E05006300,Dales
-E05006301,Derwent
-E05006302,Helmsley
-E05006303,Hovingham
-E05006304,Kirkbymoorside
-E05006305,Malton
-E05006306,Norton East
-E05006307,Norton West
-E05006308,Pickering East
-E05006309,Pickering West
-E05006310,Rillington
-E05006311,Ryedale South West
-E05006312,Sherburn
-E05006313,Sheriff Hutton
-E05006314,Sinnington
-E05006315,Thornton Dale
-E05006316,Wolds
 E05006377,Beckingham
 E05006378,Blyth
 E05006379,Carlton
@@ -2265,40 +1610,6 @@ E05006650,Witney North
 E05006651,Witney South
 E05006652,Witney West
 E05006653,Woodstock and Bladon
-E05006760,Ammerdown
-E05006761,"Ashwick, Chilcompton and Stratton"
-E05006762,Beckington and Selwood
-E05006763,Butleigh and Baltonsborough
-E05006764,Chewton Mendip and Ston Easton
-E05006765,Coleford and Holcombe
-E05006766,"Cranmore, Doulting and Nunney"
-E05006767,Creech
-E05006768,Croscombe and Pilton
-E05006769,Frome Berkley Down
-E05006770,Frome College
-E05006771,Frome Keyford
-E05006772,Frome Market
-E05006773,Frome Oakfield
-E05006774,Frome Park
-E05006775,Glastonbury St Benedict's
-E05006776,Glastonbury St Edmund's
-E05006777,Glastonbury St John's
-E05006778,Glastonbury St Mary's
-E05006779,Moor
-E05006780,Postlebury
-E05006781,Rode and Norton St Philip
-E05006782,Rodney and Westbury
-E05006783,St Cuthbert Out North
-E05006784,Shepton East
-E05006785,Shepton West
-E05006786,Street North
-E05006787,Street South
-E05006788,Street West
-E05006789,The Pennards and Ditcheat
-E05006790,Wells Central
-E05006791,Wells St Cuthbert's
-E05006792,Wells St Thomas'
-E05006793,Wookey and St Cuthbert Out West
 E05006902,Brereton and Ravenhill
 E05006903,Cannock East
 E05006904,Cannock North
@@ -2961,29 +2272,6 @@ E05008889,Warsop Carrs
 E05008890,Woodhouse
 E05008891,Woodlands
 E05008892,Yeoman Hill
-E05008893,Axevale
-E05008894,Berrow
-E05008895,Bridgwater Dunwear
-E05008896,Bridgwater Eastover
-E05008897,Bridgwater Fairfax
-E05008898,Bridgwater Hamp
-E05008899,Bridgwater Victoria
-E05008900,Bridgwater Westover
-E05008901,Bridgwater Wyndham
-E05008902,Burnham Central
-E05008903,Burnham North
-E05008904,Cannington and Wembdon
-E05008905,Cheddar and Shipham
-E05008906,East Polden
-E05008907,Highbridge and Burnham Marine
-E05008908,Huntspill and Pawlett
-E05008909,King's Isle
-E05008910,Knoll
-E05008911,North Petherton
-E05008912,Puriton and Woolavington
-E05008913,Quantocks
-E05008914,Wedmore and Mark
-E05008915,West Polden
 E05008932,Downlands and Forest
 E05008933,Fordingbridge
 E05008934,Forest North West
@@ -3042,7 +2330,6 @@ E05009008,Hoddesdon Town and Rye Park
 E05009009,Rosedale and Bury Green
 E05009010,Waltham Cross
 E05009011,Wormley and Turnford
-E05009028,Colney Heath
 E05009030,Annfield Plain
 E05009031,Aycliffe East
 E05009032,Aycliffe North and Middridge
@@ -3506,31 +2793,6 @@ E05009652,Sudbrooke
 E05009653,Torksey
 E05009654,Waddingham and Spital
 E05009655,Wold View
-E05009664,Embsay-with-Eastby
-E05009665,Gargrave and Malhamdale
-E05009666,Glusburn
-E05009667,Skipton East
-E05009668,Skipton North
-E05009669,Skipton West
-E05009670,Sutton-in-Craven
-E05009671,West Craven
-E05009672,Appleton Wiske & Smeatons
-E05009673,Bagby & Thorntons
-E05009674,Bedale
-E05009675,Easingwold
-E05009676,Great Ayton
-E05009677,Huby
-E05009678,Hutton Rudby
-E05009679,Morton-on-Swale
-E05009680,Northallerton North & Brompton
-E05009681,Northallerton South
-E05009682,Osmotherley & Swainby
-E05009683,Raskelf & White Horse
-E05009684,Romanby
-E05009685,Sowerby & Topcliffe
-E05009686,Stokesley
-E05009687,Tanfield
-E05009688,Thirsk
 E05009689,Bestwood St Albans
 E05009690,Calverton
 E05009691,Carlton
@@ -3798,25 +3060,6 @@ E05010024,North Downs West
 E05010025,Romney Marsh
 E05010026,Sandgate & West Folkestone
 E05010027,Walland & Denge Marsh
-E05010044,Appleton Roebuck & Church Fenton
-E05010045,Barlby Village
-E05010046,Brayton
-E05010047,Byram & Brotherton
-E05010048,Camblesforth & Carlton
-E05010049,Cawood & Wistow
-E05010050,Derwent
-E05010051,Eggborough
-E05010052,Escrick
-E05010053,Hambleton
-E05010054,Monk Fryston
-E05010055,Riccall
-E05010056,Selby East
-E05010057,Selby West
-E05010058,Sherburn in Elmet
-E05010059,South Milford
-E05010060,Tadcaster
-E05010061,Thorpe Willoughby
-E05010062,Whitley
 E05010064,Balderton South
 E05010066,Bilsthorpe
 E05010067,Boughton
@@ -4363,13 +3606,6 @@ E05010757,Penhill and Upper Stratton
 E05010758,Admirals and Cawston
 E05010759,Dunsmore
 E05010760,Wolston and the Lawfords
-E05010774,Aire Valley with Lothersdale
-E05010775,Barden Fell
-E05010776,Cowling
-E05010777,Grassington
-E05010778,Hellifield and Long Preston
-E05010779,Penyghent
-E05010780,Settle and Ribblebanks
 E05010781,Chadlington and Churchill
 E05010782,Charlbury and Finstock
 E05010783,"Hailey, Minster Lovell and Leafield"
@@ -4546,7 +3782,7 @@ E05010957,Hucclecote
 E05010958,Kingsholm and Wotton
 E05010959,Kingsway
 E05010960,Longlevens
-E05010961,Matson and Robinswood
+E05010961,"Matson, Robinswood and White City"
 E05010962,Moreland
 E05010963,Podsmead
 E05010964,Quedgeley Fieldcourt
@@ -4858,10 +4094,7 @@ E05011283,Bar Hill
 E05011284,Barrington
 E05011285,Bassingbourn
 E05011286,Caldecote
-E05011287,Cambourne
-E05011288,Caxton & Papworth
 E05011289,Cottenham
-E05011290,Duxford
 E05011291,Fen Ditton & Fulbourn
 E05011292,Foxton
 E05011293,Gamlingay
@@ -4870,55 +4103,12 @@ E05011295,Hardwick
 E05011296,Harston & Comberton
 E05011297,Histon & Impington
 E05011298,Linton
-E05011299,Longstanton
 E05011300,Melbourn
 E05011301,Milton & Waterbeach
-E05011302,Over & Willingham
-E05011303,Sawston
 E05011304,Shelford
 E05011305,Swavesey
 E05011306,The Mordens
 E05011307,Whittlesford
-E05011308,Bishop Monkton & Newby
-E05011309,Boroughbridge
-E05011310,Claro
-E05011311,Fountains & Ripley
-E05011312,Harrogate Bilton Grange
-E05011313,Harrogate Bilton Woodfield
-E05011314,Harrogate Central
-E05011315,Harrogate Coppice Valley
-E05011316,Harrogate Duchy
-E05011317,Harrogate Fairfax
-E05011318,Harrogate Harlow
-E05011319,Harrogate High Harrogate
-E05011320,Harrogate Hookstone
-E05011321,Harrogate Kingsley
-E05011322,Harrogate New Park
-E05011323,Harrogate Oatlands
-E05011324,Harrogate Old Bilton
-E05011325,Harrogate Pannal
-E05011326,Harrogate St Georges
-E05011327,Harrogate Saltergate
-E05011328,Harrogate Starbeck
-E05011329,Harrogate Stray
-E05011330,Harrogate Valley Gardens
-E05011331,Killinghall & Hampsthwaite
-E05011332,Knaresborough Aspin & Calcutt
-E05011333,Knaresborough Castle
-E05011334,Knaresborough Eastfield
-E05011335,Knaresborough Scriven Park
-E05011336,Marston Moor
-E05011337,Masham & Kirkby Malzeard
-E05011338,Nidd Valley
-E05011339,Ouseburn
-E05011340,Pateley Bridge & Nidderdale Moors
-E05011341,Ripon Minster
-E05011342,Ripon Moorside
-E05011343,Ripon Spa
-E05011344,Ripon Ure Bank
-E05011345,Spofforth with Lower Wharfedale
-E05011346,Washburn
-E05011347,Wathvale
 E05011348,"Adderbury, Bloxham and Bodicote"
 E05011349,Banbury Calthorpe and Easington
 E05011350,Ancoats & Beswick
@@ -5053,24 +4243,6 @@ E05011486,Thornton Heath
 E05011487,Waddon
 E05011488,West Thornton
 E05011489,Woodside
-E05011490,Ambleside & Grasmere
-E05011491,Arnside & Milnthorpe
-E05011492,Bowness & Levens
-E05011493,Broughton & Coniston
-E05011494,Burton & Crooklands
-E05011495,Cartmel
-E05011496,Furness Peninsula
-E05011497,Grange
-E05011498,Kendal East
-E05011499,Kendal North
-E05011500,Kendal Rural
-E05011501,Kendal South & Natland
-E05011502,Kendal Town
-E05011503,Kendal West
-E05011504,Sedbergh & Kirkby Lonsdale
-E05011505,Ulverston East
-E05011506,Ulverston West
-E05011507,Windermere
 E05011508,Audley & Queen's Park
 E05011509,Bastwell & Daisyfield
 E05011510,Billinge & Beardwood
@@ -5260,29 +4432,6 @@ E05011715,Drayton
 E05011717,Sutton Courtenay
 E05011718,Thames
 E05011719,Wootton
-E05011720,All Saints
-E05011721,Allhallow & Waverton
-E05011722,Aspatria
-E05011723,Boltons
-E05011724,Broughton St Bridgets
-E05011725,Christchurch
-E05011726,Crummock & Derwent Valley
-E05011727,Dalton
-E05011728,Ellen & Gilcrux
-E05011729,Flimby
-E05011730,Harrington & Salterbeck
-E05011731,Keswick
-E05011732,Marsh & Wampool
-E05011733,Maryport North
-E05011734,Maryport South
-E05011735,Moorclose & Moss Bay
-E05011736,St John's
-E05011737,St Michael's
-E05011738,Seaton & Northside
-E05011739,Silloth & Solway Coast
-E05011740,Stainburn & Clifton
-E05011741,Warnell
-E05011742,Wigton & Woodside
 E05011743,Aylesford & East Stour
 E05011744,Beaver
 E05011745,Biddenden
@@ -5881,42 +5030,6 @@ E05012352,"Walsoken, West Walton & Walpole"
 E05012353,Watlington
 E05012354,West Winch
 E05012355,Wissey
-E05012356,Catterick & Brompton-on-Swale
-E05012357,Colburn
-E05012358,Croft & Middleton Tyas
-E05012359,Gilling West
-E05012360,"Hawes, High Abbotside & Upper Swaledale"
-E05012361,Hipswell
-E05012362,Leyburn
-E05012363,Lower Swaledale & Arkengarthdale
-E05012364,Lower Wensleydale
-E05012365,Melsonby
-E05012366,Middleham
-E05012367,Richmond East
-E05012368,Richmond North
-E05012369,Richmond West
-E05012370,Scotton
-E05012371,Yoredale
-E05012372,Burniston & Cloughton
-E05012373,Castle
-E05012374,Cayton
-E05012375,Danby & Mulgrave
-E05012376,Derwent Valley & Moor
-E05012377,Eastfield
-E05012378,Esk Valley
-E05012379,Falsgrave & Stepney
-E05012380,Filey
-E05012381,Fylingdales & Ravenscar
-E05012382,Hunmanby
-E05012383,Mayfield
-E05012384,Newby
-E05012385,Northstead
-E05012386,Scalby
-E05012387,Seamer
-E05012388,Streonshalh
-E05012389,Weaponness & Ramshill
-E05012390,Whitby West Cliff
-E05012391,Woodlands
 E05012392,Bean & Village Park
 E05012393,Brent
 E05012394,Bridge
@@ -6038,58 +5151,6 @@ E05012509,Pinkneys Green
 E05012510,Riverside
 E05012511,St Mary's
 E05012512,Sunningdale & Cheapside
-E05012513,Blackdown & Tatworth
-E05012514,Blackmoor Vale
-E05012515,Bruton
-E05012516,Brympton
-E05012517,Burrow Hill
-E05012518,Camelot
-E05012519,Cary
-E05012520,Chard Avishayes
-E05012521,Chard Combe
-E05012522,Chard Crimchard
-E05012523,Chard Holyrood
-E05012524,Chard Jocelyn
-E05012525,Coker
-E05012526,Crewkerne
-E05012527,"Curry Rivel, Huish & Langport"
-E05012528,Eggwood
-E05012529,Hamdon
-E05012530,Ilminster
-E05012531,Islemoor
-E05012532,Martock
-E05012533,Milborne Port
-E05012534,Neroche
-E05012535,"Northstone, Ivelchester & St Michael's"
-E05012536,Parrett
-E05012537,South Petherton
-E05012538,Tower
-E05012539,Turn Hill
-E05012540,Wessex
-E05012541,Wincanton
-E05012542,Windwhistle
-E05012543,Yeovil College
-E05012544,Yeovil Lyde
-E05012545,Yeovil Summerlands
-E05012546,Yeovil Westland
-E05012547,Yeovil Without
-E05012548,Arlecdon & Ennerdale
-E05012549,Beckermet
-E05012550,Black Combe & Scafell
-E05012551,Cleator Moor
-E05012552,Corkickle
-E05012553,"Distington, Lowca & Parton"
-E05012554,Egremont
-E05012555,Gosforth & Seascale
-E05012556,Hillcrest
-E05012557,Kells
-E05012558,Millom
-E05012559,Moor Row & Bigrigg
-E05012560,Moresby
-E05012561,St Bees
-E05012562,Sneckyeat
-E05012563,Whitehaven Central
-E05012564,Whitehaven South
 E05012565,Assington
 E05012566,Box Vale
 E05012567,Brantham
@@ -6331,41 +5392,6 @@ E05012802,Tollgate
 E05012803,Westgate
 E05012804,Whepstead & Wickhambrook
 E05012805,Withersfield
-E05012806,Alcombe
-E05012807,Blackbrook & Holway
-E05012808,Comeytrowe & Bishop's Hull
-E05012809,Cotford St Luke & Oake
-E05012810,Creech St Michael
-E05012811,Dulverton & District
-E05012812,Exmoor
-E05012813,Halcon & Lane
-E05012814,Hatch & Blackdown
-E05012815,Manor & Tangier
-E05012816,Milverton & District
-E05012817,Minehead Central
-E05012818,Minehead North
-E05012819,Monument
-E05012820,North Curry & Ruishton
-E05012821,North Town
-E05012822,Norton Fitzwarren & Staplegrove
-E05012823,Old Cleeve & District
-E05012824,Periton & Woodcombe
-E05012825,Porlock & District
-E05012826,Priorswood
-E05012827,Quantock Vale
-E05012828,Rockwell Green
-E05012829,South Quantock
-E05012830,"Trull, Pitminster & Corfe"
-E05012831,Victoria
-E05012832,Vivary
-E05012833,Watchet & Williton
-E05012834,Wellington East
-E05012835,Wellington North
-E05012836,Wellington South
-E05012837,Wellsprings & Rowbarton
-E05012838,West Monkton & Cheddon Fitzpaine
-E05012839,Wilton & Sherford
-E05012840,Wiveliscombe & District
 E05012841,Adel & Wharfedale
 E05012842,Alwoodley
 E05012843,Ampthill
@@ -6465,19 +5491,6 @@ E05012936,"Chilworth, Nursling & Rownhams"
 E05012937,North Baddesley
 E05012938,Romsey Cupernham
 E05012939,Valley Park
-E05012940,Belah & Kingmoor
-E05012941,Botcherby & Harraby North
-E05012942,Brampton & Fellside
-E05012943,Cathedral & Castle
-E05012944,Currock & Upperby
-E05012945,Dalston & Burgh
-E05012946,Denton Holme & Morton South
-E05012947,Harraby South & Parklands
-E05012948,Longtown & the Border
-E05012949,Newtown & Morton North
-E05012950,Sandsfield & Morton West
-E05012951,Stanwix & Houghton
-E05012952,Wetheral & Corby
 E05012953,Little Stour & Adisham
 E05012954,Nailbourne
 E05012955,Reculver
@@ -6526,7 +5539,7 @@ E05012997,Bramley & Ravenfield
 E05012998,Brinsworth
 E05012999,Dalton & Thrybergh
 E05013000,Dinnington
-E05013001,Greasborough
+E05013001,Greasbrough
 E05013002,Hellaby & Maltby West
 E05013003,Hoober
 E05013004,Keppel
@@ -6991,6 +6004,340 @@ E05013492,Wilton
 E05013493,Winsley & Westwood
 E05013494,Winterslow & Upper Bourne Valley
 E05013495,Wylye Valley
+E05013496,Alperton
+E05013497,Barnhill
+E05013498,Brondesbury Park
+E05013499,Cricklewood & Mapesbury
+E05013500,Dollis Hill
+E05013501,Harlesden & Kensal Green
+E05013502,Kenton
+E05013503,Kilburn
+E05013504,Kingsbury
+E05013505,Northwick Park
+E05013506,Preston
+E05013507,Queens Park
+E05013508,Queensbury
+E05013509,Roundwood
+E05013510,Stonebridge
+E05013511,Sudbury
+E05013512,Tokyngton
+E05013513,Welsh Harp
+E05013514,Wembley Central
+E05013515,Wembley Hill
+E05013516,Wembley Park
+E05013517,Willesden Green
+E05013518,Central Greenford
+E05013519,Dormers Wells
+E05013520,Ealing Broadway
+E05013521,Ealing Common
+E05013522,East Acton
+E05013523,Greenford Broadway
+E05013524,Hanger Hill
+E05013525,Hanwell Broadway
+E05013526,Lady Margaret
+E05013527,North Acton
+E05013528,North Greenford
+E05013529,North Hanwell
+E05013530,Northfield
+E05013531,Northolt Mandeville
+E05013532,Northolt West End
+E05013533,Norwood Green
+E05013534,Perivale
+E05013535,Pitshanger
+E05013536,South Acton
+E05013537,Southall Broadway
+E05013538,Southall Green
+E05013539,Southall West
+E05013540,Southfield
+E05013541,Walpole
+E05013542,Belmont
+E05013543,Canons
+E05013544,Centenary
+E05013545,Edgware
+E05013546,Greenhill
+E05013547,Harrow on the Hill
+E05013548,Harrow Weald
+E05013549,Hatch End
+E05013550,Headstone
+E05013551,Kenton East
+E05013552,Kenton West
+E05013553,Marlborough
+E05013554,North Harrow
+E05013555,Pinner
+E05013556,Pinner South
+E05013557,Rayners Lane
+E05013558,Roxbourne
+E05013559,Roxeth
+E05013560,Stanmore
+E05013561,Wealdstone North
+E05013562,Wealdstone South
+E05013563,West Harrow
+E05013564,Belmore
+E05013565,Charville
+E05013566,Colham & Cowley
+E05013567,Eastcote
+E05013568,Harefield Village
+E05013569,Hayes Town
+E05013570,Heathrow Villages
+E05013571,Hillingdon East
+E05013572,Hillingdon West
+E05013573,Ickenham & South Harefield
+E05013574,Northwood
+E05013575,Northwood Hills
+E05013576,Pinkwell
+E05013577,Ruislip
+E05013578,Ruislip Manor
+E05013579,South Ruislip
+E05013580,Uxbridge
+E05013581,West Drayton
+E05013582,Wood End
+E05013583,Yeading
+E05013584,Yiewsley
+E05013585,Alexandra Park
+E05013586,Bounds Green
+E05013587,Bruce Castle
+E05013588,Crouch End
+E05013589,Fortis Green
+E05013590,Harringay
+E05013591,Hermitage & Gardens
+E05013592,Highgate
+E05013593,Hornsey
+E05013594,Muswell Hill
+E05013595,Noel Park
+E05013596,Northumberland Park
+E05013597,St Ann's
+E05013598,Seven Sisters
+E05013599,South Tottenham
+E05013600,Stroud Green
+E05013601,Tottenham Central
+E05013602,Tottenham Hale
+E05013603,West Green
+E05013604,White Hart Lane
+E05013605,Woodside
+E05013606,Bedfont
+E05013607,Brentford East
+E05013608,Brentford West
+E05013609,Chiswick Gunnersbury
+E05013610,Chiswick Homefields
+E05013611,Chiswick Riverside
+E05013612,Cranford
+E05013613,Feltham North
+E05013614,Feltham West
+E05013615,Hanworth Park
+E05013616,Hanworth Village
+E05013617,Heston Central
+E05013618,Heston East
+E05013619,Heston West
+E05013620,Hounslow Central
+E05013621,Hounslow East
+E05013622,Hounslow Heath
+E05013623,Hounslow South
+E05013624,Hounslow West
+E05013625,Isleworth
+E05013626,Osterley & Spring Grove
+E05013627,Syon & Brentford Lock
+E05013628,Barnet Vale
+E05013629,Brunswick Park
+E05013630,Burnt Oak
+E05013631,Childs Hill
+E05013632,Colindale North
+E05013633,Colindale South
+E05013634,Cricklewood
+E05013635,East Barnet
+E05013636,East Finchley
+E05013637,Edgware
+E05013638,Edgwarebury
+E05013639,Finchley Church End
+E05013640,Friern Barnet
+E05013641,Garden Suburb
+E05013642,Golders Green
+E05013643,Hendon
+E05013644,High Barnet
+E05013645,Mill Hill
+E05013646,Totteridge & Woodside
+E05013647,Underhill
+E05013648,West Finchley
+E05013649,West Hendon
+E05013650,Whetstone
+E05013651,Woodhouse
+E05013652,Belsize
+E05013653,Bloomsbury
+E05013654,Camden Square
+E05013655,Camden Town
+E05013656,Fortune Green
+E05013657,Frognal
+E05013658,Gospel Oak
+E05013659,Hampstead Town
+E05013660,Haverstock
+E05013661,Highgate
+E05013662,Holborn & Covent Garden
+E05013663,Kentish Town North
+E05013664,Kentish Town South
+E05013665,Kilburn
+E05013666,King's Cross
+E05013667,Primrose Hill
+E05013668,Regent's Park
+E05013669,St Pancras & Somers Town
+E05013670,South Hampstead
+E05013671,West Hampstead
+E05013672,Arnos Grove
+E05013673,Bowes
+E05013674,Brimsdown
+E05013675,Bullsmoor
+E05013676,Bush Hill Park
+E05013677,Carterhatch
+E05013678,Cockfosters
+E05013679,Edmonton Green
+E05013680,Enfield Lock
+E05013681,Grange Park
+E05013682,Haselbury
+E05013683,Highfield
+E05013684,Jubilee
+E05013685,Lower Edmonton
+E05013686,New Southgate
+E05013687,Oakwood
+E05013688,Palmers Green
+E05013689,Ponders End
+E05013690,Ridgeway
+E05013691,Southbury
+E05013692,Southgate
+E05013693,Town
+E05013694,Upper Edmonton
+E05013695,Whitewebbs
+E05013696,Winchmore Hill
+E05013697,Arsenal
+E05013698,Barnsbury
+E05013699,Bunhill
+E05013700,Caledonian
+E05013701,Canonbury
+E05013702,Clerkenwell
+E05013703,Finsbury Park
+E05013704,Highbury
+E05013705,Hillrise
+E05013706,Holloway
+E05013707,Junction
+E05013708,Laycock
+E05013709,Mildmay
+E05013710,St Mary's & St James'
+E05013711,St Peter's & Canalside
+E05013712,Tollington
+E05013713,Tufnell Park
+E05013714,Bellingham
+E05013715,Blackheath
+E05013716,Brockley
+E05013717,Catford South
+E05013718,Crofton Park
+E05013719,Deptford
+E05013720,Downham
+E05013721,Evelyn
+E05013722,Forest Hill
+E05013723,Grove Park
+E05013724,Hither Green
+E05013725,Ladywell
+E05013726,Lee Green
+E05013727,Lewisham Central
+E05013728,New Cross Gate
+E05013729,Perry Vale
+E05013730,Rushey Green
+E05013731,Sydenham
+E05013732,Telegraph Hill
+E05013733,Addison
+E05013734,Avonmore
+E05013735,Brook Green
+E05013736,College Park & Old Oak
+E05013737,Coningham
+E05013738,Fulham Reach
+E05013739,Fulham Town
+E05013740,Grove
+E05013741,Hammersmith Broadway
+E05013742,Lillie
+E05013743,Munster
+E05013744,Palace & Hurlingham
+E05013745,Parsons Green & Sandford
+E05013746,Ravenscourt
+E05013747,Sands End
+E05013748,Shepherd's Bush Green
+E05013749,Walham Green
+E05013750,Wendell Park
+E05013751,West Kensington
+E05013752,White City
+E05013753,Wormholt
+E05013754,Beddington
+E05013755,Belmont
+E05013756,Carshalton Central
+E05013757,Carshalton South & Clockhouse
+E05013758,Cheam
+E05013759,Hackbridge
+E05013760,North Cheam
+E05013761,St Helier East
+E05013762,St Helier West
+E05013763,South Beddington & Roundshaw
+E05013764,Stonecot
+E05013765,Sutton Central
+E05013766,Sutton North
+E05013767,Sutton South
+E05013768,Sutton West & East Cheam
+E05013769,The Wrythe
+E05013770,Wallington North
+E05013771,Wallington South
+E05013772,Worcester Park North
+E05013773,Worcester Park South
+E05013774,Barnes
+E05013775,East Sheen
+E05013776,Fulwell & Hampton Hill
+E05013777,"Ham, Petersham & Richmond Riverside"
+E05013778,Hampton
+E05013779,Hampton North
+E05013780,Hampton Wick & South Teddington
+E05013781,Heathfield
+E05013782,Kew
+E05013783,Mortlake & Barnes Common
+E05013784,North Richmond
+E05013785,St Margarets & North Twickenham
+E05013786,South Richmond
+E05013787,South Twickenham
+E05013788,Teddington
+E05013789,Twickenham Riverside
+E05013790,West Twickenham
+E05013791,Whitton
+E05013792,Abbey Road
+E05013793,Bayswater
+E05013794,Church Street
+E05013795,Harrow Road
+E05013796,Hyde Park
+E05013797,Knightsbridge & Belgravia
+E05013798,Lancaster Gate
+E05013799,Little Venice
+E05013800,Maida Vale
+E05013801,Marylebone
+E05013802,Pimlico North
+E05013803,Pimlico South
+E05013804,Queen's Park
+E05013805,Regent's Park
+E05013806,St James's
+E05013807,Vincent Square
+E05013808,West End
+E05013809,Westbourne
+E05013810,Abbey
+E05013811,Cannon Hill
+E05013812,Colliers Wood
+E05013813,Cricket Green
+E05013814,Figge's Marsh
+E05013815,Graveney
+E05013816,Hillside
+E05013817,Lavender Fields
+E05013818,Longthornton
+E05013819,Lower Morden
+E05013820,Merton Park
+E05013821,Pollards Hill
+E05013822,Ravensbury
+E05013823,Raynes Park
+E05013824,St Helier
+E05013825,Village
+E05013826,Wandle
+E05013827,West Barnes
+E05013828,Wimbledon Park
+E05013829,Wimbledon Town & Dundonald
 E05013830,Garforth & Swillington
 E05013831,Temple Newsam
 E05013832,Bowerhill
@@ -7025,1209 +6372,1296 @@ E05013860,"St Newlyn East, Cubert & Goonhavern"
 E05013861,Threemilestone & Chacewater
 E05013862,Bothal
 E05013863,Pegswood
-S13002516,South Kintyre
-S13002517,Kintyre and the Islands
-S13002518,Mid Argyll
-S13002519,Oban South and the Isles
-S13002520,Oban North and Lorn
-S13002521,Cowal
-S13002522,Dunoon
-S13002523,Isle of Bute
-S13002524,Lomond North
-S13002525,Helensburgh Central
-S13002526,Helensburgh and Lomond South
-S13002545,Strathmartine
-S13002546,Lochee
-S13002547,West End
-S13002548,Coldside
-S13002549,Maryfield
-S13002551,East End
-S13002552,The Ferry
-S13002600,"Barraigh, Bhatarsaigh, Eirisgeigh agus Uibhist a Deas"
-S13002601,Beinn na Foghla agus Uibhist a Tuath
-S13002602,Na Hearadh agus Ceann a Deas nan Loch
-S13002603,Sgir'Uige agus Ceann a Tuath nan Loch
-S13002604,Sgire an Rubha
-S13002605,Steòrnabhagh a Deas
-S13002606,Steòrnabhagh a Tuath
-S13002607,Loch a Tuath
-S13002608,An Taobh Siar agus Nis
-S13002732,Kirkwall East
-S13002733,Kirkwall West and Orphir
-S13002734,Stromness and South Isles
-S13002735,West Mainland
-S13002736,"East Mainland, South Ronaldsay and Burray"
-S13002737,North Isles
-S13002761,Tweeddale West
-S13002762,Tweeddale East
-S13002763,Galashiels and District
-S13002764,Selkirkshire
-S13002765,Leaderdale and Melrose
-S13002766,Mid Berwickshire
-S13002767,East Berwickshire
-S13002768,Kelso and District
-S13002769,Jedburgh and District
-S13002770,Hawick and Denholm
-S13002771,Hawick and Hermitage
-S13002772,North Isles
-S13002773,Shetland North
-S13002774,Shetland West
-S13002775,Shetland Central
-S13002776,Shetland South
-S13002777,Lerwick North
-S13002778,Lerwick South
-S13002820,Linlithgow
-S13002821,"Broxburn, Uphall and Winchburgh"
-S13002822,Livingston North
-S13002823,Livingston South
-S13002824,East Livingston and East Calder
-S13002825,Fauldhouse and the Breich Valley
-S13002826,Whitburn and Blackburn
-S13002827,Bathgate
-S13002828,Armadale and Blackridge
-S13002830,North East
-S13002835,Dyce/Bucksburn/Danestone
-S13002836,Bridge of Don
-S13002837,Kingswells/Sheddocksley/Summerhill
-S13002838,Northfield/Mastrick North
-S13002839,Hilton/Woodside/Stockethill
-S13002840,Tillydrone/Seaton/Old Aberdeen
-S13002841,Midstocket/Rosemount
-S13002842,George St/Harbour
-S13002843,Lower Deeside
-S13002844,Hazlehead/Queens Cross/Countesswells
-S13002845,Airyhall/Broomhill/Garthdee
-S13002846,Torry/Ferryhill
-S13002847,Kincorth/Nigg/Cove
-S13002848,Banff and District
-S13002849,Troup
-S13002850,Fraserburgh and District
-S13002851,Central Buchan
-S13002852,Peterhead North and Rattray
-S13002853,Peterhead South and Cruden
-S13002854,Turriff and District
-S13002855,Mid Formartine
-S13002856,Ellon and District
-S13002857,West Garioch
-S13002858,Inverurie and District
-S13002859,East Garioch
-S13002860,Westhill and District
-S13002861,"Huntly, Strathbogie and Howe of Alford"
-S13002862,"Aboyne, Upper Deeside and Donside"
-S13002863,Banchory and Mid Deeside
-S13002864,North Kincardine
-S13002865,Stonehaven and Lower Deeside
-S13002866,Mearns
-S13002867,Kirriemuir and Dean
-S13002868,Brechin and Edzell
-S13002869,Forfar and District
-S13002870,Monifieth and Sidlaw
-S13002871,Carnoustie and District
-S13002872,"Arbroath West, Letham and Friockheim"
-S13002873,Arbroath East and Lunan
-S13002874,Montrose and District
-S13002875,Clackmannanshire West
-S13002876,Clackmannanshire North
-S13002877,Clackmannanshire Central
-S13002878,Clackmannanshire South
-S13002879,Clackmannanshire East
-S13002880,Stranraer and the Rhins
-S13002881,Mid Galloway and Wigtown West
-S13002882,Dee and Glenkens
-S13002883,Castle Douglas and Crocketford
-S13002884,Abbey
-S13002885,North West Dumfries
-S13002886,Mid and Upper Nithsdale
-S13002887,Lochar
-S13002888,Nith
-S13002889,Annandale South
-S13002890,Annandale North
-S13002891,Annandale East and Eskdale
-S13002892,Annick
-S13002893,Kilmarnock North
-S13002894,Kilmarnock West and Crosshouse
-S13002895,Kilmarnock East and Hurlford
-S13002896,Kilmarnock South
-S13002897,Irvine Valley
-S13002898,Ballochmyle
-S13002899,Cumnock and New Cumnock
-S13002900,Doon Valley
-S13002901,Milngavie
-S13002902,Bearsden North
-S13002903,Bearsden South
-S13002904,Bishopbriggs North and Campsie
-S13002905,Bishopbriggs South
-S13002906,Lenzie and Kirkintilloch South
-S13002907,Kirkintilloch East and North and Twechar
-S13002908,Musselburgh
-S13002909,"Preston, Seton and Gosford"
-S13002910,"Tranent, Wallyford and Macmerry"
-S13002911,North Berwick Coastal
-S13002912,Haddington and Lammermuir
-S13002913,Dunbar and East Linton
-S13002914,"Barrhead, Liboside and Uplawmoor"
-S13002915,Newton Mearns North and Neilston
-S13002916,Giffnock and Thornliebank
-S13002917,"Clarkston, Netherlee and Williamwood"
-S13002918,Newton Mearns South and Eaglesham
-S13002919,Almond
-S13002920,Pentland Hills
-S13002921,Drum Brae/Gyle
-S13002922,Forth
-S13002923,Inverleith
-S13002924,Corstorphine/Murrayfield
-S13002925,Sighthill/Gorgie
-S13002926,Colinton/Fairmilehead
-S13002927,Fountainbridge/Craiglockhart
-S13002928,Morningside
-S13002929,City Centre
-S13002930,Leith Walk
-S13002931,Leith
-S13002932,Craigentinny/Duddingston
-S13002933,Southside/Newington
-S13002934,Liberton/Gilmerton
-S13002935,Portobello/Craigmillar
-S13002936,Bo'ness and Blackness
-S13002937,Grangemouth
-S13002938,Denny and Banknock
-S13002939,"Carse, Kinnaird and Tryst"
-S13002940,Bonnybridge and Larbert
-S13002941,Falkirk North
-S13002942,Falkirk South
-S13002943,Lower Braes
-S13002944,Upper Braes
-S13002946,Dunfermline North
-S13002947,Dunfermline Central
-S13002948,Dunfermline South
-S13002949,Rosyth
-S13002950,Inverkeithing and Dalgety Bay
-S13002953,"Burntisland, Kinghorn and Western Kirkcaldy"
-S13002954,Kirkcaldy North
-S13002955,Kirkcaldy Central
-S13002956,Kirkcaldy East
-S13002958,"Glenrothes North, Leslie and Markinch"
-S13002959,Glenrothes Central and Thornton
-S13002960,Howe of Fife and Tay Coast
-S13002961,Tay Bridgehead
-S13002962,St Andrews
-S13002963,East Neuk and Landward
-S13002964,Cupar
-S13002965,"Leven, Kennoway and Largo"
-S13002966,"Buckhaven, Methil and Wemyss Villages"
-S13002967,Linn
-S13002968,Newlands/Auldburn
-S13002969,Greater Pollok
-S13002970,Cardonald
-S13002971,Govan
-S13002972,Pollokshields
-S13002973,Langside
-S13002974,Southside Central
-S13002975,Calton
-S13002976,Anderston/City/Yorkhill
-S13002977,Hillhead
-S13002978,Victoria Park
-S13002979,Garscadden/Scotstounhill
-S13002980,Drumchapel/Anniesland
-S13002981,Maryhill
-S13002982,Canal
-S13002983,Springburn/Robroyston
-S13002984,East Centre
-S13002985,Shettleston
-S13002986,Baillieston
-S13002988,Dennistoun
-S13002989,Partick East/Kelvindale
-S13002990,"North, West and Central Sutherland"
-S13002991,Thurso and Northwest Caithness
-S13002992,Wick and East Caithness
-S13002993,East Sutherland and Edderton
-S13002994,"Wester Ross, Strathpeffer and Lochalsh"
-S13002995,Cromarty Firth
-S13002996,Tain and Easter Ross
-S13002997,Dingwall and Seaforth
-S13002998,Black Isle
-S13002999,Eilean á Chèo
-S13003000,Caol and Mallaig
-S13003001,Aird and Loch Ness
-S13003002,Inverness West
-S13003003,Inverness Central
-S13003004,Inverness Ness-side
-S13003005,Inverness Millburn
-S13003006,Culloden and Ardersier
-S13003007,Nairn and Cawdor
-S13003008,Inverness South
-S13003009,Badenoch and Strathspey
-S13003010,Fort William and Ardnamurchan
-S13003011,Inverclyde East
-S13003012,Inverclyde East Central
-S13003013,Inverclyde Central
-S13003014,Inverclyde North
-S13003015,Inverclyde West
-S13003016,Inverclyde South West
-S13003017,Inverclyde South
-S13003018,Penicuik
-S13003019,Bonnyrigg
-S13003020,Dalkeith
-S13003021,Midlothian West
-S13003022,Midlothian East
-S13003023,Midlothian South
-S13003024,Speyside Glenlivet
-S13003025,Keith and Cullen
-S13003026,Buckie
-S13003027,Fochabers Lhanbryde
-S13003028,Heldon and Laich
-S13003029,Elgin City North
-S13003030,Elgin City South
-S13003031,Forres
-S13003032,Irvine West
-S13003033,Irvine East
-S13003034,Kilwinning
-S13003035,Stevenston
-S13003036,Ardrossan and Arran
-S13003037,Dalry and West Kilbride
-S13003038,Kilbirnie and Beith
-S13003039,North Coast and Cumbraes
-S13003040,Saltcoats
-S13003041,Irvine South
-S13003042,Kilsyth
-S13003043,Cumbernauld North
-S13003044,Cumbernauld South
-S13003045,Cumbernauld East
-S13003047,"Gartcosh, Glenboig and Moodiesburn"
-S13003048,Coatbridge North
-S13003049,Airdrie North
-S13003050,Airdrie Central
-S13003051,Coatbridge West
-S13003052,Coatbridge South
-S13003053,Airdrie South
-S13003054,Fortissat
-S13003055,Thorniewood
-S13003056,Bellshill
-S13003057,Mossend and Holytown
-S13003058,Motherwell West
-S13003059,Motherwell North
-S13003060,Motherwell South East and Ravenscraig
-S13003061,Murdostoun
-S13003062,Wishaw
-S13003063,Carse of Gowrie
-S13003064,Strathmore
-S13003065,Blairgowrie and Glens
-S13003066,Highland
-S13003067,Strathtay
-S13003068,Strathearn
-S13003069,Strathallan
-S13003071,Almond and Earn
-S13003072,Perth City South
-S13003073,Perth City North
-S13003074,Perth City Centre
-S13003075,Renfrew North and Braehead
-S13003076,Renfrew South and Gallowhill
-S13003077,Paisley Northeast and Ralston
-S13003078,Paisley Northwest
-S13003079,Paisley East and Central
-S13003080,Paisley Southeast
-S13003081,Paisley Southwest
-S13003082,Johnstone South and Elderslie
-S13003083,"Johnstone North, Kilbarchan, Howwood and Lochwinnoch"
-S13003084,"Houston, Crosslee and Linwood"
-S13003085,"Bishopton, Bridge of Weir and Langbank"
-S13003086,Erskine and Inchinnan
-S13003087,Troon
-S13003088,Prestwick
-S13003089,Ayr North
-S13003090,Ayr East
-S13003091,Ayr West
-S13003092,Kyle
-S13003093,"Maybole, North Carrick and Coylton"
-S13003094,Girvan and South Carrick
-S13003095,Clydesdale West
-S13003096,Clydesdale North
-S13003097,Clydesdale East
-S13003098,Clydesdale South
-S13003099,Avondale and Stonehouse
-S13003100,East Kilbride South
-S13003101,East Kilbride Central South
-S13003102,East Kilbride Central North
-S13003103,East Kilbride West
-S13003104,East Kilbride East
-S13003105,Rutherglen South
-S13003106,Rutherglen Central and North
-S13003107,Cambuslang West
-S13003108,Cambuslang East
-S13003109,Blantyre
-S13003110,Bothwell and Uddingston
-S13003111,Hamilton North and East
-S13003112,Hamilton West and Earnock
-S13003113,Hamilton South
-S13003114,Larkhall
-S13003115,Trossachs and Teith
-S13003116,Forth and Endrick
-S13003117,Dunblane and Bridge of Allan
-S13003118,Stirling North
-S13003119,Stirling West
-S13003120,Stirling East
-S13003121,Bannockburn
-S13003122,Lomond
-S13003123,Leven
-S13003124,Dumbarton
-S13003125,Kilpatrick
-S13003126,Clydebank Central
-S13003127,Clydebank Waterfront
-S13003128,Cowdenbeath
-S13003129,Glenrothes West and Kinglassie
-S13003130,"Lochgelly, Cardenden and Benarty"
-S13003131,West Fife and Coastal Villages
-S13003132,Kinross-shire
-S13003133,North East
-S13003134,"Stepps, Chryston and Muirhead"
-W05000041,Aberdaron
-W05000042,Aberdovey
-W05000043,Abererch
-W05000044,Abermaw
-W05000045,Abersoch
-W05000046,Arllechwedd
-W05000047,Bala
-W05000048,Bethel
-W05000049,Bontnewydd
-W05000050,Botwnnog
-W05000051,Bowydd and Rhiw
-W05000052,Brithdir and Llanfachreth/Ganllwyd/Llanelltyd
-W05000053,Bryn-crug/Llanfihangel
-W05000054,Cadnant
-W05000055,Clynnog
-W05000056,Corris/Mawddwy
-W05000057,Criccieth
-W05000058,Cwm-y-Glo
-W05000059,Deiniol
-W05000060,Deiniolen
-W05000061,Dewi
-W05000062,Diffwys and Maenofferen
-W05000063,Dolbenmaen
-W05000064,Dolgellau North
-W05000065,Dolgellau South
-W05000066,Dyffryn Ardudwy
-W05000067,Efail-newydd/Buan
-W05000068,Garth
-W05000069,Gerlan
-W05000070,Glyder
-W05000071,Groeslon
-W05000072,Harlech
-W05000073,Hendre
-W05000074,Hirael
-W05000075,Llanaelhaearn
-W05000076,Llanbedr
-W05000077,Llanbedrog
-W05000078,Llanberis
-W05000079,Llandderfel
-W05000080,Llanengan
-W05000081,Llangelynin
-W05000082,Llanllyfni
-W05000083,Llanrug
-W05000084,Llanuwchllyn
-W05000085,Llanwnda
-W05000086,Llanystumdwy
-W05000087,Marchog
-W05000088,Menai (Bangor)
-W05000089,Menai (Caernarfon)
-W05000090,Morfa Nefyn
-W05000091,Nefyn
-W05000092,Ogwen
-W05000093,Peblig (Caernarfon)
-W05000094,Penisarwaun
-W05000095,Penrhyndeudraeth
-W05000096,Pentir
-W05000097,Penygroes
-W05000098,Porthmadog East
-W05000099,Porthmadog West
-W05000100,Porthmadog-Tremadog
-W05000101,Pwllheli North
-W05000102,Pwllheli South
-W05000103,Seiont
-W05000104,Talysarn
-W05000105,Teigl
-W05000106,Trawsfynydd
-W05000107,Tregarth & Mynydd Llandygai
-W05000108,Tudweiliog
-W05000109,Tywyn
-W05000110,Waunfawr
-W05000111,Y Felinheli
-W05000112,Abergele Pensarn
-W05000113,Betws-y-Coed
-W05000114,Betws yn Rhos
-W05000115,Bryn
-W05000116,Caerhun
-W05000117,Capelulo
-W05000118,Colwyn
-W05000119,Conwy
-W05000121,Crwst
-W05000123,Eglwysbach
-W05000124,Eirias
-W05000125,Gele
-W05000126,Glyn
-W05000127,Gogarth
-W05000128,Gower
-W05000129,Kinmel Bay
-W05000130,Llanddulas
-W05000131,Llandrillo yn Rhos
-W05000132,Llangernyw
-W05000133,Llansanffraid
-W05000134,Llansannan
-W05000135,Llysfaen
-W05000137,Mochdre
-W05000138,Mostyn
-W05000139,Pandy
-W05000140,Pant-yr-afon/Penmaenan
-W05000143,Pentre Mawr
-W05000144,Rhiw
-W05000145,Towyn
-W05000146,Trefriw
-W05000148,Uwch Conwy
-W05000149,Uwchaled
-W05000150,Bodelwyddan
-W05000151,Corwen
-W05000152,Denbigh Central
-W05000153,Denbigh Lower
-W05000154,Denbigh Upper/Henllan
-W05000155,Dyserth
-W05000156,Efenechtyd
-W05000157,Llanarmon-yn-Ial/Llandegla
-W05000158,Llanbedr Dyffryn Clwyd/Llangynhafal
-W05000159,Llandrillo
-W05000160,Llandyrnog
-W05000161,Llanfair Dyffryn Clwyd/Gwyddelwern
-W05000162,Llangollen
-W05000163,Llanrhaeadr-yng-Nghinmeirch
-W05000164,Prestatyn Central
-W05000165,Prestatyn East
-W05000166,Prestatyn Meliden
-W05000167,Prestatyn North
-W05000168,Prestatyn South West
-W05000169,Rhuddlan
-W05000170,Rhyl East
-W05000171,Rhyl South
-W05000172,Rhyl South East
-W05000173,Rhyl South West
-W05000174,Rhyl West
-W05000175,Ruthin
-W05000176,St. Asaph East
-W05000177,St. Asaph West
-W05000178,Trefnant
-W05000179,Tremeirchion
-W05000180,Argoed
-W05000181,Aston
-W05000182,Bagillt East
-W05000183,Bagillt West
-W05000186,Brynford
-W05000187,Buckley Bistre East
-W05000188,Buckley Bistre West
-W05000189,Buckley Mountain
-W05000190,Buckley Pentrobin
-W05000191,Caergwrle
-W05000192,Caerwys
-W05000193,Cilcain
-W05000194,Connah's Quay Central
-W05000195,Connah's Quay Golftyn
-W05000196,Connah's Quay South
-W05000197,Connah's Quay Wepre
-W05000198,Ewloe
-W05000199,Ffynnongroyw
-W05000200,Flint Castle
-W05000201,Flint Coleshill
-W05000202,Flint Oakenholt
-W05000203,Flint Trelawny
-W05000204,Greenfield
-W05000205,Gronant
-W05000206,Gwernaffield
-W05000207,Gwernymynydd
-W05000209,Hawarden
-W05000211,Holywell Central
-W05000212,Holywell East
-W05000213,Holywell West
-W05000216,Llanfynydd
-W05000217,Mancot
-W05000218,Mold Broncoed
-W05000220,Mold South
-W05000221,Mold West
-W05000222,Mostyn
-W05000223,New Brighton
-W05000224,Northop
-W05000225,Northop Hall
-W05000227,Queensferry
-W05000228,Saltney Mold Junction
-W05000229,Saltney Stonebridge
-W05000230,Sealand
-W05000231,Shotton East
-W05000232,Shotton Higher
-W05000233,Shotton West
-W05000234,Trelawnyd and Gwaenysgor
-W05000235,Treuddyn
-W05000236,Whitford
-W05000237,Acton
-W05000238,Borras Park
-W05000239,Bronington
-W05000241,Brynyffynnon
-W05000244,Cefn
-W05000245,Dyffryn Ceiriog/Ceiriog Valley
-W05000246,Chirk North
-W05000247,Chirk South
-W05000249,Erddig
-W05000250,Esclusham
-W05000251,Garden Village
-W05000253,Grosvenor
-W05000254,Gwenfro
-W05000256,Gwersyllt North
-W05000257,Gwersyllt West
-W05000258,Hermitage
-W05000260,Johnstown
-W05000261,Little Acton
-W05000262,Llangollen Rural
-W05000263,Llay
-W05000264,Maesydre
-W05000265,Marchwiel
-W05000266,Marford and Hoseley
-W05000268,New Broughton
-W05000269,Offa
-W05000270,Overton
-W05000271,Pant
-W05000272,Penycae
-W05000273,Penycae and Ruabon South
-W05000274,Plas Madoc
-W05000275,Ponciau
-W05000276,Queensway
-W05000278,Rossett
-W05000279,Ruabon
-W05000280,Smithfield
-W05000281,Stansty
-W05000283,Wynnstay
-W05000284,Aber-craf
-W05000285,Banwy
-W05000286,Beguildy
-W05000287,Berriew
-W05000288,Blaen Hafren
-W05000289,Bronllys
-W05000290,Builth
-W05000291,Bwlch
-W05000292,Caersws
-W05000293,Churchstoke
-W05000294,Crickhowell
-W05000295,Cwm-twrch
-W05000296,Disserth and Trecoed
-W05000297,Dolforwyn
-W05000298,Felin-fâch
-W05000299,Forden
-W05000300,Glantwymyn
-W05000301,Glasbury
-W05000302,Guilsfield
-W05000303,Gwernyfed
-W05000304,Hay
-W05000305,Kerry
-W05000306,Knighton
-W05000307,Llanafanfawr
-W05000308,Llanbadarn Fawr
-W05000309,Llanbrynmair
-W05000310,Llandinam
-W05000311,Llandrindod East/Llandrindod West
-W05000312,Llandrindod North
-W05000313,Llandrindod South
-W05000314,Llandrinio
-W05000315,Llandysilio
-W05000316,Llanelwedd
-W05000317,Llanfair Caereinion
-W05000318,Llanfihangel
-W05000319,Llanfyllin
-W05000320,Llangattock
-W05000321,Llangors
-W05000322,Llangunllo
-W05000324,Llanidloes
-W05000325,Llanwddyn
-W05000326,Llanrhaeadr-ym-Mochnant/Llansilin
-W05000327,Llansantffraid
-W05000328,Llanwrtyd Wells
-W05000329,Llanyre
-W05000330,Machynlleth
-W05000331,Maescar/Llywel
-W05000332,Meifod
-W05000333,Montgomery
-W05000334,Nantmel
-W05000335,Newtown Central
-W05000336,Newtown East
-W05000337,Newtown Llanllwchaiarn North
-W05000338,Newtown Llanllwchaiarn West
-W05000339,Newtown South
-W05000340,Old Radnor
-W05000341,Presteigne
-W05000342,Rhayader
-W05000343,Rhiwcynon
-W05000344,St. David Within
-W05000345,St. John
-W05000346,St. Mary
-W05000347,Talgarth
-W05000349,Tawe-Uchaf
-W05000350,Trewern
-W05000351,Welshpool Castle
-W05000352,Welshpool Gungrog
-W05000353,Welshpool Llanerchyddol
-W05000354,Ynyscedwyn
-W05000355,Yscir
-W05000356,Ystradgynlais
-W05000357,Aberaeron
-W05000358,Aberporth
-W05000359,Aberteifi/Cardigan-Mwldan
-W05000360,Aberteifi/Cardigan-Rhyd-y-Fuwch
-W05000361,Aberteifi/Cardigan-Teifi
-W05000362,Aberystwyth Bronglais
-W05000363,Aberystwyth Canol/Central
-W05000364,Aberystwyth Gogledd/North
-W05000365,Aberystwyth Penparcau
-W05000366,Aberystwyth Rheidol
-W05000367,Beulah
-W05000368,Borth
-W05000369,Capel Dewi
-W05000370,Ceulanamaesmawr
-W05000371,Ciliau Aeron
-W05000372,Faenor
-W05000373,Lampeter
-W05000374,Llanarth
-W05000375,Llanbadarn Fawr-Padarn
-W05000376,Llanbadarn Fawr-Sulien
-W05000377,Llandyfriog
-W05000378,Llandysilio-gogo
-W05000379,Llandysul Town
-W05000380,Llanfarian
-W05000381,Llanfihangel Ystrad
-W05000382,Llangeitho
-W05000383,Llangybi
-W05000384,Llanrhystyd
-W05000385,Llansantffraed
-W05000386,Llanwenog
-W05000387,Lledrod
-W05000388,Melindwr
-W05000389,New Quay
-W05000390,Penbryn
-W05000391,Pen-parc
-W05000392,Tirymynach
-W05000393,Trefeurig
-W05000394,Tregaron
-W05000395,Troedyraur
-W05000396,Ystwyth
-W05000400,Carew
-W05000402,Clydau
-W05000406,Fishguard North East
-W05000407,Fishguard North West
-W05000408,Goodwick
-W05000409,Haverfordwest: Castle
-W05000410,Haverfordwest: Garth
-W05000413,Haverfordwest: Priory
-W05000414,Hundleton
-W05000415,Johnston
-W05000417,Lampeter Velfrey
-W05000418,Lamphey
-W05000419,Letterston
-W05000421,Llanrhian
-W05000422,Maenclochog
-W05000423,Manorbier
-W05000425,Merlin's Bridge
-W05000426,Milford: Central
-W05000427,Milford: East
-W05000428,Milford: Hakin
-W05000429,Milford: Hubberston
-W05000430,Milford: North
-W05000431,Milford: West
-W05000432,Narberth
-W05000433,Narberth Rural
-W05000434,Newport
-W05000435,Neyland: East
-W05000436,Neyland: West
-W05000437,Pembroke Dock: Central
-W05000438,Pembroke Dock: Llanion
-W05000439,Pembroke Dock: Market
-W05000440,Pembroke Dock: Pennar
-W05000441,Pembroke: Monkton
-W05000442,Pembroke: St. Mary North
-W05000443,Pembroke: St. Mary South
-W05000444,Pembroke: St. Michael
-W05000447,St. David's
-W05000448,St. Dogmaels
-W05000449,St. Ishmael's
-W05000450,Saundersfoot
-W05000451,Scleddau
-W05000452,Solva
-W05000454,Tenby: South
-W05000455,The Havens
-W05000456,Wiston
-W05000457,Abergwili
-W05000458,Ammanford
-W05000459,Betws
-W05000460,Bigyn
-W05000461,Burry Port
-W05000463,Carmarthen Town North
-W05000464,Carmarthen Town South
-W05000465,Carmarthen Town West
-W05000466,Cenarth
-W05000467,Cilycwm
-W05000468,Cynwyl Elfed
-W05000469,Cynwyl Gaeo
-W05000470,Dafen
-W05000471,Elli
-W05000472,Felinfoel
-W05000473,Garnant
-W05000474,Glanamman
-W05000475,Glanymor
-W05000476,Glyn
-W05000477,Gorslas
-W05000478,Hendy
-W05000479,Hengoed
-W05000480,Kidwelly
-W05000481,Laugharne Township
-W05000482,Llanboidy
-W05000483,Llanddarog
-W05000484,Llandeilo
-W05000485,Llandovery
-W05000486,Llandybie
-W05000487,Llanegwad
-W05000488,Llanfihangel Aberbythych
-W05000489,Llanfihangel-ar-Arth
-W05000490,Llangadog
-W05000491,Llangeler
-W05000493,Llangunnor
-W05000494,Llangyndeyrn
-W05000495,Llannon
-W05000496,Llansteffan
-W05000497,Llanybydder
-W05000498,Lliedi
-W05000499,Llwynhendy
-W05000500,Manordeilo and Salem
-W05000501,Pembrey
-W05000502,Penygroes
-W05000503,Pontamman
-W05000504,Pontyberem
-W05000505,Quarter Bach
-W05000506,St. Clears
-W05000507,St. Ishmael
-W05000508,Saron
-W05000509,Swiss Valley
-W05000510,Trelech
-W05000511,Trimsaran
-W05000512,Tycroes
-W05000513,Tyisha
-W05000514,Whitland
-W05000524,Gower
-W05000525,Gowerton
-W05000526,Killay North
-W05000527,Killay South
-W05000532,Lower Loughor
-W05000533,Mawr
-W05000534,Mayals
-W05000537,Newton
-W05000538,Oystermouth
-W05000544,Pontardulais
-W05000545,St. Thomas
-W05000546,Sketty
-W05000548,Uplands
-W05000550,West Cross
-W05000551,Aberavon
-W05000552,Aberdulais
-W05000553,Allt-wen
-W05000555,Blaengwrach
-W05000557,Briton Ferry West
-W05000559,Bryn-coch North
-W05000560,Bryn-coch South
-W05000561,Cadoxton
-W05000562,Cimla
-W05000563,Coedffranc Central
-W05000564,Coedffranc North
-W05000565,Coedffranc West
-W05000566,Crynant
-W05000567,Cwmllynfell
-W05000568,Cymmer
-W05000569,Dyffryn
-W05000570,Glyncorrwg
-W05000571,Glynneath
-W05000572,Godre'r graig
-W05000573,Gwaun-Cae-Gurwen
-W05000574,Gwynfi
-W05000575,Lower Brynamman
-W05000577,Neath East
-W05000578,Neath North
-W05000579,Neath South
-W05000581,Pelenna
-W05000582,Pontardawe
-W05000584,Resolven
-W05000585,Rhos
-W05000587,Sandfields West
-W05000590,Tonna
-W05000591,Trebanos
-W05000592,Ystalyfera
-W05000593,Aberkenfig
-W05000594,Bettws
-W05000595,Blackmill
-W05000596,Blaengarw
-W05000598,Bryncethin
-W05000599,Bryncoch
-W05000601,Caerau
-W05000602,Cefn Cribwr
-W05000603,Cefn Glas
-W05000604,Coity
-W05000605,Cornelly
-W05000607,Felindre
-W05000608,Hendre
-W05000609,Litchard
-W05000610,Llangeinor
-W05000611,Llangewydd and Brynhyfryd
-W05000612,Llangynwyd
-W05000613,Maesteg East
-W05000614,Maesteg West
-W05000615,Morfa
-W05000616,Nant-y-moel
-W05000617,Newcastle
-W05000618,Newton
-W05000619,Nottage
-W05000620,Ogmore Vale
-W05000622,Pendre
-W05000623,Penprysg
-W05000624,Pen-y-fai
-W05000625,Pontycymmer
-W05000626,Porthcawl East Central
-W05000627,Porthcawl West Central
-W05000628,Pyle
-W05000629,Rest Bay
-W05000630,Sarn
-W05000631,Ynysawdre
-W05000632,Baruc
-W05000633,Buttrills
-W05000634,Cadoc
-W05000635,Castleland
-W05000636,Cornerswell
-W05000637,Court
-W05000638,Cowbridge
-W05000640,Dyfan
-W05000641,Gibbonsdown
-W05000642,Illtyd
-W05000644,Llandow/Ewenny
-W05000645,Llantwit Major
-W05000646,Peterston-super-Ely
-W05000648,Rhoose
-W05000649,St. Athan
-W05000650,St. Augustine's
-W05000651,St. Bride's Major
-W05000652,Stanwell
-W05000654,Wenvoe
-W05000655,Aberaman North
-W05000657,Abercynon
-W05000658,Aberdare East
-W05000659,Aberdare West/Llwydcoed
-W05000661,Brynna
-W05000663,Cilfynydd
-W05000664,Cwm Clydach
-W05000666,Cymmer
-W05000667,Ferndale
-W05000668,Gilfach Goch
-W05000669,Glyncoch
-W05000671,Hawthorn
-W05000672,Hirwaun
-W05000677,Llwyn-y-pia
-W05000678,Maerdy
-W05000680,Mountain Ash West
-W05000681,Penrhiwceiber
-W05000682,Pentre
-W05000683,Pen-y-graig
-W05000684,Pen-y-waun
-W05000686,Pontypridd Town
-W05000687,Porth
-W05000688,Rhigos
-W05000689,Rhondda
-W05000690,Rhydfelen Central/Ilan
-W05000691,Taffs Well
-W05000693,Ton-teg
-W05000694,Tonypandy
-W05000695,Tonyrefail East
-W05000696,Tonyrefail West
-W05000697,Trallwng
-W05000698,Trealaw
-W05000699,Treforest
-W05000700,Treherbert
-W05000701,Treorchy
-W05000702,Tylorstown
-W05000704,Ynyshir
-W05000705,Ynysybwl
-W05000706,Ystrad
-W05000707,Bedlinog
-W05000708,Cyfarthfa
-W05000709,Dowlais
-W05000710,Gurnos
-W05000711,Merthyr Vale
-W05000712,Park
-W05000713,Penydarren
-W05000714,Plymouth
-W05000715,Town
-W05000716,Treharris
-W05000718,Aberbargoed
-W05000719,Abercarn
-W05000720,Aber Valley
-W05000721,Argoed
-W05000722,Bargoed
-W05000723,"Bedwas, Trethomas and Machen"
-W05000724,Blackwood
-W05000726,Crosskeys
-W05000728,Darren Valley
-W05000729,Gilfach
-W05000730,Hengoed
-W05000734,Moriah
-W05000735,Nelson
-W05000736,Newbridge
-W05000737,New Tredegar
-W05000742,Pontlottyn
-W05000745,St. Cattwg
-W05000748,Twyn Carno
-W05000749,Ynysddu
-W05000750,Ystrad Mynach
-W05000751,Abertillery
-W05000760,Georgetown
-W05000761,Llanhilleth
-W05000764,Sirhowy
-W05000765,Six Bells
-W05000766,Tredegar Central and West
-W05000768,Blaenavon
-W05000769,Brynwern
-W05000770,Coed Eva
-W05000772,Croesyceiliog South
-W05000773,Cwmyniscoy
-W05000774,Fairwater
-W05000776,Llantarnam
-W05000780,Panteg
-W05000782,Pontnewynydd
-W05000783,Pontypool
-W05000784,St. Cadocs and Penygarn
-W05000787,Trevethin
-W05000788,Two Locks
-W05000790,Wainfelin
-W05000791,Caerwent
-W05000792,Caldicot Castle
-W05000793,Cantref
-W05000794,Castle
-W05000795,Croesonen
-W05000796,Crucorney
-W05000797,Devauden
-W05000798,Dewstow
-W05000799,Dixton with Osbaston
-W05000800,Drybridge
-W05000801,Goetre Fawr
-W05000802,Green Lane
-W05000803,Grofield
-W05000804,Lansdown
-W05000805,Larkfield
-W05000806,Llanbadoc
-W05000807,Llanelly Hill
-W05000808,Llanfoist Fawr
-W05000809,Llangybi Fawr
-W05000810,Llanover
-W05000811,Llantilio Crossenny
-W05000812,Llanwenarth Ultra
-W05000813,Mardy
-W05000814,Mill
-W05000815,Mitchel Troy
-W05000816,Overmonnow
-W05000817,Portskewett
-W05000818,Priory
-W05000819,Raglan
-W05000820,Rogiet
-W05000821,St. Arvans
-W05000822,St. Christopher's
-W05000823,St. Kingsmark
-W05000824,St. Mary's
-W05000825,Severn
-W05000826,Shirenewton
-W05000827,The Elms
-W05000828,Thornwell
-W05000829,Trellech United
-W05000830,Usk
-W05000831,West End
-W05000832,Wyesham
-W05000833,Allt-yr-yn
-W05000834,Alway
-W05000835,Beechwood
-W05000836,Bettws
-W05000837,Caerleon
-W05000838,Gaer
-W05000839,Graig
-W05000840,Langstone
-W05000841,Liswerry
-W05000842,Llanwern
-W05000843,Malpas
-W05000844,Marshfield
-W05000845,Pillgwenlly
-W05000846,Ringland
-W05000847,Rogerstone
-W05000848,St. Julians
-W05000849,Shaftesbury
-W05000850,Stow Hill
-W05000851,Tredegar Park
-W05000852,Victoria
-W05000853,Adamsdown
-W05000854,Butetown
-W05000855,Caerau
-W05000856,Canton
-W05000857,Cathays
-W05000858,Creigiau/St. Fagans
-W05000860,Ely
-W05000861,Fairwater
-W05000862,Gabalfa
-W05000863,Grangetown
-W05000864,Heath
-W05000865,Lisvane
-W05000866,Llandaff
-W05000867,Llandaff North
-W05000871,Pentyrch
-W05000872,Penylan
-W05000873,Plasnewydd
-W05000875,Radyr
-W05000876,Rhiwbina
-W05000877,Riverside
-W05000879,Splott
-W05000881,Whitchurch and Tongwynlais
-W05000889,Llanharan
-W05000890,Llanharry
-W05000891,Pont-y-clun
-W05000893,Llangynidr
-W05000894,Talybont-on-Usk
-W05000895,Vaynor
-W05000896,Brackla
-W05000897,"Bryntirion, Laleston and Merthyr Mawr"
-W05000898,Coychurch Lower
-W05000899,Oldcastle
-W05000900,Pontprennau/Old St. Mellons
-W05000903,Brymbo
-W05000904,Bryn Cefn
-W05000905,Cartrefle
-W05000906,Coedpoeth
-W05000907,Gresford East and West
-W05000908,Gwersyllt East and South
-W05000909,Holt
-W05000910,Minera
-W05000911,Rhosnesni
-W05000912,Whitegate
-W05000913,Craig-y-Don
-W05000914,Deganwy
-W05000915,Marl
-W05000916,Penrhyn
-W05000917,Pensarn
-W05000918,Tudno
-W05000919,Cefn Fforest
-W05000920,Crumlin
-W05000921,Llanbradach
-W05000922,Maesycwmmer
-W05000923,Morgan Jones
-W05000924,Pengam
-W05000925,Penmaen
-W05000926,Penyrheol
-W05000927,Pontllanfraith
-W05000928,Risca East
-W05000929,Risca West
-W05000930,St. James
-W05000931,St. Martins
-W05000932,Dinas Powys
-W05000933,Llandough
-W05000934,Plymouth
-W05000935,Sully
-W05000936,Badminton
-W05000937,Beaufort
-W05000938,Blaina
-W05000939,Brynmawr
-W05000940,Cwm
-W05000941,Cwmtillery
-W05000942,Ebbw Vale North
-W05000943,Ebbw Vale South
-W05000944,Nantyglo
-W05000945,Rassau
-W05000946,Amroth
-W05000947,Burton
-W05000948,Camrose
-W05000949,Cilgerran
-W05000950,Crymych
-W05000951,Dinas Cross
-W05000952,East Williamston
-W05000953,Haverfordwest: Portfield
-W05000954,Haverfordwest: Prendergast
-W05000955,Kilgetty/Begelly
-W05000956,Llangwm
-W05000957,Martletwy
-W05000958,Rudbaxton
-W05000959,Bishopston
-W05000960,Bonymaen
-W05000961,Castle
-W05000962,Clydach
-W05000963,Cockett
-W05000964,Cwmbwrla
-W05000965,Dunvant
-W05000966,Fairwood
-W05000967,Gorseinon
-W05000968,Kingsbridge
-W05000969,Landore
-W05000970,Llangyfelach
-W05000971,Llansamlet
-W05000972,Morriston
-W05000973,Mynyddbach
-W05000974,Penclawdd
-W05000975,Penderry
-W05000976,Penllergaer
-W05000977,Pennard
-W05000978,Penyrheol
-W05000979,Townhill
-W05000980,Upper Loughor
-W05000981,Aethwy
-W05000982,Bro Aberffraw
-W05000983,Bro Rhosyr
-W05000984,Caergybi
-W05000985,Canolbarth Môn
-W05000986,Llifôn
-W05000987,Lligwy
-W05000988,Seiriol
-W05000989,Talybolion
-W05000990,Twrcelyn
-W05000991,Ynys Gybi
-W05000992,Abersychan
-W05000993,Croesyceiliog North
-W05000994,Greenmeadow
-W05000995,Llanyrafon East and Ponthir
-W05000996,Llanyrafon West
-W05000997,New Inn
-W05000998,Pontnewydd
-W05000999,Snatchwood
-W05001000,St. Dials
-W05001001,Upper Cwmbran
-W05001002,Bynea
-W05001003,Llangennech
-W05001004,Broughton North East
-W05001005,Halkyn
-W05001006,Higher Kinnerton
-W05001007,Hope
-W05001008,Leeswood
-W05001009,Mold East
-W05001010,Penyffordd
-W05001011,Cyncoed
-W05001012,Llanishen
-W05001013,Llanrumney
-W05001014,Pentwyn
-W05001015,Rumney
-W05001016,Trowbridge
-W05001017,Aberaman South
-W05001018,Beddau
-W05001019,Church Village
-W05001020,Cwmbach
-W05001021,Graig
-W05001022,Llantrisant Town
-W05001023,Llantwit Fardre
-W05001024,Mountain Ash East
-W05001025,Talbot Green
-W05001026,Tyn-y-nant
-W05001027,Baglan
-W05001028,Briton Ferry East
-W05001029,Bryn and Cwmavon
-W05001030,Margam
-W05001031,Onllwyn
-W05001032,Port Talbot
-W05001033,Sandfields East
-W05001034,Seven Sisters
-W05001035,Tai-bach
-W05001036,Broughton South
-W05001037,Penally
-W05001038,Tenby: North
+E05013864,Abbey
+E05013865,Battle
+E05013866,Caversham
+E05013867,Caversham Heights
+E05013868,Church
+E05013869,Coley
+E05013870,Emmer Green
+E05013871,Katesgrove
+E05013872,Kentwood
+E05013873,Norcot
+E05013874,Park
+E05013875,Redlands
+E05013876,Southcote
+E05013877,Thames
+E05013878,Tilehurst
+E05013879,Whitley
+E05013880,Longstanton
+E05013881,Over & Willingham
+E05013882,Cann Hall
+E05013883,Cathall
+E05013884,Chapel End
+E05013885,Chingford Green
+E05013886,Endlebury
+E05013887,Forest
+E05013888,Grove Green
+E05013889,Hale End & Highams Park South
+E05013890,Hatch Lane & Highams Park North
+E05013891,High Street
+E05013892,Higham Hill
+E05013893,Hoe Street
+E05013894,Larkswood
+E05013895,Lea Bridge
+E05013896,Leyton
+E05013897,Leytonstone
+E05013898,Markhouse
+E05013899,St James
+E05013900,Upper Walthamstow
+E05013901,Valley
+E05013902,William Morris
+E05013903,Wood Street
+E05013904,Beckton
+E05013905,Boleyn
+E05013906,Canning Town North
+E05013907,Canning Town South
+E05013908,Custom House
+E05013909,East Ham
+E05013910,East Ham South
+E05013911,Forest Gate North
+E05013912,Forest Gate South
+E05013913,Green Street East
+E05013914,Green Street West
+E05013915,Little Ilford
+E05013916,Manor Park
+E05013917,Maryland
+E05013918,Plaistow North
+E05013919,Plaistow South
+E05013920,Plaistow West & Canning Town East
+E05013921,Plashet
+E05013922,Royal Albert
+E05013923,Royal Victoria
+E05013924,Stratford
+E05013925,Stratford Olympic Park
+E05013926,Wall End
+E05013927,West Ham
+E05013928,Alexandra
+E05013929,Berrylands
+E05013930,Canbury Gardens
+E05013931,Chessington South & Malden Rushett
+E05013932,Coombe Hill
+E05013933,Coombe Vale
+E05013934,Green Lane & St James
+E05013935,Hook & Chessington North
+E05013936,King George's & Sunray
+E05013937,Kingston Gate
+E05013938,Kingston Town
+E05013939,Motspur Park & Old Malden East
+E05013940,New Malden Village
+E05013941,Norbiton
+E05013942,Old Malden
+E05013943,St Mark's & Seething Wells
+E05013944,Surbiton Hill
+E05013945,Tolworth
+E05013946,Tudor
+E05013947,Batchwood
+E05013948,Bernards Heath
+E05013949,Clarence
+E05013950,Colney Heath
+E05013951,Cunningham
+E05013952,Harpenden East
+E05013953,Harpenden North & Rural
+E05013954,Harpenden South
+E05013955,Harpenden West
+E05013956,Hill End
+E05013957,London Colney
+E05013958,Marshalswick East & Jersey Farm
+E05013959,Marshalswick West
+E05013960,Park Street
+E05013961,Redbourn
+E05013962,Sandridge & Wheathampstead
+E05013963,Sopwell
+E05013964,St Peters
+E05013965,St Stephen
+E05013966,Verulam
+E05013967,Beam Park
+E05013968,Cranham
+E05013969,Elm Park
+E05013970,Emerson Park
+E05013971,Gooshays
+E05013972,Hacton
+E05013973,Harold Wood
+E05013974,Havering-atte-Bower
+E05013975,Heaton
+E05013976,Hylands & Harrow Lodge
+E05013977,Marshalls & Rise Park
+E05013978,Mawneys
+E05013979,Rainham & Wennington
+E05013980,Rush Green & Crowlands
+E05013981,St Alban's
+E05013982,St Andrew's
+E05013983,St Edward's
+E05013984,South Hornchurch
+E05013985,Squirrels Heath
+E05013986,Upminster
+E05013987,Beckenham Town & Copers Cope
+E05013988,Bickley & Sundridge
+E05013989,Biggin Hill
+E05013990,Bromley Common & Holwood
+E05013991,Bromley Town
+E05013992,Chelsfield
+E05013993,Chislehurst
+E05013994,Clock House
+E05013995,Crystal Palace & Anerley
+E05013996,Darwin
+E05013997,Farnborough & Crofton
+E05013998,Hayes & Coney Hall
+E05013999,Kelsey & Eden Park
+E05014000,Mottingham
+E05014001,Orpington
+E05014002,Penge & Cator
+E05014003,Petts Wood & Knoll
+E05014004,Plaistow
+E05014005,Shortlands & Park Langley
+E05014006,St Mary Cray
+E05014007,St Paul's Cray
+E05014008,West Wickham
+E05014009,Balham
+E05014010,Battersea Park
+E05014011,East Putney
+E05014012,Falconbrook
+E05014013,Furzedown
+E05014014,Lavender
+E05014015,Nine Elms
+E05014016,Northcote
+E05014017,Roehampton
+E05014018,St Mary's
+E05014019,Shaftesbury & Queenstown
+E05014020,South Balham
+E05014021,Southfields
+E05014022,Thamesfield
+E05014023,Tooting Bec
+E05014024,Tooting Broadway
+E05014025,Trinity
+E05014026,Wandle
+E05014027,Wandsworth Common
+E05014028,Wandsworth Town
+E05014029,West Hill
+E05014030,West Putney
+E05014031,Cambourne
+E05014032,Caxton & Papworth
+E05014033,Balderstone & Kirkholt
+E05014034,Bamford
+E05014035,Castleton
+E05014036,Central Rochdale
+E05014037,East Middleton
+E05014038,Healey
+E05014039,Hopwood Hall
+E05014040,Kingsway
+E05014041,Littleborough Lakeside
+E05014042,Milkstone & Deeplish
+E05014043,Milnrow & Newhey
+E05014044,Norden
+E05014045,North Heywood
+E05014046,North Middleton
+E05014047,Smallbridge & Firgrove
+E05014048,South Middleton
+E05014049,Spotland & Falinge
+E05014050,"Wardle, Shore & West Littleborough"
+E05014051,West Heywood
+E05014052,West Middleton
+E05014053,Abbey
+E05014054,Alibon
+E05014055,Barking Riverside
+E05014056,Beam
+E05014057,Becontree
+E05014058,Chadwell Heath
+E05014059,Eastbrook & Rush Green
+E05014060,Eastbury
+E05014061,Gascoigne
+E05014062,Goresbrook
+E05014063,Heath
+E05014064,Longbridge
+E05014065,Mayesbrook
+E05014066,Northbury
+E05014067,Parsloes
+E05014068,Thames View
+E05014069,Valence
+E05014070,Village
+E05014071,Whalebone
+E05014072,Abbey Wood
+E05014073,Blackheath Westcombe
+E05014074,Charlton Hornfair
+E05014075,Charlton Village & Riverside
+E05014076,East Greenwich
+E05014077,Eltham Page
+E05014078,Eltham Park & Progress
+E05014079,Eltham Town & Avery Hill
+E05014080,Greenwich Creekside
+E05014081,Greenwich Park
+E05014082,Greenwich Peninsula
+E05014083,Kidbrooke Park
+E05014084,Kidbrooke Village & Sutcliffe
+E05014085,Middle Park & Horn Park
+E05014086,"Mottingham, Coldharbour & New Eltham"
+E05014087,Plumstead & Glyndon
+E05014088,Plumstead Common
+E05014089,Shooters Hill
+E05014090,Thamesmead Moorings
+E05014091,West Thamesmead
+E05014092,Woolwich Arsenal
+E05014093,Woolwich Common
+E05014094,Woolwich Dockyard
+E05014095,Brixton Acre Lane
+E05014096,Brixton North
+E05014097,Brixton Rush Common
+E05014098,Brixton Windrush
+E05014099,Clapham Common & Abbeville
+E05014100,Clapham East
+E05014101,Clapham Park
+E05014102,Clapham Town
+E05014103,Gipsy Hill
+E05014104,Herne Hill & Loughborough Junction
+E05014105,Kennington
+E05014106,Knight's Hill
+E05014107,Myatt's Fields
+E05014108,Oval
+E05014109,St Martin's
+E05014110,Stockwell East
+E05014111,Stockwell West & Larkhall
+E05014112,Streatham Common & Vale
+E05014113,Streatham Hill East
+E05014114,Streatham Hill West & Thornton
+E05014115,Streatham St Leonard's
+E05014116,Streatham Wells
+E05014117,Vauxhall
+E05014118,Waterloo & South Bank
+E05014119,West Dulwich
+E05014120,Billinge & Seneley Green
+E05014121,Blackbrook
+E05014122,Bold & Lea Green
+E05014123,Eccleston
+E05014124,Haydock
+E05014125,Moss Bank
+E05014126,Newton-le-Willows East
+E05014127,Newton-le-Willows West
+E05014128,Parr
+E05014129,Peasley Cross & Fingerpost
+E05014130,Rainford
+E05014131,Rainhill
+E05014132,St Helens Town Centre
+E05014133,Sutton North West
+E05014134,Sutton South East
+E05014135,Thatto Heath
+E05014136,West Park
+E05014137,Windle
+E05014138,Alverstoke
+E05014139,Anglesey
+E05014140,Bridgemary
+E05014141,Brockhurst & Privett
+E05014142,Elson
+E05014143,Forton
+E05014144,Grange & Alver Valley
+E05014145,Harbourside & Town
+E05014146,Hardway
+E05014147,Lee East
+E05014148,Lee West
+E05014149,Leesland & Newtown
+E05014150,Peel Common
+E05014151,Rowner & Holbrook
+E05014152,Besses
+E05014153,Bury East
+E05014154,Bury West
+E05014155,Elton
+E05014156,Holyrood
+E05014157,Moorside
+E05014158,North Manor
+E05014159,Pilkington Park
+E05014160,Radcliffe East
+E05014161,Radcliffe North & Ainsworth
+E05014162,Radcliffe West
+E05014163,Ramsbottom
+E05014164,Redvales
+E05014165,Sedgley
+E05014166,St. Mary's
+E05014167,Tottington
+E05014168,Unsworth
+E05014169,Duxford
+E05014170,Sawston
+E05014171,Aspatria
+E05014172,Belah
+E05014173,Belle Vue
+E05014174,Botcherby
+E05014175,Bothel and Wharrels
+E05014176,Brampton
+E05014177,Bransty
+E05014178,Castle
+E05014179,Cleator Moor East and Frizington
+E05014180,Cleator Moor West
+E05014181,Cockermouth North
+E05014182,Cockermouth South
+E05014183,Corby and Hayton
+E05014184,Currock
+E05014185,Dalston and Burgh
+E05014186,Dearham and Broughton
+E05014187,Denton Holme
+E05014188,Egremont
+E05014189,Egremont North and St Bees
+E05014190,Gosforth
+E05014191,Harraby North
+E05014192,Harraby South
+E05014193,Harrington
+E05014194,Hillcrest and Hensingham
+E05014195,Houghton and Irthington
+E05014196,Howgate
+E05014197,Kells and Sandwith
+E05014198,Keswick
+E05014199,Longtown
+E05014200,Maryport North
+E05014201,Maryport South
+E05014202,Millom
+E05014203,Millom Without
+E05014204,Mirehouse
+E05014205,Morton
+E05014206,Moss Bay and Moorclose
+E05014207,St John's and Great Clifton
+E05014208,St Michael's
+E05014209,Seaton
+E05014210,Solway Coast
+E05014211,Stanwix Urban
+E05014212,Thursby
+E05014213,Upperby
+E05014214,Wetheral
+E05014215,Wigton
+E05014216,Yewdale
+E05014217,Alston and Fellside
+E05014218,Appleby and Brough
+E05014219,Bowness and Lyth
+E05014220,Burton and Holme
+E05014221,Coniston and Hawkshead
+E05014222,Dalton North
+E05014223,Dalton South
+E05014224,Eamont and Shap
+E05014225,Eden and Lyvennet Vale
+E05014226,Grange and Cartmel
+E05014227,Greystoke and Ullswater
+E05014228,Hawcoat and Newbarns
+E05014229,Hesket and Lazonby
+E05014230,High Furness
+E05014231,Kendal Castle
+E05014232,Kendal Highgate
+E05014233,Kendal Nether
+E05014234,Kendal South
+E05014235,Kendal Strickland and Fell
+E05014236,Kent Estuary
+E05014237,Kirkby Stephen and Tebay
+E05014238,Levens and Crooklands
+E05014239,Low Furness
+E05014240,Old Barrow and Hindpool
+E05014241,Ormsgill and Parkside
+E05014242,Penrith North
+E05014243,Penrith South
+E05014244,Risedale and Roosecote
+E05014245,Sedbergh and Kirkby Lonsdale
+E05014246,Ulverston
+E05014247,Upper Kent
+E05014248,Walney Island
+E05014249,Windermere and Ambleside
+E05014250,Aire Valley
+E05014251,Aiskew & Leeming
+E05014252,Amotherby & Ampleforth
+E05014253,Appleton Roebuck & Church Fenton
+E05014254,Barlby & Riccall
+E05014255,Bedale
+E05014256,Bentham & Ingleton
+E05014257,Bilton Grange & New Park
+E05014258,Bilton & Nidd Gorge
+E05014259,Boroughbridge & Claro
+E05014260,Brayton & Barlow
+E05014261,Camblesforth & Carlton
+E05014262,Castle
+E05014263,Catterick Village & Brompton-on-Swale
+E05014264,Cawood & Escrick
+E05014265,Cayton
+E05014266,Cliffe & North Duffield
+E05014267,Coppice Valley & Duchy
+E05014268,Danby & Mulgrave
+E05014269,Derwent Valley & Moor
+E05014270,Easingwold
+E05014271,Eastfield
+E05014272,Esk Valley & Coast
+E05014273,Fairfax & Starbeck
+E05014274,Falsgrave & Stepney
+E05014275,Filey
+E05014276,Great Ayton
+E05014277,"Glusburn, Cross Hills & Sutton-in-Craven"
+E05014278,Harlow & St. Georges
+E05014279,High Harrogate & Kingsley
+E05014280,Hipswell & Colburn
+E05014281,Helmsley & Sinnington
+E05014282,Hillside & Raskelf
+E05014283,Huby & Tollerton
+E05014284,Hunmanby & Sherburn (part Scarborough)
+E05014284,Hunmanby & Sherburn (part Ryedale)
+E05014285,Hutton Rudby & Osmotherley
+E05014286,"Killinghall, Hampsthwaite & Saltergate"
+E05014287,Kirkbymoorside & Dales
+E05014288,Knaresborough East
+E05014289,Knaresborough West
+E05014290,Leyburn & Middleham
+E05014291,Malton
+E05014292,Masham & Fountains
+E05014293,Monk Fryston & South Milford
+E05014294,Mid Craven
+E05014295,Morton-on-Swale & Appleton Wiske
+E05014296,Newby
+E05014297,North Richmondshire
+E05014298,Northallerton North & Brompton
+E05014299,Northallerton South
+E05014300,Norton
+E05014301,Northstead
+E05014302,Oatlands & Pannal
+E05014303,Osgoldcross
+E05014304,Ouseburn
+E05014305,Pateley Bridge & Nidderdale
+E05014306,Pickering
+E05014307,Richmond
+E05014308,Ripon Minster & Moorside
+E05014309,Ripon Ure Bank & Spa
+E05014310,Romanby
+E05014311,Scalby & the Coast
+E05014312,Scotton & Lower Wensleydale
+E05014313,Seamer
+E05014314,Selby East
+E05014315,Selby West
+E05014316,Settle & Penyghent
+E05014317,Sherburn in Elmet
+E05014318,Sheriff Hutton & Derwent
+E05014319,Skipton East & South
+E05014320,Skipton North & Embsay-with-Eastby
+E05014321,Skipton West & West Craven
+E05014322,Sowerby & Topcliffe
+E05014323,Spofforth with Lower Wharfedale & Tockwith
+E05014324,"Stray, Woodlands & Hookstone"
+E05014325,Stokesley
+E05014326,Tadcaster
+E05014327,Thirsk
+E05014328,Thornton Dale & Wolds
+E05014329,Thorpe Willoughby & Hambleton
+E05014330,Upper Dales
+E05014331,Valley Gardens & Central Harrogate
+E05014332,Washburn & Birstwith
+E05014333,Wathvale & Bishop Monkton
+E05014334,Weaponness & Ramshill
+E05014335,Wharfedale
+E05014336,Whitby Streonshalh
+E05014337,Whitby West
+E05014338,Woodlands
+E05014339,Bishop's Hull & Taunton West
+E05014340,Blackdown & Neroche
+E05014341,Blackmoor Vale
+E05014342,Brent
+E05014343,Bridgwater East & Bawdrip
+E05014344,Bridgwater North & Central
+E05014345,Bridgwater South
+E05014346,Bridgwater West
+E05014347,Brympton
+E05014348,Burnham on Sea North
+E05014349,Cannington
+E05014350,Castle Cary
+E05014351,Chard North
+E05014352,Chard South
+E05014353,Cheddar
+E05014354,Coker
+E05014355,Comeytrowe & Trull
+E05014356,Crewkerne
+E05014357,Curry Rivel & Langport
+E05014358,Dulverton & Exmoor
+E05014359,Dunster
+E05014360,Frome East
+E05014361,Frome North
+E05014362,Frome West
+E05014363,Glastonbury
+E05014364,Highbridge & Burnham South
+E05014365,Huntspill
+E05014366,Ilminster
+E05014367,King Alfred
+E05014368,Lydeard
+E05014369,Martock
+E05014370,Mendip Central and East
+E05014371,Mendip Hills
+E05014372,Mendip South
+E05014373,Mendip West
+E05014374,Minehead
+E05014375,Monkton & North Curry
+E05014376,North Petherton
+E05014377,Rowbarton & Staplegrove
+E05014378,Shepton Mallet
+E05014379,Somerton
+E05014380,South Petherton & Islemoor
+E05014381,Street
+E05014382,Taunton East
+E05014383,Taunton North
+E05014384,Taunton South
+E05014385,Upper Tone
+E05014386,Watchet & Stogursey
+E05014387,Wellington
+E05014388,Wells
+E05014389,Wincanton & Bruton
+E05014390,Yeovil Central
+E05014391,Yeovil East
+E05014392,Yeovil South
+E05014393,Yeovil West
+W05001039,Bishopston
+W05001040,Bôn-y-maen
+W05001041,Castle
+W05001042,Clydach
+W05001043,Cockett
+W05001044,Cwmbwrla
+W05001045,Dunvant and Killay
+W05001046,Fairwood
+W05001047,Gorseinon and Penyrheol
+W05001048,Gower
+W05001049,Gowerton
+W05001050,Landore
+W05001051,Llangyfelach
+W05001052,Llansamlet
+W05001053,Llwchwr
+W05001054,Mayals
+W05001055,Morriston
+W05001056,Mumbles
+W05001057,Mynydd-bach
+W05001058,Pen-clawdd
+W05001059,Penderry
+W05001060,Penllergaer
+W05001061,Pennard
+W05001062,Pontarddulais
+W05001063,Pontlliew and Tircoed
+W05001064,Sketty
+W05001065,St Thomas
+W05001066,Townhill
+W05001067,Uplands
+W05001068,Waterfront
+W05001069,Waunarlwydd
+W05001070,West Cross
+W05001071,Aberaman
+W05001072,Abercynon
+W05001073,Aberdare East
+W05001074,Aberdare West and Llwydcoed
+W05001075,Beddau and Tyn-y-nant
+W05001076,Brynna and Llanharan
+W05001077,Church Village
+W05001078,Cilfynydd
+W05001079,Cwm Clydach
+W05001080,Cwmbach
+W05001081,Cymer
+W05001082,Ferndale and Maerdy
+W05001083,Gilfach-goch
+W05001084,Glyn-coch
+W05001085,Graig and Pontypridd West
+W05001086,Hawthorn and Lower Rhydfelen
+W05001087,"Hirwaun, Penderyn and Rhigos"
+W05001088,Llanharry
+W05001089,Llantrisant and Talbot Green
+W05001090,Llantwit Fardre
+W05001091,Llwyn-y-pia
+W05001092,Mountain Ash
+W05001093,Penrhiw-ceibr
+W05001094,Pentre
+W05001095,Pen-y-graig
+W05001096,Pen-y-waun
+W05001097,Pontyclun Central
+W05001098,Pontyclun East
+W05001099,Pontyclun West
+W05001100,Pontypridd Town
+W05001101,Porth
+W05001102,Rhydfelen Central
+W05001103,Taff's Well
+W05001104,Ton-teg
+W05001105,Tonypandy
+W05001106,Tonyrefail East
+W05001107,Tonyrefail West
+W05001108,Trallwng
+W05001109,Trealaw
+W05001110,Treforest
+W05001111,Treherbert
+W05001112,Treorchy
+W05001113,Tylorstown and Ynyshir
+W05001114,Upper Rhydfelen and Glyn-taf
+W05001115,Ynysybwl
+W05001116,Ystrad
+W05001117,Aber-craf and Ystradgynlais
+W05001118,"Banwy, Llanfihangel and Llanwddyn"
+W05001119,Berriew and Castle Caereinion
+W05001120,Brecon East
+W05001121,Brecon West
+W05001122,Bronllys and Felin-fach
+W05001123,Builth
+W05001124,Caersws
+W05001125,Churchstoke
+W05001126,Crickhowell with Cwmdu and Tretower
+W05001127,Cwm-twrch
+W05001128,Disserth and Trecoed with Newbridge
+W05001129,Dolforwyn
+W05001130,Forden and Montgomery
+W05001131,Glantwymyn
+W05001132,Glasbury
+W05001133,Guilsfield
+W05001134,Gwernyfed
+W05001135,Hay
+W05001136,Ithon Valley
+W05001137,Kerry
+W05001138,Knighton with Beguildy
+W05001139,Llanafanfawr with Garth
+W05001140,Llanbrynmair
+W05001141,Llandinam with Dolfor
+W05001142,Llandrindod North
+W05001143,Llandrindod South
+W05001144,Llandrinio
+W05001145,Llandysilio
+W05001146,Llanelwedd
+W05001147,Llanfair Caereinion and Llanerfyl
+W05001148,Llanfyllin
+W05001149,Llangattock and Llangynidr
+W05001150,Llangors with Bwlch
+W05001151,Llangunllo with Norton
+W05001152,Llangyniew and Meifod
+W05001153,Llanidloes
+W05001154,Llanrhaeadr-ym-Mochnant and Llansilin
+W05001155,Llansantffraid
+W05001156,Llanwrtyd Wells
+W05001157,Llanyre with Nantmel
+W05001158,Machynlleth
+W05001159,Maescar and Llywel
+W05001160,Newtown Central and South
+W05001161,Newtown East
+W05001162,Newtown North
+W05001163,Newtown West
+W05001164,Old Radnor
+W05001165,Presteigne
+W05001166,Rhayader
+W05001167,Rhiwcynon
+W05001168,Talgarth
+W05001169,Talybont-on-Usk
+W05001170,Tawe Uchaf
+W05001171,Trelystan and Trewern
+W05001172,Welshpool Castle
+W05001173,Welshpool Gungrog
+W05001174,Welshpool Llanerchyddol
+W05001175,Ynyscedwyn
+W05001176,Yscir with Honddu Isaf and Llanddew
+W05001177,Abergwili
+W05001178,Ammanford
+W05001179,Betws
+W05001180,Bigyn
+W05001181,Burry Port
+W05001182,Bynea
+W05001183,Carmarthen Town North and South
+W05001184,Carmarthen Town West
+W05001185,Cenarth and Llangeler
+W05001186,Cilycwm
+W05001187,Cwarter Bach
+W05001188,Cynwyl Elfed
+W05001189,Dafen and Felinfoel
+W05001190,Elli
+W05001191,Garnant
+W05001192,Glanamman
+W05001193,Glanymor
+W05001194,Glyn
+W05001195,Gorslas
+W05001196,Hendy
+W05001197,Hengoed
+W05001198,Kidwelly and St Ishmael
+W05001199,Laugharne Township
+W05001200,Llanboidy
+W05001201,Llanddarog
+W05001202,Llandeilo
+W05001203,Llandovery
+W05001204,Llandybie
+W05001205,Llanegwad
+W05001206,Llanfihangel Aberbythych
+W05001207,Llanfihangel-ar-Arth
+W05001208,Llangadog
+W05001209,Llangennech
+W05001210,Llangunnor
+W05001211,Llangyndeyrn
+W05001212,Llannon
+W05001213,Llanybydder
+W05001214,Lliedi
+W05001215,Llwynhendy
+W05001216,Manordeilo and Salem
+W05001217,Pembrey
+W05001218,Penygroes
+W05001219,Pontyberem
+W05001220,Saron
+W05001221,St Clears and Llansteffan
+W05001222,Swiss Valley
+W05001223,Trelech
+W05001224,Trimsaran
+W05001225,Tycroes
+W05001226,Tyisha
+W05001227,Whitland
+W05001228,Aberkenfig
+W05001229,Blackmill
+W05001230,Brackla East and Coychurch Lower
+W05001231,Brackla East Central
+W05001232,Brackla West
+W05001233,Brackla West Central
+W05001234,Bridgend Central
+W05001235,"Bryntirion, Laleston and Merthyr Mawr"
+W05001236,Caerau
+W05001237,Cefn-glas
+W05001238,Coity Higher
+W05001239,Cornelly
+W05001240,Garw Valley
+W05001241,Llangynwyd
+W05001242,Maesteg East
+W05001243,Maesteg West
+W05001244,Nant-y-moel
+W05001245,Newton
+W05001246,Nottage
+W05001247,Ogmore Vale
+W05001248,Oldcastle
+W05001249,Pencoed and Penprysg
+W05001250,Pen-y-fai
+W05001251,Porthcawl East Central
+W05001252,Porthcawl West Central
+W05001253,"Pyle, Kenfig Hill and Cefn Cribwr"
+W05001254,Rest Bay
+W05001255,St Bride's Minor and Ynysawdre
+W05001256,Abertillery and Six Bells
+W05001257,Beaufort
+W05001258,Blaina
+W05001259,Brynmawr
+W05001260,Cwm
+W05001261,Cwmtillery
+W05001262,Ebbw Vale North
+W05001263,Ebbw Vale South
+W05001264,Georgetown
+W05001265,Llanhilleth
+W05001266,Nantyglo
+W05001267,Rassau and Garnlydan
+W05001268,Sirhowy
+W05001269,Tredegar
+W05001270,Adamsdown
+W05001271,Butetown
+W05001272,Caerau
+W05001273,Canton
+W05001274,Cathays
+W05001275,Cyncoed
+W05001276,Ely
+W05001277,Fairwater
+W05001278,Gabalfa
+W05001279,Grangetown
+W05001280,Heath
+W05001281,Lisvane and Thornhill
+W05001282,Llandaff
+W05001283,Llandaff North
+W05001284,Llanishen
+W05001285,Llanrumney
+W05001286,Pentwyn
+W05001287,Pentyrch and St Fagans
+W05001288,Penylan
+W05001289,Plasnewydd
+W05001290,Pontprennau and Old St Mellons
+W05001291,Radyr
+W05001292,Rhiwbina
+W05001293,Riverside
+W05001294,Rumney
+W05001295,Splott
+W05001296,Trowbridge
+W05001297,Whitchurch and Tongwynlais
+W05001298,Aberaeron and Aberarth
+W05001299,Aberporth and Y Ferwig
+W05001300,Aberystwyth Morfa a Glais
+W05001301,Aberystwyth Penparcau
+W05001302,Aberystwyth Rheidol
+W05001303,Beulah and Llangoedmor
+W05001304,Borth
+W05001305,Ceulan a Maesmawr
+W05001306,Ciliau Aeron
+W05001307,Faenor
+W05001308,Lampeter
+W05001309,Llannarth
+W05001310,Llanbadarn Fawr
+W05001311,Llandyfriog
+W05001312,Llandysilio and Llangrannog
+W05001313,Llandysul North and Troedyraur
+W05001314,Llandysul South
+W05001315,Llanfarian
+W05001316,Llanfihangel Ystrad
+W05001317,Llangeitho
+W05001318,Llangybi
+W05001319,Llanrhystyd
+W05001320,Llansanffraid
+W05001321,Llanwenog
+W05001322,Lledrod
+W05001323,Melindwr
+W05001324,Mwldan
+W05001325,New Quay and Llanllwchaearn
+W05001326,Penbryn
+W05001327,Teifi
+W05001328,Tirymynach
+W05001329,Trefeurig
+W05001330,Tregaron and Ystrad Fflur
+W05001331,Ystwyth
+W05001332,Alyn Valley
+W05001333,Bodelwyddan
+W05001334,Denbigh Caledfryn Henllan
+W05001335,Denbigh Lower
+W05001336,Dyserth
+W05001337,Edeirnion
+W05001338,Efenechdyd
+W05001339,Llandyrnog
+W05001340,Llanfair Dyffryn Clwyd Gwyddelwern
+W05001341,Llangollen
+W05001342,Llanrhaeadr-yng-Nghinmeirch
+W05001343,Moel Famau
+W05001344,Prestatyn Central
+W05001345,Prestatyn East
+W05001346,Prestatyn Meliden
+W05001347,Prestatyn North
+W05001348,Prestatyn South West
+W05001349,Rhuddlan
+W05001350,Rhyl East
+W05001351,Rhyl South
+W05001352,Rhyl South West
+W05001353,Rhyl Trellewelyn
+W05001354,Rhyl Tŷ Newydd
+W05001355,Rhyl West
+W05001356,Ruthin
+W05001357,St Asaph East
+W05001358,St Asaph West
+W05001359,Trefnant
+W05001360,Tremeirchion
+W05001361,Abersychan
+W05001362,Blaenavon
+W05001363,Coed Eva
+W05001364,Croesyceiliog
+W05001365,Fairwater
+W05001366,Greenmeadow
+W05001367,Llanfrechfa and Ponthir
+W05001368,Llantarnam
+W05001369,Llanyrafon
+W05001370,New Inn
+W05001371,Panteg
+W05001372,Pontnewydd
+W05001373,Pontnewynydd and Snatchwood
+W05001374,Pontypool Fawr
+W05001375,St. Dials
+W05001376,Trevethin and Penygarn
+W05001377,Two Locks
+W05001378,Upper Cwmbran
+W05001379,Baruc
+W05001380,Buttrills
+W05001381,Cadoc
+W05001382,Castleland
+W05001383,Cornerswell
+W05001384,Court
+W05001385,Cowbridge
+W05001386,Dinas Powys
+W05001387,Dyfan
+W05001388,Gibbonsdown
+W05001389,Illtyd
+W05001390,Llandough
+W05001391,Llandow
+W05001392,Llantwit Major
+W05001393,Peterston-super-Ely
+W05001394,Plymouth
+W05001395,Rhoose
+W05001396,St Athan
+W05001397,St Bride's Major
+W05001398,St Nicholas and Llancarfan
+W05001399,St Augustine's
+W05001400,Stanwell
+W05001401,Sully
+W05001402,Wenvoe
+W05001403,Betws-yn-Rhos
+W05001404,Betws-y-Coed and Trefriw
+W05001405,Bryn
+W05001406,Caerhun
+W05001407,Colwyn
+W05001408,Conwy
+W05001409,Craig-y-don
+W05001410,Deganwy
+W05001411,Eglwys-bach a Llangernyw
+W05001412,Eirias
+W05001413,Gele and Llanddulas
+W05001414,Glyn
+W05001415,Glyn y Marl
+W05001416,Gogarth Mostyn
+W05001417,Kinmel Bay
+W05001418,Llandrillo-yn-Rhos
+W05001419,Llanrwst a Llanddoged
+W05001420,Llansanffraid
+W05001421,Llansannan
+W05001422,Llysfaen
+W05001423,Mochdre
+W05001424,Pandy
+W05001425,Penmaenmawr
+W05001426,Penrhyn
+W05001427,Pen-sarn Pentre Mawr
+W05001428,Rhiw
+W05001429,Towyn
+W05001430,Tudno
+W05001431,Uwch Aled
+W05001432,Uwch Conwy
+W05001433,Amroth and Saundersfoot North
+W05001434,Boncath and Clydau
+W05001435,Burton
+W05001436,Bro Gwaun
+W05001437,Camrose
+W05001438,Carew and Jeffreyston
+W05001439,Cilgerran and Eglwyswrw
+W05001440,Crymych and Mynachlog-ddu
+W05001441,East Williamston
+W05001442,Fishguard: North East
+W05001443,Fishguard: North West
+W05001444,Goodwick
+W05001445,Haverfordwest: Castle
+W05001446,Haverfordwest: Garth
+W05001447,Haverfordwest: Portfield
+W05001448,Haverfordwest: Prendergast
+W05001449,Haverfordwest: Priory
+W05001450,Hundleton
+W05001451,Johnston
+W05001452,Kilgetty and Begelly
+W05001453,Lampeter Velfrey
+W05001454,Lamphey
+W05001455,Letterston
+W05001456,Llangwm
+W05001457,Llanrhian
+W05001458,Maenclochog
+W05001459,Manorbier and Penally
+W05001460,Martletwy
+W05001461,Merlin's Bridge
+W05001462,Milford: Central
+W05001463,Milford: East
+W05001464,Milford: Hakin
+W05001465,Milford: Hubberston
+W05001466,Milford: North
+W05001467,Milford: West
+W05001468,Narberth: Urban
+W05001469,Narberth: Rural
+W05001470,Newport and Dinas
+W05001471,Neyland: East
+W05001472,Neyland: West
+W05001473,Pembroke Dock: Bufferland
+W05001474,Pembroke Dock: Bush
+W05001475,Pembroke Dock: Central
+W05001476,Pembroke Dock: Market
+W05001477,Pembroke Dock: Pennar
+W05001478,Pembroke: Monkton and St Mary South
+W05001479,Pembroke: St Mary North
+W05001480,Pembroke: St Michael
+W05001481,Rudbaxton and Spittal
+W05001482,Saundersfoot South
+W05001483,Solva
+W05001484,St David's
+W05001485,St Dogmaels
+W05001486,St Florence and St Mary Out Liberty
+W05001487,St Ishmael's
+W05001488,Tenby: North
+W05001489,Tenby: South
+W05001490,The Havens
+W05001491,Wiston
+W05001492,Aethwy
+W05001493,Bodowyr
+W05001494,Bro Aberffraw
+W05001495,Bro'r Llynnoedd
+W05001496,Canolbarth Môn
+W05001497,Cefni
+W05001498,Crigyll
+W05001499,Lligwy
+W05001500,Parc a'r Mynydd
+W05001501,Seiriol
+W05001502,Talybolion
+W05001503,Tref Cybi
+W05001504,Twrcelyn
+W05001505,Ynys Gybi
+W05001506,Aberdyfi
+W05001507,Abererch
+W05001508,Abermaw
+W05001509,Abersoch gyda Llanengan
+W05001510,Arllechwedd
+W05001511,Arthog a Llangelynnin
+W05001512,Bethel a'r Felinheli
+W05001513,Bowydd a'r Rhiw
+W05001514,Brithdir and Llanfachreth/Ganllwyd/Llanelltyd
+W05001515,Bro Dysynni
+W05001516,Cadnant
+W05001517,Canol Bangor
+W05001518,Canol Bethesda
+W05001519,Canol Tref Caernarfon
+W05001520,Clynnog
+W05001521,Corris a Mawddwy
+W05001522,Criccieth
+W05001523,Cwm-y-glo
+W05001524,De Dolgellau
+W05001525,De Pwllheli
+W05001526,Deiniolen
+W05001527,Dewi
+W05001528,Diffwys a Maenofferen
+W05001529,Dolbenmaen
+W05001530,Dwyrain Bangor
+W05001531,Dwyrain Porthmadog
+W05001532,Dyffryn Ardudwy
+W05001533,Efailnewydd a Buan
+W05001534,Gerlan
+W05001535,Glaslyn
+W05001536,Glyder
+W05001537,Gogledd Dolgellau
+W05001538,Gogledd Pwllheli
+W05001539,Gorllewin Porthmadog
+W05001540,Gorllewin Tywyn
+W05001541,Harlech a Llanbedr
+W05001542,Hendre
+W05001543,Llanbedrog gyda Mynytho
+W05001544,Llanberis
+W05001545,Llandderfel
+W05001546,Llanllyfni
+W05001547,Llanrug
+W05001548,Llanuwchllyn
+W05001549,Llanwnda
+W05001550,Llanystumdwy
+W05001551,Menai
+W05001552,Morfa Nefyn a Thudweiliog
+W05001553,Morfa Tywyn
+W05001554,Nefyn
+W05001555,Peblig
+W05001556,Pen draw Llŷn
+W05001557,Penisa'r-waun
+W05001558,Penrhyndeudraeth
+W05001559,Pen-y-groes
+W05001560,Rachub
+W05001561,Teigl
+W05001562,Trawsfynydd
+W05001563,Tre-garth a Mynydd Llandygái
+W05001564,Tryfan
+W05001565,Waunfawr
+W05001566,Y Bala
+W05001567,Y Bontnewydd
+W05001568,Y Faenol
+W05001569,Y Groeslon
+W05001570,Yr Eifl
+W05001571,Argoed and New Brighton
+W05001572,Bagillt
+W05001573,Broughton North East
+W05001574,Broughton South
+W05001575,Brynford and Halkyn
+W05001576,Buckley: Bistre East
+W05001577,Buckley: Bistre West
+W05001578,Buckley: Mountain
+W05001579,Buckley: Pentrobin
+W05001580,Caergwrle
+W05001581,Caerwys
+W05001582,Cilcain
+W05001583,Connah's Quay Central
+W05001584,Connah's Quay: Golftyn
+W05001585,Connah's Quay South
+W05001586,Connah's Quay: Wepre
+W05001587,Flint: Castle
+W05001588,Flint: Coleshill and Trelawny
+W05001589,Flint: Oakenholt
+W05001590,Greenfield
+W05001591,Gwernaffield and Gwernymynydd
+W05001592,Hawarden: Aston
+W05001593,Hawarden: Ewloe
+W05001594,Hawarden: Mancot
+W05001595,Higher Kinnerton
+W05001596,Holywell Central
+W05001597,Holywell East
+W05001598,Holywell West
+W05001599,Hope
+W05001600,Leeswood
+W05001601,Llanasa and Trelawnyd
+W05001602,Llanfynydd
+W05001603,Mold: Broncoed
+W05001604,Mold East
+W05001605,Mold South
+W05001606,Mold West
+W05001607,Mostyn
+W05001608,Northop
+W05001609,Pen-y-ffordd
+W05001610,Queensferry and Sealand
+W05001611,Saltney Ferry
+W05001612,Shotton East and Shotton Higher
+W05001613,Shotton West
+W05001614,Treuddyn
+W05001615,Whitford
+W05001616,Bedlinog and Trelewis
+W05001617,Cyfarthfa
+W05001618,Dowlais and Pant
+W05001619,Gurnos
+W05001620,Merthyr Vale
+W05001621,Park
+W05001622,Penydarren
+W05001623,Plymouth
+W05001624,Town
+W05001625,Treharris
+W05001626,Vaynor
+W05001627,Allt-yr-yn
+W05001628,Alway
+W05001629,Beechwood
+W05001630,Bettws
+W05001631,Bishton and Langstone
+W05001632,Caerleon
+W05001633,Gaer
+W05001634,Graig
+W05001635,Lliswerry
+W05001636,Llanwern
+W05001637,Malpas
+W05001638,Pillgwenlly
+W05001639,Ringland
+W05001640,Rogerstone East
+W05001641,Rogerstone North
+W05001642,Rogerstone West
+W05001643,Shaftesbury
+W05001644,St Julians
+W05001645,Stow Hill
+W05001646,Tredegar Park and Marshfield
+W05001647,Victoria
+W05001648,Aber Valley
+W05001649,Aberbargoed and Bargoed
+W05001650,Abercarn
+W05001651,Argoed
+W05001652,Bedwas and Trethomas
+W05001653,Blackwood
+W05001654,Cefn Fforest and Pengam
+W05001655,Crosskeys
+W05001656,Crumlin
+W05001657,Darran Valley
+W05001658,Gilfach
+W05001659,Hengoed
+W05001660,Llanbradach
+W05001661,Machen and Rudry
+W05001662,Maesycwmmer
+W05001663,Morgan Jones
+W05001664,Moriah and Pontlottyn
+W05001665,Nelson
+W05001666,New Tredegar
+W05001667,Newbridge
+W05001668,Penmaen
+W05001669,Penyrheol
+W05001670,Pontllanfraith
+W05001671,Risca East
+W05001672,Risca West
+W05001673,St Cattwg
+W05001674,St Martins
+W05001675,Twyn Carno
+W05001676,Van
+W05001677,Ynysddu
+W05001678,Ystrad Mynach
+W05001679,Aberavon
+W05001680,Aberdulais
+W05001681,Allt-wen
+W05001682,Baglan
+W05001683,Blaengwrach and Glynneath West
+W05001684,Briton Ferry East
+W05001685,Briton Ferry West
+W05001686,Bryn and Cwmavon
+W05001687,Bryn-coch North
+W05001688,Bryn-coch South
+W05001689,Cadoxton
+W05001690,Cimla and Pelenna
+W05001691,Coedffranc Central
+W05001692,Coedffranc North
+W05001693,Coedffranc West
+W05001694,"Crynant, Onllwyn and Seven Sisters"
+W05001695,Cwmllynfell and Ystalyfera
+W05001696,Cymer and Glyncorrwg
+W05001697,Dyffryn
+W05001698,Glynneath Central and East
+W05001699,Godre'r Graig
+W05001700,Gwaun-Cae-Gurwen and Lower Brynamman
+W05001701,Gwynfi and Croeserw
+W05001702,Margam and Tai-bach
+W05001703,Neath East
+W05001704,Neath North
+W05001705,Neath South
+W05001706,Pontardawe
+W05001707,Port Talbot
+W05001708,Resolven and Tonna
+W05001709,Rhos
+W05001710,Sandfields East
+W05001711,Sandfields West
+W05001712,Trebanos
+W05001713,Acrefair North
+W05001714,Acton and Maesydre
+W05001715,Bangor Is-y-Coed
+W05001716,Borras Park
+W05001717,Bronington and Hanmer
+W05001718,Brymbo
+W05001719,Bryn Cefn
+W05001720,Brynyffynnon
+W05001721,Cartrefle
+W05001722,Cefn East
+W05001723,Cefn West
+W05001724,Chirk North
+W05001725,Chirk South
+W05001726,Coedpoeth
+W05001727,Dyffryn Ceiriog
+W05001728,Erddig
+W05001729,Esclusham
+W05001730,Garden Village
+W05001731,Gresford East and West
+W05001732,Grosvenor
+W05001733,Gwenfro
+W05001734,Gwersyllt East
+W05001735,Gwersyllt North
+W05001736,Gwersyllt South
+W05001737,Gwersyllt West
+W05001738,Hermitage
+W05001739,Holt
+W05001740,Little Acton
+W05001741,Llangollen Rural
+W05001742,Llay
+W05001743,Marchwiel
+W05001744,Marford and Hoseley
+W05001745,Minera
+W05001746,New Broughton
+W05001747,Offa
+W05001748,Overton and Maelor South
+W05001749,Pant and Johnstown
+W05001750,Penycae
+W05001751,Penycae and Ruabon South
+W05001752,Ponciau
+W05001753,Queensway
+W05001754,Rhos
+W05001755,Rhosnesni
+W05001756,Rossett
+W05001757,Ruabon
+W05001758,Smithfield
+W05001759,Stansty
+W05001760,Whitegate
+W05001761,Wynnstay
+W05001762,Bulwark and Thornwell
+W05001763,Caerwent
+W05001764,Caldicot Castle
+W05001765,Caldicot Cross
+W05001766,Cantref
+W05001767,Chepstow Castle and Larkfield
+W05001768,Croesonen
+W05001769,Crucorney
+W05001770,Devauden
+W05001771,Dewstow
+W05001772,Drybridge
+W05001773,Gobion Fawr
+W05001774,Goetre Fawr
+W05001775,Grofield
+W05001776,Lansdown
+W05001777,Llanbadoc and Usk
+W05001778,Llanelly
+W05001779,Llanfoist Fawr and Govilon
+W05001780,Llangybi Fawr
+W05001781,Llantilio Crossenny
+W05001782,Magor East with Undy
+W05001783,Magor West
+W05001784,Mardy
+W05001785,Mitchel Troy and Trellech United
+W05001786,Mount Pleasant
+W05001787,Osbaston
+W05001788,Overmonnow
+W05001789,Park
+W05001790,Pen Y Fal
+W05001791,Portskewett
+W05001792,Raglan
+W05001793,Rogiet
+W05001794,Severn
+W05001795,Shirenewton
+W05001796,St Arvans
+W05001797,St Kingsmark
+W05001798,Town
+W05001799,West End
+W05001800,Wyesham

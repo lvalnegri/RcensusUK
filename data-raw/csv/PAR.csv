@@ -210,7 +210,6 @@ E04000252,Woolley
 E04000253,Brierton
 E04000254,Claxton
 E04000255,Dalton Piercy
-E04000256,Elwick
 E04000257,Greatham
 E04000258,Hart
 E04000259,Newton Bewley
@@ -1082,6 +1081,7 @@ E04001206,Yattendon
 E04001207,Newbury
 E04001208,Holybrook
 E04001210,Colnbrook with Poyle
+E04001211,Wexham Court
 E04001212,Bisham
 E04001214,Cookham
 E04001215,Cox Green
@@ -1426,7 +1426,6 @@ E04001754,Yaxley
 E04001755,Yelling
 E04001756,Abington Pigotts
 E04001757,Arrington
-E04001758,Babraham
 E04001759,Balsham
 E04001760,Bar Hill
 E04001761,Barrington
@@ -1493,7 +1492,6 @@ E04001832,Pampisford
 E04001833,Papworth Everard
 E04001834,Papworth St. Agnes
 E04001835,Rampton
-E04001836,Sawston
 E04001837,Shepreth
 E04001838,Shingay cum Wendy
 E04001839,Shudy Camps
@@ -1755,7 +1753,7 @@ E04002656,Underbarrow and Bradleyfield
 E04002657,Lindale and Newton-in-Cartmel
 E04002658,Urswick
 E04002659,Whinfell
-E04002661,Windermere
+E04002661,Windermere and Bowness
 E04002663,Aldercar and Langley Mill
 E04002664,Alderwasley
 E04002665,Alfreton
@@ -2988,11 +2986,9 @@ E04004123,Chrishall
 E04004124,Clavering
 E04004125,Debden
 E04004126,Elmdon
-E04004127,Elsenham
 E04004128,Farnham
 E04004129,Felsted
 E04004130,Great Canfield
-E04004131,Great Chesterford
 E04004133,Great Easton
 E04004134,Great Hallingbury
 E04004135,Great Sampford
@@ -3000,7 +2996,6 @@ E04004136,Hadstock
 E04004137,Hatfield Broad Oak
 E04004138,Hatfield Heath
 E04004139,Hempstead
-E04004140,Henham
 E04004141,High Easter
 E04004142,High Roothing
 E04004143,Langley
@@ -3008,7 +3003,6 @@ E04004144,Leaden Roding
 E04004145,Lindsell
 E04004146,Little Bardfield
 E04004147,Little Canfield
-E04004148,Little Chesterford
 E04004151,Little Hallingbury
 E04004152,Little Sampford
 E04004153,Littlebury
@@ -3084,7 +3078,7 @@ E04004234,Hampnett
 E04004235,Hatherop
 E04004236,Hazleton
 E04004237,Icomb
-E04004238,Kemble
+E04004238,Kemble and Ewen
 E04004240,Kingscote
 E04004241,Lechlade
 E04004242,Little Rissington
@@ -3307,7 +3301,7 @@ E04004484,Weston Corbett
 E04004485,Weston Patrick
 E04004486,Whitchurch
 E04004487,Winslade
-E04004488,Wootton St. Lawrence
+E04004488,Wootton St. Lawrence with Ramsdell
 E04004489,Rooksdown
 E04004490,Alton
 E04004491,Bentley
@@ -3465,7 +3459,7 @@ E04004689,Twyford
 E04004690,Upham
 E04004691,Warnford
 E04004692,West Meon
-E04004693,Wickham
+E04004693,Wickham and Knowle
 E04004694,Wonston
 E04004695,Whiteley
 E04004696,Aldbury
@@ -4110,7 +4104,6 @@ E04005417,Cranoe
 E04005418,Drayton
 E04005420,East Langton
 E04005421,East Norton
-E04005422,Fleckney
 E04005423,Foxton
 E04005424,Frisby
 E04005425,Frolesworth
@@ -4135,7 +4128,6 @@ E04005447,Leire
 E04005448,Little Stretton
 E04005449,Loddington
 E04005450,Lowesby
-E04005451,Lubenham
 E04005452,Lutterworth
 E04005453,Marefield
 E04005454,Medbourne
@@ -4148,7 +4140,6 @@ E04005460,Owston and Newbold
 E04005461,Peatling Magna
 E04005462,Peatling Parva
 E04005463,Rolleston
-E04005464,Saddington
 E04005465,Scraptoft
 E04005466,Shangton
 E04005467,Shawell
@@ -4804,7 +4795,7 @@ E04006125,Harling
 E04006126,Hilborough
 E04006127,Hockering
 E04006128,Hockham
-E04006129,Hoe
+E04006129,Hoe and Worthing
 E04006130,Holme Hale
 E04006131,Horningtoft
 E04006132,Ickburgh
@@ -4853,7 +4844,7 @@ E04006174,Sparham
 E04006175,Sporle with Palgrave
 E04006176,Stanfield
 E04006177,Stanford
-E04006178,Stow Bedon
+E04006178,Stow Bedon and Breckles
 E04006179,Sturston
 E04006180,Swaffham
 E04006181,Swanton Morley
@@ -6053,8 +6044,8 @@ E04007642,Thorpe Bassett
 E04007643,Upper Helmsley
 E04007644,Warthill
 E04007645,Weaverthorpe
-E04007646,Welburn (Amotherby Ward)
-E04007647,Welburn (Kirkbymoorside Ward)
+E04007646,Welburn (Sheriff Hutton & Derwent Ward)
+E04007647,Welburn (Kirkbymoorside & Dales Ward)
 E04007648,Westow
 E04007649,Wharram
 E04007650,Whitwell-on-the-Hill
@@ -6346,7 +6337,6 @@ E04007954,Wellow
 E04007955,Weston
 E04007956,Wigsley
 E04007957,Winkburn
-E04007958,Winthorpe
 E04007959,Fernwood
 E04007960,Aslockton
 E04007961,Barton in Fabis
@@ -6831,7 +6821,6 @@ E04008718,Kingstone
 E04008719,Kingweston
 E04008720,Knowle St. Giles
 E04008721,Langport
-E04008722,Limington
 E04008723,Long Load
 E04008724,Long Sutton
 E04008725,Lopen
@@ -6881,7 +6870,6 @@ E04008770,Wincanton
 E04008771,Winsham
 E04008772,Yarlington
 E04008773,Yeovil
-E04008774,Yeovilton
 E04008775,Yeovil Without
 E04008776,Hambridge and Westport
 E04008777,Ashbrittle
@@ -7601,7 +7589,7 @@ E04009552,St. Martha
 E04009553,Seale and Sands
 E04009554,Send
 E04009555,Shackleford
-E04009556,Shalford
+E04009556,"Shalford, Peasmarsh and Chilworth"
 E04009557,Shere
 E04009558,Tongham
 E04009559,Wanborough
@@ -9717,8 +9705,7 @@ E04012328,Worth Matravers
 E04012329,Bitteswell with Bittesby
 E04012330,Broughton Astley
 E04012331,Dunton Bassett
-E04012332,Kibworth Beauchamp
-E04012333,Kibworth Harcourt
+E04012334,Britwell
 E04012335,Chelveston-cum-Caldecott
 E04012336,Higham Ferrers
 E04012337,Irthlingborough
@@ -9962,11 +9949,9 @@ E04012608,Lacey Green
 E04012609,Covingham
 E04012610,Cassop-cum-Quarrington
 E04012611,Shincliffe
-E04012612,Balderton
 E04012613,Coddington
 E04012614,Farndon
 E04012615,Hawton
-E04012616,Newark
 E04012617,Hugill
 E04012618,Kentmere
 E04012619,Skelsmergh and Scalthwaiterigg
@@ -10432,7 +10417,7 @@ E04013092,St. Teath
 E04013093,St. Thomas the Apostle Rural
 E04013094,South Petherwin
 E04013095,Towednack
-E04013096,Tregoney with Cuby
+E04013096,Tregony with Cuby
 E04013097,Truro
 E04013098,Wadebridge
 E04013099,Wendron
@@ -10448,7 +10433,7 @@ E04013108,Manningford
 E04013109,Woodborough
 E04013110,Chesterton and Kingston
 E04013111,Gaydon
-E04013112,Lighthorne Heath
+E04013112,Upper Lighthorne
 E04013113,Bishop's Itchington
 E04013114,Harbury
 E04013115,Eccleston
@@ -10474,6 +10459,26 @@ E04013135,Eastleigh Town
 E04013136,Finedon
 E04013137,Great Harrowden
 E04013138,Wellingborough
+E04013139,Babraham
+E04013140,Sawston
+E04013141,Lubenham
+E04013142,Fleckney
+E04013143,Kibworth Beauchamp
+E04013144,Kibworth Harcourt
+E04013146,Saddington
+E04013147,Balderton
+E04013148,Newark
+E04013149,Winthorpe
+E04013150,Wickford
+E04013151,Elwick
+E04013152,Wynyard
+E04013153,Elsenham
+E04013154,Great Chesterford
+E04013155,Henham
+E04013156,Little Chesterford
+E04013157,Yeovilton and District
+E04013158,Weymouth
+E04013159,Corby Town
 E43000001,"Hartlepool, unparished area"
 E43000002,"Middlesbrough, unparished area"
 E43000003,"Redcar and Cleveland, unparished area"
@@ -10666,7 +10671,6 @@ E43000255,"Cheltenham, unparished area"
 E43000258,"Tendring, unparished area"
 E43000259,"Windsor and Maidenhead, unparished area"
 E43000261,"Bournemouth, Christchurch and Poole, unparished area"
-E43000262,"Dorset, unparished area"
 E43000263,"Somerset West and Taunton, unparished area"
 E43000264,"Charnwood, unparished area"
 E43000265,"Solihull, unparished area"
@@ -10790,7 +10794,6 @@ W04000109,Bro Machno
 W04000110,Caerhun
 W04000111,Capel Curig
 W04000112,Cerrigydrudion
-W04000113,Colwyn Bay
 W04000115,Dolgarrog
 W04000116,Dolwyddelan
 W04000117,Eglwysbach
@@ -10812,7 +10815,6 @@ W04000133,Mochdre
 W04000134,Old Colwyn
 W04000135,Penmaenmawr
 W04000136,Pentrefoelas
-W04000137,Rhos-on-Sea
 W04000138,Trefriw
 W04000139,Ysbyty Ifan
 W04000140,Aberwheeler
@@ -11191,24 +11193,20 @@ W04000578,Llanrhidian Lower
 W04000581,Mawr
 W04000583,Mumbles
 W04000588,Penrice
-W04000590,Pontardulais
+W04000590,Pontarddulais
 W04000591,Port Eynon
 W04000592,Reynoldston
 W04000593,Rhossili
-W04000594,St. Thomas
 W04000595,Sketty
 W04000597,Uplands
 W04000601,Baglan Bay
 W04000602,Blaengwrach
-W04000603,Blaenhonddan
 W04000605,Bryn
 W04000606,Cilybebyll
 W04000607,Clyne and Melincourt
 W04000608,Coedffranc
 W04000609,Crynant
 W04000611,Cwmllynfell
-W04000612,Dyffryn Clydach
-W04000613,Glyncorrwg
 W04000614,Glynneath
 W04000615,Gwaun-Cae-Gurwen
 W04000618,Neath
@@ -11260,7 +11258,6 @@ W04000683,Ferndale
 W04000684,Gilfach Goch
 W04000685,Hirwaun
 W04000690,Llwydcoed
-W04000691,Llwyn-y-pia
 W04000692,Maerdy
 W04000694,Penrhiwceiber
 W04000695,Pentre
@@ -11271,14 +11268,11 @@ W04000701,Rhigos
 W04000702,Taffs Well
 W04000703,Tonypandy
 W04000704,Tonyrefail
-W04000705,Trehafod
 W04000706,Treherbert
-W04000707,Trealaw
 W04000708,Treorchy
 W04000709,Tylorstown
 W04000710,Ynyshir
 W04000711,Ynysybwl and Coed-y-cwm
-W04000712,Ystrad
 W04000713,Bedlinog
 W04000714,Cyfarthfa
 W04000715,Dowlais
@@ -11315,38 +11309,6 @@ W04000768,Panteg
 W04000770,Ponthir
 W04000772,Pontymoile
 W04000773,Trevethin
-W04000775,Abergavenny
-W04000776,Caerwent
-W04000777,Caldicot
-W04000778,Chepstow
-W04000779,Crucorney
-W04000780,Devauden
-W04000781,Goetre Fawr
-W04000782,Grosmont
-W04000783,Gwehelog Fawr
-W04000784,Llanarth
-W04000785,Llanbadoc
-W04000786,Llanelly
-W04000787,Llanfoist Fawr
-W04000788,Llangattock-Vibon-Avel
-W04000789,Llangwm
-W04000790,Llangybi
-W04000791,Llanhennock
-W04000792,Llanover
-W04000793,Llantilio Crossenny
-W04000794,Llantilio Pertholey
-W04000795,Llantrisant Fawr
-W04000796,Magor with Undy
-W04000797,Mathern
-W04000798,Mitchel Troy
-W04000799,Monmouth
-W04000800,Portskewett
-W04000801,Raglan
-W04000802,Rogiet
-W04000803,St. Arvans
-W04000804,Shirenewton
-W04000805,Tintern
-W04000806,Trellech United
 W04000807,Usk
 W04000808,Allt-yr-yn
 W04000809,Alway
@@ -11357,7 +11319,6 @@ W04000813,Caerleon
 W04000814,Coedkernew
 W04000815,Gaer
 W04000816,Goldcliff
-W04000817,Graig
 W04000818,Langstone
 W04000819,Liswerry
 W04000820,Llanvaches
@@ -11367,13 +11328,10 @@ W04000823,Marshfield
 W04000824,Michaelstone-y-Fedw
 W04000825,Nash
 W04000826,Penhow
-W04000827,Pillgwenlly
 W04000828,Redwick
 W04000829,Ringland
-W04000830,Rogerstone
 W04000831,St. Julians
 W04000832,Shaftesbury
-W04000833,Stow Hill
 W04000834,Tredegar Park
 W04000835,Victoria
 W04000836,Wentlooge
@@ -11417,11 +11375,9 @@ W04000883,Bridgend
 W04000884,Coychurch Lower
 W04000885,Merthyr Mawr
 W04000888,Old St. Mellons
-W04000889,Abenbury
 W04000890,Acton
 W04000891,Broughton
 W04000892,Brymbo
-W04000893,Caia Park
 W04000894,Coedpoeth
 W04000895,Gresford
 W04000896,Gwersyllt
@@ -11454,7 +11410,6 @@ W04000922,Sully and Lavernock
 W04000923,Welsh St. Donats
 W04000924,Abertillery
 W04000925,Badminton
-W04000926,Beaufort
 W04000927,Brynmawr
 W04000928,Cwm
 W04000929,Ebbw Vale North
@@ -11487,9 +11442,7 @@ W04000955,Tiers Cross
 W04000956,"Uzmaston, Boulston and Slebech"
 W04000957,Bishopston
 W04000958,Bonymaen
-W04000959,Castle
 W04000960,Clydach
-W04000961,Cockett
 W04000962,Cwmbwrla
 W04000963,Dunvant
 W04000964,Gorseinon
@@ -11546,7 +11499,6 @@ W04001014,Llantrisant
 W04001015,Llantwit Fardre
 W04001016,Mountain Ash East
 W04001017,Mountain Ash West
-W04001018,Pontypridd
 W04001019,Aberavon
 W04001020,Baglan
 W04001021,Baglan Moors
@@ -11561,3 +11513,56 @@ W04001029,Seven Sisters
 W04001030,Tai-bach
 W04001031,St. Mary Out Liberty
 W04001032,Tenby
+W04001033,Castle
+W04001034,Cockett
+W04001035,St Thomas
+W04001036,Waterfront
+W04001037,Waunarlwydd
+W04001038,Llwyn-y-pia
+W04001039,Pontypridd Town
+W04001040,Trealaw
+W04001041,Trehafod
+W04001042,Ystrad
+W04001043,Beaufort
+W04001044,Garnlydan
+W04001045,Colwyn Bay
+W04001046,Rhos-on-Sea
+W04001047,Graig
+W04001048,Pillgwenlly
+W04001049,Rogerstone
+W04001050,Stow Hill
+W04001051,Blaenhonddan
+W04001052,Cymer and Glyncorrwg
+W04001053,Dyffryn Clydach
+W04001054,Gwynfi and Croeserw
+W04001055,Abenbury
+W04001056,Caia Park
+W04001057,Abergavenny
+W04001058,Caerwent
+W04001059,Caldicot
+W04001060,Chepstow
+W04001061,Crucorney
+W04001062,Devauden
+W04001063,Gobion Fawr
+W04001064,Goetre Fawr
+W04001065,Grosmont
+W04001066,Llanarth
+W04001067,Llanbadoc
+W04001068,Llanelly
+W04001069,Llanfoist Fawr
+W04001070,Llangybi
+W04001071,Llantilio Pertholey
+W04001072,Llantrisant Fawr
+W04001073,Magor with Undy
+W04001074,Mathern
+W04001075,Mitchel Troy
+W04001076,Monmouth
+W04001077,Portskewett
+W04001078,Raglan
+W04001079,Rogiet
+W04001080,Shirenewton
+W04001081,Skenfrith
+W04001082,St. Arvans
+W04001083,Trellech United
+W04001084,Whitecastle
+W04001085,Wye Valley

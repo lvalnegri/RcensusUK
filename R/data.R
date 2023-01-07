@@ -64,7 +64,7 @@ NULL
 ## VARS REFERENCES -----
 #' vars_refs
 #'
-#' The references code for each variable and level of depth (also indent for reporting)
+#' The reference codes for each variable and level of depth (that could also be used as indent for reporting)
 #'
 #' @format A data.table with the following columns:
 #' \describe{
@@ -332,9 +332,11 @@ NULL
 'dt_work'
 
 ## HOUSING -------------
-#' housing
+#' Housing
 #' 
-#' Waiting for data. Expected by 5th Jan 2023.
+#' Households by Accommodation type, Tenure of Household, Number of Rooms and Bedrooms (total count and Occupancy Rating),
+#' Type of Central Heating, Number of Cars or Vans.
+#' Resident Population by Second address type, and living in Communal establishment management, segmented by Type, Sex and 10 years Age Classes.
 #' 
 #' @format A data.table in *long* format with the following columns:
 #' \describe{
@@ -345,6 +347,18 @@ NULL
 #' 
 #' @format The dataset includes the following Census Tables:
 #' \describe{
+#'   \item{\code{ TS044 }}{ Accommodation type }
+#'   \item{\code{ TS054 }}{ Tenure }
+#'   \item{\code{ TS051 }}{ Number of rooms }
+#'   \item{\code{ TS053 }}{ Occupancy rating for rooms }
+#'   \item{\code{ TS050 }}{ Number of bedrooms }
+#'   \item{\code{ TS052 }}{ Occupancy rating for bedrooms }
+#'   \item{\code{ TS046 }}{ Central heating }
+#'   \item{\code{ TS045 }}{ Car or van availability }
+#'   \item{\code{ TS055 }}{ Purpose of second address }
+#'   \item{\code{ TS056 }}{ Second address indicator }
+#'   \item{\code{ TS048 }}{ Communal establishment management and type }
+#'   \item{\code{ TS047 }}{ Communal establishment residents by age and sex }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -352,7 +366,7 @@ NULL
 'dt_housing'
 
 ## HEALTH --------------
-#' health
+#' Health
 #'
 #' Waiting for data. Expected by 19th Jan 2023.
 #' 
@@ -372,9 +386,9 @@ NULL
 'dt_health'
 
 ## GENDER --------------
-#' gender
+#' Gender
 #'
-#' Waiting for data. Expected by 6th Jan 2023.
+#' Resident Population by Sexual Orientation and Gender Identity
 #' 
 #' @format A data.table in *long* format with the following columns:
 #' \describe{
@@ -385,6 +399,10 @@ NULL
 #' 
 #' @format The dataset includes the following Census Tables:
 #' \describe{
+#'   \item{\code{ TS077 }}{ Sexual orientation }
+#'   \item{\code{ TS079 }}{ Sexual orientation (detailed) }
+#'   \item{\code{ TS078 }}{ Gender identity }
+#'   \item{\code{ TS070 }}{ Gender identity (detailed) }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -392,7 +410,7 @@ NULL
 'dt_gender'
 
 ## EDUCATION -----------
-#' education
+#' Education
 #'
 #' Waiting for data. Expected by 10th Jan 2023.
 #' 
@@ -493,6 +511,18 @@ NULL
 #'   \item{\code{parent}}{ The code of the zone in which the current zone is contained as immediate level in its most direct hierarchy}
 #'   \item{\code{country}}{ The Country the Area belongs to (either `E`ngland or `W`ales)}
 #'   \item{\code{ordering}}{ The preferred order in reporting results }
+#'   \item{\code{x_lon}}{ The longitude coordinate of the geometric centroid }
+#'   \item{\code{y_lat}}{ The latitude coordinate of the geometric centroid }
+#'   \item{\code{px_lon}}{ The longitude coordinate of the pole of inaccessibility }
+#'   \item{\code{py_lat}}{ The latitude coordinate of the pole of inaccessibility }
+#'   \item{\code{wx_lon}}{ The longitude coordinate of the population weighted centroid }
+#'   \item{\code{wy_lat}}{ The latitude coordinate of the population weighted centroid }
+#'   \item{\code{perimeter}}{ The perimeter }
+#'   \item{\code{area}}{ The area }
+#'   \item{\code{bb_xmin}}{ The minimum longitude coordinate of the bounding box surrounding the polygon representing the location }
+#'   \item{\code{bb_ymin}}{ The minimum latitude coordinate of the bounding box surrounding the polygon representing the location }
+#'   \item{\code{bb_xmax}}{ The maximum longitude coordinate of the bounding box surrounding the the polygon representing the location }
+#'   \item{\code{bb_ymax}}{ The maximum latitude coordinate of the bounding box surrounding the the polygon representing the location }
 #' }
 #'
 #' For further details, see the \code{Names and Codes} section within \url{https://geoportal.statistics.gov.uk/}
@@ -577,6 +607,27 @@ NULL
 #' [ONS Open Geography portal](https://geoportal.statistics.gov.uk/search?collection=Dataset&q=postcodes&sort=-created&tags=onspd). 
 #' 
 'postcodes'
+
+## LOCALITIES ----------
+#' localities
+#'
+#' The list of all known Locality in England and Wales, and the corresponding *Output Areas* they're in.
+#' 
+#' The table contains *all* UK geographical postcodes, both *live* and *terminated* (2,334,674, as of NOV-22). 
+#' 
+#' @format A data.table with the following columns:
+#' \describe{
+#'   \item{\code{ LOC }}{ The unique ONS code for the Location }
+#'   \item{\code{ LOCd }}{ The description for the Location }
+#'   \item{\code{ OA }}{ The ONS code for the Output Areas that includes the Location}
+#'   \item{\code{ x_lon}}{ The longitude coordinate of the Location }
+#'   \item{\code{ y_lat}}{ The latitude coordinate of the Location }
+#' }
+#'
+#' For further details, see the *Index of Place Names in Great Britain* page of the 
+#' [ONS Open Geography portal](https://geoportal.statistics.gov.uk/datasets/index-of-place-names-in-great-britain-december-2022/about). 
+#' 
+'localities'
 
 #' @import sf
 NULL

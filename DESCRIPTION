@@ -21,8 +21,10 @@ Suggests:
     fst,
     knitr,
     qs,
+    Rgeo,
     rmapshaper,
     rmarkdown
+Remotes:
 LazyData: true
 LazyDataCompression:gzip
 Roxygen: list(markdown = TRUE)

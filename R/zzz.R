@@ -1,16 +1,30 @@
+#' Prefix and suffix to be glued with `ons_id` to retrieve ONS boundaries
+#'
+#' @noRd
+ons_url <- c(
+    pfx = 'https://opendata.arcgis.com/api/v3/datasets/',
+    sfx = '_0/downloads/data?format=shp&spatialRefId=27700&where=1%3D1'
+)
+
 #' Properties of geographical hierarchies not issued with the Census.
 #'
 #' @noRd
 ids <- data.table(
             type = c('PCON', 'WARD', 'PAR', 'CCG'),
-            map_id = c('19841da5f8f6403e9fdcfb35c16e11e9', '72949ed55a424896934147d45f7771ea', 'd83cf58a661e4705b372b83e54bfc648', ''),
+            map_id = c('2a914dfe294c48048e836019ad93e750', '1ae248c780474cad8fbd28539b806428', '50ab3787782c44c79c4a71c2f259da13', ''),
             ons = c('PCON', 'WD', 'PARNCP', 'CCG'),
-            code = c('PCON20CD', 'WD21CD', 'PARNCP21CD', 'CCG'),
-            name = c('PCON20NM', 'WD21NM', 'PARNCP21NM', 'CCGd'),
+            code = c('PCON21CD', 'WD22CD', 'PARNCP22CD', 'CCG'),
+            name = c('PCON21NM', 'WD22NM', 'PARNCP22NM', 'CCGd'),
             lsoa = c(TRUE, FALSE, FALSE, TRUE),
             child = c('LSOA', 'OA', 'OA', 'LSOA'),
             parent = c('RGN', 'LTLA', 'UTLA', 'CTRY')
 )
+
+#' Wrapper to retrieve ONS boundaries
+#'
+#' @noRd
+down_ons <- \(id, yo, yn) Rgeo::dwn_shp_zip(paste0(ons_url['pfx'], id, ons_url['sfx']), yo, yn, out_path = './data-raw/shp/')
+
 
 # .onAttach <- function(libname, pkgname) {
 #     packageStartupMessage(
