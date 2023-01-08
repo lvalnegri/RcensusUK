@@ -30,26 +30,30 @@ y <- rbindlist(
                 message('Processing ', x)
                 yb <- qs::qread(paste0('./data-raw/qs/', x, '.bfc'))
                 ym <- data.table(
-                        x,
-                        yb |> st_drop_geometry(),
-                        yb |> st_area() |> as.numeric(),
-                        yb |> lwgeom::st_perimeter() |> as.numeric(),
+                        type = x,
+                        yb |> st_drop_geometry() |> setnames('id'),
+                        area = yb |> st_area() |> as.numeric(),
+                        perimeter = yb |> lwgeom::st_perimeter() |> as.numeric(),
                         yb |> st_centroid() |> st_transform(4326) |> st_coordinates() |> as.data.table() |> setnames(c('x_lon', 'y_lat')),
                         rbindlist( polylabelr::poi(yb) ) |> st_as_sf(coords = c('x', 'y'), crs = 27700) |> 
                             st_transform(4326) |> 
                             st_coordinates() |> 
                             st_drop_geometry() |> 
-                            as.data.table()
+                            as.data.table() |> 
+                            setnames(c('px_lon', 'py_lat')),
+                        sapply(
+                            1:nrow(yb), 
+                            \(x) yb[x,] |> st_transform(4326) |> st_bbox()
+                        ) |> matrix(ncol = 4, byrow = TRUE) |> as.data.table() |> setnames(c('bb_xmin', 'bb_ymin', 'bb_xmax', 'bb_ymax'))
                 )
                 yw <- yk[, .(OA, get(x))][fbx, on = 'OA'][, OA := NULL]
-                yw <- yw[, .( weighted.mean(x_lon, pop), weighted.mean(y_lat, pop) ), V2] |> setnames(c(x, 'wx_lon', 'wy_lat'))
-                yw[ym, on = x]
+                yw <- yw[, .( weighted.mean(x_lon, pop), weighted.mean(y_lat, pop) ), V2] |> setnames(c('id', 'wx_lon', 'wy_lat'))
+                yw[ym, on = 'id']
             }
         ), use.names = FALSE
 )
-setnames(y, c('id', 'wx_lon', 'wy_lat', 'type', 'area', 'perimeter', 'x_lon', 'y_lat', 'px_lon', 'py_lat'))
 setcolorder(y, c('type', 'id', 'area', 'perimeter', 'x_lon', 'y_lat'))
-yz <- fread('./data-raw/csv/zones.csv')
+yz <- fread('./data-raw/csv/zones.csv', select = c('type', 'id', 'name', 'parent', 'country'))
 yz <- yz[y, on = c('type', 'id')]
 setorderv(yz, c(c('type', 'id')))
 save_dts_pkg(yz, 'zones', dbn = 'census_uk')
