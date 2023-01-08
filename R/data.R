@@ -52,9 +52,9 @@ NULL
 #'   \item{\code{ id }}{ The code for the variables, built from ONS codes and file format }
 #'   \item{\code{ prog_id }}{ The *internal* code for the variables, mostly used for ordering }
 #'   \item{\code{ description }}{ The description for the variables }
-#'   \item{\code{ table_id }}{ The Domain the table is included, a foreign reference to the column `id` in the `domains` table }
+#'   \item{\code{ table_code }}{ The code of the table the variable is included into, a foreign reference to the column `code` in the `tables` dataset }
 #'   \item{\code{ level }}{ The depth of reference for the data. All variables with a level of `0` are also grouped together in the `main_refs` table. }
-#'   \item{\code{ loaded }}{ }
+#'   \item{\code{ loaded }}{ Indicates if the values of the variable have actually been loaded into the package }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -82,11 +82,11 @@ NULL
 #' 
 #' @format A data.table in *long* format with the following columns
 #' \describe{
-#'   \item{\code{ sub_id }}{ The ONS table code for the variable }
-#'   \item{\code{ main_id }}{ The internal identifier for the variable  }
+#'   \item{\code{ sub_id }}{ The id for the reference variable in a table }
+#'   \item{\code{ main_id }}{ The actual id for the variable in the dataset to refer to  }
 #'   \item{\code{ name }}{ A name for the variable, usually shorter than the official one }
 #'   \item{\code{ total }}{ The reference Total. There could be different *similar* totals among the various tables, the percentage won't exactly sum to 100.) }
-#'   \item{\code{ diff }}{ The reference level (1 is for the a table total, 2 and 3 for internal subtotals)}
+#'   \item{\code{ diff }}{  The difference between the true total of the reference variable in a table and its substitution }
 #' }
 #' 
 'main_refs'
@@ -99,11 +99,11 @@ NULL
 #'
 #' @format A data.table with the following columns:
 #' \describe{
-#'   \item{\code{ id }}{ The code for the metric }
+#'   \item{\code{ id }}{ The id for the metric }
 #'   \item{\code{ name }}{ The name for the metric }
-#'   \item{\code{ var1_id }}{ The code for the *first* variable }
+#'   \item{\code{ var1_id }}{ The id for the *first* variable }
 #'   \item{\code{ type1 }}{ The *type* of the *first* variable: `V`ariable or `M`etric }
-#'   \item{\code{ var2_id }}{ The code for the *second* variable }
+#'   \item{\code{ var2_id }}{ The id for the *second* variable }
 #'   \item{\code{ type2 }}{ The *type* of the *second* variable: `V`ariable or `M`etric }
 #'   \item{\code{ ops }}{ The operation to be applied }
 #' }
@@ -120,12 +120,12 @@ NULL
 #' 
 #' @format A data.table with the following columns
 #' \describe{
-#'   \item{\code{ table_code }}{ The code for the variables, built from ONS codes and file format }
+#'   \item{\code{ table_code }}{ The code for the variables, foreign key to the `code` column in the `tables` table }
 #'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
 #'   \item{\code{ ons_name }}{ The name for the Variable as included in the original ONS files }
 #'   \item{\code{ E }}{ The total value for the Variable at *England* level }
 #'   \item{\code{ W }}{ The total value for the Variable at *Wales* level }
-#'   \item{\code{ T }}{ The total value for the Variable at *Nation* level }
+#'   \item{\code{ T }}{ The total value for the Variable at *Nation* (England and Wales) level }
 #' }
 #' 
 'summaries'
@@ -220,9 +220,6 @@ NULL
 #'   \item{\code{ TS015 }}{ Year of arrival in UK }
 #'   \item{\code{ TS018 }}{ Age of arrival in the UK }
 #'   \item{\code{ TS016 }}{ Length of Residence }
-#'   \item{\code{ TS019 }}{ Migrant Indicator }
-#'   \item{\code{ TS020 }}{ Number of non-UK short-term Residents by sex }
-#'   \item{\code{ TS041 }}{ Number of Households }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
@@ -347,23 +344,39 @@ NULL
 #' 
 #' @format The dataset includes the following Census Tables:
 #' \describe{
-#'   \item{\code{ TS044 }}{ Accommodation type }
+#'   \item{\code{ TS044 }}{ Accommodation Type }
 #'   \item{\code{ TS054 }}{ Tenure }
-#'   \item{\code{ TS051 }}{ Number of rooms }
-#'   \item{\code{ TS053 }}{ Occupancy rating for rooms }
-#'   \item{\code{ TS050 }}{ Number of bedrooms }
-#'   \item{\code{ TS052 }}{ Occupancy rating for bedrooms }
-#'   \item{\code{ TS046 }}{ Central heating }
-#'   \item{\code{ TS045 }}{ Car or van availability }
-#'   \item{\code{ TS055 }}{ Purpose of second address }
-#'   \item{\code{ TS056 }}{ Second address indicator }
-#'   \item{\code{ TS048 }}{ Communal establishment management and type }
-#'   \item{\code{ TS047 }}{ Communal establishment residents by age and sex }
+#'   \item{\code{ TS051 }}{ Number of Rooms }
+#'   \item{\code{ TS053 }}{ Occupancy Rating for Rooms }
+#'   \item{\code{ TS050 }}{ Number of Bedrooms }
+#'   \item{\code{ TS052 }}{ Occupancy Rating for Bedrooms }
+#'   \item{\code{ TS046 }}{ Central Heating }
+#'   \item{\code{ TS045 }}{ Car or Van availability }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
 #'
 'dt_housing'
+
+## EDUCATION -----------
+#' Education
+#'
+#' Waiting for data. Expected by 10th Jan 2023.
+#' 
+#' @format A data.table in *long* format with the following columns:
+#' \describe{
+#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
+#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
+#'   \item{\code{ value }}{ The value for the Variable in the Zone}
+#' }
+#' 
+#' @format The dataset includes the following Census Tables:
+#' \describe{
+#' }
+#'
+#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
+#'
+'dt_education'
 
 ## HEALTH --------------
 #' Health
@@ -409,50 +422,6 @@ NULL
 #'
 'dt_gender'
 
-## EDUCATION -----------
-#' Education
-#'
-#' Waiting for data. Expected by 10th Jan 2023.
-#' 
-#' @format A data.table in *long* format with the following columns:
-#' \describe{
-#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
-#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
-#'   \item{\code{ value }}{ The value for the Variable in the Zone}
-#' }
-#' 
-#' @format The dataset includes the following Census Tables:
-#' \describe{
-#' }
-#'
-#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
-#'
-'dt_education'
-
-## VETERANS ------------
-#' UK Armed Forces Veterans
-#'
-#' Resident Population by 
-#' 
-#' @format A data.table in *long* format with the following columns:
-#' \describe{
-#'   \item{\code{ zone_id }}{ The `ONS` identifier for the Zone, foreign key to the `id` column in the `zones` table }
-#'   \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the `id` column in the `vars` table }
-#'   \item{\code{ value }}{ The value for the Variable in the Zone}
-#' }
-#' 
-#' @format The dataset includes the following Census Tables:
-#' \describe{
-#'   \item{\code{ TS071 }}{ Previously served in the UK armed forces }
-#'   \item{\code{ TS072 }}{ Number of people in household who have previously served in UK armed forces }
-#'   \item{\code{ TS073 }}{ Population who have previously served in UK armed forces in communal establishments and in households }
-#'   \item{\code{ TS074 }}{ Household Reference Person indicator of previous service in UK armed forces }
-#' }
-#'
-#' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
-#'
-'dt_veterans'
-
 ## METRICS ------------
 #' dt_metrics
 #' 
@@ -481,7 +450,6 @@ NULL
 #' \describe{
 #'   \item{\code{type}}{ An acronym for the Geography, used as its `id` throughout }
 #'   \item{\code{id}}{ A numeric identifier for the Geography, used mostly for ordering }
-#'   \item{\code{ons_id}}{ The id of the Geography used by ONS }
 #'   \item{\code{name}}{ The Name for the Geography }
 #'   \item{\code{level}}{ The level of details of the Geography in terms of hierarchy }
 #'   \item{\code{max_child}}{ The `type` of Geography that nest exactly into the current Geography }
@@ -489,8 +457,16 @@ NULL
 #'   \item{\code{nE}}{ The total number of Zones in England }
 #'   \item{\code{nW}}{ The total number of Zones in Wales }
 #'   \item{\code{nEW}}{ The total number of Zones in England and Wales }
-#'   \item{\code{is_exact}}{  }
-#'   \item{\code{cbo_filter}}{  }
+#'   \item{\code{missing}}{ The number of features missing from the packages because of overlapping zones (only for `PAR` and `WARD`) }
+#'   \item{\code{is_exact}}{ Indicates if the geography nests exactly into its parent, or the hierarchy is mostly due to spatial approximations }
+#'   \item{\code{cbo_filter}}{ The preferred geography to use as interactive filter in apps }
+#'   \item{\code{is_frozen}}{ Indicates if the geography is not bound to be changed (in the near future) }
+#'   \item{\code{last_update}}{  }
+#'   \item{\code{is_census}}{ Indicates if the geography is part of the Census hierarchy }
+#'   \item{\code{ons_id}}{ The id of the Geography used by ONS }
+#'   \item{\code{ons_code}}{ The column name used by ONS for the ids of the Zones }
+#'   \item{\code{ons_name}}{ The column name used by ONS for the names of the Zones }
+#'   \item{\code{ons_map_id}}{ The id for the url to download the Full Detailed Boundaries from the ONS Geoportal }
 #' }
 #'
 #' For further details, see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(PRD_RGC)} and
@@ -510,15 +486,14 @@ NULL
 #'   \item{\code{name}}{ The name for the Area  }
 #'   \item{\code{parent}}{ The code of the zone in which the current zone is contained as immediate level in its most direct hierarchy}
 #'   \item{\code{country}}{ The Country the Area belongs to (either `E`ngland or `W`ales)}
-#'   \item{\code{ordering}}{ The preferred order in reporting results }
+#'   \item{\code{perimeter}}{ The perimeter }
+#'   \item{\code{area}}{ The area }
 #'   \item{\code{x_lon}}{ The longitude coordinate of the geometric centroid }
 #'   \item{\code{y_lat}}{ The latitude coordinate of the geometric centroid }
 #'   \item{\code{px_lon}}{ The longitude coordinate of the pole of inaccessibility }
 #'   \item{\code{py_lat}}{ The latitude coordinate of the pole of inaccessibility }
 #'   \item{\code{wx_lon}}{ The longitude coordinate of the population weighted centroid }
 #'   \item{\code{wy_lat}}{ The latitude coordinate of the population weighted centroid }
-#'   \item{\code{perimeter}}{ The perimeter }
-#'   \item{\code{area}}{ The area }
 #'   \item{\code{bb_xmin}}{ The minimum longitude coordinate of the bounding box surrounding the polygon representing the location }
 #'   \item{\code{bb_ymin}}{ The minimum latitude coordinate of the bounding box surrounding the polygon representing the location }
 #'   \item{\code{bb_xmax}}{ The maximum longitude coordinate of the bounding box surrounding the the polygon representing the location }
@@ -557,7 +532,7 @@ NULL
 ## MISSING -------------
 #' Missing Zones
 #'
-#' This dataset list the lookups for those `` and `` zones missing from the `lookups` table, 
+#' This dataset list the lookups for those `PAR` and `WARD` zones missing from the `lookups` table, 
 #' because of them being smaller than the *Output Areas* they fall into 
 #' but with smaller area of a similar zone competing for the same Output Area 
 #' (which is the one comparing in `lookups`).
@@ -566,8 +541,9 @@ NULL
 #' \describe{
 #'   \item{\code{ type }}{ The type of the Area, as referenced in the `zone_types` table (either `PAR` or `WARD`) }
 #'   \item{\code{ zone_id }}{ The ONS identifier for the Zone }
-#'   \item{\code{ parent }}{ The code for the parent zone the Area should belong to }
+#'   \item{\code{ OA }}{ The ONS identifier for the Output Area the Zone is included into }
 #'   \item{\code{ sibling }}{ The code for the Area that appears in the `lookups` table having the same parent zone}
+#'   \item{\code{ parent }}{ The code for the parent zone the Area should belong to }
 #' }
 #'
 'missing'
@@ -575,7 +551,8 @@ NULL
 ## NEIGHBOURS ----------
 #' Neighbours
 #'
-#' This dataset contains the *1st order neighbours* for all the Zones listed in the `zones` table.
+#' This dataset contains the *1st order neighbours* for all the Zones listed in the `zones` table. 
+#' There are no repetitions in `idB` for `idA`, as obviously any Zone is a neighbour of itself.
 #'
 #' @format A data.table with the following columns:
 #' \describe{
@@ -589,21 +566,20 @@ NULL
 ## POSTCODES -----------
 #' postcodes
 #'
-#' A lookup table between postcode *Units* (`PCU`) and *Output Areas*.
+#' A lookup table between Postcode *Units* (`PCU`) and *Output Areas*.
 #' 
-#' The table contains *all* UK geographical postcodes, both *live* and *terminated* (2,334,674, as of NOV-22). 
+#' The table contains all UK *strictly* geographical postcodes, both *live* and *terminated*, as of NOV-22 (2,619,057). 
 #' 
 #' This table is part of my [RpostcodesUK $R$ package](https://github.com/lvalnegri/RpostcodesUK). 
 #' It's been included here only for search purposes, and it's not part of any ONS Census releases.
 #' 
 #' @format A data.table with the following columns:
 #' \describe{
-#'   \item{\code{ PCU }}{ A postcode Unit, expressed in 7-chars }
+#'   \item{\code{ PCU }}{ A Postcode Unit, expressed in 7-chars form (see the `clean_pcu` function)}
 #'   \item{\code{ OA }}{ The ONS code for an Output Areas }
-#'   \item{\code{ PCS }}{ A postcode Sector }
 #' }
 #'
-#' For further details on UK postcodes, see the *ONS Postcodes* tagged pages of the 
+#' For further official details on UK postcodes, see the *ONS Postcodes* tagged pages of the 
 #' [ONS Open Geography portal](https://geoportal.statistics.gov.uk/search?collection=Dataset&q=postcodes&sort=-created&tags=onspd). 
 #' 
 'postcodes'
@@ -615,13 +591,16 @@ NULL
 #' 
 #' The table contains *all* UK geographical postcodes, both *live* and *terminated* (2,334,674, as of NOV-22). 
 #' 
+#' Last Updated: Dec-21
+#' 
 #' @format A data.table with the following columns:
 #' \describe{
 #'   \item{\code{ LOC }}{ The unique ONS code for the Location }
 #'   \item{\code{ LOCd }}{ The description for the Location }
-#'   \item{\code{ OA }}{ The ONS code for the Output Areas that includes the Location}
+#'   \item{\code{ LOCo }}{ A description suitable for ordering }
 #'   \item{\code{ x_lon}}{ The longitude coordinate of the Location }
 #'   \item{\code{ y_lat}}{ The latitude coordinate of the Location }
+#'   \item{\code{ OA }}{ The ONS code for the Output Areas that includes the Location}
 #' }
 #'
 #' For further details, see the *Index of Place Names in Great Britain* page of the 
@@ -678,7 +657,7 @@ NULL
 #'
 #' Built by dissolving the `MSOA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Dec-21
+#' Last Updated: Dec-22
 #' 
 #' @format A `sf` dataframe with only one `LTLA` column for the corresponding *ONS* codes.
 #'
@@ -693,7 +672,7 @@ NULL
 #'
 #' Built by dissolving the `LTLA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Dec-21
+#' Last Updated: Dec-22
 #' 
 #' @format A `sf` dataframe with only one `UTLA` column for the corresponding *ONS* codes.
 #'
@@ -734,7 +713,7 @@ NULL
 #'
 #' Built by dissolving the `LSOA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Dec-20
+#' Last Updated: Dec-21
 #' 
 #' @format A `sf` dataframe with only one `PCON` column for the corresponding *ONS* codes.
 #'
@@ -749,7 +728,7 @@ NULL
 #'
 #' Built by dissolving the `OA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Dec-21
+#' Last Updated: Dec-22
 #' 
 #' @format A `sf` dataframe with only one `WARD` column for the corresponding *ONS* codes.
 #'
@@ -764,7 +743,7 @@ NULL
 #'
 #' Built by dissolving the `OA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Dec-21
+#' Last Updated: Dec-22
 #' 
 #' @format A `sf` dataframe with only one `PAR` column for the corresponding *ONS* codes.
 #'
@@ -780,7 +759,7 @@ NULL
 #'
 #' Built by dissolving the `LSOA` boundaries using the `lookups` table.
 #' 
-#' Last Updated: Apr-22
+#' Last Updated: Jul-22 for England, Apr-22 for Wales.
 #' 
 #' @format A `sf` dataframe with only one `CCG` column for the corresponding *ONS* codes.
 #'
@@ -830,7 +809,7 @@ NULL
 #' This is the result of the conversion of the original ONS boundaries in *shapefile* format 
 #' with a *OSGB36* CRS (*EPSG* 27700), simplified at a *20%* rate.
 #' 
-#' Last Updated: Dec-21
+#' Last Updated: Dec-22
 #' 
 #' @format A `sf` dataframe with only one `PAR` column for the corresponding *ONS* codes.
 #'
