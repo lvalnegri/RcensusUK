@@ -3,7 +3,7 @@
 \docType{data}
 \name{dt_health}
 \alias{dt_health}
-\title{health}
+\title{Health}
 \format{
 A data.table in \emph{long} format with the following columns:
 \describe{

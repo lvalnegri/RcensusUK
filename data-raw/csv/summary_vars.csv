@@ -1680,6 +1680,173 @@ TS061,Method of travel to workplace: Passenger in a car or van,Method of travel 
 TS061,Method of travel to workplace: Bicycle,Method of travel to workplace: Bicycle,569108,61000,10,61010,0
 TS061,Method of travel to workplace: On foot,Method of travel to workplace: On foot,2114353,61000,11,61011,0
 TS061,Method of travel to workplace: Other method of travel to work,Method of travel to workplace: Other method of travel to work,285977,61000,12,61012,0
+TS044,Accommodation type: Total: All households,Accommodation type: Total: All households,24782785,44000,1,44001,0
+TS044,Accommodation type: Detached,Accommodation type: Detached,5752944,44000,2,44002,0
+TS044,Accommodation type: Semi-detached,Accommodation type: Semi-detached,7809951,44000,3,44003,0
+TS044,Accommodation type: Terraced,Accommodation type: Terraced,5739554,44000,4,44004,0
+TS044,Accommodation type: In a purpose-built block of flats or tenement,Accommodation type: In a purpose-built block of flats or tenement,4126339,44000,5,44005,0
+TS044,"Accommodation type: Part of a converted or shared house, including bedsits","Accommodation type: Part of a converted or shared house, including bedsits",845737,44000,6,44006,0
+TS044,"Accommodation type: Part of another converted building, for example, former school, church or warehouse","Accommodation type: Part of another converted building, for example, former school, church or warehouse",195617,44000,7,44007,0
+TS044,"Accommodation type: In a commercial building, for example, in an office building, hotel or over a shop","Accommodation type: In a commercial building, for example, in an office building, hotel or over a shop",208390,44000,8,44008,0
+TS044,Accommodation type: A caravan or other mobile or temporary structure,Accommodation type: A caravan or other mobile or temporary structure,104253,44000,9,44009,0
+TS054,Tenure of household: Total: All households,Tenure of household: Total: All households,24782883,54000,1,54001,0
+TS054,Tenure of household: Owned,Tenure of household: Owned,15258951,54000,2,54002,0
+TS054,Tenure of household: Owned: Owns outright,Tenure of household: Owned: Owns outright,8136720,54000,3,54003,0
+TS054,Tenure of household: Owned: Owns with a mortgage or loan,Tenure of household: Owned: Owns with a mortgage or loan,7122231,54000,4,54004,0
+TS054,Tenure of household: Shared ownership,Tenure of household: Shared ownership,240152,54000,5,54005,0
+TS054,Tenure of household: Shared ownership: Shared ownership,Tenure of household: Shared ownership: Shared ownership,240152,54000,6,54006,0
+TS054,Tenure of household: Social rented,Tenure of household: Social rented,4227869,54000,7,54007,0
+TS054,Tenure of household: Social rented: Rents from council or Local Authority,Tenure of household: Social rented: Rents from council or Local Authority,2061853,54000,8,54008,0
+TS054,Tenure of household: Social rented: Other social rented,Tenure of household: Social rented: Other social rented,2166016,54000,9,54009,0
+TS054,Tenure of household: Private rented,Tenure of household: Private rented,5023237,54000,10,54010,0
+TS054,Tenure of household: Private rented: Private landlord or letting agency,Tenure of household: Private rented: Private landlord or letting agency,4468313,54000,11,54011,0
+TS054,Tenure of household: Private rented: Other private rented,Tenure of household: Private rented: Other private rented,554924,54000,12,54012,0
+TS054,Tenure of household: Lives rent free,Tenure of household: Lives rent free,32674,54000,13,54013,0
+TS051,Number of rooms (VOA): Total: All households,Number of rooms (VOA): Total: All households,24783532,51000,1,51001,0
+TS051,Number of rooms (VOA): 1 room,Number of rooms (VOA): 1 room,260279,51000,2,51002,0
+TS051,Number of rooms (VOA): 2 rooms,Number of rooms (VOA): 2 rooms,2435585,51000,3,51003,0
+TS051,Number of rooms (VOA): 3 rooms,Number of rooms (VOA): 3 rooms,5717002,51000,4,51004,0
+TS051,Number of rooms (VOA): 4 rooms,Number of rooms (VOA): 4 rooms,6897104,51000,5,51005,0
+TS051,Number of rooms (VOA): 5 rooms,Number of rooms (VOA): 5 rooms,5742979,51000,6,51006,0
+TS051,Number of rooms (VOA): 6 rooms,Number of rooms (VOA): 6 rooms,2164924,51000,7,51007,0
+TS051,Number of rooms (VOA): 7 rooms,Number of rooms (VOA): 7 rooms,920477,51000,8,51008,0
+TS051,Number of rooms (VOA): 8 rooms,Number of rooms (VOA): 8 rooms,367122,51000,9,51009,0
+TS051,Number of rooms (VOA): 9 or more rooms,Number of rooms (VOA): 9 or more rooms,278060,51000,10,51010,0
+TS053,Occupancy rating for rooms: Total: All households,Occupancy rating for rooms: Total: All households,24783814,53000,1,53001,0
+TS053,Occupancy rating for rooms: Occupancy rating of rooms: +2 or more,Occupancy rating for rooms: Occupancy rating of rooms: +2 or more,11353955,53000,2,53002,0
+TS053,Occupancy rating for rooms: Occupancy rating of rooms: +1,Occupancy rating for rooms: Occupancy rating of rooms: +1,6617759,53000,3,53003,0
+TS053,Occupancy rating for rooms: Occupancy rating of rooms: 0,Occupancy rating for rooms: Occupancy rating of rooms: 0,5260093,53000,4,53004,0
+TS053,Occupancy rating for rooms: Occupancy rating of rooms: -1,Occupancy rating for rooms: Occupancy rating of rooms: -1,1282175,53000,5,53005,0
+TS053,Occupancy rating for rooms: Occupancy rating of rooms: -2 or less,Occupancy rating for rooms: Occupancy rating of rooms: -2 or less,269832,53000,6,53006,0
+TS050,Number of bedrooms: Total: All households,Number of bedrooms: Total: All households,24783198,50000,1,50001,0
+TS050,Number of bedrooms: 1 bedroom,Number of bedrooms: 1 bedroom,2825886,50000,2,50002,0
+TS050,Number of bedrooms: 2 bedrooms,Number of bedrooms: 2 bedrooms,6715714,50000,3,50003,0
+TS050,Number of bedrooms: 3 bedrooms,Number of bedrooms: 3 bedrooms,10019869,50000,4,50004,0
+TS050,Number of bedrooms: 4 or more bedrooms,Number of bedrooms: 4 or more bedrooms,5221729,50000,5,50005,0
+TS052,Occupancy rating for bedrooms: Total: All households,Occupancy rating for bedrooms: Total: All households,24782901,52000,1,52001,0
+TS052,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +2 or more,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +2 or more,8902328,52000,2,52002,0
+TS052,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +1,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +1,8258528,52000,3,52003,0
+TS052,Occupancy rating for bedrooms: Occupancy rating of bedrooms: 0,Occupancy rating for bedrooms: Occupancy rating of bedrooms: 0,6567289,52000,4,52004,0
+TS052,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -1,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -1,880653,52000,5,52005,0
+TS052,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -2 or less,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -2 or less,174103,52000,6,52006,0
+TS046,Type of central heating in household: Total: All households,Type of central heating in household: Total: All households,24783711,46000,1,46001,0
+TS046,Type of central heating in household: No central heating,Type of central heating in household: No central heating,366932,46000,2,46002,0
+TS046,Type of central heating in household: Mains gas only,Type of central heating in household: Mains gas only,18298923,46000,3,46003,0
+TS046,Type of central heating in household: Tank or bottled gas only,Type of central heating in household: Tank or bottled gas only,260144,46000,4,46004,0
+TS046,Type of central heating in household: Electric only,Type of central heating in household: Electric only,2113364,46000,5,46005,0
+TS046,Type of central heating in household: Oil only,Type of central heating in household: Oil only,865878,46000,6,46006,0
+TS046,Type of central heating in household: Wood only,Type of central heating in household: Wood only,35724,46000,7,46007,0
+TS046,Type of central heating in household: Solid fuel only,Type of central heating in household: Solid fuel only,49571,46000,8,46008,0
+TS046,Type of central heating in household: Renewable energy only,Type of central heating in household: Renewable energy only,98832,46000,9,46009,0
+TS046,Type of central heating in household: District or communal heat networks only,Type of central heating in household: District or communal heat networks only,220781,46000,10,46010,0
+TS046,Type of central heating in household: Other central heating only,Type of central heating in household: Other central heating only,225370,46000,11,46011,0
+TS046,Type of central heating in household: Two or more types of central heating (not including renewable energy),Type of central heating in household: Two or more types of central heating (not including renewable energy),2113571,46000,12,46012,0
+TS046,Type of central heating in household: Two or more types of central heating (including renewable energy),Type of central heating in household: Two or more types of central heating (including renewable energy),134621,46000,13,46013,0
+TS045,Number of cars or vans: Total: All households,Number of cars or vans: Total: All households,24783267,45000,1,45001,0
+TS045,Number of cars or vans: No cars or vans in household,Number of cars or vans: No cars or vans in household,5777884,45000,2,45002,0
+TS045,Number of cars or vans: 1 car or van in household,Number of cars or vans: 1 car or van in household,10237105,45000,3,45003,0
+TS045,Number of cars or vans: 2 cars or vans in household,Number of cars or vans: 2 cars or vans in household,6485801,45000,4,45004,0
+TS045,Number of cars or vans: 3 or more cars or vans in household,Number of cars or vans: 3 or more cars or vans in household,2282477,45000,5,45005,0
+TS055,Second address type: Total: All usual residents,Second address type: Total: All usual residents,3187941,55000,1,55001,0
+TS055,Second address type: Armed forces base address,Second address type: Armed forces base address,33339,55000,2,55002,0
+TS055,Second address type: Another address when working away from home,Second address type: Another address when working away from home,188280,55000,3,55003,0
+TS055,Second address type: Holiday home,Second address type: Holiday home,446500,55000,4,55004,0
+TS055,Second address type: Student's term-time address,Second address type: Student's term-time address,15782,55000,5,55005,0
+TS055,Second address type: Student's home address,Second address type: Student's home address,655460,55000,6,55006,0
+TS055,Second address type: Another parent or guardian's address,Second address type: Another parent or guardian's address,1056491,55000,7,55007,0
+TS055,Second address type: Partner's address,Second address type: Partner's address,293513,55000,8,55008,0
+TS055,Second address type: Other,Second address type: Other,498576,55000,9,55009,0
+TS055,Second address type: Second address type not specified,Second address type: Second address type not specified,0,55000,10,55010,0
+TS056,Second address indicator: Total: All usual residents,Second address indicator: Total: All usual residents,59598332,56000,1,56001,0
+TS056,Second address indicator: No second address,Second address indicator: No second address,56409962,56000,2,56002,0
+TS056,Second address indicator: Second address is in the UK,Second address indicator: Second address is in the UK,2451948,56000,3,56003,0
+TS056,Second address indicator: Second address is outside the UK,Second address indicator: Second address is outside the UK,736422,56000,4,56004,0
+TS048,Communal establishment management and type: Total: All usual residents in communal establishments,Communal establishment management and type: Total: All usual residents in communal establishments,1041765,48000,1,48001,0
+TS048,Communal establishment management and type: Medical and care establishment,Communal establishment management and type: Medical and care establishment,368098,48000,2,48002,0
+TS048,Communal establishment management and type: Medical and care establishment:NHS,Communal establishment management and type: Medical and care establishment:NHS,7657,48000,3,48003,0
+TS048,Communal establishment management and type: Medical and care establishment: NHS: General hospital,Communal establishment management and type: Medical and care establishment: NHS: General hospital,1191,48000,4,48004,0
+TS048,Communal establishment management and type: Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Communal establishment management and type: Medical and care establishment: NHS: Mental health hospital or unit (including secure units),5636,48000,5,48005,0
+TS048,Communal establishment management and type: Medical and care establishment: NHS: Other hospital,Communal establishment management and type: Medical and care establishment: NHS: Other hospital,830,48000,6,48006,0
+TS048,Communal establishment management and type: Medical and care establishment:Local Authority,Communal establishment management and type: Medical and care establishment:Local Authority,12948,48000,7,48007,0
+TS048,Communal establishment management and type: Medical and care establishment: Local Authority: Children's home (including secure units),Communal establishment management and type: Medical and care establishment: Local Authority: Children's home (including secure units),328,48000,8,48008,0
+TS048,Communal establishment management and type: Medical and care establishment: Local Authority: Care home with nursing,Communal establishment management and type: Medical and care establishment: Local Authority: Care home with nursing,2913,48000,9,48009,0
+TS048,Communal establishment management and type: Medical and care establishment: Local Authority: Care home without nursing,Communal establishment management and type: Medical and care establishment: Local Authority: Care home without nursing,9461,48000,10,48010,0
+TS048,Communal establishment management and type: Medical and care establishment: Local Authority: Other home,Communal establishment management and type: Medical and care establishment: Local Authority: Other home,246,48000,11,48011,0
+TS048,Communal establishment management and type: Medical and care establishment:Registered Social Landlord or Housing Association,Communal establishment management and type: Medical and care establishment:Registered Social Landlord or Housing Association,3220,48000,12,48012,0
+TS048,Communal establishment management and type: Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Communal establishment management and type: Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,3220,48000,13,48013,0
+TS048,Communal establishment management and type: Medical and care establishment:Other,Communal establishment management and type: Medical and care establishment:Other,344273,48000,14,48014,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Care home with nursing,Communal establishment management and type: Medical and care establishment: Other: Care home with nursing,157510,48000,15,48015,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Care home without nursing,Communal establishment management and type: Medical and care establishment: Other: Care home without nursing,174175,48000,16,48016,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Children's home (including secure units),Communal establishment management and type: Medical and care establishment: Other: Children's home (including secure units),3274,48000,17,48017,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Mental health hospital or unit (including secure units),Communal establishment management and type: Medical and care establishment: Other: Mental health hospital or unit (including secure units),5637,48000,18,48018,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Other hospital,Communal establishment management and type: Medical and care establishment: Other: Other hospital,674,48000,19,48019,0
+TS048,Communal establishment management and type: Medical and care establishment: Other: Other establishment,Communal establishment management and type: Medical and care establishment: Other: Other establishment,3003,48000,20,48020,0
+TS048,Communal establishment management and type: Other establishment,Communal establishment management and type: Other establishment,645263,48000,21,48021,0
+TS048,Communal establishment management and type: Other establishment: Defence,Communal establishment management and type: Other establishment: Defence,42097,48000,22,48022,0
+TS048,Communal establishment management and type: Other establishment: Prison service,Communal establishment management and type: Other establishment: Prison service,65329,48000,23,48023,0
+TS048,Communal establishment management and type: Other establishment: Approved premises (probation or bail hostel),Communal establishment management and type: Other establishment: Approved premises (probation or bail hostel),1520,48000,24,48024,0
+TS048,Communal establishment management and type: Other establishment: Detention centres and other detention,Communal establishment management and type: Other establishment: Detention centres and other detention,348,48000,25,48025,0
+TS048,Communal establishment management and type: Other establishment: Education,Communal establishment management and type: Other establishment: Education,476559,48000,26,48026,0
+TS048,"Communal establishment management and type: Other establishment: Hotel, guest house, B&B or youth hostel","Communal establishment management and type: Other establishment: Hotel, guest house, B&B or youth hostel",15043,48000,27,48027,0
+TS048,Communal establishment management and type: Other establishment: Hostel or temporary shelter for the homeless,Communal establishment management and type: Other establishment: Hostel or temporary shelter for the homeless,14143,48000,28,48028,0
+TS048,Communal establishment management and type: Other establishment: Holiday accommodation,Communal establishment management and type: Other establishment: Holiday accommodation,1434,48000,29,48029,0
+TS048,Communal establishment management and type: Other establishment: Other travel or temporary accommodation,Communal establishment management and type: Other establishment: Other travel or temporary accommodation,1287,48000,30,48030,0
+TS048,Communal establishment management and type: Other establishment: Religious,Communal establishment management and type: Other establishment: Religious,3667,48000,31,48031,0
+TS048,Communal establishment management and type: Other establishment: Staff or worker accommodation or Other,Communal establishment management and type: Other establishment: Staff or worker accommodation or Other,23836,48000,32,48032,0
+TS048,Communal establishment management and type: Establishment not stated,Communal establishment management and type: Establishment not stated,28404,48000,33,48033,0
+TS047,Position in communal establishment and sex and age: Total: All usual residents in communal establishments,Position in communal establishment and sex and age: Total: All usual residents in communal establishments,1041619,47000,1,47001,0
+TS047,Position in communal establishment and sex and age: Resident,Position in communal establishment and sex and age: Resident,1000540,47000,2,47002,0
+TS047,Position in communal establishment and sex and age: Resident:Male,Position in communal establishment and sex and age: Resident:Male,489119,47000,3,47003,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 0 to 15 years,Position in communal establishment and sex and age: Resident: Male: Aged 0 to 15 years,18790,47000,4,47004,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 16 to 24 years,Position in communal establishment and sex and age: Resident: Male: Aged 16 to 24 years,229635,47000,5,47005,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 25 to 34 years,Position in communal establishment and sex and age: Resident: Male: Aged 25 to 34 years,62574,47000,6,47006,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 35 to 49 years,Position in communal establishment and sex and age: Resident: Male: Aged 35 to 49 years,46209,47000,7,47007,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 50 to 64 years,Position in communal establishment and sex and age: Resident: Male: Aged 50 to 64 years,37300,47000,8,47008,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 65 to 74 years,Position in communal establishment and sex and age: Resident: Male: Aged 65 to 74 years,25031,47000,9,47009,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 75 to 84 years,Position in communal establishment and sex and age: Resident: Male: Aged 75 to 84 years,33723,47000,10,47010,0
+TS047,Position in communal establishment and sex and age: Resident: Male: Aged 85 years and over,Position in communal establishment and sex and age: Resident: Male: Aged 85 years and over,35857,47000,11,47011,0
+TS047,Position in communal establishment and sex and age: Resident:Female,Position in communal establishment and sex and age: Resident:Female,511421,47000,12,47012,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 0 to 15 years,Position in communal establishment and sex and age: Resident: Female: Aged 0 to 15 years,14799,47000,13,47013,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 16 to 24 years,Position in communal establishment and sex and age: Resident: Female: Aged 16 to 24 years,233549,47000,14,47014,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 25 to 34 years,Position in communal establishment and sex and age: Resident: Female: Aged 25 to 34 years,24464,47000,15,47015,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 35 to 49 years,Position in communal establishment and sex and age: Resident: Female: Aged 35 to 49 years,14711,47000,16,47016,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 50 to 64 years,Position in communal establishment and sex and age: Resident: Female: Aged 50 to 64 years,20217,47000,17,47017,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 65 to 74 years,Position in communal establishment and sex and age: Resident: Female: Aged 65 to 74 years,20888,47000,18,47018,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 75 to 84 years,Position in communal establishment and sex and age: Resident: Female: Aged 75 to 84 years,55271,47000,19,47019,0
+TS047,Position in communal establishment and sex and age: Resident: Female: Aged 85 years and over,Position in communal establishment and sex and age: Resident: Female: Aged 85 years and over,127522,47000,20,47020,0
+TS047,Position in communal establishment and sex and age: Staff or owner,Position in communal establishment and sex and age: Staff or owner,13918,47000,21,47021,0
+TS047,Position in communal establishment and sex and age: Family member or partner of staff or owner,Position in communal establishment and sex and age: Family member or partner of staff or owner,4646,47000,22,47022,0
+TS047,Position in communal establishment and sex and age: Staying temporarily (no usual UK address),Position in communal establishment and sex and age: Staying temporarily (no usual UK address),22515,47000,23,47023,0
+TS077,Sexual orientation: Total: All usual residents aged 16 years and over,Sexual orientation: Total: All usual residents aged 16 years and over,48566430,77000,1,77001,0
+TS077,Sexual orientation: Straight or Heterosexual,Sexual orientation: Straight or Heterosexual,43403053,77000,2,77002,0
+TS077,Sexual orientation: Gay or Lesbian,Sexual orientation: Gay or Lesbian,747794,77000,3,77003,0
+TS077,Sexual orientation: Bisexual,Sexual orientation: Bisexual,623637,77000,4,77004,0
+TS077,Sexual orientation: All other sexual orientations,Sexual orientation: All other sexual orientations,165283,77000,5,77005,0
+TS077,Sexual orientation: Not answered,Sexual orientation: Not answered,3626663,77000,6,77006,0
+TS079,Sexual orientation: Total: All usual residents aged 16 years and over,Sexual orientation: Total: All usual residents aged 16 years and over,48566367,79000,1,79001,0
+TS079,Sexual orientation: Straight or Heterosexual,Sexual orientation: Straight or Heterosexual,43403120,79000,2,79002,0
+TS079,Sexual orientation: Gay or Lesbian,Sexual orientation: Gay or Lesbian,747801,79000,3,79003,0
+TS079,Sexual orientation: Bisexual,Sexual orientation: Bisexual,623489,79000,4,79004,0
+TS079,Sexual orientation: Pansexual,Sexual orientation: Pansexual,112384,79000,5,79005,0
+TS079,Sexual orientation: Asexual,Sexual orientation: Asexual,28168,79000,6,79006,0
+TS079,Sexual orientation: Queer,Sexual orientation: Queer,14512,79000,7,79007,0
+TS079,Sexual orientation: All other sexual orientations,Sexual orientation: All other sexual orientations,10228,79000,8,79008,0
+TS079,Sexual orientation: Not answered,Sexual orientation: Not answered,3626665,79000,9,79009,0
+TS078,Gender identity: Total: All usual residents aged 16 years and over,Gender identity: Total: All usual residents aged 16 years and over,48566219,78000,1,78001,0
+TS078,Gender identity: Gender identity the same as sex registered at birth,Gender identity: Gender identity the same as sex registered at birth,45389646,78000,2,78002,0
+TS078,Gender identity: Gender identity different from sex registered at birth but no specific identity given,Gender identity: Gender identity different from sex registered at birth but no specific identity given,117751,78000,3,78003,0
+TS078,Gender identity: Trans woman,Gender identity: Trans woman,47524,78000,4,78004,0
+TS078,Gender identity: Trans man,Gender identity: Trans man,48411,78000,5,78005,0
+TS078,Gender identity: All other gender identities,Gender identity: All other gender identities,48330,78000,6,78006,0
+TS078,Gender identity: Not answered,Gender identity: Not answered,2914557,78000,7,78007,0
+TS070,Gender identity: Total: All usual residents aged 16 years and over,Gender identity: Total: All usual residents aged 16 years and over,48566402,70000,1,70001,0
+TS070,Gender identity: Gender identity the same as sex registered at birth,Gender identity: Gender identity the same as sex registered at birth,45389634,70000,2,70002,0
+TS070,Gender identity: Gender identity different from sex registered at birth but no specific identity given,Gender identity: Gender identity different from sex registered at birth but no specific identity given,117771,70000,3,70003,0
+TS070,Gender identity: Trans woman,Gender identity: Trans woman,47581,70000,4,70004,0
+TS070,Gender identity: Trans man,Gender identity: Trans man,48456,70000,5,70005,0
+TS070,Gender identity: Non-binary,Gender identity: Non-binary,30253,70000,6,70006,0
+TS070,Gender identity: All other gender identities,Gender identity: All other gender identities,18077,70000,7,70007,0
+TS070,Gender identity: Not answered,Gender identity: Not answered,2914630,70000,8,70008,0
 TS071,Total: All usual residents,Total: All usual residents,48566412,71000,1,71001,0
 TS071,Previously served in UK armed forces,Previously served in UK armed forces,1413258,71000,2,71002,0
 TS071,Previously served in UK reserve armed forces,Previously served in UK reserve armed forces,360787,71000,3,71003,0

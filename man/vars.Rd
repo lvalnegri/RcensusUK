@@ -10,9 +10,9 @@ A data.table with the following columns:
 \item{\code{ id }}{ The code for the variables, built from ONS codes and file format }
 \item{\code{ prog_id }}{ The \emph{internal} code for the variables, mostly used for ordering }
 \item{\code{ description }}{ The description for the variables }
-\item{\code{ table_id }}{ The Domain the table is included, a foreign reference to the column \code{id} in the \code{domains} table }
+\item{\code{ table_code }}{ The code of the table the variable is included into, a foreign reference to the column \code{code} in the \code{tables} dataset }
 \item{\code{ level }}{ The depth of reference for the data. All variables with a level of \code{0} are also grouped together in the \code{main_refs} table. }
-\item{\code{ loaded }}{ }
+\item{\code{ loaded }}{ Indicates if the values of the variable have actually been loaded into the package }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}

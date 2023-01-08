@@ -7,11 +7,11 @@
 \format{
 A data.table with the following columns:
 \describe{
-\item{\code{ id }}{ The code for the metric }
+\item{\code{ id }}{ The id for the metric }
 \item{\code{ name }}{ The name for the metric }
-\item{\code{ var1_id }}{ The code for the \emph{first} variable }
+\item{\code{ var1_id }}{ The id for the \emph{first} variable }
 \item{\code{ type1 }}{ The \emph{type} of the \emph{first} variable: \code{V}ariable or \code{M}etric }
-\item{\code{ var2_id }}{ The code for the \emph{second} variable }
+\item{\code{ var2_id }}{ The id for the \emph{second} variable }
 \item{\code{ type2 }}{ The \emph{type} of the \emph{second} variable: \code{V}ariable or \code{M}etric }
 \item{\code{ ops }}{ The operation to be applied }
 }

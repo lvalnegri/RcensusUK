@@ -7,12 +7,12 @@
 \format{
 A data.table with the following columns
 \describe{
-\item{\code{ table_code }}{ The code for the variables, built from ONS codes and file format }
+\item{\code{ table_code }}{ The code for the variables, foreign key to the \code{code} column in the \code{tables} table }
 \item{\code{ var_id }}{ The internal identifier for the Variable, foreign key to the \code{id} column in the \code{vars} table }
 \item{\code{ ons_name }}{ The name for the Variable as included in the original ONS files }
 \item{\code{ E }}{ The total value for the Variable at \emph{England} level }
 \item{\code{ W }}{ The total value for the Variable at \emph{Wales} level }
-\item{\code{ T }}{ The total value for the Variable at \emph{Nation} level }
+\item{\code{ T }}{ The total value for the Variable at \emph{Nation} (England and Wales) level }
 }
 }
 \usage{

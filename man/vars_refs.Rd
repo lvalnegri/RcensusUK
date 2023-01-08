@@ -16,6 +16,6 @@ A data.table with the following columns:
 vars_refs
 }
 \description{
-The references code for each variable and level of depth (also indent for reporting)
+The reference codes for each variable and level of depth (that could also be used as indent for reporting)
 }
 \keyword{datasets}

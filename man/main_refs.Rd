@@ -7,11 +7,11 @@
 \format{
 A data.table in \emph{long} format with the following columns
 \describe{
-\item{\code{ sub_id }}{ The ONS table code for the variable }
-\item{\code{ main_id }}{ The internal identifier for the variable  }
+\item{\code{ sub_id }}{ The id for the reference variable in a table }
+\item{\code{ main_id }}{ The actual id for the variable in the dataset to refer to  }
 \item{\code{ name }}{ A name for the variable, usually shorter than the official one }
 \item{\code{ total }}{ The reference Total. There could be different \emph{similar} totals among the various tables, the percentage won't exactly sum to 100.) }
-\item{\code{ diff }}{ The reference level (1 is for the a table total, 2 and 3 for internal subtotals)}
+\item{\code{ diff }}{  The difference between the true total of the reference variable in a table and its substitution }
 }
 }
 \usage{

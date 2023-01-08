@@ -17,5 +17,6 @@ neighbours
 }
 \description{
 This dataset contains the \emph{1st order neighbours} for all the Zones listed in the \code{zones} table.
+There are no repetitions in \code{idB} for \code{idA}, as obviously any Zone is a neighbour of itself.
 }
 \keyword{datasets}

@@ -18,6 +18,6 @@ Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 
 \details{
 Built by dissolving the \code{LSOA} boundaries using the \code{lookups} table.
 
-Last Updated: Dec-20
+Last Updated: Dec-21
 }
 \keyword{datasets}

@@ -9,15 +9,16 @@ A data.table with the following columns:
 \describe{
 \item{\code{ type }}{ The type of the Area, as referenced in the \code{zone_types} table (either \code{PAR} or \code{WARD}) }
 \item{\code{ zone_id }}{ The ONS identifier for the Zone }
-\item{\code{ parent }}{ The code for the parent zone the Area should belong to }
+\item{\code{ OA }}{ The ONS identifier for the Output Area the Zone is included into }
 \item{\code{ sibling }}{ The code for the Area that appears in the \code{lookups} table having the same parent zone}
+\item{\code{ parent }}{ The code for the parent zone the Area should belong to }
 }
 }
 \usage{
 missing
 }
 \description{
-This dataset list the lookups for those \code{and} zones missing from the \code{lookups} table,
+This dataset list the lookups for those \code{PAR} and \code{WARD} zones missing from the \code{lookups} table,
 because of them being smaller than the \emph{Output Areas} they fall into
 but with smaller area of a similar zone competing for the same Output Area
 (which is the one comparing in \code{lookups}).

@@ -3,7 +3,7 @@
 \docType{data}
 \name{dt_education}
 \alias{dt_education}
-\title{education}
+\title{Education}
 \format{
 A data.table in \emph{long} format with the following columns:
 \describe{

@@ -19,6 +19,6 @@ Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 
 This is the result of the conversion of the original ONS boundaries in \emph{shapefile} format
 with a \emph{OSGB36} CRS (\emph{EPSG} 27700), simplified at a \emph{20\%} rate.
 
-Last Updated: Dec-21
+Last Updated: Dec-22
 }
 \keyword{datasets}

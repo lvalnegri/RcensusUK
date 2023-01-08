@@ -9,7 +9,6 @@ A data.table with the following columns:
 \describe{
 \item{\code{type}}{ An acronym for the Geography, used as its \code{id} throughout }
 \item{\code{id}}{ A numeric identifier for the Geography, used mostly for ordering }
-\item{\code{ons_id}}{ The id of the Geography used by ONS }
 \item{\code{name}}{ The Name for the Geography }
 \item{\code{level}}{ The level of details of the Geography in terms of hierarchy }
 \item{\code{max_child}}{ The \code{type} of Geography that nest exactly into the current Geography }
@@ -17,8 +16,16 @@ A data.table with the following columns:
 \item{\code{nE}}{ The total number of Zones in England }
 \item{\code{nW}}{ The total number of Zones in Wales }
 \item{\code{nEW}}{ The total number of Zones in England and Wales }
-\item{\code{is_exact}}{  }
-\item{\code{cbo_filter}}{  }
+\item{\code{missing}}{ The number of features missing from the packages because of overlapping zones (only for \code{PAR} and \code{WARD}) }
+\item{\code{is_exact}}{ Indicates if the geography nests exactly into its parent, or the hierarchy is mostly due to spatial approximations }
+\item{\code{cbo_filter}}{ The preferred geography to use as interactive filter in apps }
+\item{\code{is_frozen}}{ Indicates if the geography is not bound to be changed (in the near future) }
+\item{\code{last_update}}{  }
+\item{\code{is_census}}{ Indicates if the geography is part of the Census hierarchy }
+\item{\code{ons_id}}{ The id of the Geography used by ONS }
+\item{\code{ons_code}}{ The column name used by ONS for the ids of the Zones }
+\item{\code{ons_name}}{ The column name used by ONS for the names of the Zones }
+\item{\code{ons_map_id}}{ The id for the url to download the Full Detailed Boundaries from the ONS Geoportal }
 }
 
 For further details, see \url{https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(PRD_RGC)} and

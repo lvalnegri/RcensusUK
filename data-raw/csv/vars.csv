@@ -1,4 +1,4 @@
-id,prog_id,description,table_id,level,loaded
+id,prog_id,description,table_code,level,loaded
 1,1,Area,TS000,0,1
 1001,1,Residence type: Total,TS001,0,1
 1002,2,Residence type: Lives in a household,TS001,1,1
@@ -514,7 +514,7 @@ id,prog_id,description,table_id,level,loaded
 4012,12,Country of birth: Middle East and Asia,TS004,1,1
 4013,13,Country of birth: The Americas and the Caribbean,TS004,1,1
 4014,14,Country of birth: Antarctica and Oceania (including Australasia) and Other,TS004,1,1
-4015,15,Country of birth: British Overseas ,TS004,1,1
+4015,15,Country of birth: British Overseas,TS004,1,1
 12001,1,Country of birth: Total: All usual residents,TS012,0,0
 12002,2,Country of birth: Europe,TS012,1,1
 12003,3,Country of birth: Europe: United Kingdom,TS012,2,1
@@ -1681,21 +1681,100 @@ id,prog_id,description,table_id,level,loaded
 61010,10,Method of travel to workplace: Bicycle,TS061,1,1
 61011,11,Method of travel to workplace: On foot,TS061,1,1
 61012,12,Method of travel to workplace: Other method of travel to work,TS061,1,1
-71001,1,Total: All usual residents,TS071,0,0
-71002,2,Previously served in UK armed forces,TS071,1,1
-71003,3,Previously served in UK reserve armed forces,TS071,1,1
-71004,4,Previously served in both regular and reserve UK armed forces,TS071,1,1
-71005,5,Has not previously served in any UK armed forces,TS071,1,1
-72001,1,Total: All households,TS072,0,0
-72002,2,No people in the household previously served in UK armed forces,TS072,1,1
-72003,3,1 person in the household previously served in UK armed forces,TS072,1,1
-72004,4,2 people in the household previously served in UK armed,TS072,1,1
-72005,5,3 or more people in the household previously served in UK armed forces,TS072,1,1
-73001,1,Total,TS073,0,0
-73002,2,Lives in a household,TS073,1,0
-73003,3,Lives in a communal establishment,TS073,1,0
-74001,1,Total: All households,TS074,0,0
-74002,2,Household reference person previously served in regular UK armed forces,TS074,1,1
-74003,3,Household reference person previously served in reserve UK armed forces,TS074,1,1
-74004,4,Household reference person previously served in both regular and reserve UK armed forces,TS074,1,1
-74005,5,Household reference person has not previously served in regular or reserve UK armed forces,TS074,1,1
+44001,1,Accommodation type: Total: All households,TS044,0,0
+44002,2,Accommodation type: Detached,TS044,1,1
+44003,3,Accommodation type: Semi-detached,TS044,1,1
+44004,4,Accommodation type: Terraced,TS044,1,1
+44005,5,Accommodation type: In a purpose-built block of flats or tenement,TS044,1,1
+44006,6,"Accommodation type: Part of a converted or shared house, including bedsits",TS044,1,1
+44007,7,"Accommodation type: Part of another converted building, for example, former school, church or warehouse",TS044,1,1
+44008,8,"Accommodation type: In a commercial building, for example, in an office building, hotel or over a shop",TS044,1,1
+44009,9,Accommodation type: A caravan or other mobile or temporary structure,TS044,1,1
+54001,1,Tenure of household: Total: All households,TS054,0,0
+54002,2,Tenure of household: Owned,TS054,1,1
+54003,3,Tenure of household: Owned: Owns outright,TS054,2,1
+54004,4,Tenure of household: Owned: Owns with a mortgage or loan,TS054,2,1
+54005,5,Tenure of household: Shared ownership,TS054,1,1
+54006,6,Tenure of household: Shared ownership: Shared ownership,TS054,2,0
+54007,7,Tenure of household: Social rented,TS054,1,1
+54008,8,Tenure of household: Social rented: Rents from council or Local Authority,TS054,2,1
+54009,9,Tenure of household: Social rented: Other social rented,TS054,2,1
+54010,10,Tenure of household: Private rented,TS054,1,1
+54011,11,Tenure of household: Private rented: Private landlord or letting agency,TS054,2,1
+54012,12,Tenure of household: Private rented: Other private rented,TS054,2,1
+54013,13,Tenure of household: Lives rent free,TS054,1,1
+51001,1,Number of rooms (VOA): Total: All households,TS051,0,0
+51002,2,Number of rooms (VOA): 1 room,TS051,1,1
+51003,3,Number of rooms (VOA): 2 rooms,TS051,1,1
+51004,4,Number of rooms (VOA): 3 rooms,TS051,1,1
+51005,5,Number of rooms (VOA): 4 rooms,TS051,1,1
+51006,6,Number of rooms (VOA): 5 rooms,TS051,1,1
+51007,7,Number of rooms (VOA): 6 rooms,TS051,1,1
+51008,8,Number of rooms (VOA): 7 rooms,TS051,1,1
+51009,9,Number of rooms (VOA): 8 rooms,TS051,1,1
+51010,10,Number of rooms (VOA): 9 or more rooms,TS051,1,1
+53001,1,Occupancy rating for rooms: Total: All households,TS053,0,0
+53002,2,Occupancy rating for rooms: Occupancy rating of rooms: +2 or more,TS053,1,1
+53003,3,Occupancy rating for rooms: Occupancy rating of rooms: +1,TS053,1,1
+53004,4,Occupancy rating for rooms: Occupancy rating of rooms: 0,TS053,1,1
+53005,5,Occupancy rating for rooms: Occupancy rating of rooms: -1,TS053,1,1
+53006,6,Occupancy rating for rooms: Occupancy rating of rooms: -2 or less,TS053,1,1
+50001,1,Number of bedrooms: Total: All households,TS050,0,0
+50002,2,Number of bedrooms: 1 bedroom,TS050,1,1
+50003,3,Number of bedrooms: 2 bedrooms,TS050,1,1
+50004,4,Number of bedrooms: 3 bedrooms,TS050,1,1
+50005,5,Number of bedrooms: 4 or more bedrooms,TS050,1,1
+52001,1,Occupancy rating for bedrooms: Total: All households,TS052,0,0
+52002,2,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +2 or more,TS052,1,1
+52003,3,Occupancy rating for bedrooms: Occupancy rating of bedrooms: +1,TS052,1,1
+52004,4,Occupancy rating for bedrooms: Occupancy rating of bedrooms: 0,TS052,1,1
+52005,5,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -1,TS052,1,1
+52006,6,Occupancy rating for bedrooms: Occupancy rating of bedrooms: -2 or less,TS052,1,1
+46001,1,Type of central heating in household: Total: All households,TS046,0,0
+46002,2,Type of central heating in household: No central heating,TS046,1,1
+46003,3,Type of central heating in household: Mains gas only,TS046,1,1
+46004,4,Type of central heating in household: Tank or bottled gas only,TS046,1,1
+46005,5,Type of central heating in household: Electric only,TS046,1,1
+46006,6,Type of central heating in household: Oil only,TS046,1,1
+46007,7,Type of central heating in household: Wood only,TS046,1,1
+46008,8,Type of central heating in household: Solid fuel only,TS046,1,1
+46009,9,Type of central heating in household: Renewable energy only,TS046,1,1
+46010,10,Type of central heating in household: District or communal heat networks only,TS046,1,1
+46011,11,Type of central heating in household: Other central heating only,TS046,1,1
+46012,12,Type of central heating in household: Two or more types of central heating (not including renewable energy),TS046,1,1
+46013,13,Type of central heating in household: Two or more types of central heating (including renewable energy),TS046,1,1
+45001,1,Number of cars or vans: Total: All households,TS045,0,0
+45002,2,Number of cars or vans: No cars or vans in household,TS045,1,1
+45003,3,Number of cars or vans: 1 car or van in household,TS045,1,1
+45004,4,Number of cars or vans: 2 cars or vans in household,TS045,1,1
+45005,5,Number of cars or vans: 3 or more cars or vans in household,TS045,1,1
+77001,1,Sexual orientation: Total: All usual residents aged 16 years and over,TS077,0,0
+77002,2,Sexual orientation: Straight or Heterosexual,TS077,1,1
+77003,3,Sexual orientation: Gay or Lesbian,TS077,1,1
+77004,4,Sexual orientation: Bisexual,TS077,1,1
+77005,5,Sexual orientation: All other sexual orientations,TS077,1,1
+77006,6,Sexual orientation: Not answered,TS077,1,1
+79001,1,Sexual orientation: Total: All usual residents aged 16 years and over,TS079,0,0
+79002,2,Sexual orientation: Straight or Heterosexual,TS079,1,1
+79003,3,Sexual orientation: Gay or Lesbian,TS079,1,1
+79004,4,Sexual orientation: Bisexual,TS079,1,1
+79005,5,Sexual orientation: Pansexual,TS079,1,1
+79006,6,Sexual orientation: Asexual,TS079,1,1
+79007,7,Sexual orientation: Queer,TS079,1,1
+79008,8,Sexual orientation: All other sexual orientations,TS079,1,1
+79009,9,Sexual orientation: Not answered,TS079,1,1
+78001,1,Gender identity: Total: All usual residents aged 16 years and over,TS078,0,0
+78002,2,Gender identity: Gender identity the same as sex registered at birth,TS078,1,1
+78003,3,Gender identity: Gender identity different from sex registered at birth but no specific identity given,TS078,1,1
+78004,4,Gender identity: Trans woman,TS078,1,1
+78005,5,Gender identity: Trans man,TS078,1,1
+78006,6,Gender identity: All other gender identities,TS078,1,1
+78007,7,Gender identity: Not answered,TS078,1,1
+70001,1,Gender identity: Total: All usual residents aged 16 years and over,TS070,0,0
+70002,2,Gender identity: Gender identity the same as sex registered at birth,TS070,1,1
+70003,3,Gender identity: Gender identity different from sex registered at birth but no specific identity given,TS070,1,1
+70004,4,Gender identity: Trans woman,TS070,1,1
+70005,5,Gender identity: Trans man,TS070,1,1
+70006,6,Gender identity: Non-binary,TS070,1,1
+70007,7,Gender identity: All other gender identities,TS070,1,1
+70008,8,Gender identity: Not answered,TS070,1,1

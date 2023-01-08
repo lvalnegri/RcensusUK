@@ -7,22 +7,21 @@
 \format{
 A data.table with the following columns:
 \describe{
-\item{\code{ PCU }}{ A postcode Unit, expressed in 7-chars }
+\item{\code{ PCU }}{ A Postcode Unit, expressed in 7-chars form (see the \code{clean_pcu} function)}
 \item{\code{ OA }}{ The ONS code for an Output Areas }
-\item{\code{ PCS }}{ A postcode Sector }
 }
 
-For further details on UK postcodes, see the \emph{ONS Postcodes} tagged pages of the
+For further official details on UK postcodes, see the \emph{ONS Postcodes} tagged pages of the
 \href{https://geoportal.statistics.gov.uk/search?collection=Dataset&q=postcodes&sort=-created&tags=onspd}{ONS Open Geography portal}.
 }
 \usage{
 postcodes
 }
 \description{
-A lookup table between postcode \emph{Units} (\code{PCU}) and \emph{Output Areas}.
+A lookup table between Postcode \emph{Units} (\code{PCU}) and \emph{Output Areas}.
 }
 \details{
-The table contains \emph{all} UK geographical postcodes, both \emph{live} and \emph{terminated} (2,334,674, as of NOV-22).
+The table contains all UK \emph{strictly} geographical postcodes, both \emph{live} and \emph{terminated}, as of NOV-22 (2,619,057).
 
 This table is part of my \href{https://github.com/lvalnegri/RpostcodesUK}{RpostcodesUK $R$ package}.
 It's been included here only for search purposes, and it's not part of any ONS Census releases.

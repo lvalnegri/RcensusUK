@@ -21,9 +21,6 @@ The dataset includes the following Census Tables:
 \item{\code{ TS015 }}{ Year of arrival in UK }
 \item{\code{ TS018 }}{ Age of arrival in the UK }
 \item{\code{ TS016 }}{ Length of Residence }
-\item{\code{ TS019 }}{ Migrant Indicator }
-\item{\code{ TS020 }}{ Number of non-UK short-term Residents by sex }
-\item{\code{ TS041 }}{ Number of Households }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}

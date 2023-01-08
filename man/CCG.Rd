@@ -19,6 +19,6 @@ Digital Vector Boundaries in \code{sf} format and \emph{WGS84} CRS (\emph{EPSG} 
 \details{
 Built by dissolving the \code{LSOA} boundaries using the \code{lookups} table.
 
-Last Updated: Apr-22
+Last Updated: Jul-22 for England, Apr-22 for Wales.
 }
 \keyword{datasets}

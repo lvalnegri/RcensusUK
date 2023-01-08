@@ -1,12 +1,12 @@
-type,id,ons_id,name,level,max_child,min_parent,nE,nW,nEW,is_exact,cbo_filter,is_frozen,last_update,ons_lkps,ons_nms,ons_bnd
-OA,11,OA,Output Area,9,,LSOA,178605,10275,188880,1,MSOA,Y,,,,
-LSOA,12,LSOA,Lower Level Super Output Area,6,OA,MSOA,33755,1917,35672,1,LTLA,Y,,,,
-MSOA,13,MSOA,Medium Level Super Output Area,5,LSOA,LTLA,6856,408,7264,1,UTLA,Y,,,,
-LTLA,14,LTLA,Lower Tier Local Authority,4,MSOA,UTLA,309,22,331,1,RGN,N,,,,
-UTLA,15,UTLA,Upper Tier Local Authority,3,LTLA,RGN,152,22,174,1,CTRY,N,,,,
-RGN,16,RGN,Region,2,UTLA,CTRY,9,1,10,1,NAT,Y,,,,
-CTRY,17,CTRY,Country,1,RGN,NAT,1,1,2,1,UK,Y,,,,
-PCON,21,PCON,Westminster Parliamentary Constituency,5,LSOA,RGN,533,40,573,0,RGN,N,,,,
-WARD,22,WD,Ward,6,OA,LTLA,7026,852,7878,0,LTLA,N,,,,
-PAR,23,PARNCP,Parished and Non Civil Parished,6,OA,UTLA,10685,877,11562,0,UTLA,N,,,,
-CCG,24,CCG,"Clinical Commisioning Group (LOC, LHB)",5,LSOA,CTRY,106,7,113,1,CTRY,N,,,,
+type,id,name,level,max_child,min_parent,nE,nW,nEW,missing,is_exact,cbo_filter,is_frozen,last_update,is_census,ons_id,ons_code,ons_name,ons_map_id
+OA,11,Output Area,9,"",LSOA,178605,10275,188880,0,Y,MSOA,Y,Dec-21,Y,OA,OA21CD,"",23b797b082504e77a6bdf781e8da9766
+LSOA,12,Lower layer Super Output Area,6,OA,MSOA,33755,1917,35672,0,Y,LTLA,Y,Dec-21,Y,LSOA,LSOA21CD,LSOA21NM,bd30d8dcb84a4c32a763fc2d916a52bb
+MSOA,13,Middle layer Super Output Area,5,LSOA,LTLA,6856,408,7264,0,Y,UTLA,Y,Dec-21,Y,MSOA,MSOA21CD,MSOA21NM,e45be904852d428d963abb33ed6ddbea
+LTLA,14,Lower Tier Local Authority,4,MSOA,UTLA,309,22,331,0,Y,RGN,N,Dec-22,Y,LTLA,LTLA22CD,LTLA22NM,""
+UTLA,15,Upper Tier Local Authority,3,LTLA,RGN,152,22,174,0,Y,CTRY,N,Dec-22,Y,UTLA,UTLA22CD,UTLA22NM,""
+RGN,16,Region,2,UTLA,CTRY,9,1,10,0,Y,"",Y,Dec-22,Y,RGN,RGN22CD,RGN22NM,""
+CTRY,17,Country,1,RGN,"",1,1,2,0,Y,"",Y,Dec-22,Y,CTRY,CTRY22CD,CTRY22NM,""
+PCON,21,Westminster Parliamentary Constituency,5,LSOA,RGN,533,40,573,0,N,RGN,N,Dec-21,N,PCON,PCON21CD,PCON21NM,2a914dfe294c48048e836019ad93e750
+WARD,22,Ward,6,OA,LTLA,6904,762,7666,14,N,LTLA,N,Dec-22,N,WD,WD22CD,WD22NM,1ae248c780474cad8fbd28539b806428
+PAR,23,Parished and Non Civil Parished,6,OA,UTLA,10689,878,11567,1022,N,UTLA,N,Dec-22,N,PARNCP,PARNCP22CD,PARNCP22NM,50ab3787782c44c79c4a71c2f259da13
+CCG,24,"Clinical Commisioning Group (LOC, LHB)",5,LSOA,CTRY,106,7,113,0,Y,CTRY,N,Apr-22,N,CCG,CCG,CCGd,""

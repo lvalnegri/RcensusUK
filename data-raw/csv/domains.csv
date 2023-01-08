@@ -7,8 +7,8 @@ id,name,description,ordering,loaded
 7,language,Languages,7,1
 8,religion,Religions,8,1
 11,work,Work,11,1
-12,housing,Housing,12,0
-13,gender,Sexual Orientation and Gender Identity,13,0
+12,housing,Housing,12,1
+13,gender,Sexual Orientation and Gender Identity,13,1
 14,education,Education,14,0
 16,health,"Health, Disability and Unpaid Care",16,0
-99,veterans,UK Armed Forces Veterans,99,1
+99,veterans,UK Armed Forces Veterans,99,0

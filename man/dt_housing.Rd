@@ -3,7 +3,7 @@
 \docType{data}
 \name{dt_housing}
 \alias{dt_housing}
-\title{housing}
+\title{Housing}
 \format{
 A data.table in \emph{long} format with the following columns:
 \describe{
@@ -14,6 +14,14 @@ A data.table in \emph{long} format with the following columns:
 
 The dataset includes the following Census Tables:
 \describe{
+\item{\code{ TS044 }}{ Accommodation Type }
+\item{\code{ TS054 }}{ Tenure }
+\item{\code{ TS051 }}{ Number of Rooms }
+\item{\code{ TS053 }}{ Occupancy Rating for Rooms }
+\item{\code{ TS050 }}{ Number of Bedrooms }
+\item{\code{ TS052 }}{ Occupancy Rating for Bedrooms }
+\item{\code{ TS046 }}{ Central Heating }
+\item{\code{ TS045 }}{ Car or Van availability }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -22,6 +30,8 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_housing
 }
 \description{
-Waiting for data. Expected by 5th Jan 2023.
+Households by Accommodation type, Tenure of Household, Number of Rooms and Bedrooms (total count and Occupancy Rating),
+Type of Central Heating, Number of Cars or Vans.
+Resident Population by Second address type, and living in Communal establishment management, segmented by Type, Sex and 10 years Age Classes.
 }
 \keyword{datasets}

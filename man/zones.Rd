@@ -12,7 +12,18 @@ A data.table with the following columns:
 \item{\code{name}}{ The name for the Area  }
 \item{\code{parent}}{ The code of the zone in which the current zone is contained as immediate level in its most direct hierarchy}
 \item{\code{country}}{ The Country the Area belongs to (either \code{E}ngland or \code{W}ales)}
-\item{\code{ordering}}{ The preferred order in reporting results }
+\item{\code{perimeter}}{ The perimeter }
+\item{\code{area}}{ The area }
+\item{\code{x_lon}}{ The longitude coordinate of the geometric centroid }
+\item{\code{y_lat}}{ The latitude coordinate of the geometric centroid }
+\item{\code{px_lon}}{ The longitude coordinate of the pole of inaccessibility }
+\item{\code{py_lat}}{ The latitude coordinate of the pole of inaccessibility }
+\item{\code{wx_lon}}{ The longitude coordinate of the population weighted centroid }
+\item{\code{wy_lat}}{ The latitude coordinate of the population weighted centroid }
+\item{\code{bb_xmin}}{ The minimum longitude coordinate of the bounding box surrounding the polygon representing the location }
+\item{\code{bb_ymin}}{ The minimum latitude coordinate of the bounding box surrounding the polygon representing the location }
+\item{\code{bb_xmax}}{ The maximum longitude coordinate of the bounding box surrounding the the polygon representing the location }
+\item{\code{bb_ymax}}{ The maximum latitude coordinate of the bounding box surrounding the the polygon representing the location }
 }
 
 For further details, see the \code{Names and Codes} section within \url{https://geoportal.statistics.gov.uk/}

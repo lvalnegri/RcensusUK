@@ -3,7 +3,7 @@
 \docType{data}
 \name{dt_gender}
 \alias{dt_gender}
-\title{gender}
+\title{Gender}
 \format{
 A data.table in \emph{long} format with the following columns:
 \describe{
@@ -14,6 +14,10 @@ A data.table in \emph{long} format with the following columns:
 
 The dataset includes the following Census Tables:
 \describe{
+\item{\code{ TS077 }}{ Sexual orientation }
+\item{\code{ TS079 }}{ Sexual orientation (detailed) }
+\item{\code{ TS078 }}{ Gender identity }
+\item{\code{ TS070 }}{ Gender identity (detailed) }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -22,6 +26,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_gender
 }
 \description{
-Waiting for data. Expected by 6th Jan 2023.
+Resident Population by Sexual Orientation and Gender Identity
 }
 \keyword{datasets}
