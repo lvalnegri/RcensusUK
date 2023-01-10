@@ -9,7 +9,7 @@ qpcu(pcu, ...)
 \arguments{
 \item{pcu}{a string possibly representing a UK postcode unit}
 
-\item{...}{The remaining options for the \code{qzones} function}
+\item{...}{the remaining arguments for the \code{qzones} function}
 }
 \value{
 a character vector, a \code{data.table} or an \code{sf} polygons object, depending on the values provided for the arguments in \code{...}

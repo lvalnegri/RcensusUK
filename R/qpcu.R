@@ -30,7 +30,7 @@ clean_pcu <- \(x){
 #' Build a dataset or digital boundaries for one or more Zone(s) or (part of) a Geographic Hierarchy (see the table `zone_types`).
 #' 
 #' @param pcu a string possibly representing a UK postcode unit
-#' @param ... The remaining options for the `qzones` function
+#' @param ... the remaining arguments for the `qzones` function
 #'
 #' @return a character vector, a `data.table` or an `sf` polygons object, depending on the values provided for the arguments in `...`
 #'
@@ -38,9 +38,11 @@ clean_pcu <- \(x){
 #'
 #' @import data.table
 #'
+#' @export
+#' 
 qpcu <- \(pcu, ...){
     pcu <- clean_pcu(pcu[1])
     if(is.null(pcu)) return(invisible())
     # if(is.na(...)) return(qzones(postcodes[postcode %chin% pcu, OA]))
-    qzones(postcodes[postcode %chin% pcu, OA], ...)
+    qzones(postcodes[PCU %chin% pcu, OA], ...)
 }
