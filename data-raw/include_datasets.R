@@ -9,7 +9,7 @@ for(x in c('domains', 'tables', 'vars', 'vars_refs', 'main_refs', 'metrics'))
 
 # geography
 message('\nCopying the "postcodes" table...')
-Rfuns::save_dts_pkg(RpostcodesUK::postcodes[, .(PCU, OA)], 'postcodes', dbn = 'census_uk')
+Rfuns::save_dts_pkg(RpostcodesUK::postcodes[, .(PCU, OA = as.character(OA))], 'postcodes', dbn = 'census_uk')
 
 message('\nProcessing "geography" tables:')
 Rfuns::save_dts_pkg(fread('./data-raw/csv/zone_types.csv'), 'zone_types', dbn = 'census_uk')
