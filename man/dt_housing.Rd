@@ -32,6 +32,5 @@ dt_housing
 \description{
 Households by Accommodation type, Tenure of Household, Number of Rooms and Bedrooms (total count and Occupancy Rating),
 Type of Central Heating, Number of Cars or Vans.
-Resident Population by Second address type, and living in Communal establishment management, segmented by Type, Sex and 10 years Age Classes.
 }
 \keyword{datasets}
