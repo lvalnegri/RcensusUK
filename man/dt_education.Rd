@@ -14,6 +14,8 @@ A data.table in \emph{long} format with the following columns:
 
 The dataset includes the following Census Tables:
 \describe{
+\item{\code{ TS077 }}{ Highest level of qualification }
+\item{\code{ TS079 }}{ Schoolchildren and full-time students }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -22,6 +24,6 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_education
 }
 \description{
-Waiting for data. Expected by 10th Jan 2023.
+Resident Population by Highest Level of Qualification, plus Number of Schoolchildren and Full-Time Students.
 }
 \keyword{datasets}

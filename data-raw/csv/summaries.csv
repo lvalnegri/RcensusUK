@@ -1810,6 +1810,17 @@ TS066,66028,Economic activity status: Economically inactive: Student,2595306,145
 TS066,66029,Economic activity status: Economically inactive: Looking after home or family,2207707,109548,2317255
 TS066,66030,Economic activity status: Economically inactive: Long-term sick or disabled,1874653,151334,2025987
 TS066,66031,Economic activity status: Economically inactive: Other,1446065,74255,1520320
+TS067,67001,Highest level of qualification: Total: All usual residents aged 16 years and over,46007598,2559409,48567007
+TS067,67002,Highest level of qualification: No qualifications,8318062,509659,8827721
+TS067,67003,Highest level of qualification: Level 1 and entry level qualifications,4456510,223034,4679544
+TS067,67004,Highest level of qualification: Level 2 qualifications,6126008,367300,6493308
+TS067,67005,Highest level of qualification: Apprenticeship,2447065,143307,2590372
+TS067,67006,Highest level of qualification: Level 3 qualifications,7784935,440668,8225603
+TS067,67007,Highest level of qualification: Level 4 qualifications and above,15606610,806806,16413416
+TS067,67008,Highest level of qualification: Other qualifications,1268408,68635,1337043
+TS068,68001,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,53412938,2952352,56365290
+TS068,68002,Schoolchild or full-time student indicator: Student,10920324,587567,11507891
+TS068,68003,Schoolchild or full-time student indicator: Not a student,42492614,2364785,44857399
 TS070,70001,Gender identity: Total: All usual residents aged 16 years and over,46006986,2559416,48566402
 TS070,70002,Gender identity: Gender identity the same as sex registered at birth,43002331,2387303,45389634
 TS070,70003,Gender identity: Gender identity different from sex registered at birth but no specific identity given,113757,4014,117771

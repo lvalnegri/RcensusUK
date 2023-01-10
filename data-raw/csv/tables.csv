@@ -57,6 +57,8 @@ id,code,description,domain_id,min_type,main_ref,loaded,ons_url,comp_11,definitio
 1302,TS079,Sexual orientation (detailed),13,LTLA,,1,https://www.nomisweb.co.uk/datasets/c2021ts079,,""
 1311,TS078,Gender identity,13,MSOA,,1,https://www.nomisweb.co.uk/datasets/c2021ts078,,""
 1312,TS070,Gender identity (detailed),13,LTLA,,1,https://www.nomisweb.co.uk/datasets/c2021ts070,,""
+1401,TS067,Highest level of qualification,14,OA,,1,https://www.nomisweb.co.uk/datasets/c2021ts077,,
+1402,TS068,Schoolchildren and full-time students,14,OA,,1,https://www.nomisweb.co.uk/datasets/c2021ts079,,
 9901,TS071,Previously served in the UK armed forces,99,MSOA,,0,https://www.nomisweb.co.uk/datasets/c2021ts071,0,"Identifies people who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular or reserves, or Merchant Mariners who have seen duty on legally defined military operations."
 9902,TS072,Number of people in household who have previously served in UK armed forces,99,MSOA,,0,https://www.nomisweb.co.uk/datasets/c2021ts072,,""
 9903,TS073,Population who have previously served in UK armed forces in communal establishments and in households,99,MSOA,,0,https://www.nomisweb.co.uk/datasets/c2021ts073,,""

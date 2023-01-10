@@ -1,4 +1,4 @@
-id,prog_id,description,table_code,level,loaded
+id,prog_id,description,table_id,level,loaded
 1,1,Area,TS000,0,1
 1001,1,Residence type: Total,TS001,0,1
 1002,2,Residence type: Lives in a household,TS001,1,1
@@ -514,7 +514,7 @@ id,prog_id,description,table_code,level,loaded
 4012,12,Country of birth: Middle East and Asia,TS004,1,1
 4013,13,Country of birth: The Americas and the Caribbean,TS004,1,1
 4014,14,Country of birth: Antarctica and Oceania (including Australasia) and Other,TS004,1,1
-4015,15,Country of birth: British Overseas,TS004,1,1
+4015,15,Country of birth: British Overseas ,TS004,1,1
 12001,1,Country of birth: Total: All usual residents,TS012,0,0
 12002,2,Country of birth: Europe,TS012,1,1
 12003,3,Country of birth: Europe: United Kingdom,TS012,2,1
@@ -1778,3 +1778,15 @@ id,prog_id,description,table_code,level,loaded
 70006,6,Gender identity: Non-binary,TS070,1,1
 70007,7,Gender identity: All other gender identities,TS070,1,1
 70008,8,Gender identity: Not answered,TS070,1,1
+67001,1,Highest level of qualification: Total: All usual residents aged 16 years and over,TS067,0,0
+67002,2,Highest level of qualification: No qualifications,TS067,1,1
+67003,3,Highest level of qualification: Level 1 and entry level qualifications,TS067,1,1
+67004,4,Highest level of qualification: Level 2 qualifications,TS067,1,1
+67005,5,Highest level of qualification: Apprenticeship,TS067,1,1
+67006,6,Highest level of qualification: Level 3 qualifications,TS067,1,1
+67007,7,Highest level of qualification: Level 4 qualifications and above,TS067,1,1
+67008,8,Highest level of qualification: Other qualifications,TS067,1,1
+68001,1,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,TS068,0,1
+68002,2,Schoolchild or full-time student indicator: Student,TS068,1,1
+68003,3,Schoolchild or full-time student indicator: Not a student,TS068,1,1
+,,,,,

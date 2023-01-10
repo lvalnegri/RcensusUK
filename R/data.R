@@ -333,7 +333,6 @@ NULL
 #' 
 #' Households by Accommodation type, Tenure of Household, Number of Rooms and Bedrooms (total count and Occupancy Rating),
 #' Type of Central Heating, Number of Cars or Vans.
-#' Resident Population by Second address type, and living in Communal establishment management, segmented by Type, Sex and 10 years Age Classes.
 #' 
 #' @format A data.table in *long* format with the following columns:
 #' \describe{
@@ -361,7 +360,7 @@ NULL
 ## EDUCATION -----------
 #' Education
 #'
-#' Waiting for data. Expected by 10th Jan 2023.
+#' Resident Population by Highest Level of Qualification, plus Number of Schoolchildren and Full-Time Students.
 #' 
 #' @format A data.table in *long* format with the following columns:
 #' \describe{
@@ -372,14 +371,16 @@ NULL
 #' 
 #' @format The dataset includes the following Census Tables:
 #' \describe{
+#'   \item{\code{ TS077 }}{ Highest level of qualification }
+#'   \item{\code{ TS079 }}{ Schoolchildren and full-time students }
 #' }
 #'
 #' For further details, see the [Nomis website](https://www.nomisweb.co.uk/sources/census_2021)
 #'
 'dt_education'
 
-## HEALTH --------------
-#' Health
+## HEALTH CARE ---------
+#' Health and Care
 #'
 #' Waiting for data. Expected by 19th Jan 2023.
 #' 

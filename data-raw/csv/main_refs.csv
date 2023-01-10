@@ -1,56 +1,58 @@
-sub_id,main_id,name,total,diff
-1001,1001,Residents,59597747,0
-2001,2001,Partnership Status,48566557,0
-3001,3001,Households,24784149,0
-8002,8002,Females,30420024,1
-8003,8003,Males,29177302,2
-10001,10001,Living Arrangements,47560056,0
-24001,24001,Residents aged 3+,57704284,0
-63001,63001,Residents aged 16+ in employment the week before the census,27773797,0
-65001,65001,Residents aged 16+ *not* in employment the week before the census,20792380,0
-66001,66001,Residents aged 16+,48568004,0
-4001,1001,Residents,59597465,-282
-5001,1001,Residents,59598758,1011
-7001,1001,Residents,59596847,-900
-8001,1001,Residents,59597326,-421
-9001,1001,Residents,59597529,-218
-11001,3001,Households,24782094,-2055
-12001,1001,Residents,59597554,-193
-13001,1001,Residents,59597862,115
-15001,1001,Residents,59598115,368
-17001,3001,Households,24783116,-1033
-18001,1001,Residents,59596813,-934
-19001,1001,Residents,58989644,-608103
-21001,1001,Residents,59598449,702
-22001,1001,Residents,59597690,-57
-23001,3001,Households,24783820,-329
-9104,8002,Females,30420320,296
-9207,8003,Males,29177209,-93
-16001,1001,Residents,59597920,173
-25001,3001,Households,24783689,-460
-26001,3001,Households,24782794,-1355
-27001,1001,Residents,59597269,-478
-28001,1001,Residents,59597682,-65
-29001,24001,Residents aged 3+,57704938,654
-30001,1001,Residents,59597884,137
-31001,1001,Residents,59597489,-258
-41001,3001,Households,24783304,-845
-58001,63001,Residents aged 16+ in employment the week before the census,27772569,-1228
-59001,63001,Residents aged 16+ in employment the week before the census,27773548,-249
-60001,63001,Residents aged 16+ in employment the week before the census,27773671,-126
-61001,63001,Residents aged 16+ in employment the week before the census,27773759,-38
-62001,66001,Residents aged 16+,48565050,-2954
-64001,63001,Residents aged 16+ in employment the week before the census,27772533,-1264
-75001,3001,Households,24783333,-816
-44001,3001,Households,24782785,-1364
-54001,3001,Households,24782883,-1266
-51001,3001,Households,24783532,-617
-53001,3001,Households,24783814,-335
-50001,3001,Households,24783198,-951
-52001,3001,Households,24782901,-1248
-46001,3001,Households,24783711,-438
-45001,3001,Households,24783267,-882
-77001,66001,Residents aged 16+,48566430,-1574
-79001,66001,Residents aged 16+,48566367,-1637
-78001,66001,Residents aged 16+,48566219,-1785
-70001,66001,Residents aged 16+,48566402,-1602
+sub_id,main_id,name, total ,diff
+1001,1001,Residents, 59 597 747 ,0 
+2001,2001,Partnership Status, 48 566 557 ,0 
+3001,3001,Households, 24 784 149 ,0 
+8002,8002,Females, 30 420 024 ,1 
+8003,8003,Males, 29 177 302 ,2 
+10001,10001,Living Arrangements, 47 560 056 ,0 
+24001,24001,Residents aged 3+, 57 704 284 ,0 
+63001,63001,Residents aged 16+ in employment the week before the census, 27 773 797 ,0 
+65001,65001,Residents aged 16+ *not* in employment the week before the census, 20 792 380 ,0 
+66001,66001,Residents aged 16+, 48 568 004 ,0 
+68001,68001,Residents aged 5+, 56 365 290 ,0 
+4001,1001,Residents, 59 597 465 ,-282 
+5001,1001,Residents, 59 598 758 ,1 011 
+7001,1001,Residents, 59 596 847 ,-900 
+8001,1001,Residents, 59 597 326 ,-421 
+9001,1001,Residents, 59 597 529 ,-218 
+11001,3001,Households, 24 782 094 ,-2 055 
+12001,1001,Residents, 59 597 554 ,-193 
+13001,1001,Residents, 59 597 862 ,115 
+15001,1001,Residents, 59 598 115 ,368 
+17001,3001,Households, 24 783 116 ,-1 033 
+18001,1001,Residents, 59 596 813 ,-934 
+19001,1001,Residents, 58 989 644 ,-608 103 
+21001,1001,Residents, 59 598 449 ,702 
+22001,1001,Residents, 59 597 690 ,-57 
+23001,3001,Households, 24 783 820 ,-329 
+9104,8002,Females, 30 420 320 ,296 
+9207,8003,Males, 29 177 209 ,-93 
+16001,1001,Residents, 59 597 920 ,173 
+25001,3001,Households, 24 783 689 ,-460 
+26001,3001,Households, 24 782 794 ,-1 355 
+27001,1001,Residents, 59 597 269 ,-478 
+28001,1001,Residents, 59 597 682 ,-65 
+29001,24001,Residents aged 3+, 57 704 938 ,654 
+30001,1001,Residents, 59 597 884 ,137 
+31001,1001,Residents, 59 597 489 ,-258 
+41001,3001,Households, 24 783 304 ,-845 
+58001,63001,Residents aged 16+ in employment the week before the census, 27 772 569 ,-1 228 
+59001,63001,Residents aged 16+ in employment the week before the census, 27 773 548 ,-249 
+60001,63001,Residents aged 16+ in employment the week before the census, 27 773 671 ,-126 
+61001,63001,Residents aged 16+ in employment the week before the census, 27 773 759 ,-38 
+62001,66001,Residents aged 16+, 48 565 050 ,-2 954 
+64001,63001,Residents aged 16+ in employment the week before the census, 27 772 533 ,-1 264 
+75001,3001,Households, 24 783 333 ,-816 
+44001,3001,Households, 24 782 785 ,-1 364 
+54001,3001,Households, 24 782 883 ,-1 266 
+51001,3001,Households, 24 783 532 ,-617 
+53001,3001,Households, 24 783 814 ,-335 
+50001,3001,Households, 24 783 198 ,-951 
+52001,3001,Households, 24 782 901 ,-1 248 
+46001,3001,Households, 24 783 711 ,-438 
+45001,3001,Households, 24 783 267 ,-882 
+77001,66001,Residents aged 16+, 48 566 430 ,-1 574 
+79001,66001,Residents aged 16+, 48 566 367 ,-1 637 
+78001,66001,Residents aged 16+, 48 566 219 ,-1 785 
+70001,66001,Residents aged 16+, 48 566 402 ,-1 602 
+67001,66001,Residents aged 16+, 48 567 007 ,-997 

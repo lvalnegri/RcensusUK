@@ -1847,6 +1847,17 @@ TS070,Gender identity: Trans man,Gender identity: Trans man,48456,70000,5,70005,
 TS070,Gender identity: Non-binary,Gender identity: Non-binary,30253,70000,6,70006,0
 TS070,Gender identity: All other gender identities,Gender identity: All other gender identities,18077,70000,7,70007,0
 TS070,Gender identity: Not answered,Gender identity: Not answered,2914630,70000,8,70008,0
+TS067,Highest level of qualification: Total: All usual residents aged 16 years and over,Highest level of qualification: Total: All usual residents aged 16 years and over,48567007,67000,1,67001,0
+TS067,Highest level of qualification: No qualifications,Highest level of qualification: No qualifications,8827721,67000,2,67002,0
+TS067,Highest level of qualification: Level 1 and entry level qualifications,Highest level of qualification: Level 1 and entry level qualifications,4679544,67000,3,67003,0
+TS067,Highest level of qualification: Level 2 qualifications,Highest level of qualification: Level 2 qualifications,6493308,67000,4,67004,0
+TS067,Highest level of qualification: Apprenticeship,Highest level of qualification: Apprenticeship,2590372,67000,5,67005,0
+TS067,Highest level of qualification: Level 3 qualifications,Highest level of qualification: Level 3 qualifications,8225603,67000,6,67006,0
+TS067,Highest level of qualification: Level 4 qualifications and above,Highest level of qualification: Level 4 qualifications and above,16413416,67000,7,67007,0
+TS067,Highest level of qualification: Other qualifications,Highest level of qualification: Other qualifications,1337043,67000,8,67008,0
+TS068,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,56365290,68000,1,68001,0
+TS068,Schoolchild or full-time student indicator: Student,Schoolchild or full-time student indicator: Student,11507891,68000,2,68002,0
+TS068,Schoolchild or full-time student indicator: Not a student,Schoolchild or full-time student indicator: Not a student,44857399,68000,3,68003,0
 TS071,Total: All usual residents,Total: All usual residents,48566412,71000,1,71001,0
 TS071,Previously served in UK armed forces,Previously served in UK armed forces,1413258,71000,2,71002,0
 TS071,Previously served in UK reserve armed forces,Previously served in UK reserve armed forces,360787,71000,3,71003,0
