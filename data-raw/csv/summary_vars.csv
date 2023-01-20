@@ -1858,6 +1858,32 @@ TS067,Highest level of qualification: Other qualifications,Highest level of qual
 TS068,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,56365290,68000,1,68001,0
 TS068,Schoolchild or full-time student indicator: Student,Schoolchild or full-time student indicator: Student,11507891,68000,2,68002,0
 TS068,Schoolchild or full-time student indicator: Not a student,Schoolchild or full-time student indicator: Not a student,44857399,68000,3,68003,0
+TS037,General health: Total: All usual residents,General health: Total: All usual residents,59597457,37000,1,37001,0
+TS037,General health: Very good health,General health: Very good health,28827124,37000,2,37002,0
+TS037,General health: Good health,General health: Good health,20046098,37000,3,37003,0
+TS037,General health: Fair health,General health: Fair health,7596796,37000,4,37004,0
+TS037,General health: Bad health,General health: Bad health,2412156,37000,5,37005,0
+TS037,General health: Very bad health,General health: Very bad health,715283,37000,6,37006,0
+TS038,Disability: Total: All usual residents,Disability: Total: All usual residents,59597470,38000,1,38001,0
+TS038,Disability: Disabled under the Equality Act,Disability: Disabled under the Equality Act,10444666,38000,2,38002,0
+TS038,Disability: Disabled under the Equality Act: Day-to-day activities limited a lot,Disability: Disabled under the Equality Act: Day-to-day activities limited a lot,4459982,38000,3,38003,0
+TS038,Disability: Disabled under the Equality Act: Day-to-day activities limited a little,Disability: Disabled under the Equality Act: Day-to-day activities limited a little,5984684,38000,4,38004,0
+TS038,Disability: Not disabled under the Equality Act,Disability: Not disabled under the Equality Act,49152804,38000,5,38005,0
+TS038,Disability: Not disabled under the Equality Act: Has long term physical or mental health condition but day-to-day activities are not limited,Disability: Not disabled under the Equality Act: Has long term physical or mental health condition but day-to-day activities are not limited,4062435,38000,6,38006,0
+TS038,Disability: Not disabled under the Equality Act: No long term physical or mental health conditions,Disability: Not disabled under the Equality Act: No long term physical or mental health conditions,45090369,38000,7,38007,0
+TS039,Provision of unpaid care: Total: All usual residents,Provision of unpaid care: Total: All usual residents,56366038,39000,1,39001,0
+TS039,Provision of unpaid care: Provides no unpaid care,Provision of unpaid care: Provides no unpaid care,51376193,39000,2,39002,0
+TS039,Provision of unpaid care: Provides 19 hours or less unpaid care a week,Provision of unpaid care: Provides 19 hours or less unpaid care a week,2442580,39000,3,39003,0
+TS039,Provision of unpaid care: Provides 9 hours or less unpaid care a week,Provision of unpaid care: Provides 9 hours or less unpaid care a week,1764543,39000,4,39004,0
+TS039,Provision of unpaid care: Provides 10 to 19 hours unpaid care a week,Provision of unpaid care: Provides 10 to 19 hours unpaid care a week,678037,39000,5,39005,0
+TS039,Provision of unpaid care: Provides 20 to 49 hours unpaid care a week,Provision of unpaid care: Provides 20 to 49 hours unpaid care a week,1035472,39000,6,39006,0
+TS039,Provision of unpaid care: Provides 20 to 34 hours unpaid care a week,Provision of unpaid care: Provides 20 to 34 hours unpaid care a week,483439,39000,7,39007,0
+TS039,Provision of unpaid care: Provides 35 to 49 hours unpaid care a week,Provision of unpaid care: Provides 35 to 49 hours unpaid care a week,552033,39000,8,39008,0
+TS039,Provision of unpaid care: Provides 50 or more hours unpaid care a week,Provision of unpaid care: Provides 50 or more hours unpaid care a week,1511793,39000,9,39009,0
+TS040,Number of disabled people in household: Total: All households,Number of disabled people in household: Total: All households,24783826,40000,1,40001,0
+TS040,Number of disabled people in household: No people disabled under the Equality Act in household,Number of disabled people in household: No people disabled under the Equality Act in household,16764978,40000,2,40002,0
+TS040,Number of disabled people in household: 1 person disabled under the Equality Act in household,Number of disabled people in household: 1 person disabled under the Equality Act in household,6347256,40000,3,40003,0
+TS040,Number of disabled people in household: 2 or more people disabled under the Equality Act in household,Number of disabled people in household: 2 or more people disabled under the Equality Act in household,1671592,40000,4,40004,0
 TS071,Total: All usual residents,Total: All usual residents,48566412,71000,1,71001,0
 TS071,Previously served in UK armed forces,Previously served in UK armed forces,1413258,71000,2,71002,0
 TS071,Previously served in UK reserve armed forces,Previously served in UK reserve armed forces,360787,71000,3,71003,0

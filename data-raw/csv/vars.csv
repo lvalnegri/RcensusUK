@@ -1789,4 +1789,30 @@ id,prog_id,description,table_id,level,loaded
 68001,1,Schoolchild or full-time student indicator: Total: All usual residents aged 5 years and over,TS068,0,1
 68002,2,Schoolchild or full-time student indicator: Student,TS068,1,1
 68003,3,Schoolchild or full-time student indicator: Not a student,TS068,1,1
+37001,1,General health: Total: All usual residents,TS037,0,0
+37002,2,General health: Very good health,TS037,1,1
+37003,3,General health: Good health,TS037,1,1
+37004,4,General health: Fair health,TS037,1,1
+37005,5,General health: Bad health,TS037,1,1
+37006,6,General health: Very bad health,TS037,1,1
+38001,1,Disability: Total: All usual residents,TS038,0,0
+38002,2,Disability: Disabled under the Equality Act,TS038,1,1
+38003,3,Disability: Disabled under the Equality Act: Day-to-day activities limited a lot,TS038,2,1
+38004,4,Disability: Disabled under the Equality Act: Day-to-day activities limited a little,TS038,2,1
+38005,5,Disability: Not disabled under the Equality Act,TS038,1,1
+38006,6,Disability: Not disabled under the Equality Act: Has long term physical or mental health condition but day-to-day activities are not limited,TS038,2,1
+38007,7,Disability: Not disabled under the Equality Act: No long term physical or mental health conditions,TS038,2,1
+39001,1,Provision of unpaid care: Total: All usual residents,TS039,0,0
+39002,2,Provision of unpaid care: Provides no unpaid care,TS039,1,1
+39003,3,Provision of unpaid care: Provides 19 hours or less unpaid care a week,TS039,1,0
+39004,4,Provision of unpaid care: Provides 9 hours or less unpaid care a week,TS039,1,1
+39005,5,Provision of unpaid care: Provides 10 to 19 hours unpaid care a week,TS039,1,1
+39006,6,Provision of unpaid care: Provides 20 to 49 hours unpaid care a week,TS039,1,1
+39007,7,Provision of unpaid care: Provides 20 to 34 hours unpaid care a week,TS039,1,1
+39008,8,Provision of unpaid care: Provides 35 to 49 hours unpaid care a week,TS039,1,1
+39009,9,Provision of unpaid care: Provides 50 or more hours unpaid care a week,TS039,1,1
+40001,1,Number of disabled people in household: Total: All households,TS040,0,0
+40002,2,Number of disabled people in household: No people disabled under the Equality Act in household,TS040,1,1
+40003,3,Number of disabled people in household: 1 person disabled under the Equality Act in household,TS040,1,1
+40004,4,Number of disabled people in household: 2 or more people disabled under the Equality Act in household,TS040,1,1
 ,,,,,

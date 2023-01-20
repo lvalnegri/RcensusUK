@@ -3,7 +3,7 @@
 \docType{data}
 \name{dt_health}
 \alias{dt_health}
-\title{Health}
+\title{Health and Care}
 \format{
 A data.table in \emph{long} format with the following columns:
 \describe{
@@ -14,6 +14,10 @@ A data.table in \emph{long} format with the following columns:
 
 The dataset includes the following Census Tables:
 \describe{
+\item{\code{ TS037 }}{ General health }
+\item{\code{ TS038 }}{ Disability  }
+\item{\code{ TS039 }}{ Provision of unpaid care }
+\item{\code{ TS040 }}{ Number of disabled people in household }
 }
 
 For further details, see the \href{https://www.nomisweb.co.uk/sources/census_2021}{Nomis website}
@@ -22,6 +26,7 @@ For further details, see the \href{https://www.nomisweb.co.uk/sources/census_202
 dt_health
 }
 \description{
-Waiting for data. Expected by 19th Jan 2023.
+Resident Population by General Health, Disability, and Provision of Unpaid Care,
+plus Household by Number of Disabled Persons
 }
 \keyword{datasets}

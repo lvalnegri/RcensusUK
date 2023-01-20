@@ -10,5 +10,5 @@ id,name,description,ordering,loaded
 12,housing,Housing,12,1
 13,gender,Sexual Orientation and Gender Identity,13,1
 14,education,Education,14,1
-16,health,"Health, Disability and Unpaid Care",16,0
+15,health,"Health, Disability and Unpaid Care",15,1
 99,veterans,UK Armed Forces Veterans,99,0

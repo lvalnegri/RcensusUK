@@ -56,3 +56,7 @@ sub_id,main_id,name, total ,diff
 78001,66001,Residents aged 16+, 48 566 219 ,-1 785 
 70001,66001,Residents aged 16+, 48 566 402 ,-1 602 
 67001,66001,Residents aged 16+, 48 567 007 ,-997 
+37001,1001,Residents, 59 597 457 ,-290 
+38001,1001,Residents, 59 597 470 ,-277 
+39001,68001,Residents aged 5+, 56 366 038 ,748 
+40001,3001,Households, 24 783 826 ,-323 

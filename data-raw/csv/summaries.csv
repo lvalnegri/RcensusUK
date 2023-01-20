@@ -1376,6 +1376,32 @@ TS031,31057,Religion (detailed): Other religion: Witchcraft,973,82,1055
 TS031,31058,Religion (detailed): Other religion: Yazidi,391,20,411
 TS031,31059,Religion (detailed): Other religion: Zoroastrian,4043,60,4103
 TS031,31060,Religion (detailed): Religion not stated,3400604,195033,3595637
+TS037,37001,General health: Total: All usual residents,56490069,3107388,59597457
+TS037,37002,General health: Very good health,27390641,1436483,28827124
+TS037,37003,General health: Good health,19040729,1005369,20046098
+TS037,37004,General health: Fair health,7147131,449665,7596796
+TS037,37005,General health: Bad health,2248089,164067,2412156
+TS037,37006,General health: Very bad health,663479,51804,715283
+TS038,38001,Disability: Total: All usual residents,56490014,3107456,59597470
+TS038,38002,Disability: Disabled under the Equality Act,9774370,670296,10444666
+TS038,38003,Disability: Disabled under the Equality Act: Day-to-day activities limited a lot,4140492,319490,4459982
+TS038,38004,Disability: Disabled under the Equality Act: Day-to-day activities limited a little,5633878,350806,5984684
+TS038,38005,Disability: Not disabled under the Equality Act,46715644,2437160,49152804
+TS038,38006,Disability: Not disabled under the Equality Act: Has long term physical or mental health condition but day-to-day activities are not limited,3855968,206467,4062435
+TS038,38007,Disability: Not disabled under the Equality Act: No long term physical or mental health conditions,42859676,2230693,45090369
+TS039,39001,Provision of unpaid care: Total: All usual residents,53413338,2952700,56366038
+TS039,39002,Provision of unpaid care: Provides no unpaid care,48734570,2641623,51376193
+TS039,39003,Provision of unpaid care: Provides 19 hours or less unpaid care a week,2304061,138519,2442580
+TS039,39004,Provision of unpaid care: Provides 9 hours or less unpaid care a week,1668883,95660,1764543
+TS039,39005,Provision of unpaid care: Provides 10 to 19 hours unpaid care a week,635178,42859,678037
+TS039,39006,Provision of unpaid care: Provides 20 to 49 hours unpaid care a week,969809,65663,1035472
+TS039,39007,Provision of unpaid care: Provides 20 to 34 hours unpaid care a week,452339,31100,483439
+TS039,39008,Provision of unpaid care: Provides 35 to 49 hours unpaid care a week,517470,34563,552033
+TS039,39009,Provision of unpaid care: Provides 50 or more hours unpaid care a week,1404898,106895,1511793
+TS040,40001,Number of disabled people in household: Total: All households,23436693,1347133,24783826
+TS040,40002,Number of disabled people in household: No people disabled under the Equality Act in household,15928465,836513,16764978
+TS040,40003,Number of disabled people in household: 1 person disabled under the Equality Act in household,5950378,396878,6347256
+TS040,40004,Number of disabled people in household: 2 or more people disabled under the Equality Act in household,1557850,113742,1671592
 TS041,41001,Number of households: Number of households; measures: Value,23436184,1347120,24783304
 TS044,44001,Accommodation type: Total: All households,23435714,1347071,24782785
 TS044,44002,Accommodation type: Detached,5368536,384408,5752944
