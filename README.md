@@ -101,6 +101,11 @@ For detailed information about all the included variables, see the data.table `v
 
 As detailed above, the data are provided only for the lower level available from the ONS, commonly this is the lowest small area `OA`. Using the table `lookups` for the matches, and the table `zone_types` for the correct parent and child, it is easy to obtain by simple sum the correct figures for all the Zones in upper levels.
 
+All names and geographic characteristics for each Zone in all hierarchies are listed in the `zones` table. In particular:
+- `LSOA` and `MSOA` names are not the originals from ONS, but they correspond to the more readable format released by the [House of Commons Library](https://houseofcommonslibrary.github.io/msoanames/)
+- the coordinates listed as `w` are the simple *weighted* centroids, calculated using the micro grid at 30 meters provided by the [Meta Data For good project](https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps)
+- the coordinates listed as `p` describe the [visual center](https://blog.mapbox.com/a-new-algorithm-for-finding-a-visual-center-of-a-polygon-7c77e6492fbc) or [Pole of Inaccessibility](https://inaccessibility.net/), "the location in a geographical area that is the furthest away from all its borders". This point is useful in mapping as it is often the best location to put a text label or a tooltip on a polygon to minimize the risks of overlapping and improve readability.
+
 The package also contains the following self-describing tables, mainly for search purposes in applications:
 - `postcodes`, which includes the lookups between the 2.620 millions *postcodes units* (`PCU`) in the UK. For more details see the [ONS Postcode Directory](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-created&tags=all(PRD_ONSPD)) on the [ONS Geography Portal](https://geoportal.statistics.gov.uk/), or my other package [RpostcodesUK](https://github.com/lvalnegri/RpostcodesUK)
 - `localities`, a list of all *Places* in England and Wales. For more details see the [Index of Place Names](https://geoportal.statistics.gov.uk/datasets/index-of-place-names-in-great-britain-december-2022/about) on the [ONS Geography Portal](https://geoportal.statistics.gov.uk/). 
@@ -144,3 +149,4 @@ These are hierarchies not directly related to ONS Census products, but anyway im
  - Contains OS data © Crown copyright and database rights 2023 
  - Source: Office for National Statistics licensed under the [Open Government Licence v.3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
  - Contains Parliamentary information licensed under the [Open Parliament Licence v3.0](https://www.parliament.uk/site-information/copyright/open-parliament-licence/)
+ - Facebook Connectivity Lab and Center for International Earth Science Information Network - CIESIN - Columbia University. 2016. High Resolution Settlement Layer (HRSL). Source imagery for HRSL © 2016 DigitalGlobe. Accessed 15 Dec 2022."
