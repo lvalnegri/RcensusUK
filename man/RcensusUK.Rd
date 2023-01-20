@@ -6,4 +6,16 @@
 \title{RcensusUK}
 \description{
 Data and functionalities for querying and mapping related to the UK Census 2021.
+
+As of Jan-23, data at \emph{small area} levels are available only for England and Wales
+}
+\details{
+See the \code{README} file for more details.
+
+Attributions:
+\itemize{
+\item Contains OS data © Crown copyright and database rights 2023
+\item Source: Office for National Statistics licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v.3.0}
+\item Contains Parliamentary information licensed under the \href{https://www.parliament.uk/site-information/copyright/open-parliament-licence/}{Open Parliament Licence v3.0}
+}
 }
