@@ -1,10 +1,12 @@
 Package: RcensusUK
 Type: Package
-Date: 2022-12-31
+Date: 2023-01-20
 Title: Data and functionalities related to the UK Census 2021
 Version: 0.1.0
 Authors@R: person(given = "Luca", family = "Valnegri", email = "l.valnegri@datamaps.co.uk", role = c("aut", "cre"))
-Description: Data and functionalities for querying and mapping related to the UK Census 2021.
+Description: 
+    Data and functionalities for querying and mapping related to the UK Census 2021.
+    As of Jan-23, data at *small area* levels are available only for England and Wales
 License: MIT + file LICENSE
 Language: en-GB
 Encoding: UTF-8
@@ -26,7 +28,7 @@ Suggests:
     rmarkdown
 Remotes:
 LazyData: true
-LazyDataCompression:gzip
+LazyDataCompression: gzip
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr
