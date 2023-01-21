@@ -231,114 +231,15 @@ x <- "
 "
 dd_create_dbtable('summaries', dbn, x)
 
-## EDUCATION ----------
-x <- "
+## VALUES ----------
+xd <- "
     zone_id CHAR(9) NOT NULL,
     var_id MEDIUMINT UNSIGNED NOT NULL,
     value INT UNSIGNED NOT NULL,
     PRIMARY KEY (zone_id, var_id)
 "
-dd_create_dbtable('dt_education', dbn, x)
-
-## ETHNICITY ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_ethnicity', dbn, x)
-
-## GENDER ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_gender', dbn, x)
-
-## GEOGRAPHY ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_geography', dbn, x)
-
-## HEALTH ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_health', dbn, x)
-
-## HOUSING ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_housing', dbn, x)
-
-## LANGUAGE ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_language', dbn, x)
-
-## MIGRATION ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_migration', dbn, x)
-
-## POPULATION ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_population', dbn, x)
-
-## RELIGION ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_religion', dbn, x)
-
-## SEXAGE ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_sexage', dbn, x)
-
-## WORK ----------
-x <- "
-    zone_id CHAR(9) NOT NULL,
-    var_id MEDIUMINT UNSIGNED NOT NULL,
-    value INT UNSIGNED NOT NULL,
-    PRIMARY KEY (zone_id, var_id)
-"
-dd_create_dbtable('dt_work', dbn, x)
-
+y <- fread('./data-raw/csv/domains.csv', select = 'name')
+for(xt in y$name) dd_create_dbtable(paste0('dt_', xt), dbn, xd)
 
 # END -----------------------
 rm(list = ls())
